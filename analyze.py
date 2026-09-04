@@ -68,6 +68,35 @@ STOPWORD_CAPS = {"The", "A", "An", "This", "That", "It", "He", "She", "They",
                  "Illinois", "Chicago"}
 
 
+ALIASES_PATH = HERE / "entity_aliases.json"
+
+
+def load_alias_map():
+    """alias (lowercased) -> canonical entity name."""
+    p = ALIASES_PATH
+    amap = {}
+    if p.exists():
+        for canon, aliases in json.loads(p.read_text())["canonical"].items():
+            for a in aliases:
+                amap[a.lower()] = canon
+    return amap
+
+
+def resolve_entities(names, alias_map):
+    """Resolve surface variants to canonical entities, dedup, keep order."""
+    out, seen = [], set()
+    for n in names:
+        n = (n or "").strip()
+        if not n:
+            continue
+        canon = alias_map.get(n.lower(), n)
+        if canon.lower() in seen:
+            continue
+        seen.add(canon.lower())
+        out.append(canon)
+    return out[:12]
+
+
 def load_taxonomy():
     tax = json.loads(TAXONOMY_PATH.read_text())
     canon = tax["canonical"]
@@ -150,17 +179,29 @@ def build_exclude(data_dir):
 
 
 def theme_batch_api(client, model, batch):
+    """Return {i: {"theme": str, "entities": [str]}}. One call does both theme
+    labeling and clean entity extraction — far better than the regex, at no extra
+    call cost."""
     lines = [f"[{i}] {it['title']} — {it.get('summary','')[:200]}" for i, it in enumerate(batch)]
     prompt = (
-        "For each numbered Illinois news item, give a SHORT theme label (2-4 words, "
-        "lowercase) describing what it is ABOUT. Objective topic only — NO sentiment, "
-        "tone, or judgment. Return STRICT JSON: {\"themes\":[{\"i\":0,\"theme\":\"...\"}]}\n\n"
+        "For each numbered Illinois news item return two objective, countable facts "
+        "— NO sentiment, tone, stance, or judgment:\n"
+        "  theme: a SHORT topic label (2-4 words, lowercase) for what it is ABOUT.\n"
+        "  entities: the proper-noun people/orgs/agencies/places named. Use each "
+        "entity's FULL canonical name (e.g. 'Chicago Public Schools' not 'CPS', "
+        "'Brandon Johnson' not 'the mayor'). Real named entities only — no generic "
+        "words.\n"
+        "Return STRICT JSON: {\"items\":[{\"i\":0,\"theme\":\"...\",\"entities\":[\"...\"]}]}\n\n"
         + "\n".join(lines))
-    msg = client.messages.create(model=model, max_tokens=1500,
+    msg = client.messages.create(model=model, max_tokens=2000,
                                  messages=[{"role": "user", "content": prompt}])
     txt = re.sub(r"^```(json)?|```$", "", msg.content[0].text.strip(), flags=re.MULTILINE).strip()
     data = json.loads(txt)
-    return {r["i"]: (r.get("theme") or "").strip() for r in data.get("themes", [])}
+    out = {}
+    for r in data.get("items", data.get("themes", [])):
+        out[r.get("i")] = {"theme": (r.get("theme") or "").strip(),
+                           "entities": [e for e in r.get("entities", []) if e][:12]}
+    return out
 
 
 def build_entry(it, entities, theme, theme_raw):
@@ -204,6 +245,7 @@ def main():
     proposal_examples = {}
     api_calls = api_items = 0
     exclude = build_exclude(data_dir)  # outlet names/tokens to keep out of entities
+    ent_aliases = load_alias_map()     # merge entity variants -> canonical
 
     if not todo:
         pass
@@ -211,7 +253,8 @@ def main():
         for it in todo:
             text = f"{it.get('title','')} {it.get('summary','')}"
             theme, _ = theme_from_text(text, alias_index)
-            out_items.append(build_entry(it, extract_entities(text, exclude), theme, theme))
+            ents = resolve_entities(extract_entities(text, exclude), ent_aliases)
+            out_items.append(build_entry(it, ents, theme, theme))
     else:
         try:
             import anthropic
@@ -232,19 +275,24 @@ def main():
             api_calls += 1; api_items += len(batch)
             for i, it in enumerate(batch):
                 text = f"{it.get('title','')} {it.get('summary','')}"
-                raw = labels.get(i, "")
+                res = labels.get(i) or {}
+                raw = (res.get("theme") or "").strip()
                 canon_theme = normalize_label(raw, alias_index) if raw else None
                 if canon_theme is None:
-                    # try text-based fallback before giving up to 'other'
-                    canon_theme, hits = theme_from_text(text, alias_index)
+                    canon_theme, hits = theme_from_text(text, alias_index)  # text fallback
                     if raw and canon_theme == OTHER_THEME:
                         proposals[raw.lower()] += 1
                         proposal_examples.setdefault(raw.lower(), it["title"])
-                out_items.append(build_entry(it, extract_entities(text, exclude), canon_theme, raw or canon_theme))
+                # prefer model entities (cleaner); fall back to regex; always resolve
+                model_ents = res.get("entities") or []
+                ents = model_ents or extract_entities(text, exclude)
+                ents = resolve_entities(ents, ent_aliases)
+                out_items.append(build_entry(it, ents, canon_theme, raw or canon_theme))
         for it in overflow:  # beyond cap: offline-theme, never drop
             text = f"{it.get('title','')} {it.get('summary','')}"
             theme, _ = theme_from_text(text, alias_index)
-            out_items.append(build_entry(it, extract_entities(text, exclude), theme, theme))
+            ents = resolve_entities(extract_entities(text, exclude), ent_aliases)
+            out_items.append(build_entry(it, ents, theme, theme))
 
     out_items.sort(key=lambda x: (x.get("published", ""), x["id"]))
     synthetic_n = sum(1 for x in out_items if x.get("synthetic"))

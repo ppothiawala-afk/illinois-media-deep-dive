@@ -52,6 +52,9 @@ def main():
     ap.add_argument("--baseline-weeks", type=int, default=8,
                     help="trailing snapshots that define 'normal'")
     ap.add_argument("--z-threshold", type=float, default=2.0)
+    ap.add_argument("--min-articles", type=int, default=10,
+                    help="a theme needs at least this many articles in the window to be "
+                         "eligible to surge; below it, weekly share is too noisy to trust")
     ap.add_argument("--min-baseline", type=int, default=3,
                     help="minimum prior snapshots required to judge a theme at all")
     ap.add_argument("--min-confident", type=int, default=6,
@@ -79,6 +82,8 @@ def main():
         if not rows or rows[-1]["date"] != latest_date:
             continue  # theme absent in the latest snapshot
         latest = rows[-1]
+        if latest.get("volume", 0) < args.min_articles:
+            continue  # too few articles this window — share is noise, not signal
         prior = rows[:-1][-args.baseline_weeks:]
         if len(prior) < args.min_baseline:
             continue  # not enough history to judge this theme yet

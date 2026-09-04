@@ -1,0 +1,20 @@
+{
+  "_comment": "Entity resolution map — merges surface variants into one canonical entity so the frequency counts aren't fragmented (CPS / Public Schools / Chicago Public Schools were three rows). canonical -> [aliases, lowercased]. analyze.py resolves every extracted/model entity through this before counting. Human-editable and grows over time. Aliases are matched as whole lowercased strings.",
+  "version": "1.0.0",
+  "canonical": {
+    "Chicago Public Schools": ["cps", "public schools", "chicago public schools", "chicago public school"],
+    "Brandon Johnson": ["brandon johnson", "mayor brandon johnson", "mayor johnson", "mayor brandon johnson's"],
+    "JB Pritzker": ["pritzker", "jb pritzker", "j.b. pritzker", "gov. pritzker", "governor pritzker", "gov pritzker"],
+    "Chicago Transit Authority": ["cta", "chicago transit authority"],
+    "Cook County": ["cook county", "cook county board"],
+    "Chicago City Council": ["city council", "chicago city council"],
+    "Chicago Bears": ["bears", "chicago bears", "the bears"],
+    "Chicago Cubs": ["cubs", "chicago cubs", "the cubs"],
+    "Chicago White Sox": ["white sox", "chicago white sox", "the white sox"],
+    "University of Illinois": ["u of i", "university of illinois", "uiuc", "university of illinois urbana-champaign"],
+    "Donald Trump": ["trump", "donald trump", "president trump"],
+    "ICE": ["ice", "immigration and customs enforcement"],
+    "Illinois General Assembly": ["general assembly", "illinois general assembly", "state legislature", "illinois legislature"],
+    "Kanye West": ["kanye", "kanye west", "ye"]
+  }
+}

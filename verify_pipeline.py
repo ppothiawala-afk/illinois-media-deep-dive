@@ -188,6 +188,26 @@ def main():
     else:
         record("D5", "DATA", "WARN", "empty registry")
 
+    # Q1 analysis-quality — WARN (do not silently ship low-quality analysis).
+    # Two degradation signals: analysis ran OFFLINE (keyword themer, weaker), or a
+    # large share of items fell to 'other' (themes not resolving). Neither fails
+    # the build, but both must be visible.
+    st = analyzed.get("stats", {})
+    backend = analyzed.get("backend", "")
+    total_an = st.get("analyzed", 0) or 0
+    other_n = st.get("other_theme", 0) or 0
+    other_share = round(other_n / total_an, 3) if total_an else 0.0
+    if not analyzed.get("items"):
+        record("Q1", "DATA", "WARN", "no analysis yet")
+    else:
+        probs = []
+        if str(backend).startswith("offline"):
+            probs.append("analysis ran OFFLINE (keyword themer — set ANTHROPIC_API_KEY for better themes/entities)")
+        if other_share > 0.25:
+            probs.append(f"{int(other_share*100)}% of items are theme 'other' (themes not resolving well)")
+        record("Q1", "DATA", "WARN" if probs else "PASS",
+               "; ".join(probs) if probs else f"analysis quality ok (backend={backend}, other={int(other_share*100)}%)")
+
     counts = Counter(r["status"] for r in results)
     report = {"_comment": "STRUCTURAL checks hold regardless of data; DATA checks WARN "
                           "until real data exists. This file is git-IGNORED (storage rule).",
