@@ -54,9 +54,14 @@ def main():
 
     backend = snap.get("meta", {}).get("backend", "?")
     offline = str(backend).startswith("offline")
+    m = snap.get("meta", {})
+    civic_note = ""
+    if m.get("civic_only"):
+        civic_note = (f" · **civic-only** ({m.get('noncivic_dropped',0)} non-civic "
+                      f"of {m.get('all_in_window','?')} filtered out)")
     L = []
-    L.append(f"# Illinois Media Weekly Summary — {ws} → {we}\n")
-    L.append(f"*{snap['total_items']} articles · backend `{backend}`"
+    L.append(f"# Illinois Civic Media Weekly Summary — {ws} → {we}\n")
+    L.append(f"*{snap['total_items']} civic articles{civic_note} · backend `{backend}`"
              + ("  ⚠️ offline keyword themer — themes are coarse; run with the API key for the real read" if offline else "")
              + " · counts, not sentiment*\n")
 

@@ -14,6 +14,17 @@ number is a countable fact traceable to source articles.
 Ships with the pipeline, a curated Illinois feed registry, tests, and an honest
 empty-state dashboard — **no real data collected yet**. Week one is week one.
 
+## Civic lens
+
+The instrument measures Illinois **civic** coverage — government, policy, elections,
+courts, schools, public safety, housing, budget, community affairs — and filters out
+sports scores, entertainment, lifestyle/advice, and national stories with no Illinois
+angle (on a real corpus that's ~half the volume). Filtering happens at **analysis**,
+never ingest: the archive keeps every article, and `civic` is a reversible lens
+(`analyze.py` sets it — the model judges it in API mode, a theme+keyword heuristic
+offline; `rollup.py --include-noncivic` turns the lens off). This keeps the read
+focused on the thing that's actually interesting and sellable.
+
 ## What makes this different from a fixed-topic tracker
 
 - **Emergent, not prejudged.** There are no fixed policy categories. **Entities**

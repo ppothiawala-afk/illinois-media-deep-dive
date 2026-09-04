@@ -49,6 +49,8 @@ def main():
     ap = argparse.ArgumentParser(description="Weekly emergent-coverage rollup.")
     ap.add_argument("--window-days", type=int, default=7)
     ap.add_argument("--recent-days", type=int, default=14)
+    ap.add_argument("--include-noncivic", action="store_true",
+                    help="aggregate ALL items; default is civic-only (the instrument's focus)")
     ap.add_argument("--data-dir")
     args = ap.parse_args()
 
@@ -61,8 +63,17 @@ def main():
 
     run_date = data.get("generated") or datetime.now(timezone.utc).date().isoformat()
     win_start, win_end = store.week_window(run_date, days=args.window_days)
-    items = [it for it in data["items"]
-             if win_start <= str(it.get("published", ""))[:10] <= win_end]
+    win_items = [it for it in data["items"]
+                 if win_start <= str(it.get("published", ""))[:10] <= win_end]
+    # CIVIC LENS: by default the snapshot measures civic coverage only. The archive
+    # still holds everything; --include-noncivic aggregates all. Non-civic counts
+    # are recorded in meta so the filtering is transparent.
+    all_in_window = len(win_items)
+    if args.include_noncivic:
+        items = win_items
+    else:
+        items = [it for it in win_items if it.get("civic")]
+    noncivic_dropped = all_in_window - len(items)
     total = len(items)
 
     theme_vol = Counter()
@@ -130,6 +141,9 @@ def main():
         "outlets": outlets_block,
         "penetration": penetration,
         "meta": {"backend": data.get("backend"), "taxonomy_version": data.get("taxonomy_version"),
+                 "civic_only": not args.include_noncivic,
+                 "civic_items": total, "noncivic_dropped": noncivic_dropped,
+                 "all_in_window": all_in_window,
                  "contains_synthetic": any(it.get("synthetic") for it in items)},
     }
 
@@ -162,7 +176,8 @@ def main():
     from datetime import date, timedelta
     cutoff = (store.parse_date(run_date) or date.today()) - timedelta(days=args.recent_days - 1)
     recent = [it for it in data["items"]
-              if (store.parse_date(it.get("published")) or date.min) >= cutoff]
+              if (store.parse_date(it.get("published")) or date.min) >= cutoff
+              and (args.include_noncivic or it.get("civic"))]
     recent = sorted(recent, key=lambda x: x.get("published", ""), reverse=True)[:400]
     (Path(data_dir) / RECENT_NAME).write_text(json.dumps({
         "_comment": f"Bounded (last {args.recent_days}d) analyzed items for the dashboard. "
@@ -170,7 +185,9 @@ def main():
         "generated": run_date, "count": len(recent), "items": recent}, indent=1))
 
     top = sorted(((themes_block[t]["share"], t) for t in canon if t != "other"), reverse=True)[:3]
-    print(f"snapshot {run_date} [{win_start}..{win_end}]: {total} items · "
+    lens = "civic-only" if not args.include_noncivic else "all"
+    print(f"snapshot {run_date} [{win_start}..{win_end}]: {total} civic items "
+          f"({noncivic_dropped} non-civic dropped of {all_in_window}) [{lens}] · "
           f"top themes {[t for _, t in top]} · {len(hist['snapshots'])} snapshots · "
           f"{len(penetration)} penetrating stories")
     if snapshot["meta"]["contains_synthetic"]:

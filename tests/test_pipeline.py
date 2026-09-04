@@ -99,6 +99,31 @@ class Pipe(unittest.TestCase):
         crime=next(e for e in rep["surging"] if e["theme"]=="public safety & crime")
         self.assertTrue(crime["broadening"])  # breadth 3 -> 6
 
+    def test_civic_filter(self):
+        # rollup aggregates civic items only by default; --include-noncivic keeps all
+        from datetime import datetime, timezone
+        today = datetime.now(timezone.utc).date().isoformat()
+        items = [
+            {"id":"c1","title":"City Council passes budget","link":"http://x/1","published":today,
+             "outlet":"WBEZ","region":"chicago","outlet_type":"public","theme":"city & state budget",
+             "theme_raw":"budget","entities":["Chicago City Council"],"civic":True},
+            {"id":"c2","title":"Governor signs housing bill","link":"http://x/2","published":today,
+             "outlet":"Capitol News Illinois","region":"statewide","outlet_type":"nonprofit",
+             "theme":"housing & development","theme_raw":"housing","entities":["JB Pritzker"],"civic":True},
+            {"id":"n1","title":"Bears beat Packers 24-17","link":"http://x/3","published":today,
+             "outlet":"Chicago Sun-Times","region":"chicago","outlet_type":"commercial",
+             "theme":"arts culture & sports","theme_raw":"nfl game","entities":["Chicago Bears"],"civic":False},
+        ]
+        (Path(self.tmp)/"items_analyzed.json").write_text(json.dumps(
+            {"generated":today,"backend":"test","items":items}))
+        run("rollup.py","--data-dir",self.tmp)
+        snap=json.loads((Path(self.tmp)/"media_history.json").read_text())["snapshots"][-1]
+        self.assertEqual(snap["total_items"],2,"civic-only default should drop the sports item")
+        self.assertEqual(snap["meta"]["noncivic_dropped"],1)
+        run("rollup.py","--data-dir",self.tmp,"--include-noncivic")
+        snap=json.loads((Path(self.tmp)/"media_history.json").read_text())["snapshots"][-1]
+        self.assertEqual(snap["total_items"],3,"--include-noncivic should keep all")
+
     def test_verify_fails_on_synthetic_in_shipped(self):
         self.ingest(); run("analyze.py","--offline","--data-dir",self.tmp)
         run("rollup.py","--window-days","3650","--data-dir",self.tmp)

@@ -48,6 +48,29 @@ ANALYZED_NAME = "items_analyzed.json"        # DERIVED, gitignored
 PENDING_NAME = "themes_pending.json"         # committed, small (human-gated)
 OTHER_THEME = "other"
 
+# ── civic relevance ─────────────────────────────────────────────────────────
+# The instrument measures Illinois CIVIC coverage — government, policy, elections,
+# public institutions, community affairs — NOT pro/college sports scores,
+# entertainment, lifestyle/advice, or national stories with no Illinois angle.
+# Filtering happens here (analysis), never at ingest: the archive keeps everything,
+# and 'civic' is a reversible lens. The model judges it in API mode; offline uses
+# a theme + keyword heuristic.
+NONCIVIC_THEMES = {"arts culture & sports", OTHER_THEME}
+CIVIC_RESCUE = [  # pull an arts/sports/other item INTO civic when it's really policy
+    "ordinance", "city council", "aldermanic", "alderman", "taxpayer", "public financing",
+    "public money", "public funds", "legislation", "governor", "mayor", "budget",
+    "referendum", "ballot", "lawsuit", "ruling", "policy", "agency", "commission",
+    "funding", "grant", "zoning", "permit", "subsidy", "stadium deal", "public health",
+    "city hall", "county board", "school board", "pension", "election", "vote",
+]
+
+
+def civic_offline(theme, text):
+    if theme not in NONCIVIC_THEMES:
+        return True
+    low = f" {text.lower()} "
+    return any(k in low for k in CIVIC_RESCUE)
+
 STOPWORD_CAPS = {"The", "A", "An", "This", "That", "It", "He", "She", "They",
                  "In", "On", "At", "For", "And", "But", "Or", "Of", "To", "As",
                  "We", "You", "I", "Our", "Their", "His", "Her", "Its",
@@ -184,14 +207,20 @@ def theme_batch_api(client, model, batch):
     call cost."""
     lines = [f"[{i}] {it['title']} — {it.get('summary','')[:200]}" for i, it in enumerate(batch)]
     prompt = (
-        "For each numbered Illinois news item return two objective, countable facts "
+        "For each numbered Illinois news item return objective, countable facts "
         "— NO sentiment, tone, stance, or judgment:\n"
         "  theme: a SHORT topic label (2-4 words, lowercase) for what it is ABOUT.\n"
         "  entities: the proper-noun people/orgs/agencies/places named. Use each "
         "entity's FULL canonical name (e.g. 'Chicago Public Schools' not 'CPS', "
         "'Brandon Johnson' not 'the mayor'). Real named entities only — no generic "
         "words.\n"
-        "Return STRICT JSON: {\"items\":[{\"i\":0,\"theme\":\"...\",\"entities\":[\"...\"]}]}\n\n"
+        "  civic: true if the item is about Illinois/Chicago GOVERNMENT, public "
+        "policy, elections, courts, public institutions (schools, transit, agencies), "
+        "public safety, housing, budget/taxes, or community/civic affairs. false if "
+        "it is pro/college SPORTS scores or games, entertainment/celebrity, arts "
+        "reviews, lifestyle/advice columns, or a national story with no Illinois "
+        "civic angle. (A stadium PUBLIC-FINANCING story is civic; a game recap is not.)\n"
+        "Return STRICT JSON: {\"items\":[{\"i\":0,\"theme\":\"...\",\"entities\":[\"...\"],\"civic\":true}]}\n\n"
         + "\n".join(lines))
     msg = client.messages.create(model=model, max_tokens=2000,
                                  messages=[{"role": "user", "content": prompt}])
@@ -200,16 +229,17 @@ def theme_batch_api(client, model, batch):
     out = {}
     for r in data.get("items", data.get("themes", [])):
         out[r.get("i")] = {"theme": (r.get("theme") or "").strip(),
-                           "entities": [e for e in r.get("entities", []) if e][:12]}
+                           "entities": [e for e in r.get("entities", []) if e][:12],
+                           "civic": r.get("civic")}
     return out
 
 
-def build_entry(it, entities, theme, theme_raw):
+def build_entry(it, entities, theme, theme_raw, civic):
     e = {"id": it["id"], "title": it["title"], "link": it["link"],
          "published": it["published"], "outlet": it["outlet"],
          "region": it.get("region", "unknown"), "outlet_type": it.get("outlet_type", "unknown"),
          "feed_url": it.get("feed_url", ""), "entities": entities,
-         "theme": theme, "theme_raw": theme_raw}
+         "theme": theme, "theme_raw": theme_raw, "civic": bool(civic)}
     if it.get("synthetic"):
         e["synthetic"] = True
     return e
@@ -254,7 +284,7 @@ def main():
             text = f"{it.get('title','')} {it.get('summary','')}"
             theme, _ = theme_from_text(text, alias_index)
             ents = resolve_entities(extract_entities(text, exclude), ent_aliases)
-            out_items.append(build_entry(it, ents, theme, theme))
+            out_items.append(build_entry(it, ents, theme, theme, civic_offline(theme, text)))
     else:
         try:
             import anthropic
@@ -287,12 +317,15 @@ def main():
                 model_ents = res.get("entities") or []
                 ents = model_ents or extract_entities(text, exclude)
                 ents = resolve_entities(ents, ent_aliases)
-                out_items.append(build_entry(it, ents, canon_theme, raw or canon_theme))
+                civic = res.get("civic")
+                if civic is None:  # model didn't answer -> heuristic
+                    civic = civic_offline(canon_theme, text)
+                out_items.append(build_entry(it, ents, canon_theme, raw or canon_theme, civic))
         for it in overflow:  # beyond cap: offline-theme, never drop
             text = f"{it.get('title','')} {it.get('summary','')}"
             theme, _ = theme_from_text(text, alias_index)
             ents = resolve_entities(extract_entities(text, exclude), ent_aliases)
-            out_items.append(build_entry(it, ents, theme, theme))
+            out_items.append(build_entry(it, ents, theme, theme, civic_offline(theme, text)))
 
     out_items.sort(key=lambda x: (x.get("published", ""), x["id"]))
     synthetic_n = sum(1 for x in out_items if x.get("synthetic"))
@@ -307,6 +340,7 @@ def main():
         "stats": {"archive_items": len(archive), "reused_cached": len(cached),
                   "api_calls": api_calls, "api_items": api_items,
                   "analyzed": len(out_items), "synthetic_items": synthetic_n,
+                  "civic_items": sum(1 for x in out_items if x.get("civic")),
                   "other_theme": sum(1 for x in out_items if x["theme"] == OTHER_THEME)},
         "items": out_items,
     }
