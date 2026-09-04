@@ -4,27 +4,248 @@
   "generated": "2026-09-03",
   "geography": "Illinois",
   "needs_feed_url_discovery": [
-    {"outlet": "The Center Square Illinois", "site": "thecentersquare.com/illinois", "lean_note": "free-market/right — wanted for ideological balance", "reason": "non-WordPress BLOX feed path uncertain"},
-    {"outlet": "NPR Illinois (Springfield)", "site": "nprillinois.org", "reason": "public-radio CMS feed path uncertain — downstate"},
-    {"outlet": "Illinois Public Media / WILL (Urbana)", "site": "will.illinois.edu", "reason": "feed path uncertain — downstate"},
-    {"outlet": "Crain's Chicago Business", "site": "chicagobusiness.com", "reason": "Arc feed path uncertain — business/trade"},
-    {"outlet": "Chalkbeat Chicago", "site": "chalkbeat.org", "reason": "Arc feed path uncertain — education nonprofit"}
+    {
+      "outlet": "The Center Square Illinois",
+      "site": "thecentersquare.com/illinois",
+      "lean_note": "free-market/right \u2014 wanted for ideological balance",
+      "reason": "non-WordPress BLOX feed path uncertain"
+    },
+    {
+      "outlet": "NPR Illinois (Springfield)",
+      "site": "nprillinois.org",
+      "reason": "public-radio CMS feed path uncertain \u2014 downstate"
+    },
+    {
+      "outlet": "Illinois Public Media / WILL (Urbana)",
+      "site": "will.illinois.edu",
+      "reason": "feed path uncertain \u2014 downstate"
+    },
+    {
+      "outlet": "Crain's Chicago Business",
+      "site": "chicagobusiness.com",
+      "reason": "Arc feed path uncertain \u2014 business/trade"
+    },
+    {
+      "outlet": "Chalkbeat Chicago",
+      "site": "chalkbeat.org",
+      "reason": "Arc feed path uncertain \u2014 education nonprofit"
+    }
   ],
   "feeds": [
-    {"outlet": "Capitol News Illinois", "feed_url": "https://capitolnewsillinois.com/feed/", "site_url": "https://capitolnewsillinois.com", "region": "statewide", "outlet_type": "nonprofit", "status": "active", "added": "2026-09-03", "validation": {"validated": true, "validated_on": "2026-09-03", "method": "live web_fetch application/rss+xml (current items confirmed)", "content_type": "application/rss+xml"}},
-    {"outlet": "Illinois Answers Project", "feed_url": "https://illinoisanswers.org/feed/", "site_url": "https://illinoisanswers.org", "region": "chicago", "outlet_type": "nonprofit", "status": "flagged", "added": "2026-09-03", "validation": {"validated": false, "validated_on": "2026-09-04", "method": "feed parses but contains ZERO <item> elements (no full-text RSS published) — yields nothing; needs an alternate feed path before use", "content_type": "application/rss+xml"}},
-    {"outlet": "Injustice Watch", "feed_url": "https://www.injusticewatch.org/feed/", "site_url": "https://www.injusticewatch.org", "region": "chicago", "outlet_type": "nonprofit", "status": "active", "added": "2026-09-03", "validation": {"validated": true, "validated_on": "2026-09-03", "method": "live web_fetch (full RSS returned)", "content_type": "application/rss+xml"}},
-    {"outlet": "The TRiiBE", "feed_url": "https://thetriibe.com/feed/", "site_url": "https://thetriibe.com", "region": "chicago", "outlet_type": "nonprofit", "status": "active", "added": "2026-09-03", "validation": {"validated": true, "validated_on": "2026-09-03", "method": "live web_fetch (full RSS returned)", "content_type": "application/rss+xml"}},
-    {"outlet": "WTTW News", "feed_url": "https://news.wttw.com/feed", "site_url": "https://news.wttw.com", "region": "chicago", "outlet_type": "public", "status": "active", "added": "2026-09-03", "validation": {"validated": true, "validated_on": "2026-09-03", "method": "live web_fetch (current items confirmed: city budget, CPS, arts)", "content_type": "application/rss+xml"}},
-    {"outlet": "WBEZ", "feed_url": "https://www.wbez.org/rss", "site_url": "https://www.wbez.org", "region": "chicago", "outlet_type": "public", "status": "active", "added": "2026-09-03", "validation": {"validated": true, "validated_on": "2026-09-03", "method": "live web_fetch (full RSS returned)", "content_type": "application/rss+xml"}},
-    {"outlet": "Chicago Sun-Times", "feed_url": "https://chicago.suntimes.com/feed", "site_url": "https://chicago.suntimes.com", "region": "chicago", "outlet_type": "commercial", "status": "active", "added": "2026-09-03", "validation": {"validated": true, "validated_on": "2026-09-03", "method": "live web_fetch (full RSS returned)", "content_type": "application/rss+xml"}},
-    {"outlet": "Daily Herald", "feed_url": "https://www.dailyherald.com/arc/outboundfeeds/feed/", "site_url": "https://www.dailyherald.com", "region": "suburban", "outlet_type": "commercial", "status": "candidate", "added": "2026-09-03", "validation": {"validated": false, "validated_on": null, "method": "/feed/ yielded 0 items in first ingest; Arc feed /arc/outboundfeeds/feed/ redirect confirmed rss+xml — health-check to confirm items", "content_type": "application/rss+xml"}},
-    {"outlet": "Illinois Times", "feed_url": "https://illinoistimes.com/feed/", "site_url": "https://illinoistimes.com", "region": "downstate", "outlet_type": "altweekly", "status": "active", "added": "2026-09-03", "validation": {"validated": true, "validated_on": "2026-09-04", "method": "live web_fetch (full RSS, current: Sep 3 Springfield council); corrected from wrong /springfield/Rss.xml URL", "content_type": "application/rss+xml"}},
-
-    {"outlet": "Block Club Chicago", "feed_url": "https://blockclubchicago.org/feed/", "site_url": "https://blockclubchicago.org", "region": "chicago", "outlet_type": "nonprofit", "status": "candidate", "added": "2026-09-03", "validation": {"validated": false, "validated_on": null, "method": "WordPress /feed/ pattern; sandbox fetch bot-blocked, recheck live", "content_type": null}},
-    {"outlet": "Chicago Reader", "feed_url": "https://chicagoreader.com/feed/", "site_url": "https://chicagoreader.com", "region": "chicago", "outlet_type": "altweekly", "status": "candidate", "added": "2026-09-03", "validation": {"validated": false, "validated_on": null, "method": "WordPress /feed/ pattern; sandbox fetch bot-blocked, recheck live", "content_type": null}},
-    {"outlet": "Illinois Policy Institute", "feed_url": "https://www.illinoispolicy.org/feed/", "site_url": "https://www.illinoispolicy.org", "region": "statewide", "outlet_type": "advocacy", "lean_note": "free-market/right — ideological counterweight for divergence analysis", "status": "candidate", "added": "2026-09-03", "validation": {"validated": false, "validated_on": null, "method": "WordPress /feed/ pattern; sandbox fetch bot-blocked, recheck live", "content_type": null}},
-    {"outlet": "Borderless Magazine", "feed_url": "https://borderlessmag.org/feed/", "site_url": "https://borderlessmag.org", "region": "chicago", "outlet_type": "nonprofit", "status": "candidate", "added": "2026-09-03", "validation": {"validated": false, "validated_on": null, "method": "WordPress /feed/ pattern; recheck live", "content_type": null}},
-    {"outlet": "Cicero Independiente", "feed_url": "https://www.ciceroindependiente.com/english?format=rss", "site_url": "https://www.ciceroindependiente.com", "region": "suburban", "outlet_type": "nonprofit", "status": "active", "added": "2026-09-03", "validation": {"validated": true, "validated_on": "2026-09-04", "method": "live web_fetch (full Squarespace RSS returned; corrected from wrong /rss.xml URL)", "content_type": "application/rss+xml"}}
+    {
+      "outlet": "Capitol News Illinois",
+      "feed_url": "https://capitolnewsillinois.com/feed/",
+      "site_url": "https://capitolnewsillinois.com",
+      "region": "statewide",
+      "outlet_type": "nonprofit",
+      "status": "active",
+      "added": "2026-09-03",
+      "validation": {
+        "validated": true,
+        "validated_on": "2026-09-03",
+        "method": "live web_fetch application/rss+xml (current items confirmed)",
+        "content_type": "application/rss+xml"
+      }
+    },
+    {
+      "outlet": "Illinois Answers Project",
+      "feed_url": "https://illinoisanswers.org/feed/",
+      "site_url": "https://illinoisanswers.org",
+      "region": "chicago",
+      "outlet_type": "nonprofit",
+      "status": "dead",
+      "added": "2026-09-03",
+      "validation": {
+        "validated": false,
+        "validated_on": "2026-09-04",
+        "method": "feed parses but contains ZERO <item> elements (no full-text RSS published) \u2014 yields nothing; needs an alternate feed path before use",
+        "content_type": "application/rss+xml"
+      }
+    },
+    {
+      "outlet": "Injustice Watch",
+      "feed_url": "https://www.injusticewatch.org/feed/",
+      "site_url": "https://www.injusticewatch.org",
+      "region": "chicago",
+      "outlet_type": "nonprofit",
+      "status": "active",
+      "added": "2026-09-03",
+      "validation": {
+        "validated": true,
+        "validated_on": "2026-09-03",
+        "method": "live web_fetch (full RSS returned)",
+        "content_type": "application/rss+xml"
+      }
+    },
+    {
+      "outlet": "The TRiiBE",
+      "feed_url": "https://thetriibe.com/feed/",
+      "site_url": "https://thetriibe.com",
+      "region": "chicago",
+      "outlet_type": "nonprofit",
+      "status": "dead",
+      "added": "2026-09-03",
+      "validation": {
+        "validated": true,
+        "validated_on": "2026-09-03",
+        "method": "live web_fetch (full RSS returned)",
+        "content_type": "application/rss+xml"
+      }
+    },
+    {
+      "outlet": "WTTW News",
+      "feed_url": "https://news.wttw.com/feed",
+      "site_url": "https://news.wttw.com",
+      "region": "chicago",
+      "outlet_type": "public",
+      "status": "active",
+      "added": "2026-09-03",
+      "validation": {
+        "validated": true,
+        "validated_on": "2026-09-03",
+        "method": "live web_fetch (current items confirmed: city budget, CPS, arts)",
+        "content_type": "application/rss+xml"
+      }
+    },
+    {
+      "outlet": "WBEZ",
+      "feed_url": "https://www.wbez.org/rss",
+      "site_url": "https://www.wbez.org",
+      "region": "chicago",
+      "outlet_type": "public",
+      "status": "active",
+      "added": "2026-09-03",
+      "validation": {
+        "validated": true,
+        "validated_on": "2026-09-03",
+        "method": "live web_fetch (full RSS returned)",
+        "content_type": "application/rss+xml"
+      }
+    },
+    {
+      "outlet": "Chicago Sun-Times",
+      "feed_url": "https://chicago.suntimes.com/feed",
+      "site_url": "https://chicago.suntimes.com",
+      "region": "chicago",
+      "outlet_type": "commercial",
+      "status": "active",
+      "added": "2026-09-03",
+      "validation": {
+        "validated": true,
+        "validated_on": "2026-09-03",
+        "method": "live web_fetch (full RSS returned)",
+        "content_type": "application/rss+xml"
+      }
+    },
+    {
+      "outlet": "Daily Herald",
+      "feed_url": "https://www.dailyherald.com/arc/outboundfeeds/feed/",
+      "site_url": "https://www.dailyherald.com",
+      "region": "suburban",
+      "outlet_type": "commercial",
+      "status": "dead",
+      "added": "2026-09-03",
+      "validation": {
+        "validated": false,
+        "validated_on": null,
+        "method": "/feed/ yielded 0 items in first ingest; Arc feed /arc/outboundfeeds/feed/ redirect confirmed rss+xml \u2014 health-check to confirm items",
+        "content_type": "application/rss+xml"
+      }
+    },
+    {
+      "outlet": "Illinois Times",
+      "feed_url": "https://illinoistimes.com/feed/",
+      "site_url": "https://illinoistimes.com",
+      "region": "downstate",
+      "outlet_type": "altweekly",
+      "status": "active",
+      "added": "2026-09-03",
+      "validation": {
+        "validated": true,
+        "validated_on": "2026-09-04",
+        "method": "live web_fetch (full RSS, current: Sep 3 Springfield council); corrected from wrong /springfield/Rss.xml URL",
+        "content_type": "application/rss+xml"
+      }
+    },
+    {
+      "outlet": "Block Club Chicago",
+      "feed_url": "https://blockclubchicago.org/feed/",
+      "site_url": "https://blockclubchicago.org",
+      "region": "chicago",
+      "outlet_type": "nonprofit",
+      "status": "active",
+      "added": "2026-09-03",
+      "validation": {
+        "validated": true,
+        "validated_on": "2026-09-04",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 10,
+        "recent": 10
+      }
+    },
+    {
+      "outlet": "Chicago Reader",
+      "feed_url": "https://chicagoreader.com/feed/",
+      "site_url": "https://chicagoreader.com",
+      "region": "chicago",
+      "outlet_type": "altweekly",
+      "status": "active",
+      "added": "2026-09-03",
+      "validation": {
+        "validated": true,
+        "validated_on": "2026-09-04",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent": 100
+      }
+    },
+    {
+      "outlet": "Illinois Policy Institute",
+      "feed_url": "https://www.illinoispolicy.org/feed/",
+      "site_url": "https://www.illinoispolicy.org",
+      "region": "statewide",
+      "outlet_type": "advocacy",
+      "lean_note": "free-market/right \u2014 ideological counterweight for divergence analysis",
+      "status": "active",
+      "added": "2026-09-03",
+      "validation": {
+        "validated": true,
+        "validated_on": "2026-09-04",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 25,
+        "recent": 25
+      }
+    },
+    {
+      "outlet": "Borderless Magazine",
+      "feed_url": "https://borderlessmag.org/feed/",
+      "site_url": "https://borderlessmag.org",
+      "region": "chicago",
+      "outlet_type": "nonprofit",
+      "status": "active",
+      "added": "2026-09-03",
+      "validation": {
+        "validated": true,
+        "validated_on": "2026-09-04",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 10,
+        "recent": 10
+      }
+    },
+    {
+      "outlet": "Cicero Independiente",
+      "feed_url": "https://www.ciceroindependiente.com/english?format=rss",
+      "site_url": "https://www.ciceroindependiente.com",
+      "region": "suburban",
+      "outlet_type": "nonprofit",
+      "status": "flagged",
+      "added": "2026-09-03",
+      "validation": {
+        "validated": true,
+        "validated_on": "2026-09-04",
+        "method": "live web_fetch (full Squarespace RSS returned; corrected from wrong /rss.xml URL)",
+        "content_type": "application/rss+xml"
+      }
+    }
   ]
 }

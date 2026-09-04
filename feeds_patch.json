@@ -1,0 +1,94 @@
+{
+  "_comment": "PROPOSALS ONLY \u2014 human review, then apply_feeds_patch.py. Discovery/health-check never edits feeds_config.json directly.",
+  "generated": "2026-09-04T18:19:11.745625+00:00",
+  "adds": [],
+  "flags": [
+    {
+      "action": "flag",
+      "feed_url": "https://illinoisanswers.org/feed/",
+      "outlet": "Illinois Answers Project",
+      "status_proposed": "dead",
+      "reason": "no items"
+    },
+    {
+      "action": "flag",
+      "feed_url": "https://thetriibe.com/feed/",
+      "outlet": "The TRiiBE",
+      "status_proposed": "dead",
+      "reason": "no items"
+    },
+    {
+      "action": "flag",
+      "feed_url": "https://www.dailyherald.com/arc/outboundfeeds/feed/",
+      "outlet": "Daily Herald",
+      "status_proposed": "dead",
+      "reason": "no items"
+    },
+    {
+      "action": "flag",
+      "feed_url": "https://www.ciceroindependiente.com/english?format=rss",
+      "outlet": "Cicero Independiente",
+      "status_proposed": "flagged",
+      "reason": "stale: 0 in 30d (20 total)"
+    }
+  ],
+  "validates": [
+    {
+      "action": "validate",
+      "feed_url": "https://blockclubchicago.org/feed/",
+      "outlet": "Block Club Chicago",
+      "status_proposed": "active",
+      "validation": {
+        "validated": true,
+        "validated_on": "2026-09-04",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 10,
+        "recent": 10
+      },
+      "reason": "healthy: 10 items, 10 recent"
+    },
+    {
+      "action": "validate",
+      "feed_url": "https://chicagoreader.com/feed/",
+      "outlet": "Chicago Reader",
+      "status_proposed": "active",
+      "validation": {
+        "validated": true,
+        "validated_on": "2026-09-04",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 100,
+        "recent": 100
+      },
+      "reason": "healthy: 100 items, 100 recent"
+    },
+    {
+      "action": "validate",
+      "feed_url": "https://www.illinoispolicy.org/feed/",
+      "outlet": "Illinois Policy Institute",
+      "status_proposed": "active",
+      "validation": {
+        "validated": true,
+        "validated_on": "2026-09-04",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 25,
+        "recent": 25
+      },
+      "reason": "healthy: 25 items, 25 recent"
+    },
+    {
+      "action": "validate",
+      "feed_url": "https://borderlessmag.org/feed/",
+      "outlet": "Borderless Magazine",
+      "status_proposed": "active",
+      "validation": {
+        "validated": true,
+        "validated_on": "2026-09-04",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 10,
+        "recent": 10
+      },
+      "reason": "healthy: 10 items, 10 recent"
+    }
+  ],
+  "rejects": []
+}
