@@ -13,17 +13,11 @@
    "outlet_type": "public",
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
-    "Big Bang Theory",
-    "Emmy",
-    "Fall",
-    "Gregg Ostrin",
-    "Johnny Galecki",
-    "Kowalski",
-    "Lookingglass",
-    "Roseanne"
+    "Chicago",
+    "Lookingglass Theatre"
    ],
    "theme": "arts culture & sports",
-   "theme_raw": "theater performance listings"
+   "theme_raw": "fall theater shows"
   },
   {
    "id": "0f9622c6bdfb1852",
@@ -35,21 +29,13 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "Bears",
-    "Devin Hester. He",
-    "Everybody",
-    "Family",
-    "GREEN BAY",
-    "Green Bay.&lt",
-    "Growing",
     "Jayden Reed",
-    "NFC Championship Game",
-    "NFL",
-    "Packer",
-    "Packers"
+    "Green Bay Packers",
+    "Chicago",
+    "Devin Hester"
    ],
    "theme": "arts culture & sports",
-   "theme_raw": "nfl player background"
+   "theme_raw": "athlete hometown roots"
   },
   {
    "id": "1046ee289b8e8c51",
@@ -61,14 +47,11 @@
    "outlet_type": "nonprofit",
    "feed_url": "https://blockclubchicago.org/feed/",
    "entities": [
-    "Mass Shooting Shakes Washington",
-    "Park And More PHOTOS",
-    "Party For Vertically Gifted",
-    "Take",
-    "Week In Photos"
+    "Washington Park",
+    "Block Club Chicago"
    ],
    "theme": "public safety & crime",
-   "theme_raw": "chicago photo collection"
+   "theme_raw": "weekly photo roundup"
   },
   {
    "id": "12c013197611ac34",
@@ -80,16 +63,10 @@
    "outlet_type": "public",
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
-    "Chevy Trailblazer. This SUV",
-    "Darren Hightower",
-    "Hightower",
-    "Nearly",
-    "S. South Shore Dr",
-    "South Shore",
-    "South Side"
+    "Chicago"
    ],
    "theme": "housing & development",
-   "theme_raw": "homelessness housing crisis"
+   "theme_raw": "homelessness after raid"
   },
   {
    "id": "1462eb73e7cb58cc",
@@ -101,14 +78,11 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "Chicago's Office",
-    "Communications",
-    "Emergency Management",
-    "Friday.&lt",
-    "Peak"
+    "Chicago",
+    "Chicago Office of Emergency Management and Communications"
    ],
    "theme": "other",
-   "theme_raw": "september heat wave"
+   "theme_raw": "heat wave weather"
   },
   {
    "id": "15343af2c2779287",
@@ -120,14 +94,11 @@
    "outlet_type": "altweekly",
    "feed_url": "https://chicagoreader.com/feed/",
    "entities": [
-    "Big Shoulders",
-    "Bowmanville",
-    "City",
-    "From",
-    "Steppenwolf"
+    "Steppenwolf",
+    "Chicago"
    ],
    "theme": "arts culture & sports",
-   "theme_raw": "chicago theater film"
+   "theme_raw": "theater film scene"
   },
   {
    "id": "212103de42510b13",
@@ -139,13 +110,10 @@
    "outlet_type": "nonprofit",
    "feed_url": "https://blockclubchicago.org/feed/",
    "entities": [
-    "DNA",
-    "Highlights The Musical",
-    "Logan Square Listening Club",
-    "Neighborhood Club"
+    "Logan Square"
    ],
    "theme": "arts culture & sports",
-   "theme_raw": "neighborhood listening club"
+   "theme_raw": "music listening club"
   },
   {
    "id": "218a2a4a0b985105",
@@ -158,14 +126,11 @@
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
     "Enes Kanter Freedom",
-    "Former NBA",
-    "Indiana Fever&lt",
-    "Kanter Freedom",
-    "Sky",
-    "Wintrust Arena&lt"
+    "Chicago Sky",
+    "WNBA"
    ],
    "theme": "courts & justice",
-   "theme_raw": "former nba player lawsuit"
+   "theme_raw": "Enes Kanter Freedom lawsuit"
   },
   {
    "id": "35b6c439b924bae1",
@@ -188,7 +153,7 @@
     "Moon Alert&lt"
    ],
    "theme": "other",
-   "theme_raw": "astrology forecast"
+   "theme_raw": "daily horoscope"
   },
   {
    "id": "375234913b10c5d9",
@@ -200,13 +165,8 @@
    "outlet_type": "altweekly",
    "feed_url": "https://illinoistimes.com/feed/",
    "entities": [
-    "Azaliah Isaiah",
-    "Davenport. What",
-    "Finding",
-    "Growing",
-    "Returning",
     "Springfield",
-    "Springfield Springfield"
+    "Illinois"
    ],
    "theme": "arts culture & sports",
    "theme_raw": "community return story"
@@ -221,20 +181,12 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "Armstrong",
-    "Armstrong&lt",
-    "Bears",
-    "Brewers.&lt",
-    "Bulls",
-    "Caleb Williams&lt",
-    "Crow",
-    "Cubs",
-    "Every",
-    "Pete Crow",
+    "Pete Crow-Armstrong",
+    "Chicago Cubs",
     "Wrigley Field"
    ],
    "theme": "arts culture & sports",
-   "theme_raw": "cubs player game performance"
+   "theme_raw": "Cubs Pete Crow-Armstrong victory"
   },
   {
    "id": "4c965466f122f240",
@@ -246,19 +198,12 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "All",
-    "Bears",
-    "Europe.&lt",
-    "George McCaskey",
-    "Indiana.&lt",
-    "Lost Marsh Golf Course",
-    "NFL Commissioner Roger Goodell",
-    "Saudi",
-    "Suits",
-    "Wolf Lake"
+    "Chicago Bears",
+    "Roger Goodell",
+    "NFL"
    ],
    "theme": "arts culture & sports",
-   "theme_raw": "bears stadium relocation"
+   "theme_raw": "Bears stadium relocation"
   },
   {
    "id": "4ec606609e04625d",
@@ -270,15 +215,11 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "Medical Center",
-    "Police",
     "South Shore",
-    "South Shore Thursday",
-    "South Stony Island Avenue",
-    "University"
+    "Chicago Police Department"
    ],
    "theme": "public safety & crime",
-   "theme_raw": "fatal shooting south shore"
+   "theme_raw": "South Shore fatal shooting"
   },
   {
    "id": "561b298ba0a60e4c",
@@ -290,14 +231,10 @@
    "outlet_type": "public",
    "feed_url": "https://news.wttw.com/feed",
    "entities": [
-    "Proposed Ford City Mall",
-    "Redevelopment Sparks Concerns From",
-    "Shelby Hawkins&lt",
-    "Some Neighbors",
-    "Some Neighbors&lt"
+    "Ford City Mall"
    ],
    "theme": "housing & development",
-   "theme_raw": "mall redevelopment proposal"
+   "theme_raw": "mall redevelopment concerns"
   },
   {
    "id": "5910005556117acb",
@@ -309,16 +246,11 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "CNN",
-    "European",
-    "GOP",
-    "Hegseth",
-    "Muscles",
-    "U.S",
-    "U.S. Defense Secretary Pete"
+    "Pete Hegseth",
+    "GOP"
    ],
    "theme": "other",
-   "theme_raw": "defense secretary criticism"
+   "theme_raw": "Pete Hegseth defense secretary"
   },
   {
    "id": "68ea268d46eec946",
@@ -330,12 +262,11 @@
    "outlet_type": "advocacy",
    "feed_url": "https://www.illinoispolicy.org/feed/",
    "entities": [
-    "Governor",
-    "Illinoisans. The",
-    "Pritzker"
+    "JB Pritzker",
+    "Illinois Policy"
    ],
    "theme": "elections & politics",
-   "theme_raw": "governor legislation"
+   "theme_raw": "gubernatorial legislative record"
   },
   {
    "id": "6b2a0042bda5b671",
@@ -347,15 +278,10 @@
    "outlet_type": "nonprofit",
    "feed_url": "https://blockclubchicago.org/feed/",
    "entities": [
-    "Giving Break To Small",
-    "Landlords The",
-    "Mayor",
-    "Mayor Brandon Johnson",
-    "Office Revises Renter Protection",
-    "Ordinance"
+    "Brandon Johnson"
    ],
-   "theme": "housing & development",
-   "theme_raw": "rental housing ordinance"
+   "theme": "elections & politics",
+   "theme_raw": "renter protection ordinance"
   },
   {
    "id": "6c73ba9eaa3d9c3d",
@@ -367,14 +293,12 @@
    "outlet_type": "altweekly",
    "feed_url": "https://chicagoreader.com/feed/",
    "entities": [
-    "Sleeping Village The",
-    "Sogolo",
-    "Sogolo W.I.T.C.H. Fri",
-    "W.I.T.C.H",
-    "Zamrock"
+    "W.I.T.C.H.",
+    "Sleeping Village",
+    "Chicago Reader"
    ],
-   "theme": "arts culture & sports",
-   "theme_raw": "zamrock music performance"
+   "theme": "other",
+   "theme_raw": "zamrock band performance"
   },
   {
    "id": "6f2e57d9b5b83d45",
@@ -386,15 +310,10 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "Back",
-    "Boyfriend",
-    "DEAR ABBY",
-    "Dear Abby",
-    "Evan",
-    "Mitzi"
+    "Dear Abby"
    ],
    "theme": "health & public health",
-   "theme_raw": "family relationship advice"
+   "theme_raw": "advice column sibling lie"
   },
   {
    "id": "708bd5c109cbf3b3",
@@ -406,20 +325,11 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "Bovino",
-    "Bovino&lt",
-    "Cole&lt",
-    "Federal",
-    "Gregory Bovino",
     "Midway Blitz",
-    "Once",
-    "Operation Midway Blitz&lt",
-    "Prosecutors",
-    "Sheridan&lt",
-    "U.S. Border Patrol Cmdr"
+    "Bovino"
    ],
    "theme": "courts & justice",
-   "theme_raw": "midway blitz investigation"
+   "theme_raw": "grand jury investigation"
   },
   {
    "id": "77ebd7a4e6110099",
@@ -431,11 +341,10 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "Bridges",
-    "Cuando"
+    "Chicago"
    ],
    "theme": "elections & politics",
-   "theme_raw": "bridge heat expansion"
+   "theme_raw": "bridge heat effects"
   },
   {
    "id": "80fd84bb10e295bc",
@@ -447,19 +356,11 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "Bears",
-    "Bears&lt",
-    "Chiefs",
-    "Colston Loveland",
-    "Loveland",
-    "Madison Square Garden",
-    "NFL",
-    "Taylor Swift",
-    "Tight End",
-    "Travis Kelce"
+    "Chicago Bears",
+    "Colston Loveland"
    ],
    "theme": "arts culture & sports",
-   "theme_raw": "nfl player profile"
+   "theme_raw": "football player profile"
   },
   {
    "id": "81fbe6573c517eaf",
@@ -471,11 +372,10 @@
    "outlet_type": "nonprofit",
    "feed_url": "https://capitolnewsillinois.com/feed/",
    "entities": [
-    "DCFS",
-    "State"
+    "Illinois Department of Children and Family Services"
    ],
    "theme": "other",
-   "theme_raw": "child protection agency audit"
+   "theme_raw": "child protection audit"
   },
   {
    "id": "822cc191fc2c3ba4",
@@ -487,14 +387,10 @@
    "outlet_type": "altweekly",
    "feed_url": "https://chicagoreader.com/feed/",
    "entities": [
-    "Acme",
-    "Acme Coyote",
-    "Acme&lt",
-    "Coyote",
-    "Review"
+    "Chicago Reader"
    ],
    "theme": "arts culture & sports",
-   "theme_raw": "film review"
+   "theme_raw": "film review coyote"
   },
   {
    "id": "8be94183948595f1",
@@ -506,17 +402,12 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "Catholic Church",
-    "Dolores Ruiz",
-    "International Charter School",
-    "Prairie",
     "Roseland",
-    "Roseland.&lt",
-    "St. Anthony",
-    "Villalvazo"
+    "Chicago",
+    "Dolores"
    ],
    "theme": "education & schools",
-   "theme_raw": "neighborhood mural art"
+   "theme_raw": "neighborhood mural project"
   },
   {
    "id": "9665f78049aecbe7",
@@ -528,21 +419,12 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "Blazers.&lt",
-    "CHAMPAIGN",
-    "Collin Dixon",
-    "East Carolina",
-    "Houser",
-    "Illini",
-    "Jonah Delange",
+    "Illinois",
     "Katin Houser",
-    "Lil Valentine",
-    "TD. He",
-    "TDs",
     "UAB"
    ],
    "theme": "other",
-   "theme_raw": "illinois football season opener"
+   "theme_raw": "Illinois football season opener"
   },
   {
    "id": "9cd81737fa43d3a3",
@@ -554,14 +436,13 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
+    "Tony Romo",
     "CBS",
     "Eastern Illinois",
-    "NFL",
-    "Romo",
-    "Tony Romo"
+    "NFL"
    ],
    "theme": "health & public health",
-   "theme_raw": "tony romo cbs contract"
+   "theme_raw": "Tony Romo CBS contract"
   },
   {
    "id": "a9b202e5c7255618",
@@ -573,15 +454,10 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "Beethoven",
-    "Canadian",
-    "It's",
-    "Rain",
-    "Shedd",
     "Shedd Aquarium"
    ],
    "theme": "other",
-   "theme_raw": "beluga whale deaths"
+   "theme_raw": "Shedd Aquarium beluga deaths"
   },
   {
    "id": "ac75963cc2e32b8b",
@@ -593,19 +469,11 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "Brooks",
-    "Brookshire",
-    "Class",
-    "Coach Keith Brookshire",
     "Corliss",
-    "Corliss. Last",
-    "Demitris Loggers",
-    "Gumm",
-    "Jaquan Gumm",
-    "Loggers"
+    "Keith Brookshire"
    ],
    "theme": "education & schools",
-   "theme_raw": "high school football program"
+   "theme_raw": "Corliss high school football"
   },
   {
    "id": "acda6fd677ab5ea7",
@@ -617,13 +485,10 @@
    "outlet_type": "altweekly",
    "feed_url": "https://chicagoreader.com/feed/",
    "entities": [
-    "Dog Stars",
-    "Dog Stars The",
-    "Dog Stars&lt",
-    "Review"
+    "Chicago Reader"
    ],
    "theme": "arts culture & sports",
-   "theme_raw": "film review"
+   "theme_raw": "film review dogs"
   },
   {
    "id": "b695a92bf9eff6ef",
@@ -635,15 +500,10 @@
    "outlet_type": "nonprofit",
    "feed_url": "https://blockclubchicago.org/feed/",
    "entities": [
-    "Bike The Drive",
-    "Car",
-    "Chicagoans",
-    "Chicagoans Prepare To",
-    "Free Lakefront All Year",
-    "Some Dream Of"
+    "Chicago"
    ],
    "theme": "other",
-   "theme_raw": "lakefront car-free proposal"
+   "theme_raw": "bike the drive event"
   },
   {
    "id": "b7678043602ddc9b",
@@ -655,12 +515,8 @@
    "outlet_type": "nonprofit",
    "feed_url": "https://blockclubchicago.org/feed/",
    "entities": [
-    "CR Films",
-    "Chuy",
-    "Day Exhibit Jesus",
-    "Local Photographer Honors Chicago",
-    "Reyes",
-    "Street Vendors In"
+    "Jesus Reyes",
+    "CR Films"
    ],
    "theme": "arts culture & sports",
    "theme_raw": "street vendor photography"
@@ -675,9 +531,7 @@
    "outlet_type": "nonprofit",
    "feed_url": "https://capitolnewsillinois.com/feed/",
    "entities": [
-    "Everything",
-    "Middle",
-    "Travelers"
+    "Illinois"
    ],
    "theme": "other",
    "theme_raw": "tourism economic impact"
@@ -692,16 +546,10 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "Chel",
-    "Chelepis",
-    "Corie A. Walsh",
-    "Frankfort",
-    "Frankfort Police Chief Leanne",
-    "Mother",
-    "Will County Jail"
+    "Frankfort"
    ],
    "theme": "public safety & crime",
-   "theme_raw": "child homicide charge"
+   "theme_raw": "child death charge"
   },
   {
    "id": "c74c31b4e394f6ae",
@@ -713,17 +561,11 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "Catholic Church",
-    "Dolores Ruiz",
-    "International Charter School",
-    "Prairie",
     "Roseland",
-    "Roseland.&lt",
-    "St. Anthony",
-    "Villalvazo"
+    "Chicago"
    ],
    "theme": "education & schools",
-   "theme_raw": "community mural project"
+   "theme_raw": "neighborhood mural project"
   },
   {
    "id": "ce6ca2d9ad26cfdf",
@@ -735,12 +577,10 @@
    "outlet_type": "altweekly",
    "feed_url": "https://chicagoreader.com/feed/",
    "entities": [
-    "Buddy Buddy",
-    "Buddy&lt",
-    "Review"
+    "Chicago Reader"
    ],
    "theme": "arts culture & sports",
-   "theme_raw": "film review"
+   "theme_raw": "film review buddy"
   },
   {
    "id": "cff4da977754bbf1",
@@ -752,18 +592,12 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "American League Central",
-    "Charlotte",
-    "Despite",
-    "Drew Romo",
+    "Chicago White Sox",
     "Kyle Teel",
-    "Teel",
-    "Triple",
-    "Twins.&lt",
-    "White Sox"
+    "Drew Romo"
    ],
    "theme": "arts culture & sports",
-   "theme_raw": "baseball roster move"
+   "theme_raw": "baseball roster moves"
   },
   {
    "id": "d7eba1607c476643",
@@ -775,17 +609,10 @@
    "outlet_type": "altweekly",
    "feed_url": "https://chicagoreader.com/feed/",
    "entities": [
-    "Despite",
-    "Distance",
-    "From",
-    "Going",
-    "IRL",
-    "Iliana",
-    "Insta",
-    "Joanna"
+    "Chicago"
    ],
    "theme": "other",
-   "theme_raw": "chicago cross-community friendship"
+   "theme_raw": "cross-neighborhood friendships"
   },
   {
    "id": "d978c8eb61e953c2",
@@ -797,12 +624,10 @@
    "outlet_type": "altweekly",
    "feed_url": "https://illinoistimes.com/feed/",
    "entities": [
-    "Nearly",
-    "Senate",
-    "State Capitol"
+    "Illinois State Capitol"
    ],
    "theme": "arts culture & sports",
-   "theme_raw": "capitol building renovation"
+   "theme_raw": "capitol renovation project"
   },
   {
    "id": "daf81f74ddc9d521",
@@ -814,16 +639,10 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "CPS",
-    "Friday's",
-    "Friday. Those",
-    "Public",
-    "Simeon",
-    "Thirteen Public League",
-    "Thursday's"
+    "Chicago Public Schools"
    ],
-   "theme": "arts culture & sports",
-   "theme_raw": "heat advisory sports"
+   "theme": "education & schools",
+   "theme_raw": "heat advisory postponement"
   },
   {
    "id": "dd585787c3f6f9a6",
@@ -835,12 +654,10 @@
    "outlet_type": "public",
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
-    "Bridges",
-    "Chicago's",
-    "Here's"
+    "Chicago"
    ],
-   "theme": "transit & infrastructure",
-   "theme_raw": "heat infrastructure impact"
+   "theme": "elections & politics",
+   "theme_raw": "heat effects bridges"
   },
   {
    "id": "de8839ebe9d79dd9",
@@ -852,18 +669,10 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "Below&lt",
-    "Brewers&lt",
-    "Cubs",
-    "Keeping",
-    "Mayor Brandon Johnson",
-    "Nearly",
-    "Plus&lt",
-    "South Shore",
-    "Still"
+    "South Shore"
    ],
    "theme": "housing & development",
-   "theme_raw": "housing displacement aftermath"
+   "theme_raw": "homelessness post-raid"
   },
   {
    "id": "e5d9c82479f39426",
@@ -875,21 +684,14 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "Armstrong",
-    "Bears",
-    "Bears' Caleb Williams",
-    "Bull Matas Buzelis",
-    "Bulls",
-    "Caleb Williams&lt",
-    "Caleb Wilson",
-    "Cole Bennett",
-    "Cubs",
-    "Joining",
-    "Lyrical Lemonade",
-    "MVP"
+    "Caleb Williams",
+    "Chicago Bears",
+    "Chicago Bulls",
+    "Wrigley Field",
+    "Pete Crow-Armstrong"
    ],
    "theme": "arts culture & sports",
-   "theme_raw": "chicago athletes attend game"
+   "theme_raw": "Cubs game celebrity spectators"
   },
   {
    "id": "e7c0fd622b59a0a8",
@@ -901,16 +703,10 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "Area",
-    "Englewood",
-    "Medical Center",
-    "Police",
-    "South Peoria Avenue",
-    "University",
-    "Woman"
+    "Englewood"
    ],
    "theme": "public safety & crime",
-   "theme_raw": "shooting homicide"
+   "theme_raw": "shooting fatality"
   },
   {
    "id": "ef73ee47b05f59c1",
@@ -922,13 +718,11 @@
    "outlet_type": "nonprofit",
    "feed_url": "https://blockclubchicago.org/feed/",
    "entities": [
-    "Bucktown",
-    "Holstein Pool To Remain",
-    "Keep This Fun Going",
-    "Open Later Into September"
+    "Holstein Pool",
+    "Bucktown"
    ],
    "theme": "other",
-   "theme_raw": "public pool hours"
+   "theme_raw": "pool season extension"
   },
   {
    "id": "f20c1dba80db1377",
@@ -940,15 +734,11 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "Due",
-    "High",
-    "Indiana.&lt",
-    "National Weather Service",
-    "Public Schools",
-    "Temperatures"
+    "Chicago",
+    "National Weather Service"
    ],
    "theme": "education & schools",
-   "theme_raw": "extreme heat warning"
+   "theme_raw": "heat warning conditions"
   },
   {
    "id": "f3804c48968b1c63",
@@ -965,7 +755,7 @@
     "WTTW News&lt"
    ],
    "theme": "other",
-   "theme_raw": "news broadcast"
+   "theme_raw": "broadcast full show"
   },
   {
    "id": "018f05ca2469e6e1",
@@ -977,14 +767,11 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "Bears",
-    "Bears&lt",
     "Rome Odunze",
-    "Until Thursday.&lt",
-    "WR Rome Odunze"
+    "Chicago Bears"
    ],
-   "theme": "arts culture & sports",
-   "theme_raw": "bears receiver injury status"
+   "theme": "health & public health",
+   "theme_raw": "Rome Odunze injury status"
   },
   {
    "id": "019333c352bf4d0b",
@@ -996,19 +783,11 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "AL Rookie",
-    "All",
-    "American League",
-    "HOUSTON",
-    "Month",
-    "Star",
-    "Tristan",
     "Tristan Peters",
-    "Tristan Peters&lt",
-    "White Sox"
+    "Chicago White Sox"
    ],
    "theme": "arts culture & sports",
-   "theme_raw": "baseball rookie honors"
+   "theme_raw": "baseball rookie award"
   },
   {
    "id": "096691079fe2619b",
@@ -1020,12 +799,10 @@
    "outlet_type": "nonprofit",
    "feed_url": "https://blockclubchicago.org/feed/",
    "entities": [
-    "African",
-    "African Guinea Fowl",
-    "Doing In Rogers Park"
+    "Rogers Park"
    ],
    "theme": "other",
-   "theme_raw": "exotic bird sighting"
+   "theme_raw": "unusual bird sighting"
   },
   {
    "id": "0a9a794b9b1fd92c",
@@ -1037,14 +814,10 @@
    "outlet_type": "public",
    "feed_url": "https://news.wttw.com/feed",
    "entities": [
-    "Associated Press&lt",
-    "Dies",
-    "Gloria Steinem",
-    "Potent Voice",
-    "US Feminism"
+    "Gloria Steinem"
    ],
    "theme": "other",
-   "theme_raw": "feminist leader obituary"
+   "theme_raw": "feminist activist death"
   },
   {
    "id": "10bb423e96683b85",
@@ -1061,7 +834,7 @@
     "WTTW News&lt"
    ],
    "theme": "other",
-   "theme_raw": "news broadcast"
+   "theme_raw": "broadcast full show"
   },
   {
    "id": "11742ee62fb155ef",
@@ -1073,16 +846,11 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "Growing",
-    "Hinsdale Central",
-    "Hinsdale Central.&lt",
     "James Skokna",
-    "Red Devils. Now",
-    "Skokna",
-    "Star"
+    "Hinsdale Central"
    ],
-   "theme": "education & schools",
-   "theme_raw": "high school football family"
+   "theme": "other",
+   "theme_raw": "multi-generation athletes"
   },
   {
    "id": "11f1bae5eb017bec",
@@ -1094,17 +862,12 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "Admission",
+    "USA Dodgeball",
     "Bedford Park",
-    "Championships",
-    "Chicago.&lt",
-    "Midway Airport.&lt",
-    "USA Dodgeball National",
-    "USA Dodgeball National Championships",
-    "Wintrust Sports Complex"
+    "Wintrust Sports"
    ],
    "theme": "transit & infrastructure",
-   "theme_raw": "dodgeball championship event"
+   "theme_raw": "dodgeball national championships"
   },
   {
    "id": "121376e4f85e6820",
@@ -1116,17 +879,11 @@
    "outlet_type": "altweekly",
    "feed_url": "https://illinoistimes.com/feed/",
    "entities": [
-    "AWS",
-    "Audubon Society",
-    "E. Clear Lake Ave",
-    "Fall Guide Event Calendar",
-    "Free. Adams Wildlife Sanctuary",
     "Jamie Arntzen",
-    "Ongoing Prairie HikesLast Wednesday",
-    "Through Oct"
+    "Illinois Audubon Society"
    ],
    "theme": "immigration & migrants",
-   "theme_raw": "outdoor activity guide"
+   "theme_raw": "outdoor hiking events"
   },
   {
    "id": "123ecfab00931882",
@@ -1139,11 +896,9 @@
    "feed_url": "https://illinoistimes.com/feed/",
    "entities": [
     "Felicia Uriosty",
-    "Granite City",
-    "Mother Road",
     "Mr. Twist",
-    "Route",
-    "Uriosty"
+    "Granite City",
+    "Route 66"
    ],
    "theme": "labor & economy",
    "theme_raw": "route 66 business"
@@ -1158,10 +913,7 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "DEI",
-    "Trump",
-    "WASHINGTON",
-    "White House's"
+    "Trump administration"
    ],
    "theme": "city & state budget",
    "theme_raw": "tax exemption policy proposal"
@@ -1176,13 +928,8 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "Below&lt",
-    "Brewers&lt",
-    "Cubs",
-    "Extreme",
-    "Faceworld",
-    "Keeping",
-    "Plus&lt"
+    "Chicago",
+    "Faceworld"
    ],
    "theme": "transit & infrastructure",
    "theme_raw": "heat infrastructure damage"
@@ -1197,13 +944,8 @@
    "outlet_type": "public",
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
-    "Broadway",
-    "CTA",
     "Evanston",
-    "Metra",
-    "Northlight",
-    "Northlight Theatre",
-    "Northlight Theatre. Situated"
+    "Northlight Theatre"
    ],
    "theme": "arts culture & sports",
    "theme_raw": "theater venue opening"
@@ -1218,21 +960,12 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "Cultural Affairs",
-    "DCASE",
-    "Dee Dee Bridgewater",
-    "Department",
-    "Don",
-    "Grammy",
-    "Jazz Festival",
-    "Jazz Festival&lt",
-    "Labor Day",
-    "Mayor Brandon Johnson",
-    "Miles Electric",
-    "Millennium Park. The"
+    "Brandon Johnson",
+    "Chicago Department of Cultural Affairs and Special Events",
+    "Chicago Jazz Festival"
    ],
    "theme": "arts culture & sports",
-   "theme_raw": "jazz festival event"
+   "theme_raw": "chicago jazz festival"
   },
   {
    "id": "2225521df906f305",
@@ -1244,13 +977,10 @@
    "outlet_type": "altweekly",
    "feed_url": "https://illinoistimes.com/feed/",
    "entities": [
-    "Amendment",
-    "Black",
-    "Learning",
     "Springfield"
    ],
    "theme": "elections & politics",
-   "theme_raw": "historical election"
+   "theme_raw": "historical election account"
   },
   {
    "id": "243199cc842c5571",
@@ -1271,7 +1001,7 @@
     "Travelers"
    ],
    "theme": "labor & economy",
-   "theme_raw": "labor day travel"
+   "theme_raw": "labor day travel forecast"
   },
   {
    "id": "2589d70c20e6d62f",
@@ -1283,21 +1013,13 @@
    "outlet_type": "public",
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
-    "Breaking",
-    "Constellation",
-    "Gravity",
-    "Gravity Festival",
-    "Grouper",
+    "Sound & Gravity Festival",
     "Mike Reed",
-    "Mike Reed.&lt",
-    "N. Western Ave",
-    "Natural Information Society.&lt",
-    "Reed",
     "Son Lux",
-    "Sound"
+    "Groupe"
    ],
    "theme": "arts culture & sports",
-   "theme_raw": "music festival preview"
+   "theme_raw": "music festival lineup"
   },
   {
    "id": "29fd120b27f3a830",
@@ -1309,19 +1031,12 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "AdamSchefter",
-    "Andre Swift",
-    "Bears",
-    "Bears&lt",
-    "Breaking",
-    "Concerns",
-    "ESPN",
-    "Kyle Mon",
-    "RB D'Andre Swift",
-    "WR Rome Odunze"
+    "Chicago Bears",
+    "D'Andre Swift",
+    "Rome Odunze"
    ],
    "theme": "arts culture & sports",
-   "theme_raw": "bears player injuries"
+   "theme_raw": "bears practice injuries"
   },
   {
    "id": "2c57c8b9385c77ec",
@@ -1333,14 +1048,10 @@
    "outlet_type": "altweekly",
    "feed_url": "https://illinoistimes.com/feed/",
    "entities": [
-    "Housing",
-    "Policing",
-    "Policing Springfield City Council",
-    "Residents Press Springfield Council",
-    "ShotSpotter"
+    "Springfield City Council"
    ],
    "theme": "elections & politics",
-   "theme_raw": "municipal policy debate"
+   "theme_raw": "city council shotspotter"
   },
   {
    "id": "2c8419dab8e0c195",
@@ -1352,14 +1063,10 @@
    "outlet_type": "public",
    "feed_url": "https://news.wttw.com/feed",
    "entities": [
-    "CPS Reinstates Outdoor Activities",
-    "Extreme Heat",
-    "Matt Masterson&lt",
-    "Warning Lifted",
-    "Warning Lifted&lt"
+    "Chicago Public Schools"
    ],
    "theme": "education & schools",
-   "theme_raw": "school activity resumption"
+   "theme_raw": "school outdoor activities resumed"
   },
   {
    "id": "31846fe2e04772cf",
@@ -1371,13 +1078,12 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "Cook County",
-    "Dante Hughes",
+    "St. Bernard Hospital",
     "Englewood",
-    "St. Bernard Hospital"
+    "Chicago Police"
    ],
-   "theme": "health & public health",
-   "theme_raw": "gunshot death hospital"
+   "theme": "public safety & crime",
+   "theme_raw": "shooting death hospital"
   },
   {
    "id": "32382eedc3d36395",
@@ -1389,14 +1095,12 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "Bears QB Caleb Williams",
-    "Bears&lt",
-    "Caleb Williams&lt",
-    "Hot Ones",
-    "Williams"
+    "Caleb Williams",
+    "Chicago Bears",
+    "Hot Ones"
    ],
    "theme": "arts culture & sports",
-   "theme_raw": "caleb williams interview"
+   "theme_raw": "quarterback television appearance"
   },
   {
    "id": "36995766fe7c23d8",
@@ -1408,14 +1112,11 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "Fakroune",
-    "Felon",
     "Jawad Fakroune",
-    "Pablo Escobar",
-    "Pablo Escobar's"
+    "Chicago"
    ],
    "theme": "courts & justice",
-   "theme_raw": "fraud scheme conviction"
+   "theme_raw": "fraud conviction admission"
   },
   {
    "id": "3b7b340050c383fd",
@@ -1427,21 +1128,10 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "Back",
-    "Brooks",
-    "CPS",
-    "Corliss",
-    "Here's",
-    "Kelly",
-    "Public League",
-    "Public Schools",
-    "Rockne",
-    "Thursday's",
-    "Thursday. All",
-    "Yards"
+    "Chicago Public Schools"
    ],
    "theme": "education & schools",
-   "theme_raw": "school football schedule change"
+   "theme_raw": "high school football rescheduling"
   },
   {
    "id": "3e3b3fe782f695b4",
@@ -1453,15 +1143,10 @@
    "outlet_type": "nonprofit",
    "feed_url": "https://blockclubchicago.org/feed/",
    "entities": [
-    "Block Club",
-    "Downtown Bridge That Was",
-    "DuSable Lake Shore Drive",
-    "History Of Problems",
-    "Records Show",
-    "Stuck For Hours Has"
+    "DuSable Lake Shore Drive"
    ],
    "theme": "other",
-   "theme_raw": "bridge structural condition"
+   "theme_raw": "bridge maintenance issues"
   },
   {
    "id": "3f14772d1155094f",
@@ -1473,9 +1158,7 @@
    "outlet_type": "altweekly",
    "feed_url": "https://chicagoreader.com/feed/",
    "entities": [
-    "Fall Arts",
-    "Planting",
-    "These"
+    "Chicago"
    ],
    "theme": "arts culture & sports",
    "theme_raw": "independent arts community"
@@ -1490,17 +1173,11 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "DHS",
-    "Departamento",
-    "Gregory Bovino",
-    "Las",
     "Operativo Midway Blitz",
-    "Patrulla Fronteriza",
-    "Sara Ellis",
-    "Seguridad Nacional"
+    "Gregory Bovino"
    ],
    "theme": "courts & justice",
-   "theme_raw": "border operation lawsuit"
+   "theme_raw": "border operations lawsuit"
   },
   {
    "id": "5190e2dad974181b",
@@ -1513,12 +1190,7 @@
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
     "Gabriela Jaquez",
-    "Jaquez",
-    "Lynx",
-    "Natasha Cloud",
-    "Sky",
-    "Sky&lt",
-    "WNBA&lt"
+    "Chicago Sky"
    ],
    "theme": "transit & infrastructure",
    "theme_raw": "WNBA player performance"
@@ -1533,7 +1205,7 @@
    "outlet_type": "nonprofit",
    "feed_url": "https://capitolnewsillinois.com/feed/",
    "entities": [
-    "Sales"
+    "Illinois"
    ],
    "theme": "city & state budget",
    "theme_raw": "state revenue growth"
@@ -1548,15 +1220,10 @@
    "outlet_type": "public",
    "feed_url": "https://news.wttw.com/feed",
    "entities": [
-    "Belugas Die",
-    "Longtime Resident",
-    "Longtime Resident&lt",
-    "Patty Wetli&lt",
-    "Rescue",
-    "Shedd"
+    "Shedd Aquarium"
    ],
    "theme": "other",
-   "theme_raw": "marine animal deaths"
+   "theme_raw": "beluga whale deaths"
   },
   {
    "id": "65f7f4475d5d54c2",
@@ -1568,15 +1235,11 @@
    "outlet_type": "public",
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
-    "COVID",
-    "CPS",
-    "Connected",
-    "Making",
-    "Public Schools",
-    "Since"
+    "Chicago Public Schools",
+    "Chicago Connected"
    ],
    "theme": "education & schools",
-   "theme_raw": "student internet access"
+   "theme_raw": "free wifi program"
   },
   {
    "id": "6702337edfe23aea",
@@ -1588,15 +1251,10 @@
    "outlet_type": "public",
    "feed_url": "https://news.wttw.com/feed",
    "entities": [
-    "Budget Gap",
-    "Expected Election Year Shortfall",
-    "Expected Election Year Shortfall&lt",
-    "Faces",
-    "Heather Cherone&lt",
-    "Johnson Touts Smaller Than"
+    "Brandon Johnson"
    ],
    "theme": "city & state budget",
-   "theme_raw": "municipal budget deficit"
+   "theme_raw": "Chicago budget deficit"
   },
   {
    "id": "70f989bb89e26298",
@@ -1608,16 +1266,11 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "Alabama",
-    "BATON ROUGE",
-    "LSU",
-    "SEC",
-    "SEC Commissioner Greg Sankey",
     "Southeastern Conference",
-    "Tiger Stadium"
+    "LSU"
    ],
    "theme": "courts & justice",
-   "theme_raw": "NCAA recruiting lawsuit"
+   "theme_raw": "NCAA recruiting violation lawsuit"
   },
   {
    "id": "7457e4b1a9c5f756",
@@ -1630,10 +1283,7 @@
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
     "Cardinal Blase Cupich",
-    "Cardinal Cupich",
-    "Catholics",
-    "Cupich",
-    "Cupich's"
+    "Illinois"
    ],
    "theme": "courts & justice",
    "theme_raw": "assisted suicide law challenge"
@@ -1648,15 +1298,8 @@
    "outlet_type": "nonprofit",
    "feed_url": "https://borderlessmag.org/feed/",
    "entities": [
-    "America From",
-    "Bharat Sharma",
-    "Catchlight Local",
-    "Community Organizer",
-    "Guide",
-    "Pakistani",
-    "Report",
     "West Ridge",
-    "West Ridge Camilla Forte"
+    "Bharat Sharma"
    ],
    "theme": "immigration & migrants",
    "theme_raw": "neighborhood community guide"
@@ -1671,12 +1314,11 @@
    "outlet_type": "public",
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
-    "Always",
-    "Not",
+    "Chicago",
     "Operation Midway Blitz"
    ],
    "theme": "immigration & migrants",
-   "theme_raw": "immigration enforcement impact"
+   "theme_raw": "immigration enforcement toll"
   },
   {
    "id": "7efe9389482bc16d",
@@ -1689,16 +1331,10 @@
    "feed_url": "https://chicagoreader.com/feed/",
    "entities": [
     "Cinema Scrapbook",
-    "Contemporary Art",
-    "Dancing",
-    "From",
-    "MCA",
-    "Museum",
-    "Revolution",
-    "Sonic"
+    "Chicago"
    ],
-   "theme": "labor & economy",
-   "theme_raw": "film screening collaboration"
+   "theme": "arts culture & sports",
+   "theme_raw": "film screening curation"
   },
   {
    "id": "8072be6cb007aef6",
@@ -1723,18 +1359,12 @@
    "outlet_type": "nonprofit",
    "feed_url": "https://blockclubchicago.org/feed/",
    "entities": [
-    "Ally Coalition",
-    "Deluxe Tattoo Is Hosting",
-    "Don",
+    "Deluxe Tattoo",
     "Hayley Williams",
-    "LGBTQ",
-    "Panic",
-    "Themed Pop",
-    "Up Monday Forty",
-    "Walk"
+    "The Ally Coalition"
    ],
    "theme": "housing & development",
-   "theme_raw": "tattoo shop benefit event"
+   "theme_raw": "tattoo shop fundraiser"
   },
   {
    "id": "81ead8e1c67a13ad",
@@ -1746,11 +1376,10 @@
    "outlet_type": "public",
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
-    "Chicagoans",
-    "Looks"
+    "Chicago"
    ],
    "theme": "city & state budget",
-   "theme_raw": "municipal budget arts funding"
+   "theme_raw": "budget gap arts"
   },
   {
    "id": "853e5834fcff1071",
@@ -1762,13 +1391,11 @@
    "outlet_type": "public",
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
-    "CEO Greg Cameron",
-    "Cameron",
-    "Joffrey Ballet President",
-    "Thursday.&lt"
+    "Joffrey Ballet",
+    "Greg Cameron"
    ],
-   "theme": "transit & infrastructure",
-   "theme_raw": "ballet leadership transition"
+   "theme": "arts culture & sports",
+   "theme_raw": "ballet ceo departure"
   },
   {
    "id": "897550c9e558a6fa",
@@ -1780,12 +1407,7 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "Chicago&amp",
-    "Cook County",
-    "Extreme",
-    "National Weather Service",
-    "Temperatures",
-    "Weather"
+    "Chicago"
    ],
    "theme": "other",
    "theme_raw": "heat warning cancellation"
@@ -1800,14 +1422,11 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "Donald Trump.&lt",
-    "Estar",
-    "Esto",
-    "Operativo Midway Blitz",
-    "Tres"
+    "Chicago",
+    "Operativo Midway Blitz"
    ],
    "theme": "immigration & migrants",
-   "theme_raw": "immigration enforcement impact"
+   "theme_raw": "Operativo Midway Blitz immigrant impact"
   },
   {
    "id": "8d8d2d0b2c21bfb1",
@@ -1819,19 +1438,11 @@
    "outlet_type": "altweekly",
    "feed_url": "https://illinoistimes.com/feed/",
    "entities": [
-    "Cemetery",
-    "Echoes",
     "Oak Ridge Cemetery",
-    "Participants",
-    "Sangamon County",
-    "Sangamon County Historical",
-    "Society",
-    "Walk Through Oak Ridge",
-    "Yesteryear",
-    "Yesteryear Enjoy"
+    "Sangamon County Historical Society"
    ],
    "theme": "arts culture & sports",
-   "theme_raw": "historical society event"
+   "theme_raw": "cemetery historical tour"
   },
   {
    "id": "94848ee1d6b6dee7",
@@ -1858,19 +1469,13 @@
    "outlet_type": "altweekly",
    "feed_url": "https://illinoistimes.com/feed/",
    "entities": [
-    "Christiansted",
+    "Illinois",
     "Deb Martin",
-    "Helping",
-    "Inc",
-    "Jared",
     "Jared Martin",
-    "Jared Michael Martin",
-    "Keepers Foundation",
-    "St. Croix",
-    "U.S. Virgin Islands. Jared"
+    "Jared's Keepers Foundation"
    ],
    "theme": "arts culture & sports",
-   "theme_raw": "suicide prevention nonprofit"
+   "theme_raw": "suicide prevention foundation"
   },
   {
    "id": "9ff1164bd1ec5fb6",
@@ -1882,20 +1487,11 @@
    "outlet_type": "altweekly",
    "feed_url": "https://illinoistimes.com/feed/",
    "entities": [
-    "Branagh",
-    "Cold War",
     "John Francis Daley",
-    "Jonathan Goldstein",
-    "Mayday",
-    "Mayday With",
-    "Mayday&lt",
-    "Red Heat",
-    "Reynolds",
-    "Smart",
-    "Sun&lt"
+    "Jonathan Goldstein"
    ],
    "theme": "arts culture & sports",
-   "theme_raw": "film review"
+   "theme_raw": "film review mayday"
   },
   {
    "id": "a1236fa5aea43a4b",
@@ -1907,14 +1503,11 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "BOSTON",
-    "North Carolina",
-    "Supreme Court",
-    "Supreme Court Thursday",
-    "Trump"
+    "Donald Trump",
+    "Supreme Court"
    ],
-   "theme": "elections & politics",
-   "theme_raw": "mail voting legal dispute"
+   "theme": "courts & justice",
+   "theme_raw": "Trump mail voting Supreme Court"
   },
   {
    "id": "a1af17d2e3857cc0",
@@ -1926,9 +1519,7 @@
    "outlet_type": "altweekly",
    "feed_url": "https://chicagoreader.com/feed/",
    "entities": [
-    "Data",
-    "These",
-    "Waterways"
+    "Chicago"
    ],
    "theme": "environment & energy",
    "theme_raw": "data center water usage"
@@ -1943,17 +1534,11 @@
    "outlet_type": "public",
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
-    "Alternatively",
-    "Black",
-    "CTA Red Line",
-    "Kanye",
-    "RichTextSidebarModule Enhancement",
-    "Roosevelt Road.&lt",
-    "Rottweilers",
-    "Sometimes"
+    "Chicago",
+    "Chicago Transit Authority"
    ],
-   "theme": "health & public health",
-   "theme_raw": "forgiveness mental health"
+   "theme": "arts culture & sports",
+   "theme_raw": "rabbi forgiveness kanye"
   },
   {
    "id": "a4716ceb73393fa8",
@@ -1965,16 +1550,10 @@
    "outlet_type": "nonprofit",
    "feed_url": "https://blockclubchicago.org/feed/",
    "entities": [
-    "Beethoven",
-    "Beluga Deaths In",
-    "Days",
-    "Marineland Rescue Grows The",
-    "Peekachu",
-    "Rain",
-    "Scrutiny Of Shedd"
+    "Shedd Aquarium"
    ],
    "theme": "other",
-   "theme_raw": "aquarium animal deaths"
+   "theme_raw": "beluga whale deaths"
   },
   {
    "id": "a7ac377c0f999568",
@@ -1986,17 +1565,13 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "ABC Plumbing",
-    "Arlington Heights",
-    "Attorney General Kwame",
-    "Cooling",
-    "Electric",
-    "Electric Inc",
-    "Heating",
-    "Raoul"
+    "Illinois",
+    "Kwame Raoul",
+    "ABC Plumbing, Heating, Cooling & Electric",
+    "Arlington Heights"
    ],
-   "theme": "labor & economy",
-   "theme_raw": "deceptive business practices lawsuit"
+   "theme": "courts & justice",
+   "theme_raw": "Illinois sues plumbing company"
   },
   {
    "id": "a8f3e9b2afe078b7",
@@ -2008,20 +1583,13 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "April.&lt",
-    "Arizona. He",
-    "Athletic",
     "Dianna Russini",
-    "Dianna Russini's",
-    "England Patriots",
+    "The Athletic",
     "Mike Vrabel",
-    "NFL",
-    "Review",
-    "Russini's",
-    "Vrabel"
+    "New England Patriots"
    ],
    "theme": "other",
-   "theme_raw": "reporter standards violation"
+   "theme_raw": "reporter compliance investigation"
   },
   {
    "id": "ac7ba9c3f3b10c55",
@@ -2033,13 +1601,10 @@
    "outlet_type": "altweekly",
    "feed_url": "https://chicagoreader.com/feed/",
    "entities": [
-    "Aromadipan",
-    "Aromadipan The",
-    "Pan",
-    "Venezuelan"
+    "Aromadipan"
    ],
-   "theme": "arts culture & sports",
-   "theme_raw": "venezuelan bakery food"
+   "theme": "other",
+   "theme_raw": "venezuelan bakery"
   },
   {
    "id": "ad5ae302ed5eba62",
@@ -2051,15 +1616,10 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "Every",
-    "Federal",
-    "Grand",
-    "Operation Midway Blitz. Many",
-    "Trump",
-    "Twenty"
+    "Operation Midway Blitz"
    ],
-   "theme": "immigration & migrants",
-   "theme_raw": "federal immigration prosecutions"
+   "theme": "courts & justice",
+   "theme_raw": "federal prosecutions chicago"
   },
   {
    "id": "b09c14393b8a0d9c",
@@ -2071,7 +1631,7 @@
    "outlet_type": "nonprofit",
    "feed_url": "https://capitolnewsillinois.com/feed/",
    "entities": [
-    "Construction"
+    "Illinois Capitol"
    ],
    "theme": "other",
    "theme_raw": "capitol building renovation"
@@ -2086,12 +1646,11 @@
    "outlet_type": "public",
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
-    "Johnson",
-    "Mayor Brandon Johnson",
-    "Mayor Johnson"
+    "Chicago",
+    "Brandon Johnson"
    ],
    "theme": "city & state budget",
-   "theme_raw": "municipal budget deficit"
+   "theme_raw": "budget deficit announcement"
   },
   {
    "id": "c209b39b6cc6d94e",
@@ -2103,17 +1662,10 @@
    "outlet_type": "public",
    "feed_url": "https://news.wttw.com/feed",
    "entities": [
-    "Barrier",
-    "Construction",
-    "Great Lakes Invasive Carp",
-    "Patty Wetli&lt",
-    "Resume",
-    "Resume&lt",
-    "Trump Lifts Stop",
-    "Work Order"
+    "Great Lakes"
    ],
    "theme": "other",
-   "theme_raw": "invasive species barrier"
+   "theme_raw": "invasive carp barrier construction"
   },
   {
    "id": "c217a9bfa2a952fe",
@@ -2125,14 +1677,10 @@
    "outlet_type": "public",
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
-    "Chicago's Office",
-    "Communications",
-    "Emergency Management",
-    "Friday.&lt",
-    "Peak"
+    "Chicago"
    ],
    "theme": "other",
-   "theme_raw": "extreme heat weather"
+   "theme_raw": "september heat wave"
   },
   {
    "id": "c969a84b8b4f565e",
@@ -2144,14 +1692,11 @@
    "outlet_type": "public",
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
-    "Atlanta",
-    "Even",
     "Kanye West",
-    "South",
-    "West"
+    "Chicago"
    ],
    "theme": "arts culture & sports",
-   "theme_raw": "artist cultural legacy"
+   "theme_raw": "kanye west legacy"
   },
   {
    "id": "cc3d5fa6a1ab4aeb",
@@ -2172,7 +1717,7 @@
     "Toads"
    ],
    "theme": "labor & economy",
-   "theme_raw": "labor day employment"
+   "theme_raw": "labor day celebration"
   },
   {
    "id": "cd4e63e99c93f8c7",
@@ -2184,12 +1729,7 @@
    "outlet_type": "public",
    "feed_url": "https://news.wttw.com/feed",
    "entities": [
-    "Blair Paddock&lt",
-    "Incarcerated Deaf People",
-    "Lawsuit Alleges",
-    "Lawsuit Alleges&lt",
-    "Prisons Do Not",
-    "Provide Equal Phone Access"
+    "Illinois Department of Corrections"
    ],
    "theme": "courts & justice",
    "theme_raw": "prison accessibility lawsuit"
@@ -2204,12 +1744,7 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "Medical Center",
-    "Oakland",
-    "Police",
-    "South Lake Park Avenue",
-    "University",
-    "Woman"
+    "Oakland"
    ],
    "theme": "public safety & crime",
    "theme_raw": "shooting injury incident"
@@ -2224,20 +1759,13 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "Alabama",
-    "College Football&lt",
-    "Irish",
+    "Notre Dame",
+    "Wisconsin",
     "Lambeau Field",
-    "Miami. Alabama",
-    "Notre Dame&lt",
-    "Playoff",
-    "Quick",
-    "SEC",
-    "Will Notre Dame",
-    "Wisconsin"
+    "College Football Playoff"
    ],
    "theme": "education & schools",
-   "theme_raw": "college football matchup"
+   "theme_raw": "college football game preview"
   },
   {
    "id": "d761fe7b48cd5d6f",
@@ -2275,14 +1803,11 @@
    "outlet_type": "altweekly",
    "feed_url": "https://chicagoreader.com/feed/",
    "entities": [
-    "Folk Music",
-    "Mark Dvorak",
-    "Old Town School",
     "Win Stracke",
-    "Win Stracke. But"
+    "Old Town School of Folk Music"
    ],
    "theme": "arts culture & sports",
-   "theme_raw": "folk music history"
+   "theme_raw": "folk music pioneer"
   },
   {
    "id": "d7c406eee5a22fad",
@@ -2294,20 +1819,10 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "Bolingbrook",
-    "Flossmoor",
-    "Friday&lt",
-    "Homewood",
-    "Lincoln",
-    "Previewing Week",
-    "Richard",
-    "Richards",
-    "Robert Williams III",
-    "Way East",
-    "Week"
+    "Illinois"
    ],
    "theme": "education & schools",
-   "theme_raw": "high school football preview"
+   "theme_raw": "high school football previews"
   },
   {
    "id": "d8ec789f4e01acb5",
@@ -2320,10 +1835,8 @@
    "feed_url": "https://blockclubchicago.org/feed/",
    "entities": [
     "Amtrak",
-    "Bridgeport",
-    "Bridgeport Residents Sound Alarm",
     "Chinatown",
-    "Proposed Amtrak Facility"
+    "Bridgeport"
    ],
    "theme": "environment & energy",
    "theme_raw": "amtrak facility opposition"
@@ -2338,21 +1851,11 @@
    "outlet_type": "public",
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
-    "Armor Security Forces",
-    "Army",
-    "Being",
-    "Crown Point.&lt",
-    "Family",
     "Gary",
-    "Kenneth Williams Jr",
-    "Kenneth Williams Sr",
-    "Like",
-    "National Guard",
-    "Tuesday.&lt",
-    "Williams.&lt"
+    "Kenneth Williams Sr."
    ],
    "theme": "public safety & crime",
-   "theme_raw": "police shooting investigation"
+   "theme_raw": "police shooting death"
   },
   {
    "id": "e526a705a04b6f4d",
@@ -2364,17 +1867,11 @@
    "outlet_type": "public",
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
-    "Anecdotally",
-    "Are",
-    "Belmont",
-    "Campbell",
-    "Cicadas",
-    "Cragin",
-    "From Garfield Park",
+    "Garfield Park",
     "Lake View",
-    "Morton Arboretum's",
     "Oak Park",
-    "Spencer Campbell"
+    "Belmont-Cragin",
+    "Chicago"
    ],
    "theme": "other",
    "theme_raw": "cicada noise levels"
@@ -2397,7 +1894,7 @@
     "Your Labor Day Weekend&lt"
    ],
    "theme": "arts culture & sports",
-   "theme_raw": "arts weekend events"
+   "theme_raw": "arts weekend recommendations"
   },
   {
    "id": "ebf359f0ab99ad17",
@@ -2409,16 +1906,13 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "Castillo",
-    "Cubs",
-    "HOUSTON",
+    "Chicago White Sox",
     "Luis Castillo",
     "Munetaka Murakami",
-    "Twins",
-    "White Sox"
+    "Houston"
    ],
    "theme": "arts culture & sports",
-   "theme_raw": "white sox pitcher performance"
+   "theme_raw": "White Sox pitcher performance"
   },
   {
    "id": "ecd894a84d3be855",
@@ -2430,9 +1924,8 @@
    "outlet_type": "public",
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
-    "Broadway",
-    "Paired",
-    "York City",
+    "Chicago",
+    "New York City",
     "Zohran Mamdani"
    ],
    "theme": "city & state budget",
@@ -2448,11 +1941,11 @@
    "outlet_type": "advocacy",
    "feed_url": "https://www.illinoispolicy.org/feed/",
    "entities": [
-    "Florida",
-    "Pritzker"
+    "JB Pritzker",
+    "Illinois Policy"
    ],
    "theme": "other",
-   "theme_raw": "population migration"
+   "theme_raw": "population migration data"
   },
   {
    "id": "f7d27ad5e3778a78",
@@ -2464,21 +1957,16 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "Adam Amin",
-    "Bulls",
-    "Bulls TV",
-    "Bulls' TV",
-    "ESPN Radio.&lt",
-    "Gill",
-    "Jim Durham",
     "Kendall Gill",
-    "League Windy City Bulls",
-    "NBA",
-    "Perdue",
-    "Robbie Hummel"
+    "Will Perdue",
+    "Scott Williams",
+    "Robbie Hummel",
+    "Stacey King",
+    "Adam Amin",
+    "Chicago Bulls"
    ],
    "theme": "education & schools",
-   "theme_raw": "bulls broadcast analyst"
+   "theme_raw": "bulls broadcast analyst rotation"
   },
   {
    "id": "fc2b9db76108278d",
@@ -2490,15 +1978,11 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "Ben Brown",
-    "Brown",
-    "Cubs",
-    "Cubs&lt",
-    "June&lt",
-    "Manager Craig Counsell"
+    "Chicago Cubs",
+    "Ben Brown"
    ],
    "theme": "arts culture & sports",
-   "theme_raw": "cubs pitcher injury recovery"
+   "theme_raw": "Cubs pitcher rehab decisions"
   },
   {
    "id": "fc82dfc5bc4cd84e",
@@ -2510,11 +1994,8 @@
    "outlet_type": "altweekly",
    "feed_url": "https://chicagoreader.com/feed/",
    "entities": [
-    "ASL",
-    "American Sign Language",
     "Diego Diaz",
-    "Poet Laureate Mayda",
-    "Valle"
+    "Chicago"
    ],
    "theme": "other",
    "theme_raw": "asl interpreter profile"
@@ -2529,11 +2010,11 @@
    "outlet_type": "advocacy",
    "feed_url": "https://www.illinoispolicy.org/feed/",
    "entities": [
-    "Gov. J.B. Pritzker. Since",
-    "Pritzker"
+    "JB Pritzker",
+    "Illinois Policy"
    ],
    "theme": "other",
-   "theme_raw": "job growth"
+   "theme_raw": "job growth rankings"
   },
   {
    "id": "0e0a56f6e0ebbe1b",
@@ -2545,20 +2026,11 @@
    "outlet_type": "altweekly",
    "feed_url": "https://chicagoreader.com/feed/",
    "entities": [
-    "Avneel Williams",
-    "Bistro",
-    "Bistro Smoke",
-    "Bistro Some",
-    "Chef Smoke",
-    "Closed Tuesdays",
-    "Email",
-    "Facebook",
-    "Instagram",
-    "Smoke",
-    "Southeast Spotlight"
+    "Smoke's Bistro",
+    "Chicago"
    ],
-   "theme": "labor & economy",
-   "theme_raw": "restaurant business profile"
+   "theme": "courts & justice",
+   "theme_raw": "restaurant profile"
   },
   {
    "id": "38632a2fb48dde1d",
@@ -2570,12 +2042,8 @@
    "outlet_type": "altweekly",
    "feed_url": "https://chicagoreader.com/feed/",
    "entities": [
-    "Find",
-    "Issues",
-    "Reader The Reader",
-    "Reader&lt",
-    "Some",
-    "Wednesday. The"
+    "Chicago Reader",
+    "Chicago"
    ],
    "theme": "other",
    "theme_raw": "publication distribution"
@@ -2590,13 +2058,10 @@
    "outlet_type": "public",
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
-    "All",
-    "CPS",
-    "National Weather Service's",
-    "Public Schools"
+    "Chicago Public Schools"
    ],
    "theme": "education & schools",
-   "theme_raw": "school heat safety"
+   "theme_raw": "heat warning school activities"
   },
   {
    "id": "3c7b8e8895337fc8",
@@ -2608,19 +2073,12 @@
    "outlet_type": "public",
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
-    "Another Chicago",
-    "Calumet River",
-    "ChicagoOEMC",
-    "Communications",
-    "Commuters",
-    "DuSable Lake Shore Drive",
-    "Emergency Management",
-    "Far South Side",
-    "Office",
-    "Torrence Avenue Bridge"
+    "Chicago",
+    "Torrence Avenue Bridge",
+    "DuSable Lake Shore Drive"
    ],
-   "theme": "transit & infrastructure",
-   "theme_raw": "heat infrastructure failure"
+   "theme": "other",
+   "theme_raw": "bridge stuck heat"
   },
   {
    "id": "458192c5bca860da",
@@ -2632,10 +2090,8 @@
    "outlet_type": "altweekly",
    "feed_url": "https://chicagoreader.com/feed/",
    "entities": [
-    "Missing Piece",
-    "Missing Piece&lt",
     "Silent Theatre Company",
-    "Visceral Adventure Lounge The"
+    "Visceral Adventure Lounge"
    ],
    "theme": "arts culture & sports",
    "theme_raw": "theater production review"
@@ -2650,20 +2106,11 @@
    "outlet_type": "public",
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
-    "AnchorLink",
-    "College Dropout",
-    "Enhancement",
-    "Figure",
-    "Gold Digger",
-    "Honda. From",
-    "Jamie Foxx",
-    "Kanye",
     "Kanye West",
-    "Life",
-    "Pablo"
+    "Jamie Foxx"
    ],
-   "theme": "education & schools",
-   "theme_raw": "kanye west fan perspective"
+   "theme": "arts culture & sports",
+   "theme_raw": "kanye west music"
   },
   {
    "id": "5421d5144ee5712d",
@@ -2675,8 +2122,8 @@
    "outlet_type": "nonprofit",
    "feed_url": "https://thetriibe.com/feed/",
    "entities": [
-    "Mayor Brandon Johnson",
-    "Youth Works"
+    "Brandon Johnson",
+    "Chicago Youth Works"
    ],
    "theme": "elections & politics",
    "theme_raw": "youth employment program"
@@ -2691,11 +2138,8 @@
    "outlet_type": "altweekly",
    "feed_url": "https://chicagoreader.com/feed/",
    "entities": [
-    "J'Uncle",
-    "Jarvis Square Theater The",
     "Simple Theatre",
-    "Uncle",
-    "Uncle&lt"
+    "Jarvis Square Theater"
    ],
    "theme": "arts culture & sports",
    "theme_raw": "theater production review"
@@ -2710,11 +2154,8 @@
    "outlet_type": "altweekly",
    "feed_url": "https://chicagoreader.com/feed/",
    "entities": [
-    "Clutch The",
-    "Handbag Productions",
-    "Hell",
-    "Hell&lt",
-    "Joan Crawford Goes"
+    "Hell in a Handbag Productions",
+    "Clutch"
    ],
    "theme": "arts culture & sports",
    "theme_raw": "theater production review"
@@ -2732,7 +2173,7 @@
     "TBR"
    ],
    "theme": "environment & energy",
-   "theme_raw": "power grid maintenance"
+   "theme_raw": "electric grid maintenance"
   },
   {
    "id": "6233b59664ffc7ce",
@@ -2744,11 +2185,7 @@
    "outlet_type": "altweekly",
    "feed_url": "https://chicagoreader.com/feed/",
    "entities": [
-    "American",
-    "City Lit",
-    "City Lit Theater The",
-    "Shane",
-    "Shane&lt"
+    "City Lit Theater"
    ],
    "theme": "arts culture & sports",
    "theme_raw": "theater production review"
@@ -2768,7 +2205,7 @@
     "Prison"
    ],
    "theme": "other",
-   "theme_raw": "prison conditions advocacy"
+   "theme_raw": "prison conditions"
   },
   {
    "id": "7bc5d8772acee7be",
@@ -2780,18 +2217,11 @@
    "outlet_type": "public",
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
-    "AnchorLink",
-    "Black",
-    "Chicago's South Side",
-    "Dr. Donda West",
-    "Enhancement",
-    "Figure",
-    "Growing",
     "Kanye West",
-    "State University"
+    "Chicago State University"
    ],
    "theme": "education & schools",
-   "theme_raw": "kanye west chicago roots"
+   "theme_raw": "kanye west chicago"
   },
   {
    "id": "7e0817d4f0363119",
@@ -2803,20 +2233,11 @@
    "outlet_type": "public",
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
-    "Chicag",
-    "Chicken",
-    "Florida",
-    "Halsted Mall",
-    "Harold",
     "Kanye West",
-    "Nothing",
-    "Old Kanye",
-    "South Side",
-    "Through",
-    "Wire"
+    "Chicago"
    ],
    "theme": "education & schools",
-   "theme_raw": "kanye west cultural impact"
+   "theme_raw": "kanye west biography"
   },
   {
    "id": "850453ad5b5414e0",
@@ -2828,13 +2249,11 @@
    "outlet_type": "public",
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
-    "AnchorLink",
-    "Did Trump",
-    "Enhancement",
-    "Figure"
+    "Donald Trump",
+    "Chicago"
    ],
-   "theme": "immigration & migrants",
-   "theme_raw": "immigration enforcement assessment"
+   "theme": "other",
+   "theme_raw": "trump detention operations"
   },
   {
    "id": "a7ee01ae865614a7",
@@ -2846,12 +2265,10 @@
    "outlet_type": "altweekly",
    "feed_url": "https://chicagoreader.com/feed/",
    "entities": [
-    "Jordan Wilson",
-    "Often",
-    "Today"
+    "Jordan Wilson"
    ],
    "theme": "other",
-   "theme_raw": "comedian performance routine"
+   "theme_raw": "comedian performance diet"
   },
   {
    "id": "ac5152e6343745c5",
@@ -2863,13 +2280,8 @@
    "outlet_type": "altweekly",
    "feed_url": "https://chicagoreader.com/feed/",
    "entities": [
-    "Art",
-    "Chopin Theatre The",
-    "Kokandy",
     "Kokandy Productions",
-    "Park With George",
-    "Park With George Sunday",
-    "Park With George&lt"
+    "Chopin Theatre"
    ],
    "theme": "arts culture & sports",
    "theme_raw": "theater production review"
@@ -2884,11 +2296,10 @@
    "outlet_type": "nonprofit",
    "feed_url": "https://capitolnewsillinois.com/feed/",
    "entities": [
-    "Federal",
-    "Medicaid"
+    "Illinois"
    ],
    "theme": "health & public health",
-   "theme_raw": "medicaid policy impact"
+   "theme_raw": "medicaid hospital funding"
   },
   {
    "id": "aff1f54d5965c3b9",
@@ -2900,12 +2311,10 @@
    "outlet_type": "altweekly",
    "feed_url": "https://chicagoreader.com/feed/",
    "entities": [
-    "Fall Arts Issue",
-    "Number",
-    "Reader Volume"
+    "Chicago Reader"
    ],
    "theme": "arts culture & sports",
-   "theme_raw": "magazine publication issue"
+   "theme_raw": "publication issue"
   },
   {
    "id": "b7911be97fe9460c",
@@ -2917,14 +2326,11 @@
    "outlet_type": "public",
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
-    "City",
-    "Despite",
-    "Mayor Brandon Johnson",
-    "Mayoral",
-    "Overall"
+    "Chicago",
+    "Brandon Johnson"
    ],
    "theme": "public safety & crime",
-   "theme_raw": "crime statistics politics"
+   "theme_raw": "chicago crime statistics"
   },
   {
    "id": "bbab4e8f9f93c70a",
@@ -2936,16 +2342,9 @@
    "outlet_type": "altweekly",
    "feed_url": "https://chicagoreader.com/feed/",
    "entities": [
-    "Chorus Line",
-    "Eustis",
-    "Hamilton",
-    "Michael Paulson",
     "Oskar Eustis",
-    "Public",
     "Public Theater",
-    "Seeding",
-    "York",
-    "York Times"
+    "New York"
    ],
    "theme": "transit & infrastructure",
    "theme_raw": "theater leadership transition"
@@ -2960,10 +2359,10 @@
    "outlet_type": "nonprofit",
    "feed_url": "https://capitolnewsillinois.com/feed/",
    "entities": [
-    "SIUE"
+    "Southern Illinois University Edwardsville"
    ],
    "theme": "education & schools",
-   "theme_raw": "university fraud charges"
+   "theme_raw": "university credit card fraud"
   },
   {
    "id": "c177c2d69ccbf093",
@@ -2975,11 +2374,10 @@
    "outlet_type": "altweekly",
    "feed_url": "https://chicagoreader.com/feed/",
    "entities": [
-    "Art Institute",
-    "From"
+    "Art Institute of Chicago"
    ],
    "theme": "other",
-   "theme_raw": "art exhibition curation"
+   "theme_raw": "art exhibition process"
   },
   {
    "id": "c343085324add12f",
@@ -2992,10 +2390,7 @@
    "feed_url": "https://chicagoreader.com/feed/",
    "entities": [
     "Black Cat Theatre",
-    "Elephant",
-    "Theater Wit The",
-    "Womb",
-    "Womb&lt"
+    "Theater Wit"
    ],
    "theme": "arts culture & sports",
    "theme_raw": "theater production review"
@@ -3010,9 +2405,8 @@
    "outlet_type": "nonprofit",
    "feed_url": "https://capitolnewsillinois.com/feed/",
    "entities": [
-    "Global Ratings",
-    "S&P Global",
-    "S&amp"
+    "S&P Global Ratings",
+    "Illinois"
    ],
    "theme": "other",
    "theme_raw": "credit rating upgrade"
@@ -3027,11 +2421,11 @@
    "outlet_type": "altweekly",
    "feed_url": "https://chicagoreader.com/feed/",
    "entities": [
-    "Darkroom Chicago",
-    "Inside Tuley Park"
+    "Tuley Park",
+    "Darkroom Chicago"
    ],
    "theme": "other",
-   "theme_raw": "community darkroom photography"
+   "theme_raw": "community darkroom space"
   },
   {
    "id": "dcf3996941b4ffdc",
@@ -3043,11 +2437,10 @@
    "outlet_type": "altweekly",
    "feed_url": "https://chicagoreader.com/feed/",
    "entities": [
-    "Many",
-    "Microcinemas"
+    "Chicago"
    ],
    "theme": "arts culture & sports",
-   "theme_raw": "microcinema film venues"
+   "theme_raw": "microcinema venues"
   },
   {
    "id": "df543398153faf57",
@@ -3059,7 +2452,6 @@
    "outlet_type": "nonprofit",
    "feed_url": "https://capitolnewsillinois.com/feed/",
    "entities": [
-    "Judge",
     "Shawnee National Forest",
     "U.S. Forest Service"
    ],
@@ -3076,16 +2468,12 @@
    "outlet_type": "nonprofit",
    "feed_url": "https://thetriibe.com/feed/",
    "entities": [
-    "Ald. Walter",
-    "Black",
-    "Burnett III",
-    "Mayor Brandon Johnson",
-    "Red",
-    "Rooted Out West",
-    "West Side"
+    "Brandon Johnson",
+    "Walter Burnett III",
+    "TRiiBE"
    ],
    "theme": "elections & politics",
-   "theme_raw": "West Side community history"
+   "theme_raw": "West Side community summit"
   },
   {
    "id": "f4ec4e1215b846cd",
@@ -3097,15 +2485,10 @@
    "outlet_type": "public",
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
-    "ComEd",
-    "Keeping",
-    "Northern Illinois",
-    "Sometimes",
-    "Will",
-    "Yet"
+    "ComEd"
    ],
    "theme": "transit & infrastructure",
-   "theme_raw": "utility infrastructure costs"
+   "theme_raw": "utility infrastructure spending"
   },
   {
    "id": "f956cedc029f7b1e",
@@ -3117,17 +2500,11 @@
    "outlet_type": "public",
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
-    "Ford",
     "Indian Ridge Marsh Park",
-    "Indiana",
-    "Nature Conservancy",
-    "Sandwiched",
-    "South Deering",
-    "Thismia",
-    "Trevor Edmonson"
+    "South Deering"
    ],
    "theme": "other",
-   "theme_raw": "native ecosystem preservation"
+   "theme_raw": "marsh preservation history"
   },
   {
    "id": "ffb9d5f118612338",
@@ -3139,16 +2516,13 @@
    "outlet_type": "altweekly",
    "feed_url": "https://chicagoreader.com/feed/",
    "entities": [
-    "Anti",
-    "Emily Massey",
     "Henry Stoehr",
-    "Madison",
-    "Record",
+    "Emily Massey",
     "Slow Pulp",
-    "Yard"
+    "Chicago"
    ],
-   "theme": "arts culture & sports",
-   "theme_raw": "indie band music"
+   "theme": "other",
+   "theme_raw": "indie band album"
   },
   {
    "id": "02c6cbdc6456bb8c",
@@ -3160,13 +2534,10 @@
    "outlet_type": "public",
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
-    "Chicago. Here",
-    "Dohrn",
-    "Heir",
-    "Zayd Ayers Dohrn"
+    "Chicago"
    ],
    "theme": "arts culture & sports",
-   "theme_raw": "campus hate speech play"
+   "theme_raw": "campus speech theater"
   },
   {
    "id": "3d2319337cedf250",
@@ -3178,12 +2549,11 @@
    "outlet_type": "public",
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
-    "Aspira",
-    "Exactly",
-    "Public Sc"
+    "Aspira of Illinois",
+    "WBEZ"
    ],
    "theme": "education & schools",
-   "theme_raw": "charter school bankruptcy funds"
+   "theme_raw": "nonprofit bankruptcy settlement"
   },
   {
    "id": "576af831f1360360",
@@ -3195,14 +2565,13 @@
    "outlet_type": "altweekly",
    "feed_url": "https://chicagoreader.com/feed/",
    "entities": [
-    "Douglass Park The",
-    "Icons",
     "Riot Fest",
-    "Riot Fest Fri",
-    "William Shatner"
+    "William Shatner",
+    "Douglass Park",
+    "Chicago Reader"
    ],
    "theme": "arts culture & sports",
-   "theme_raw": "music festival"
+   "theme_raw": "music festival lineup"
   },
   {
    "id": "5a69f3105c235c08",
@@ -3214,16 +2583,9 @@
    "outlet_type": "public",
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
-    "Dohrn",
-    "Even",
-    "Fox News",
-    "Heir",
-    "Israel",
-    "Lake Michigan",
-    "Northwestern",
+    "Zayd Ayers Dohrn",
     "Northwestern University",
-    "Palestinian",
-    "Zayd Ayers Dohrn"
+    "Fox News"
    ],
    "theme": "education & schools",
    "theme_raw": "playwright family history"
@@ -3238,10 +2600,9 @@
    "outlet_type": "altweekly",
    "feed_url": "https://chicagoreader.com/feed/",
    "entities": [
-    "Busy Madison",
     "Graham Hunt",
-    "Graham Hunt Mon",
-    "Subterranean The"
+    "Subterranean",
+    "Chicago Reader"
    ],
    "theme": "arts culture & sports",
    "theme_raw": "musician performance"
@@ -3257,17 +2618,13 @@
    "feed_url": "https://chicagoreader.com/feed/",
    "entities": [
     "Bridgeport Records",
-    "Jerry Morrison",
-    "Onion City Records. Bridgeport",
-    "Records",
+    "Onion City Records",
     "Vick Lavender",
-    "W. Chicago",
-    "West Fest",
-    "West Town",
-    "West Town Two"
+    "Jerry Morrison",
+    "West Town"
    ],
    "theme": "arts culture & sports",
-   "theme_raw": "music store opening"
+   "theme_raw": "record store opening"
   },
   {
    "id": "8196ea3b62c1eed9",
@@ -3279,13 +2636,8 @@
    "outlet_type": "public",
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
-    "Clark",
-    "Evergreen Park",
-    "Failed",
-    "Heights",
-    "Johanna Morgan",
     "South Chicago Chapel",
-    "South Side"
+    "Evergreen Park"
    ],
    "theme": "public safety & crime",
    "theme_raw": "funeral home violations"
@@ -3300,9 +2652,8 @@
    "outlet_type": "public",
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
-    "Police Supt. Fred",
-    "Waller",
-    "Washington Park"
+    "Washington Park",
+    "Chicago"
    ],
    "theme": "public safety & crime",
    "theme_raw": "washington park shooting"
@@ -3317,18 +2668,9 @@
    "outlet_type": "public",
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
-    "Avec",
-    "Banchet",
-    "Banchet Awards",
-    "Big Star",
-    "Cafeteria",
-    "Chef Paul Kahan",
-    "Culinary Excellence Award",
-    "Delicatessen",
-    "Dove",
-    "Iconic Restaurant Award",
-    "January.&lt",
-    "Jean Banchet"
+    "Paul Kahan",
+    "Manny's Cafeteria & Delicatessen",
+    "Banchet Awards"
    ],
    "theme": "health & public health",
    "theme_raw": "culinary awards recognition"
@@ -3344,10 +2686,10 @@
    "feed_url": "https://www.illinoispolicy.org/feed/",
    "entities": [
     "SEIU Healthcare",
-    "While"
+    "Illinois Policy"
    ],
-   "theme": "labor & economy",
-   "theme_raw": "union operations"
+   "theme": "city & state budget",
+   "theme_raw": "union spending practices"
   },
   {
    "id": "dde1d3dce8607998",
@@ -3359,15 +2701,10 @@
    "outlet_type": "nonprofit",
    "feed_url": "https://borderlessmag.org/feed/",
    "entities": [
-    "America More",
-    "Camilla Forte",
-    "Catchlight Local",
-    "FRESH Program",
-    "Report",
-    "SNAP"
+    "Illinois"
    ],
-   "theme": "arts culture & sports",
-   "theme_raw": "food assistance program"
+   "theme": "immigration & migrants",
+   "theme_raw": "SNAP benefits program"
   },
   {
    "id": "ea03a987013abfc5",
@@ -3379,13 +2716,11 @@
    "outlet_type": "altweekly",
    "feed_url": "https://chicagoreader.com/feed/",
    "entities": [
-    "NEPO",
     "Pueblo Unido Gallery",
-    "Pueblo Unido Gallery The",
-    "Time"
+    "Chicago Reader"
    ],
    "theme": "other",
-   "theme_raw": "art gallery exhibition"
+   "theme_raw": "gallery exhibition"
   },
   {
    "id": "f1f8b717e7b186db",
@@ -3397,11 +2732,8 @@
    "outlet_type": "nonprofit",
    "feed_url": "https://capitolnewsillinois.com/feed/",
    "entities": [
-    "Darren Bailey",
-    "Darren Bailey Gov. JB",
     "JB Pritzker",
-    "Pritzker",
-    "Takeaways"
+    "Darren Bailey"
    ],
    "theme": "elections & politics",
    "theme_raw": "gubernatorial campaign tours"
@@ -3416,16 +2748,10 @@
    "outlet_type": "public",
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
-    "Are",
-    "Cecelia Palmer",
-    "Families",
-    "Nicole Williams",
-    "Palmer",
-    "Smith",
     "South Chicago Chapel"
    ],
    "theme": "other",
-   "theme_raw": "funeral home criminal liability"
+   "theme_raw": "funeral service complaints"
   },
   {
    "id": "1265f0a1190f357b",
@@ -3437,13 +2763,11 @@
    "outlet_type": "public",
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
-    "City",
-    "Cook County Circuit Court",
-    "South Chicago Chapel",
-    "South Chicago Chapel&lt"
+    "City of Chicago",
+    "South Chicago Chapel"
    ],
    "theme": "courts & justice",
-   "theme_raw": "funeral home code violations"
+   "theme_raw": "building code enforcement"
   },
   {
    "id": "5a2b5467aebe9af8",
@@ -3455,9 +2779,7 @@
    "outlet_type": "nonprofit",
    "feed_url": "https://capitolnewsillinois.com/feed/",
    "entities": [
-    "Gov. JB Pritzker",
-    "Pritzker",
-    "Team Fight"
+    "JB Pritzker"
    ],
    "theme": "elections & politics",
    "theme_raw": "governor reelection campaign"
@@ -3472,16 +2794,10 @@
    "outlet_type": "public",
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
-    "Lot",
-    "Neighborhood Market Grant",
-    "Program",
-    "Save",
-    "Small",
-    "South",
-    "West"
+    "Chicago"
    ],
    "theme": "arts culture & sports",
-   "theme_raw": "food access grants program"
+   "theme_raw": "food access grants"
   },
   {
    "id": "7d123b067267dedb",
@@ -3493,7 +2809,7 @@
    "outlet_type": "altweekly",
    "feed_url": "https://chicagoreader.com/feed/",
    "entities": [
-    "West"
+    "Chicago Reader"
    ],
    "theme": "other",
    "theme_raw": "comedy art criticism"
@@ -3508,10 +2824,10 @@
    "outlet_type": "advocacy",
    "feed_url": "https://www.illinoispolicy.org/feed/",
    "entities": [
-    "SNAP"
+    "Illinois Policy"
    ],
-   "theme": "other",
-   "theme_raw": "benefits program"
+   "theme": "arts culture & sports",
+   "theme_raw": "food assistance enrollment"
   },
   {
    "id": "9f436394f89a347c",
@@ -3523,10 +2839,8 @@
    "outlet_type": "altweekly",
    "feed_url": "https://chicagoreader.com/feed/",
    "entities": [
-    "City",
-    "Lights",
-    "Lights&lt",
-    "Often"
+    "City of Lights",
+    "Chicago Reader"
    ],
    "theme": "public safety & crime",
    "theme_raw": "true crime podcast"
@@ -3541,11 +2855,9 @@
    "outlet_type": "altweekly",
    "feed_url": "https://chicagoreader.com/feed/",
    "entities": [
-    "Microelectronics Park. Construction",
-    "Quantum",
     "Quantum Crossroads",
     "South Chicago",
-    "Steel"
+    "Chicago Reader"
    ],
    "theme": "housing & development",
    "theme_raw": "quantum computing development"
@@ -3560,13 +2872,13 @@
    "outlet_type": "altweekly",
    "feed_url": "https://chicagoreader.com/feed/",
    "entities": [
-    "Butter",
     "Butter Art Fair",
+    "Stutz",
     "Indianapolis",
-    "Stutz The"
+    "Chicago Reader"
    ],
    "theme": "other",
-   "theme_raw": "art fair event"
+   "theme_raw": "art fair announcement"
   },
   {
    "id": "f9cf7f122a54e470",
@@ -3578,11 +2890,10 @@
    "outlet_type": "public",
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
-    "Labor Day",
-    "Temperatures"
+    "Chicago"
    ],
    "theme": "labor & economy",
-   "theme_raw": "extreme heat weather"
+   "theme_raw": "chicago weather forecast"
   },
   {
    "id": "5ece218c9838c4c0",
@@ -3594,21 +2905,11 @@
    "outlet_type": "public",
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
-    "Black",
-    "Bronze",
-    "Bronze Festival",
-    "Bronzeville",
-    "Chicago's Black",
-    "Denise Moore",
-    "He's",
-    "Looking",
-    "Maybe",
-    "Moore",
-    "South Side",
-    "That's"
+    "Black & Bronze festival",
+    "South Side"
    ],
    "theme": "arts culture & sports",
-   "theme_raw": "south side community festival"
+   "theme_raw": "south side cultural event"
   },
   {
    "id": "6b16091011464b99",
@@ -3620,15 +2921,11 @@
    "outlet_type": "public",
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
-    "Black Student Success Plan",
-    "CPS",
-    "March&lt",
-    "Public Schools",
-    "Trump",
-    "U.S. Depa"
+    "Chicago Public Schools",
+    "Trump administration"
    ],
    "theme": "education & schools",
-   "theme_raw": "school funding federal settlement"
+   "theme_raw": "school funding dispute settlement"
   },
   {
    "id": "0e45d92dbb2fe7c0",
@@ -3641,10 +2938,10 @@
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
     "Dolly Parton",
-    "President Barack Obama"
+    "Barack Obama"
    ],
    "theme": "arts culture & sports",
-   "theme_raw": "dolly parton corn maze"
+   "theme_raw": "entertainment news roundup"
   },
   {
    "id": "10ec886f380344c6",
@@ -3656,13 +2953,10 @@
    "outlet_type": "public",
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
-    "CPS",
-    "Public Schools",
-    "School Board",
-    "While"
+    "Chicago Public Schools"
    ],
    "theme": "housing & development",
-   "theme_raw": "homeless student enrollment policy"
+   "theme_raw": "homelessness enrollment policy"
   },
   {
    "id": "130606712661ef9e",
@@ -3674,14 +2968,7 @@
    "outlet_type": "public",
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
-    "Franquella",
-    "Marshawna Campbell",
-    "Months",
-    "Prince",
-    "Purple Rain",
-    "Shannon's",
-    "Shawnese Shannon",
-    "Sisters"
+    "Shawnese Shannon"
    ],
    "theme": "other",
    "theme_raw": "cremated remains dispute"
@@ -3696,8 +2983,7 @@
    "outlet_type": "nonprofit",
    "feed_url": "https://capitolnewsillinois.com/feed/",
    "entities": [
-    "Local",
-    "Trump"
+    "Illinois"
    ],
    "theme": "immigration & migrants",
    "theme_raw": "immigration enforcement cooperation"
@@ -3713,11 +2999,11 @@
    "feed_url": "https://chicagoreader.com/feed/",
    "entities": [
     "Adolescent Salvation",
-    "Adolescent Salvation&lt",
-    "Theater Wit The"
+    "Theater Wit",
+    "Chicago Reader"
    ],
    "theme": "arts culture & sports",
-   "theme_raw": "theater production"
+   "theme_raw": "theater production review"
   },
   {
    "id": "5c96a6c5ef08d87c",
@@ -3729,14 +3015,13 @@
    "outlet_type": "altweekly",
    "feed_url": "https://chicagoreader.com/feed/",
    "entities": [
-    "Henry IV",
-    "Mrs. Murphy",
-    "Part",
+    "Henry IV, Part 1",
     "Sandbox Theatre Collective",
-    "Sons Irish Bistro The"
+    "Mrs. Murphy & Sons Irish Bistro",
+    "Chicago Reader"
    ],
-   "theme": "other",
-   "theme_raw": "shakespeare performance"
+   "theme": "arts culture & sports",
+   "theme_raw": "shakespeare theater production"
   },
   {
    "id": "7b6a02c6b3ba2a0e",
@@ -3764,15 +3049,13 @@
    "outlet_type": "altweekly",
    "feed_url": "https://chicagoreader.com/feed/",
    "entities": [
-    "Advance Man",
-    "Advance Man&lt",
-    "Factory Theater The",
-    "Honeycomb Trilogy",
-    "Part One",
-    "Strawdog Theatre Company"
+    "Advance Man: Part One of the Honeycomb Trilogy",
+    "Strawdog Theatre Company",
+    "Factory Theater",
+    "Chicago Reader"
    ],
    "theme": "arts culture & sports",
-   "theme_raw": "theater production"
+   "theme_raw": "theater production running"
   },
   {
    "id": "a05d36ce2cd17f12",
@@ -3784,20 +3067,11 @@
    "outlet_type": "public",
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
-    "CPS",
-    "Congress",
-    "Education",
-    "Public Schools",
-    "Republican",
-    "Supt. Macquline King",
-    "Thursday&lt",
-    "U.S",
-    "U.S. House",
-    "U.S. House Committee",
-    "Workforce"
+    "U.S. House Committee on Education and the Workforce",
+    "Chicago Public Schools"
    ],
    "theme": "education & schools",
-   "theme_raw": "transgender student policies"
+   "theme_raw": "transgender policy review"
   },
   {
    "id": "b25bc7d61c49ff54",
@@ -3809,15 +3083,12 @@
    "outlet_type": "altweekly",
    "feed_url": "https://chicagoreader.com/feed/",
    "entities": [
-    "Apollo Theater The",
-    "Grease Parody",
-    "Grease Parody Vape",
-    "Grease Parody&lt",
-    "Puff",
-    "Vape"
+    "Vape! The Grease Parody",
+    "Apollo Theater",
+    "Chicago Reader"
    ],
    "theme": "arts culture & sports",
-   "theme_raw": "theater production"
+   "theme_raw": "parody theater production"
   },
   {
    "id": "d18ac61f13a6aace",
@@ -3829,13 +3100,13 @@
    "outlet_type": "altweekly",
    "feed_url": "https://chicagoreader.com/feed/",
    "entities": [
-    "Glencoe The",
     "Sisters",
-    "Sisters&lt",
-    "Writers Theatre"
+    "Writers Theatre",
+    "Glencoe",
+    "Chicago Reader"
    ],
    "theme": "arts culture & sports",
-   "theme_raw": "theater production"
+   "theme_raw": "theater production review"
   },
   {
    "id": "e52985ac0b6f1011",
@@ -3854,7 +3125,7 @@
     "Whether"
    ],
    "theme": "courts & justice",
-   "theme_raw": "phone chat services"
+   "theme_raw": "phone chat service"
   },
   {
    "id": "fec0a187200c72b0",
@@ -3866,10 +3137,10 @@
    "outlet_type": "advocacy",
    "feed_url": "https://www.illinoispolicy.org/feed/",
    "entities": [
-    "NIL"
+    "Illinois Policy"
    ],
    "theme": "city & state budget",
-   "theme_raw": "athlete taxation"
+   "theme_raw": "athlete income taxation"
   },
   {
    "id": "16be639521e0ee85",
@@ -3881,18 +3152,12 @@
    "outlet_type": "public",
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
-    "Ann Simons.&lt",
-    "ICE",
-    "Johnson",
-    "Lake View",
-    "Loop",
-    "Mayor Brandon Johnson",
-    "Protecting Renters Ordinance",
-    "Sarah",
-    "Sasha"
+    "Brandon Johnson",
+    "WBEZ",
+    "Sasha-Ann Simons"
    ],
    "theme": "elections & politics",
-   "theme_raw": "mayor policy discussion"
+   "theme_raw": "mayoral public radio"
   },
   {
    "id": "211cdf845e93ad82",
@@ -3904,12 +3169,7 @@
    "outlet_type": "public",
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
-    "Flock",
-    "Flock Safety",
-    "Flock's",
-    "Law",
-    "License",
-    "Meanwhile"
+    "Flock Safety"
    ],
    "theme": "immigration & migrants",
    "theme_raw": "surveillance technology"
@@ -3926,8 +3186,6 @@
    "entities": [
     "All Seasons Orchard",
     "Dolly Parton",
-    "Parton",
-    "Tuesday&lt",
     "Woodstock"
    ],
    "theme": "arts culture & sports",
@@ -3943,12 +3201,10 @@
    "outlet_type": "altweekly",
    "feed_url": "https://chicagoreader.com/feed/",
    "entities": [
-    "Books",
-    "Corrections",
-    "Department"
+    "Illinois"
    ],
    "theme": "other",
-   "theme_raw": "prison mail restrictions"
+   "theme_raw": "prison mail policy"
   },
   {
    "id": "2eb2db68bc635329",
@@ -3960,17 +3216,12 @@
    "outlet_type": "public",
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
-    "Chicago.&lt",
-    "Copp",
-    "Flock",
+    "William Copp",
     "Flock Safety",
-    "McHenry County",
-    "Prairie Grove",
-    "Prosecutors",
-    "William Copp"
+    "Prairie Grove"
    ],
    "theme": "courts & justice",
-   "theme_raw": "license plate surveillance"
+   "theme_raw": "surveillance controversy"
   },
   {
    "id": "303dd4cd47455be6",
@@ -3982,11 +3233,8 @@
    "outlet_type": "public",
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
-    "Chalkbeat&lt",
     "Jennifer Custer",
-    "Public Media",
-    "School Board",
-    "Sign"
+    "Chicago Public Schools"
    ],
    "theme": "education & schools",
    "theme_raw": "school board race"
@@ -4002,9 +3250,8 @@
    "feed_url": "https://chicagoreader.com/feed/",
    "entities": [
     "Dos Santos",
-    "Es Amor This",
-    "Es Amor&lt",
-    "Even"
+    "Es Amor",
+    "Chicago Reader"
    ],
    "theme": "arts culture & sports",
    "theme_raw": "music album review"
@@ -4019,9 +3266,7 @@
    "outlet_type": "public",
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
-    "Anthony Bourdain",
-    "Flock",
-    "Tony&lt"
+    "Flock"
    ],
    "theme": "arts culture & sports",
    "theme_raw": "license plate readers"
@@ -4036,13 +3281,13 @@
    "outlet_type": "altweekly",
    "feed_url": "https://chicagoreader.com/feed/",
    "entities": [
-    "Appropriately",
-    "Eventize",
+    "The Moviegoer",
+    "Chicago",
     "Google News",
-    "Moviegoer"
+    "Chicago Reader"
    ],
    "theme": "arts culture & sports",
-   "theme_raw": "film column"
+   "theme_raw": "film criticism column"
   },
   {
    "id": "6f3acf8033f01a78",
@@ -4055,12 +3300,7 @@
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
     "Gary",
-    "NIPSCO",
-    "Northwest Indiana",
-    "Once",
-    "Some",
-    "Utility",
-    "While"
+    "Northwest Indiana"
    ],
    "theme": "environment & energy",
    "theme_raw": "power outage recovery"
@@ -4075,16 +3315,12 @@
    "outlet_type": "public",
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
-    "Black",
-    "Dr. King",
     "Emmett Till",
-    "Let",
-    "Obama",
-    "President Barack Obama",
-    "White House"
+    "Dr. King",
+    "Barack Obama"
    ],
    "theme": "other",
-   "theme_raw": "historical civil rights"
+   "theme_raw": "historical commemoration"
   },
   {
    "id": "86a2ae7b42370373",
@@ -4100,7 +3336,7 @@
     "Phone Sex Numbers"
    ],
    "theme": "courts & justice",
-   "theme_raw": "phone sex services"
+   "theme_raw": "phone sex service"
   },
   {
    "id": "8e4540407f2438e6",
@@ -4112,21 +3348,11 @@
    "outlet_type": "public",
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
-    "Brand New Day",
-    "Christopher Nolan",
-    "Fall",
-    "IMAX",
-    "Man",
-    "Meanwhile",
-    "Obsession",
-    "Odyssey",
     "Richard Roeper",
-    "Spider",
-    "Talk",
-    "Toy Story"
+    "Christopher Nolan"
    ],
    "theme": "arts culture & sports",
-   "theme_raw": "fall movie previews"
+   "theme_raw": "fall movie preview"
   },
   {
    "id": "9ac6deaa45f80461",
@@ -4138,12 +3364,8 @@
    "outlet_type": "public",
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
-    "Chicago's Downtown",
-    "Durbin",
-    "These",
-    "U.S. Rep. Mike Quigley",
-    "U.S. Sen. Dick Durbin",
-    "United States"
+    "Dick Durbin",
+    "Chicago"
    ],
    "theme": "immigration & migrants",
    "theme_raw": "immigration court violations"
@@ -4158,10 +3380,8 @@
    "outlet_type": "nonprofit",
    "feed_url": "https://borderlessmag.org/feed/",
    "entities": [
-    "Borderless Magazine Illinois",
-    "Hearing",
-    "Max Herman",
-    "Mega Master"
+    "Illinois",
+    "Chicago"
    ],
    "theme": "immigration & migrants",
    "theme_raw": "immigration court hearings"
@@ -4176,8 +3396,6 @@
    "outlet_type": "advocacy",
    "feed_url": "https://www.illinoispolicy.org/feed/",
    "entities": [
-    "Faith",
-    "Foundation",
     "Tyrone Murphy"
    ],
    "theme": "labor & economy",
@@ -4193,21 +3411,12 @@
    "outlet_type": "altweekly",
    "feed_url": "https://chicagoreader.com/feed/",
    "entities": [
-    "Community Kitchen Dinners",
-    "Culinary Transmissions",
-    "Culinary Transmissions Bridgeport",
-    "Iran",
-    "Iraq",
-    "Kurdish",
-    "Prosperity",
-    "Recipes",
-    "Survivance. Each",
-    "Syria",
-    "Turkey",
-    "U.S"
+    "Co-Prosperity",
+    "Bridgeport",
+    "Community Kitchen Dinners: Recipes for Survivance"
    ],
    "theme": "arts culture & sports",
-   "theme_raw": "community dinner series"
+   "theme_raw": "artist dinner series"
   },
   {
    "id": "feb07ef3555f05d2",
@@ -4219,11 +3428,12 @@
    "outlet_type": "public",
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
-    "Grist&lt",
-    "National Weather Service. The"
+    "Illinois",
+    "WBEZ",
+    "Grist"
    ],
    "theme": "environment & energy",
-   "theme_raw": "tornado weather patterns"
+   "theme_raw": "tornado frequency"
   },
   {
    "id": "4a527a86a21d5548",
@@ -4235,12 +3445,11 @@
    "outlet_type": "nonprofit",
    "feed_url": "https://thetriibe.com/feed/",
    "entities": [
-    "Halas Hall",
-    "NFL Rivalries",
-    "Though"
+    "Chicago Bears",
+    "Halas Hall"
    ],
    "theme": "arts culture & sports",
-   "theme_raw": "NFL team uniforms"
+   "theme_raw": "NFL uniform redesign"
   },
   {
    "id": "5132943d9b0cb8cb",
@@ -4252,17 +3461,13 @@
    "outlet_type": "altweekly",
    "feed_url": "https://chicagoreader.com/feed/",
    "entities": [
-    "Act Out",
-    "Evanston",
-    "Evanston HystericalFest",
-    "Evanston The",
-    "HystericalFest",
-    "Noyes Cultural Arts Center",
+    "HystericalFest: Women+ Act Out",
     "Piven Theatre Workshop",
-    "Women"
+    "Noyes Cultural Arts Center",
+    "Evanston"
    ],
    "theme": "arts culture & sports",
-   "theme_raw": "theater festival debut"
+   "theme_raw": "festival debut announcement"
   },
   {
    "id": "797c2a2f83c620b9",
@@ -4274,14 +3479,11 @@
    "outlet_type": "altweekly",
    "feed_url": "https://chicagoreader.com/feed/",
    "entities": [
-    "Afro",
-    "Berlin",
     "Jembaa Groove",
-    "Jembaa Groove Sat",
-    "Sleeping Village The"
+    "Sleeping Village"
    ],
    "theme": "arts culture & sports",
-   "theme_raw": "music performance"
+   "theme_raw": "music performance announcement"
   },
   {
    "id": "847f3e39c901eeb3",
@@ -4293,19 +3495,12 @@
    "outlet_type": "public",
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
-    "Arirang",
     "BTS",
-    "BTS Army",
-    "BTS Day&lt",
-    "Chicago. But",
-    "Earlier",
-    "Gov. JB Pritzker",
-    "HANA Center",
-    "Irving Park. And",
-    "It's"
+    "Chicago",
+    "JB Pritzker"
    ],
-   "theme": "arts culture & sports",
-   "theme_raw": "music tour event"
+   "theme": "immigration & migrants",
+   "theme_raw": "k-pop concert tour"
   },
   {
    "id": "b52fcb6bdac045c9",
@@ -4317,8 +3512,8 @@
    "outlet_type": "advocacy",
    "feed_url": "https://www.illinoispolicy.org/feed/",
    "entities": [
-    "Gov. J.B. Pritzker",
-    "Pritzker"
+    "Illinois",
+    "JB Pritzker"
    ],
    "theme": "other",
    "theme_raw": "state population decline"
@@ -4333,15 +3528,11 @@
    "outlet_type": "altweekly",
    "feed_url": "https://chicagoreader.com/feed/",
    "entities": [
-    "Beat Kitchen The",
-    "Fest Fri",
-    "ICE",
-    "ICE Punk Black FOH",
-    "POC",
-    "Punk Black FOH Fest"
+    "Punk Black FOH Fest",
+    "Beat Kitchen"
    ],
    "theme": "arts culture & sports",
-   "theme_raw": "music festival"
+   "theme_raw": "music festival announcement"
   },
   {
    "id": "f83caa62d794ba95",
@@ -4354,18 +3545,10 @@
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
     "Charles Warrington Earle School",
-    "Chicago.&lt",
-    "Earle Residences",
-    "Earle's",
-    "Gorman",
-    "Matt",
-    "Project",
-    "West Englewood's",
-    "West Englewood. The",
-    "Wisconsin"
+    "Chicago"
    ],
-   "theme": "education & schools",
-   "theme_raw": "school building conversion"
+   "theme": "housing & development",
+   "theme_raw": "school conversion housing"
   },
   {
    "id": "19735179542d9227",
@@ -4377,10 +3560,10 @@
    "outlet_type": "advocacy",
    "feed_url": "https://www.illinoispolicy.org/feed/",
    "entities": [
-    "Pritzker"
+    "JB Pritzker"
    ],
    "theme": "elections & politics",
-   "theme_raw": "toll rate increase"
+   "theme_raw": "toll increase approval"
   },
   {
    "id": "78c8313feae40c7c",
@@ -4392,8 +3575,7 @@
    "outlet_type": "nonprofit",
    "feed_url": "https://www.injusticewatch.org/feed/",
    "entities": [
-    "Local",
-    "Trump"
+    "Illinois"
    ],
    "theme": "immigration & migrants",
    "theme_raw": "immigration enforcement cooperation"
@@ -4408,19 +3590,11 @@
    "outlet_type": "nonprofit",
    "feed_url": "https://borderlessmag.org/feed/",
    "entities": [
-    "Basics",
-    "Be Elected Board Guiding",
-    "Board",
-    "Chalkbeat After",
-    "Education",
-    "Know",
-    "McDermott",
-    "November. Here",
-    "Public Schools Laura",
-    "Soon"
+    "Chicago Board of Education",
+    "Chicago Public Schools"
    ],
    "theme": "elections & politics",
-   "theme_raw": "school board elections"
+   "theme_raw": "school board election"
   },
   {
    "id": "a93d7a1ba5f220e1",
@@ -4432,10 +3606,10 @@
    "outlet_type": "nonprofit",
    "feed_url": "https://www.injusticewatch.org/feed/",
    "entities": [
-    "ICE"
+    "Illinois"
    ],
    "theme": "immigration & migrants",
-   "theme_raw": "prosecutors immigration data sharing"
+   "theme_raw": "prosecutor immigration data sharing"
   },
   {
    "id": "c94d3cd41d5ddbe4",
@@ -4447,14 +3621,11 @@
    "outlet_type": "altweekly",
    "feed_url": "https://chicagoreader.com/feed/",
    "entities": [
-    "Harley Go",
-    "Lightly",
-    "Newport Theater The",
-    "Vessel Vessel",
-    "Vessel&lt"
+    "Harley Go'Lightly",
+    "Newport Theater"
    ],
    "theme": "arts culture & sports",
-   "theme_raw": "theater performance"
+   "theme_raw": "performance announcement"
   },
   {
    "id": "e0020d34003c2818",
@@ -4466,13 +3637,10 @@
    "outlet_type": "altweekly",
    "feed_url": "https://chicagoreader.com/feed/",
    "entities": [
-    "Controlled Burn",
-    "Marvin Tate",
-    "Tate",
-    "West"
+    "Marvin Tate"
    ],
    "theme": "arts culture & sports",
-   "theme_raw": "solo album release"
+   "theme_raw": "album release coverage"
   },
   {
    "id": "0c96b009962e0bd6",
@@ -4484,10 +3652,10 @@
    "outlet_type": "advocacy",
    "feed_url": "https://www.illinoispolicy.org/feed/",
    "entities": [
-    "CPS"
+    "Chicago Public Schools"
    ],
    "theme": "education & schools",
-   "theme_raw": "school facility utilization"
+   "theme_raw": "school building utilization"
   },
   {
    "id": "0eeee4f340bafff8",
@@ -4499,13 +3667,11 @@
    "outlet_type": "nonprofit",
    "feed_url": "https://thetriibe.com/feed/",
    "entities": [
-    "Cougars",
-    "Division",
-    "Roosevelt University",
-    "State"
+    "Chicago State",
+    "Roosevelt University"
    ],
    "theme": "education & schools",
-   "theme_raw": "college football launch"
+   "theme_raw": "Division I football debut"
   },
   {
    "id": "499d6bf7634ecf28",
@@ -4517,12 +3683,11 @@
    "outlet_type": "altweekly",
    "feed_url": "https://chicagoreader.com/feed/",
    "entities": [
-    "Constellation The",
-    "L'Rain Fri",
-    "Rain"
+    "L'Rain",
+    "Constellation"
    ],
-   "theme": "arts culture & sports",
-   "theme_raw": "music performance"
+   "theme": "other",
+   "theme_raw": "performance announcement"
   },
   {
    "id": "5a92ccdf09de7837",
@@ -4535,12 +3700,10 @@
    "feed_url": "https://chicagoreader.com/feed/",
    "entities": [
     "Cabaret Voltaire",
-    "Cabaret Voltaire Tue",
-    "Metro The",
-    "Pioneering UK"
+    "Metro"
    ],
    "theme": "other",
-   "theme_raw": "farewell performance"
+   "theme_raw": "farewell performance announcement"
   },
   {
    "id": "bc85bebc920e8dbe",
@@ -4552,15 +3715,11 @@
    "outlet_type": "altweekly",
    "feed_url": "https://chicagoreader.com/feed/",
    "entities": [
-    "Carla",
-    "Confession Carla",
-    "Confession&lt",
-    "Empty Bottle The",
-    "Forno",
-    "Forno Tue"
+    "Carla dal Forno",
+    "Empty Bottle"
    ],
    "theme": "other",
-   "theme_raw": "album release"
+   "theme_raw": "album performance announcement"
   },
   {
    "id": "d4562b3d1fbfe2a9",
@@ -4572,15 +3731,11 @@
    "outlet_type": "altweekly",
    "feed_url": "https://chicagoreader.com/feed/",
    "entities": [
-    "Cycles",
-    "Heavy Chicago",
-    "Infinite Dream",
-    "Infinite Dream Rezn Sat",
     "Rezn",
-    "Thalia Hall The"
+    "Thalia Hall"
    ],
    "theme": "other",
-   "theme_raw": "album release"
+   "theme_raw": "album performance announcement"
   }
  ]
 }

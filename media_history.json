@@ -9,218 +9,218 @@
    "total_items": 181,
    "themes": {
     "public safety & crime": {
-     "volume": 10,
-     "share": 0.0552,
+     "volume": 11,
+     "share": 0.0608,
      "outlet_breadth": 4,
      "top_entities": [
       [
-       "Medical Center",
-       3
-      ],
-      [
-       "Police",
-       3
-      ],
-      [
-       "University",
-       3
-      ],
-      [
-       "City",
+       "Washington Park",
        2
       ],
       [
-       "Woman",
+       "Chicago",
        2
       ],
       [
-       "Lights",
+       "Englewood",
+       2
+      ],
+      [
+       "City of Lights",
+       1
+      ],
+      [
+       "Chicago Reader",
+       1
+      ],
+      [
+       "South Chicago Chapel",
        1
       ]
      ]
     },
     "city & state budget": {
-     "volume": 6,
-     "share": 0.0331,
-     "outlet_breadth": 4,
+     "volume": 7,
+     "share": 0.0387,
+     "outlet_breadth": 5,
      "top_entities": [
       [
-       "DEI",
+       "Chicago",
+       3
+      ],
+      [
+       "Brandon Johnson",
+       2
+      ],
+      [
+       "SEIU Healthcare",
        1
       ],
       [
-       "Trump",
+       "Illinois Policy",
        1
       ],
       [
-       "WASHINGTON",
+       "Trump administration",
        1
       ],
       [
-       "White House's",
-       1
-      ],
-      [
-       "Sales",
-       1
-      ],
-      [
-       "Budget Gap",
+       "Illinois",
        1
       ]
      ]
     },
     "elections & politics": {
-     "volume": 9,
-     "share": 0.0497,
-     "outlet_breadth": 5,
+     "volume": 10,
+     "share": 0.0552,
+     "outlet_breadth": 7,
      "top_entities": [
       [
-       "Pritzker",
+       "JB Pritzker",
        3
       ],
       [
-       "Mayor Brandon Johnson",
+       "Brandon Johnson",
+       3
+      ],
+      [
+       "Chicago",
        2
-      ],
-      [
-       "Black",
-       2
-      ],
-      [
-       "Gov. JB Pritzker",
-       1
-      ],
-      [
-       "Team Fight",
-       1
       ],
       [
        "Darren Bailey",
+       1
+      ],
+      [
+       "Chicago Youth Works",
+       1
+      ],
+      [
+       "Walter Burnett III",
        1
       ]
      ]
     },
     "education & schools": {
-     "volume": 20,
-     "share": 0.1105,
+     "volume": 19,
+     "share": 0.105,
      "outlet_breadth": 4,
      "top_entities": [
       [
-       "Public Schools",
-       5
+       "Chicago Public Schools",
+       6
       ],
       [
-       "CPS",
+       "Chicago",
        4
       ],
       [
        "Kanye West",
-       3
-      ],
-      [
-       "Brooks",
-       3
+       2
       ],
       [
        "Corliss",
-       3
+       2
       ],
       [
-       "AnchorLink",
+       "Roseland",
        2
+      ],
+      [
+       "Trump administration",
+       1
       ]
      ]
     },
     "housing & development": {
-     "volume": 6,
-     "share": 0.0331,
+     "volume": 5,
+     "share": 0.0276,
      "outlet_breadth": 5,
      "top_entities": [
       [
-       "Nearly",
-       2
-      ],
-      [
-       "South Shore",
-       2
-      ],
-      [
-       "Mayor Brandon Johnson",
-       2
-      ],
-      [
-       "Microelectronics Park. Construction",
-       1
-      ],
-      [
-       "Quantum",
-       1
-      ],
-      [
        "Quantum Crossroads",
+       1
+      ],
+      [
+       "South Chicago",
+       1
+      ],
+      [
+       "Chicago Reader",
+       1
+      ],
+      [
+       "Deluxe Tattoo",
+       1
+      ],
+      [
+       "Hayley Williams",
+       1
+      ],
+      [
+       "The Ally Coalition",
        1
       ]
      ]
     },
     "transit & infrastructure": {
-     "volume": 8,
-     "share": 0.0442,
+     "volume": 5,
+     "share": 0.0276,
      "outlet_breadth": 3,
      "top_entities": [
       [
-       "Keeping",
-       2
-      ],
-      [
-       "Another Chicago",
+       "Oskar Eustis",
        1
       ],
       [
-       "Calumet River",
+       "Public Theater",
        1
       ],
       [
-       "ChicagoOEMC",
+       "New York",
        1
       ],
       [
-       "Communications",
+       "ComEd",
        1
       ],
       [
-       "Commuters",
+       "USA Dodgeball",
+       1
+      ],
+      [
+       "Bedford Park",
        1
       ]
      ]
     },
     "immigration & migrants": {
-     "volume": 6,
-     "share": 0.0331,
+     "volume": 5,
+     "share": 0.0276,
      "outlet_breadth": 4,
      "top_entities": [
       [
-       "AnchorLink",
+       "Chicago",
+       2
+      ],
+      [
+       "Illinois",
        1
       ],
       [
-       "Did Trump",
+       "Jamie Arntzen",
        1
       ],
       [
-       "Enhancement",
+       "Illinois Audubon Society",
        1
       ],
       [
-       "Figure",
+       "West Ridge",
        1
       ],
       [
-       "AWS",
-       1
-      ],
-      [
-       "Audubon Society",
+       "Bharat Sharma",
        1
       ]
      ]
@@ -235,19 +235,15 @@
        1
       ],
       [
-       "Data",
-       1
-      ],
-      [
-       "These",
-       1
-      ],
-      [
-       "Waterways",
+       "Chicago",
        1
       ],
       [
        "Amtrak",
+       1
+      ],
+      [
+       "Chinatown",
        1
       ],
       [
@@ -257,16 +253,16 @@
      ]
     },
     "health & public health": {
-     "volume": 6,
-     "share": 0.0331,
+     "volume": 5,
+     "share": 0.0276,
      "outlet_breadth": 3,
      "top_entities": [
       [
-       "Avec",
+       "Paul Kahan",
        1
       ],
       [
-       "Banchet",
+       "Manny's Cafeteria & Delicatessen",
        1
       ],
       [
@@ -274,65 +270,65 @@
        1
       ],
       [
-       "Big Star",
+       "Illinois",
        1
       ],
       [
-       "Cafeteria",
+       "Rome Odunze",
        1
       ],
       [
-       "Chef Paul Kahan",
+       "Chicago Bears",
        1
       ]
      ]
     },
     "labor & economy": {
-     "volume": 8,
-     "share": 0.0442,
-     "outlet_breadth": 5,
+     "volume": 4,
+     "share": 0.0221,
+     "outlet_breadth": 3,
      "top_entities": [
       [
        "Labor Day",
-       3
+       2
       ],
       [
-       "Temperatures",
+       "Chicago",
        1
       ],
       [
-       "SEIU Healthcare",
+       "Felicia Uriosty",
        1
       ],
       [
-       "While",
+       "Mr. Twist",
        1
       ],
       [
-       "Avneel Williams",
+       "Granite City",
        1
       ],
       [
-       "Bistro",
+       "Route 66",
        1
       ]
      ]
     },
     "courts & justice": {
-     "volume": 9,
-     "share": 0.0497,
-     "outlet_breadth": 4,
+     "volume": 13,
+     "share": 0.0718,
+     "outlet_breadth": 5,
      "top_entities": [
       [
-       "Gregory Bovino",
+       "Chicago",
        2
       ],
       [
-       "City",
-       1
+       "Illinois",
+       2
       ],
       [
-       "Cook County Circuit Court",
+       "City of Chicago",
        1
       ],
       [
@@ -340,73 +336,73 @@
        1
       ],
       [
-       "South Chicago Chapel&lt",
+       "Smoke's Bistro",
        1
       ],
       [
-       "Judge",
+       "Shawnee National Forest",
        1
       ]
      ]
     },
     "arts culture & sports": {
-     "volume": 52,
-     "share": 0.2873,
+     "volume": 51,
+     "share": 0.2818,
      "outlet_breadth": 7,
      "top_entities": [
       [
-       "Bears",
-       7
+       "Chicago",
+       10
       ],
       [
-       "Bears&lt",
-       4
+       "Chicago Reader",
+       6
       ],
       [
-       "Cubs",
-       4
+       "Chicago Bears",
+       5
       ],
       [
-       "White Sox",
+       "Chicago White Sox",
        3
       ],
       [
-       "Caleb Williams&lt",
-       3
+       "Kanye West",
+       2
       ],
       [
-       "Review",
-       3
+       "Caleb Williams",
+       2
       ]
      ]
     },
     "other": {
-     "volume": 38,
-     "share": 0.2099,
+     "volume": 43,
+     "share": 0.2376,
      "outlet_breadth": 7,
      "top_entities": [
       [
-       "Are",
+       "Chicago",
+       11
+      ],
+      [
+       "Chicago Reader",
+       5
+      ],
+      [
+       "Illinois",
+       3
+      ],
+      [
+       "Shedd Aquarium",
+       3
+      ],
+      [
+       "JB Pritzker",
        2
       ],
       [
-       "Pritzker",
-       2
-      ],
-      [
-       "From",
-       2
-      ],
-      [
-       "Full Show",
-       2
-      ],
-      [
-       "Full Show&lt",
-       2
-      ],
-      [
-       "WTTW News&lt",
+       "Illinois Policy",
        2
       ]
      ]
@@ -414,102 +410,102 @@
    },
    "entities_top": [
     [
-     "Mayor Brandon Johnson",
+     "Chicago",
+     40
+    ],
+    [
+     "Chicago Reader",
+     13
+    ],
+    [
+     "Illinois",
+     11
+    ],
+    [
+     "Brandon Johnson",
      7
     ],
     [
-     "Bears",
-     7
-    ],
-    [
-     "Cubs",
+     "Chicago Public Schools",
      6
     ],
     [
-     "CPS",
+     "Chicago Bears",
+     6
+    ],
+    [
+     "JB Pritzker",
      5
     ],
     [
-     "Public Schools",
+     "Illinois Policy",
      5
-    ],
-    [
-     "Black",
-     5
-    ],
-    [
-     "Pritzker",
-     5
-    ],
-    [
-     "Trump",
-     4
-    ],
-    [
-     "South Side",
-     4
-    ],
-    [
-     "City",
-     4
-    ],
-    [
-     "Labor Day",
-     4
-    ],
-    [
-     "AnchorLink",
-     4
-    ],
-    [
-     "Enhancement",
-     4
     ],
     [
      "Kanye West",
      4
     ],
     [
-     "Growing",
-     4
-    ],
-    [
-     "From",
-     4
-    ],
-    [
-     "Bears&lt",
-     4
-    ],
-    [
-     "NFL",
-     4
-    ],
-    [
-     "Review",
-     4
-    ],
-    [
      "South Chicago Chapel",
      3
+    ],
+    [
+     "Chicago White Sox",
+     3
+    ],
+    [
+     "Shedd Aquarium",
+     3
+    ],
+    [
+     "Trump administration",
+     2
+    ],
+    [
+     "Washington Park",
+     2
+    ],
+    [
+     "DuSable Lake Shore Drive",
+     2
+    ],
+    [
+     "Donald Trump",
+     2
+    ],
+    [
+     "Rome Odunze",
+     2
+    ],
+    [
+     "Full Show",
+     2
+    ],
+    [
+     "Full Show&lt",
+     2
+    ],
+    [
+     "WTTW News&lt",
+     2
     ]
    ],
    "regions": {
     "chicago": {
      "total": 156,
      "theme_share": {
-      "education & schools": 0.1218,
-      "arts culture & sports": 0.2949,
-      "other": 0.1987,
-      "courts & justice": 0.0513,
-      "public safety & crime": 0.0641,
-      "housing & development": 0.0385,
-      "labor & economy": 0.0385,
-      "health & public health": 0.0321,
-      "transit & infrastructure": 0.0513,
-      "elections & politics": 0.0256,
+      "education & schools": 0.1154,
+      "arts culture & sports": 0.2821,
+      "other": 0.2372,
+      "courts & justice": 0.0769,
+      "public safety & crime": 0.0705,
+      "housing & development": 0.0321,
+      "labor & economy": 0.0192,
+      "health & public health": 0.0256,
+      "immigration & migrants": 0.0256,
+      "elections & politics": 0.0321,
       "environment & energy": 0.0192,
-      "immigration & migrants": 0.0321,
+      "transit & infrastructure": 0.0321,
       "city & state budget": 0.0321
      }
     },
@@ -517,12 +513,12 @@
      "total": 15,
      "theme_share": {
       "elections & politics": 0.2,
-      "other": 0.4667,
-      "labor & economy": 0.0667,
+      "arts culture & sports": 0.0667,
+      "city & state budget": 0.1333,
+      "other": 0.4,
       "health & public health": 0.0667,
       "education & schools": 0.0667,
-      "courts & justice": 0.0667,
-      "city & state budget": 0.0667
+      "courts & justice": 0.0667
      }
     },
     "downstate": {
@@ -540,18 +536,19 @@
      "total": 38,
      "region": "chicago",
      "theme_share": {
-      "education & schools": 0.2105,
-      "arts culture & sports": 0.1842,
-      "other": 0.1053,
+      "education & schools": 0.1842,
+      "arts culture & sports": 0.2632,
+      "other": 0.1579,
       "courts & justice": 0.0263,
       "labor & economy": 0.0263,
       "public safety & crime": 0.1053,
-      "health & public health": 0.0526,
-      "transit & infrastructure": 0.1053,
+      "health & public health": 0.0263,
       "environment & energy": 0.0263,
-      "immigration & migrants": 0.0526,
+      "transit & infrastructure": 0.0263,
+      "immigration & migrants": 0.0263,
       "city & state budget": 0.0789,
-      "housing & development": 0.0263
+      "housing & development": 0.0263,
+      "elections & politics": 0.0263
      }
     },
     "Capitol News Illinois": {
@@ -570,11 +567,11 @@
      "total": 37,
      "region": "chicago",
      "theme_share": {
-      "other": 0.2703,
+      "other": 0.3514,
       "public safety & crime": 0.027,
       "housing & development": 0.027,
-      "arts culture & sports": 0.5676,
-      "labor & economy": 0.0541,
+      "arts culture & sports": 0.5135,
+      "courts & justice": 0.027,
       "transit & infrastructure": 0.027,
       "environment & energy": 0.027
      }
@@ -583,8 +580,9 @@
      "total": 5,
      "region": "statewide",
      "theme_share": {
-      "other": 0.6,
-      "labor & economy": 0.2,
+      "arts culture & sports": 0.2,
+      "city & state budget": 0.2,
+      "other": 0.4,
       "elections & politics": 0.2
      }
     },
@@ -592,8 +590,7 @@
      "total": 2,
      "region": "chicago",
      "theme_share": {
-      "arts culture & sports": 0.5,
-      "immigration & migrants": 0.5
+      "immigration & migrants": 1.0
      }
     },
     "The TRiiBE": {
@@ -607,17 +604,17 @@
      "total": 56,
      "region": "chicago",
      "theme_share": {
-      "arts culture & sports": 0.25,
-      "education & schools": 0.1786,
+      "health & public health": 0.0536,
+      "arts culture & sports": 0.2143,
+      "other": 0.1429,
       "transit & infrastructure": 0.0536,
       "city & state budget": 0.0179,
-      "labor & economy": 0.0536,
-      "health & public health": 0.0536,
-      "courts & justice": 0.1071,
-      "other": 0.125,
-      "immigration & migrants": 0.0357,
-      "elections & politics": 0.0357,
-      "public safety & crime": 0.0714,
+      "labor & economy": 0.0357,
+      "public safety & crime": 0.0893,
+      "courts & justice": 0.1607,
+      "education & schools": 0.1786,
+      "immigration & migrants": 0.0179,
+      "elections & politics": 0.0179,
       "housing & development": 0.0179
      }
     },
@@ -626,10 +623,11 @@
      "region": "chicago",
      "theme_share": {
       "other": 0.4545,
-      "housing & development": 0.1818,
+      "housing & development": 0.0909,
       "environment & energy": 0.0909,
       "public safety & crime": 0.0909,
-      "arts culture & sports": 0.1818
+      "arts culture & sports": 0.1818,
+      "elections & politics": 0.0909
      }
     },
     "WTTW News": {
@@ -659,7 +657,7 @@
     {
      "title": "Here's how extreme heat affects Chicago's moveable bridges",
      "link": "https://www.wbez.org/transportation/2026/09/04/why-chicago-bridges-get-stuck-heat",
-     "theme": "transit & infrastructure",
+     "theme": "elections & politics",
      "outlet_count": 2,
      "outlets": [
       "Chicago Sun-Times",
@@ -709,7 +707,7 @@
     {
      "title": "I\u2019m a Chicago rabbi, and I choose to forgive Kanye",
      "link": "https://www.wbez.org/music/2026/09/03/kanye-ye-essay-rabbi-tamar-manasseh",
-     "theme": "health & public health",
+     "theme": "arts culture & sports",
      "outlet_count": 2,
      "outlets": [
       "Chicago Sun-Times",
