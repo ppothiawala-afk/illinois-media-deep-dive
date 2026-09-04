@@ -188,6 +188,9 @@ def main():
     if args.outlets:
         want = {o.strip() for o in args.outlets.split(",")}
         feeds = [f for f in feeds if f["outlet"] in want]
+    else:
+        # skip feeds a human flagged dead/empty; candidates + active still fetched
+        feeds = [f for f in feeds if f.get("status") not in ("flagged", "dead")]
 
     fixtures_dir = Path(args.fixtures) if args.fixtures else None
     fixture_map = load_fixture_map(fixtures_dir) if fixtures_dir else {}

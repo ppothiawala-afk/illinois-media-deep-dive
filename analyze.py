@@ -50,10 +50,22 @@ OTHER_THEME = "other"
 
 STOPWORD_CAPS = {"The", "A", "An", "This", "That", "It", "He", "She", "They",
                  "In", "On", "At", "For", "And", "But", "Or", "Of", "To", "As",
+                 "We", "You", "I", "Our", "Their", "His", "Her", "Its",
                  "Monday", "Tuesday", "Wednesday", "Thursday", "Friday",
-                 "Saturday", "Sunday", "January", "February", "March", "April",
-                 "May", "June", "July", "August", "September", "October",
-                 "November", "December", "Illinois", "Chicago"}
+                 "Saturday", "Sunday", "Mon", "Tue", "Tues", "Wed", "Thu",
+                 "Thurs", "Fri", "Sat", "Sun",
+                 "January", "February", "March", "April", "May", "June", "July",
+                 "August", "September", "October", "November", "December",
+                 "Jan", "Feb", "Mar", "Apr", "Jun", "Jul", "Aug", "Sep", "Sept",
+                 "Oct", "Nov", "Dec", "Good", "Rundown",
+                 # RSS boilerplate / UI / sentence-openers that leak in as "entities"
+                 "What", "When", "Where", "Why", "How", "Who", "Which", "Whose",
+                 "Here", "There", "Now", "Then", "After", "Before", "During",
+                 "Over", "Under", "About", "With", "Without", "Read", "More",
+                 "Link", "Watch", "Listen", "Photo", "Photos", "Video", "Story",
+                 "News", "Update", "Live", "Also", "Op", "Ed", "Post", "Continue",
+                 "New", "Best", "Top", "First", "Last", "One", "Two", "Three",
+                 "Illinois", "Chicago"}
 
 
 def load_taxonomy():
@@ -93,17 +105,48 @@ def normalize_label(label, alias_index):
     return None
 
 
-def extract_entities(text):
+def extract_entities(text, exclude=frozenset()):
+    """Emergent proper-noun mentions. Filters sentence-opening function words,
+    RSS/UI boilerplate, and outlet names (which otherwise dominate their own
+    feeds). `exclude` is a set of lowercased outlet names + significant tokens."""
     ents = set()
     for m in re.finditer(r"\b([A-Z][a-zA-Z.&']+(?:\s+[A-Z][a-zA-Z.&']+){0,3})\b", text):
         phrase = m.group(1).strip(".")
-        first = phrase.split()[0]
-        if first in STOPWORD_CAPS and " " not in phrase:
+        words = phrase.split()
+        # strip a leading sentence-opener ("What Chicago ..." -> "Chicago ...")
+        while words and words[0] in STOPWORD_CAPS:
+            words = words[1:]
+        if not words:
             continue
+        phrase = " ".join(words)
+        low = phrase.lower()
         if len(phrase) < 3:
+            continue
+        if low in exclude:                      # exact outlet name
+            continue
+        if any(tok in exclude for tok in low.split()) and len(words) == 1:
+            continue                            # single-word outlet token
+        if len(words) == 1 and words[0] in STOPWORD_CAPS:
             continue
         ents.add(phrase)
     return sorted(ents)[:12]
+
+
+def build_exclude(data_dir):
+    """Outlet names + their distinctive tokens, so a feed's own brand doesn't
+    top its entity list."""
+    import archive_store as _s  # noqa
+    ex = set()
+    cfg = HERE / "feeds_config.json"
+    if cfg.exists():
+        for f in json.loads(cfg.read_text()).get("feeds", []):
+            name = f.get("outlet", "").lower()
+            if name:
+                ex.add(name)
+                for tok in re.split(r"[^a-z0-9]+", name):
+                    if len(tok) > 3 and tok not in ("news", "chicago", "illinois", "daily", "project"):
+                        ex.add(tok)
+    return ex
 
 
 def theme_batch_api(client, model, batch):
@@ -160,6 +203,7 @@ def main():
     proposals = Counter()          # unmapped raw label -> count
     proposal_examples = {}
     api_calls = api_items = 0
+    exclude = build_exclude(data_dir)  # outlet names/tokens to keep out of entities
 
     if not todo:
         pass
@@ -167,7 +211,7 @@ def main():
         for it in todo:
             text = f"{it.get('title','')} {it.get('summary','')}"
             theme, _ = theme_from_text(text, alias_index)
-            out_items.append(build_entry(it, extract_entities(text), theme, theme))
+            out_items.append(build_entry(it, extract_entities(text, exclude), theme, theme))
     else:
         try:
             import anthropic
@@ -196,11 +240,11 @@ def main():
                     if raw and canon_theme == OTHER_THEME:
                         proposals[raw.lower()] += 1
                         proposal_examples.setdefault(raw.lower(), it["title"])
-                out_items.append(build_entry(it, extract_entities(text), canon_theme, raw or canon_theme))
+                out_items.append(build_entry(it, extract_entities(text, exclude), canon_theme, raw or canon_theme))
         for it in overflow:  # beyond cap: offline-theme, never drop
             text = f"{it.get('title','')} {it.get('summary','')}"
             theme, _ = theme_from_text(text, alias_index)
-            out_items.append(build_entry(it, extract_entities(text), theme, theme))
+            out_items.append(build_entry(it, extract_entities(text, exclude), theme, theme))
 
     out_items.sort(key=lambda x: (x.get("published", ""), x["id"]))
     synthetic_n = sum(1 for x in out_items if x.get("synthetic"))
