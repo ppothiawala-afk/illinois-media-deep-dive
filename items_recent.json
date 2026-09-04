@@ -1,0 +1,4586 @@
+{
+ "_comment": "Bounded (last 14d) analyzed items for the dashboard. Full analyzed corpus is git-ignored and regenerable (storage rule).",
+ "generated": "2026-09-04",
+ "count": 231,
+ "items": [
+  {
+   "id": "02734f83875e6004",
+   "title": "10 storefront theater shows to see in Chicago this fall",
+   "link": "https://www.wbez.org/things-to-do/2026/09/04/theater-to-see-chicago-fall-storefront-tickets-new-plays-musicals",
+   "published": "2026-09-04",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "Big Bang Theory",
+    "Emmy",
+    "Fall",
+    "Gregg Ostrin",
+    "Johnny Galecki",
+    "Kowalski",
+    "Lookingglass",
+    "Roseanne"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "theater performance listings"
+  },
+  {
+   "id": "0f9622c6bdfb1852",
+   "title": "Chicago Packer: Jayden Reed wears West Side childhood on his arm",
+   "link": "https://chicago.suntimes.com/bears/2026/09/04/chicago-bears-green-bay-packers-jayden-reed-west-side-soldier-field-christian-watson-matthew-golden",
+   "published": "2026-09-04",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Bears",
+    "Devin Hester. He",
+    "Everybody",
+    "Family",
+    "GREEN BAY",
+    "Green Bay.&lt",
+    "Growing",
+    "Jayden Reed",
+    "NFC Championship Game",
+    "NFL",
+    "Packer",
+    "Packers"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "nfl player background"
+  },
+  {
+   "id": "1046ee289b8e8c51",
+   "title": "This Week In Photos: Party For Vertically Gifted, Mass Shooting Shakes Washington Park And More",
+   "link": "https://blockclubchicago.org/2026/09/04/this-week-in-photos-party-for-vertically-gifted-mass-shooting-shakes-washington-park-and-more/",
+   "published": "2026-09-04",
+   "outlet": "Block Club Chicago",
+   "region": "chicago",
+   "outlet_type": "nonprofit",
+   "feed_url": "https://blockclubchicago.org/feed/",
+   "entities": [
+    "Mass Shooting Shakes Washington",
+    "Park And More PHOTOS",
+    "Party For Vertically Gifted",
+    "Take",
+    "Week In Photos"
+   ],
+   "theme": "public safety & crime",
+   "theme_raw": "chicago photo collection"
+  },
+  {
+   "id": "12c013197611ac34",
+   "title": "Nearly a year after the South Shore raid forced him from his home, one former resident is still homeless",
+   "link": "https://www.wbez.org/bearing-the-blitz/2026/09/04/nearly-a-year-after-the-south-shore-raid-forced-him-from-his-home-one-former-resident-is-still-homeless",
+   "published": "2026-09-04",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "Chevy Trailblazer. This SUV",
+    "Darren Hightower",
+    "Hightower",
+    "Nearly",
+    "S. South Shore Dr",
+    "South Shore",
+    "South Side"
+   ],
+   "theme": "housing & development",
+   "theme_raw": "homelessness housing crisis"
+  },
+  {
+   "id": "1462eb73e7cb58cc",
+   "title": "No relief from the heat as September kicks off. Is this normal?",
+   "link": "https://chicago.suntimes.com/weather/2026/09/01/september-october-chicago-heat-wave-is-this-normal",
+   "published": "2026-09-04",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Chicago's Office",
+    "Communications",
+    "Emergency Management",
+    "Friday.&lt",
+    "Peak"
+   ],
+   "theme": "other",
+   "theme_raw": "september heat wave"
+  },
+  {
+   "id": "15343af2c2779287",
+   "title": "From the block to the big screen",
+   "link": "https://chicagoreader.com/film-tv/movie-feature/block-party-local-rom-com-bowmanville-a-red-orchid-theatre-studio/",
+   "published": "2026-09-04",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [
+    "Big Shoulders",
+    "Bowmanville",
+    "City",
+    "From",
+    "Steppenwolf"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "chicago theater film"
+  },
+  {
+   "id": "212103de42510b13",
+   "title": "Logan Square Listening Club Highlights The Musical \u2018DNA\u2019 Of The Neighborhood",
+   "link": "https://blockclubchicago.org/2026/09/04/logan-square-listening-club-highlights-the-musical-dna-of-the-neighborhood/",
+   "published": "2026-09-04",
+   "outlet": "Block Club Chicago",
+   "region": "chicago",
+   "outlet_type": "nonprofit",
+   "feed_url": "https://blockclubchicago.org/feed/",
+   "entities": [
+    "DNA",
+    "Highlights The Musical",
+    "Logan Square Listening Club",
+    "Neighborhood Club"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "neighborhood listening club"
+  },
+  {
+   "id": "218a2a4a0b985105",
+   "title": "Enes Kanter Freedom sues the Sky after being ejected from game",
+   "link": "https://chicago.suntimes.com/chicago-sky/2026/09/03/enes-kanter-freedom-sues-the-sky-after-being-ejected-from-game",
+   "published": "2026-09-04",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Enes Kanter Freedom",
+    "Former NBA",
+    "Indiana Fever&lt",
+    "Kanter Freedom",
+    "Sky",
+    "Wintrust Arena&lt"
+   ],
+   "theme": "courts & justice",
+   "theme_raw": "former nba player lawsuit"
+  },
+  {
+   "id": "35b6c439b924bae1",
+   "title": "Horoscope for Friday, September 04, 2026",
+   "link": "https://chicago.suntimes.com/horoscopes/2026/09/04/horoscopes-today-friday-september-04-2026",
+   "published": "2026-09-04",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "AnchorLink",
+    "Aries",
+    "Enhancement",
+    "Gemini.&lt",
+    "Horoscope",
+    "HoroscopeStar",
+    "HoroscopeStarbox",
+    "HtmlModule",
+    "Moon Alert&lt"
+   ],
+   "theme": "other",
+   "theme_raw": "astrology forecast"
+  },
+  {
+   "id": "375234913b10c5d9",
+   "title": "Returning home: Finding purpose in Springfield",
+   "link": "https://www.illinoistimes.com/arts-culture/advicegoddess/returning-home-finding-purpose-in-springfield/",
+   "published": "2026-09-04",
+   "outlet": "Illinois Times",
+   "region": "downstate",
+   "outlet_type": "altweekly",
+   "feed_url": "https://illinoistimes.com/feed/",
+   "entities": [
+    "Azaliah Isaiah",
+    "Davenport. What",
+    "Finding",
+    "Growing",
+    "Returning",
+    "Springfield",
+    "Springfield Springfield"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "community return story"
+  },
+  {
+   "id": "3dbceb8561cf2638",
+   "title": "Pete Crow-Armstrong fuels Cubs\u2019 win in front of fellow sports stars: \u2018Chicago\u2019s got a lot to look forward to\u2019",
+   "link": "https://chicago.suntimes.com/cubs/2026/09/03/pete-crow-armstrong-nl-player-of-the-month-august-alex-bregman-stats-kevin-gausman-brewers",
+   "published": "2026-09-04",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Armstrong",
+    "Armstrong&lt",
+    "Bears",
+    "Brewers.&lt",
+    "Bulls",
+    "Caleb Williams&lt",
+    "Crow",
+    "Cubs",
+    "Every",
+    "Pete Crow",
+    "Wrigley Field"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "cubs player game performance"
+  },
+  {
+   "id": "4c965466f122f240",
+   "title": "Bears can stay. Suits can take a hike.",
+   "link": "https://chicago.suntimes.com/letters-to-the-editor/2026/09/04/bears-stadium-roger-goodell-indiana-obama-tan-suit-lake-superior-america-trump",
+   "published": "2026-09-04",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "All",
+    "Bears",
+    "Europe.&lt",
+    "George McCaskey",
+    "Indiana.&lt",
+    "Lost Marsh Golf Course",
+    "NFL Commissioner Roger Goodell",
+    "Saudi",
+    "Suits",
+    "Wolf Lake"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "bears stadium relocation"
+  },
+  {
+   "id": "4ec606609e04625d",
+   "title": "37-year-old man fatally shot in South Shore area",
+   "link": "https://chicago.suntimes.com/crime/2026/09/03/37-year-old-man-fatally-shot-in-south-shore-area",
+   "published": "2026-09-04",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Medical Center",
+    "Police",
+    "South Shore",
+    "South Shore Thursday",
+    "South Stony Island Avenue",
+    "University"
+   ],
+   "theme": "public safety & crime",
+   "theme_raw": "fatal shooting south shore"
+  },
+  {
+   "id": "561b298ba0a60e4c",
+   "title": "Proposed Ford City Mall Redevelopment Sparks Concerns From Some Neighbors",
+   "link": "https://news.wttw.com/2026/09/03/proposed-ford-city-mall-redevelopment-sparks-concerns-some-neighbors",
+   "published": "2026-09-04",
+   "outlet": "WTTW News",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://news.wttw.com/feed",
+   "entities": [
+    "Proposed Ford City Mall",
+    "Redevelopment Sparks Concerns From",
+    "Shelby Hawkins&lt",
+    "Some Neighbors",
+    "Some Neighbors&lt"
+   ],
+   "theme": "housing & development",
+   "theme_raw": "mall redevelopment proposal"
+  },
+  {
+   "id": "5910005556117acb",
+   "title": "Hegseth needs to go if the GOP expects midterm success",
+   "link": "https://chicago.suntimes.com/columnists/2026/09/04/pete-hegseth-iran-wars-military-dei-woke-trump-s-e-cupp",
+   "published": "2026-09-04",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "CNN",
+    "European",
+    "GOP",
+    "Hegseth",
+    "Muscles",
+    "U.S",
+    "U.S. Defense Secretary Pete"
+   ],
+   "theme": "other",
+   "theme_raw": "defense secretary criticism"
+  },
+  {
+   "id": "68ea268d46eec946",
+   "title": "Pritzker record: Governor signs nearly 400 bills, vetoes just one",
+   "link": "https://www.illinoispolicy.org/pritzker-record-governor-signs-nearly-400-bills-vetoes-just-one/",
+   "published": "2026-09-04",
+   "outlet": "Illinois Policy Institute",
+   "region": "statewide",
+   "outlet_type": "advocacy",
+   "feed_url": "https://www.illinoispolicy.org/feed/",
+   "entities": [
+    "Governor",
+    "Illinoisans. The",
+    "Pritzker"
+   ],
+   "theme": "elections & politics",
+   "theme_raw": "governor legislation"
+  },
+  {
+   "id": "6b2a0042bda5b671",
+   "title": "Mayor\u2019s Office Revises Renter Protection Ordinance, Giving Break To Small Landlords",
+   "link": "https://blockclubchicago.org/2026/09/04/mayors-office-revises-renter-protection-ordinance-giving-break-to-small-landlords/",
+   "published": "2026-09-04",
+   "outlet": "Block Club Chicago",
+   "region": "chicago",
+   "outlet_type": "nonprofit",
+   "feed_url": "https://blockclubchicago.org/feed/",
+   "entities": [
+    "Giving Break To Small",
+    "Landlords The",
+    "Mayor",
+    "Mayor Brandon Johnson",
+    "Office Revises Renter Protection",
+    "Ordinance"
+   ],
+   "theme": "housing & development",
+   "theme_raw": "rental housing ordinance"
+  },
+  {
+   "id": "6c73ba9eaa3d9c3d",
+   "title": "Zamrock legends W.I.T.C.H. return to their roots on Sogolo",
+   "link": "https://chicagoreader.com/music/concert-preview/witch-sleeping-village/",
+   "published": "2026-09-04",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [
+    "Sleeping Village The",
+    "Sogolo",
+    "Sogolo W.I.T.C.H. Fri",
+    "W.I.T.C.H",
+    "Zamrock"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "zamrock music performance"
+  },
+  {
+   "id": "6f2e57d9b5b83d45",
+   "title": "Dear Abby: Boyfriend and his mom tell people that they are siblings",
+   "link": "https://chicago.suntimes.com/dear-abby/2026/09/04/dearabby-today-dear-abby-bartender-mom-pretends-shes-younger-and-childless",
+   "published": "2026-09-04",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Back",
+    "Boyfriend",
+    "DEAR ABBY",
+    "Dear Abby",
+    "Evan",
+    "Mitzi"
+   ],
+   "theme": "health & public health",
+   "theme_raw": "family relationship advice"
+  },
+  {
+   "id": "708bd5c109cbf3b3",
+   "title": "Once-secret records show grand jurors sought Bovino testimony, more evidence in doomed Midway Blitz cases",
+   "link": "https://chicago.suntimes.com/bearing-the-blitz/2026/09/04/midway-blitz-bovino-grand-jury-chicago",
+   "published": "2026-09-04",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Bovino",
+    "Bovino&lt",
+    "Cole&lt",
+    "Federal",
+    "Gregory Bovino",
+    "Midway Blitz",
+    "Once",
+    "Operation Midway Blitz&lt",
+    "Prosecutors",
+    "Sheridan&lt",
+    "U.S. Border Patrol Cmdr"
+   ],
+   "theme": "courts & justice",
+   "theme_raw": "midway blitz investigation"
+  },
+  {
+   "id": "77ebd7a4e6110099",
+   "title": "As\u00ed afecta el calor extremo a los puentes m\u00f3viles de Chicago. \u00bfPodr\u00edan los puentes atascados convertirse en algo normal en el futuro?",
+   "link": "https://chicago.suntimes.com/la-voz/2026/09/04/asi-afecta-el-calor-extremo-a-los-puentes-moviles-de-chicago",
+   "published": "2026-09-04",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Bridges",
+    "Cuando"
+   ],
+   "theme": "elections & politics",
+   "theme_raw": "bridge heat expansion"
+  },
+  {
+   "id": "80fd84bb10e295bc",
+   "title": "Bears' rare 'diamond' Colston Loveland has the wedding invite to prove it",
+   "link": "https://chicago.suntimes.com/bears/2026/09/04/bears-colston-loveland-taylor-swift-travis-kelce-wedding-tight-end-rare-diamond-ben-johnson-cole-kmet-nfl-training-camp",
+   "published": "2026-09-04",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Bears",
+    "Bears&lt",
+    "Chiefs",
+    "Colston Loveland",
+    "Loveland",
+    "Madison Square Garden",
+    "NFL",
+    "Taylor Swift",
+    "Tight End",
+    "Travis Kelce"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "nfl player profile"
+  },
+  {
+   "id": "81fbe6573c517eaf",
+   "title": "State audit finds child protection agency made progress, but was still noncompliant with 2020 law",
+   "link": "https://capitolnewsillinois.com/news/state-audit-finds-child-protection-agency-made-progress-but-was-still-noncompliant-with-2020-law/",
+   "published": "2026-09-04",
+   "outlet": "Capitol News Illinois",
+   "region": "statewide",
+   "outlet_type": "nonprofit",
+   "feed_url": "https://capitolnewsillinois.com/feed/",
+   "entities": [
+    "DCFS",
+    "State"
+   ],
+   "theme": "other",
+   "theme_raw": "child protection agency audit"
+  },
+  {
+   "id": "822cc191fc2c3ba4",
+   "title": "Review: Coyote vs. Acme",
+   "link": "https://chicagoreader.com/film-tv/movie-review/review-coyote-vs-acme/",
+   "published": "2026-09-04",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [
+    "Acme",
+    "Acme Coyote",
+    "Acme&lt",
+    "Coyote",
+    "Review"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "film review"
+  },
+  {
+   "id": "8be94183948595f1",
+   "title": "Chicago murals: Roseland cop house mural features the neighborhood that teens want to see",
+   "link": "https://chicago.suntimes.com/murals/2026/09/04/chicago-murals-roseland-cop-house-david-guana",
+   "published": "2026-09-04",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Catholic Church",
+    "Dolores Ruiz",
+    "International Charter School",
+    "Prairie",
+    "Roseland",
+    "Roseland.&lt",
+    "St. Anthony",
+    "Villalvazo"
+   ],
+   "theme": "education & schools",
+   "theme_raw": "neighborhood mural art"
+  },
+  {
+   "id": "9665f78049aecbe7",
+   "title": "Illinois opens season with 42-23 victory against visiting UAB",
+   "link": "https://chicago.suntimes.com/college-sports/2026/09/03/illinois-opens-season-with-42-23-victory-against-visiting-uab",
+   "published": "2026-09-04",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Blazers.&lt",
+    "CHAMPAIGN",
+    "Collin Dixon",
+    "East Carolina",
+    "Houser",
+    "Illini",
+    "Jonah Delange",
+    "Katin Houser",
+    "Lil Valentine",
+    "TD. He",
+    "TDs",
+    "UAB"
+   ],
+   "theme": "other",
+   "theme_raw": "illinois football season opener"
+  },
+  {
+   "id": "9cd81737fa43d3a3",
+   "title": "Tony Romo vs. CBS might be best game this NFL season that no one sees",
+   "link": "https://chicago.suntimes.com/sports-media/2026/09/04/tony-romo-cbs-sports-nfl-david-berson-jim-nantz-jj-watt-ian-eagle-owi-dui-al-michaels-nbc-sports",
+   "published": "2026-09-04",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "CBS",
+    "Eastern Illinois",
+    "NFL",
+    "Romo",
+    "Tony Romo"
+   ],
+   "theme": "health & public health",
+   "theme_raw": "tony romo cbs contract"
+  },
+  {
+   "id": "a9b202e5c7255618",
+   "title": "2 more belugas die at Shedd Aquarium",
+   "link": "https://chicago.suntimes.com/museums-zoos/2026/09/03/shedd-aquarium-beluga",
+   "published": "2026-09-04",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Beethoven",
+    "Canadian",
+    "It's",
+    "Rain",
+    "Shedd",
+    "Shedd Aquarium"
+   ],
+   "theme": "other",
+   "theme_raw": "beluga whale deaths"
+  },
+  {
+   "id": "ac75963cc2e32b8b",
+   "title": "Corliss dominates Brooks, hopes to ride strong junior leadership back to the state playoffs",
+   "link": "https://chicago.suntimes.com/high-school-football/2026/09/03/corliss-football-chicago-brooks",
+   "published": "2026-09-04",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Brooks",
+    "Brookshire",
+    "Class",
+    "Coach Keith Brookshire",
+    "Corliss",
+    "Corliss. Last",
+    "Demitris Loggers",
+    "Gumm",
+    "Jaquan Gumm",
+    "Loggers"
+   ],
+   "theme": "education & schools",
+   "theme_raw": "high school football program"
+  },
+  {
+   "id": "acda6fd677ab5ea7",
+   "title": "Review: The Dog Stars",
+   "link": "https://chicagoreader.com/film-tv/movie-review/review-the-dog-stars/",
+   "published": "2026-09-04",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [
+    "Dog Stars",
+    "Dog Stars The",
+    "Dog Stars&lt",
+    "Review"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "film review"
+  },
+  {
+   "id": "b695a92bf9eff6ef",
+   "title": "As Chicagoans Prepare To Bike The Drive, Some Dream Of A Car-Free Lakefront All Year",
+   "link": "https://blockclubchicago.org/2026/09/04/as-chicagoans-prepare-to-bike-the-drive-some-dream-of-a-car-free-lakefront-all-year/",
+   "published": "2026-09-04",
+   "outlet": "Block Club Chicago",
+   "region": "chicago",
+   "outlet_type": "nonprofit",
+   "feed_url": "https://blockclubchicago.org/feed/",
+   "entities": [
+    "Bike The Drive",
+    "Car",
+    "Chicagoans",
+    "Chicagoans Prepare To",
+    "Free Lakefront All Year",
+    "Some Dream Of"
+   ],
+   "theme": "other",
+   "theme_raw": "lakefront car-free proposal"
+  },
+  {
+   "id": "b7678043602ddc9b",
+   "title": "Local Photographer Honors Chicago Street Vendors In 1-Day Exhibit",
+   "link": "https://blockclubchicago.org/2026/09/04/local-photographer-honors-chicago-street-vendors-in-1-day-special-exhibit/",
+   "published": "2026-09-04",
+   "outlet": "Block Club Chicago",
+   "region": "chicago",
+   "outlet_type": "nonprofit",
+   "feed_url": "https://blockclubchicago.org/feed/",
+   "entities": [
+    "CR Films",
+    "Chuy",
+    "Day Exhibit Jesus",
+    "Local Photographer Honors Chicago",
+    "Reyes",
+    "Street Vendors In"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "street vendor photography"
+  },
+  {
+   "id": "bf513502d1583a05",
+   "title": "Travelers flocked to the \u2018Middle of Everything\u2019 last year, generating over $88 billion in economic impact",
+   "link": "https://capitolnewsillinois.com/news/travelers-flocked-to-the-middle-of-everything-last-year-generating-over-88-billion-in-economic-impact/",
+   "published": "2026-09-04",
+   "outlet": "Capitol News Illinois",
+   "region": "statewide",
+   "outlet_type": "nonprofit",
+   "feed_url": "https://capitolnewsillinois.com/feed/",
+   "entities": [
+    "Everything",
+    "Middle",
+    "Travelers"
+   ],
+   "theme": "other",
+   "theme_raw": "tourism economic impact"
+  },
+  {
+   "id": "c1b606e8ef86d8fd",
+   "title": "Mother charged with killing 2-year-old child in Frankfort before trying to harm herself",
+   "link": "https://chicago.suntimes.com/crime/2026/09/04/frankfort-murder-mother-corie-walsh",
+   "published": "2026-09-04",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Chel",
+    "Chelepis",
+    "Corie A. Walsh",
+    "Frankfort",
+    "Frankfort Police Chief Leanne",
+    "Mother",
+    "Will County Jail"
+   ],
+   "theme": "public safety & crime",
+   "theme_raw": "child homicide charge"
+  },
+  {
+   "id": "c74c31b4e394f6ae",
+   "title": "Chicago murals:",
+   "link": "https://chicago.suntimes.com/murals/2026/09/04/chicago-murals-roseland-cop-house-david-guana",
+   "published": "2026-09-04",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Catholic Church",
+    "Dolores Ruiz",
+    "International Charter School",
+    "Prairie",
+    "Roseland",
+    "Roseland.&lt",
+    "St. Anthony",
+    "Villalvazo"
+   ],
+   "theme": "education & schools",
+   "theme_raw": "community mural project"
+  },
+  {
+   "id": "ce6ca2d9ad26cfdf",
+   "title": "Review: Buddy",
+   "link": "https://chicagoreader.com/film-tv/movie-review/review-buddy/",
+   "published": "2026-09-04",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [
+    "Buddy Buddy",
+    "Buddy&lt",
+    "Review"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "film review"
+  },
+  {
+   "id": "cff4da977754bbf1",
+   "title": "White Sox activate starting catcher Kyle Teel off IL, option Drew Romo",
+   "link": "https://chicago.suntimes.com/white-sox/2026/09/04/white-sox-activate-starting-catcher-kyle-teel-off-il-option-drew-romo-edgar-quer-joey-bart-jake-rogers",
+   "published": "2026-09-04",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "American League Central",
+    "Charlotte",
+    "Despite",
+    "Drew Romo",
+    "Kyle Teel",
+    "Teel",
+    "Triple",
+    "Twins.&lt",
+    "White Sox"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "baseball roster move"
+  },
+  {
+   "id": "d7eba1607c476643",
+   "title": "Joanna and Iliana: From \u2018Insta girlies\u2019 to IRL friends",
+   "link": "https://chicagoreader.com/city-life/going-the-distance/joanna-and-iliana-creative-friendship/",
+   "published": "2026-09-04",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [
+    "Despite",
+    "Distance",
+    "From",
+    "Going",
+    "IRL",
+    "Iliana",
+    "Insta",
+    "Joanna"
+   ],
+   "theme": "other",
+   "theme_raw": "chicago cross-community friendship"
+  },
+  {
+   "id": "d978c8eb61e953c2",
+   "title": "Capitol renovations set to wrap up this winter",
+   "link": "https://www.illinoistimes.com/news/capitol-renovations-set-to-wrap-up-this-winter/",
+   "published": "2026-09-04",
+   "outlet": "Illinois Times",
+   "region": "downstate",
+   "outlet_type": "altweekly",
+   "feed_url": "https://illinoistimes.com/feed/",
+   "entities": [
+    "Nearly",
+    "Senate",
+    "State Capitol"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "capitol building renovation"
+  },
+  {
+   "id": "daf81f74ddc9d521",
+   "title": "CPS postpones Friday football games due to heat advisory",
+   "link": "https://chicago.suntimes.com/high-school-football/2026/09/04/chicago-public-schools-football-heat-postponed",
+   "published": "2026-09-04",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "CPS",
+    "Friday's",
+    "Friday. Those",
+    "Public",
+    "Simeon",
+    "Thirteen Public League",
+    "Thursday's"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "heat advisory sports"
+  },
+  {
+   "id": "dd585787c3f6f9a6",
+   "title": "Here's how extreme heat affects Chicago's moveable bridges",
+   "link": "https://www.wbez.org/transportation/2026/09/04/why-chicago-bridges-get-stuck-heat",
+   "published": "2026-09-04",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "Bridges",
+    "Chicago's",
+    "Here's"
+   ],
+   "theme": "transit & infrastructure",
+   "theme_raw": "heat infrastructure impact"
+  },
+  {
+   "id": "de8839ebe9d79dd9",
+   "title": "Still homeless after South Shore raid",
+   "link": "https://chicago.suntimes.com/morning-edition/2026/09/04/ice-midway-blitz-south-shore-shedd-city-hall-mayor-brandon-johnson",
+   "published": "2026-09-04",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Below&lt",
+    "Brewers&lt",
+    "Cubs",
+    "Keeping",
+    "Mayor Brandon Johnson",
+    "Nearly",
+    "Plus&lt",
+    "South Shore",
+    "Still"
+   ],
+   "theme": "housing & development",
+   "theme_raw": "housing displacement aftermath"
+  },
+  {
+   "id": "e5d9c82479f39426",
+   "title": "Bears' Caleb Williams, Bulls players lead PCA cheering section",
+   "link": "https://chicago.suntimes.com/bears/2026/09/03/bears-qb-caleb-williams-cubs-pete-crow-armstrong-caleb-wilson-matas-buzelis-cheering-section-wrigley-field",
+   "published": "2026-09-04",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Armstrong",
+    "Bears",
+    "Bears' Caleb Williams",
+    "Bull Matas Buzelis",
+    "Bulls",
+    "Caleb Williams&lt",
+    "Caleb Wilson",
+    "Cole Bennett",
+    "Cubs",
+    "Joining",
+    "Lyrical Lemonade",
+    "MVP"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "chicago athletes attend game"
+  },
+  {
+   "id": "e7c0fd622b59a0a8",
+   "title": "Woman gunned down while walking in Englewood",
+   "link": "https://chicago.suntimes.com/crime/2026/09/04/woman-gunned-down-while-walking-in-englewood",
+   "published": "2026-09-04",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Area",
+    "Englewood",
+    "Medical Center",
+    "Police",
+    "South Peoria Avenue",
+    "University",
+    "Woman"
+   ],
+   "theme": "public safety & crime",
+   "theme_raw": "shooting homicide"
+  },
+  {
+   "id": "ef73ee47b05f59c1",
+   "title": "Bucktown\u2019s Holstein Pool To Remain Open Later Into September, \u2018Keep This Fun Going\u2019",
+   "link": "https://blockclubchicago.org/2026/09/04/bucktowns-holstein-pool-to-remain-open-later-into-september-keep-this-fun-going/",
+   "published": "2026-09-04",
+   "outlet": "Block Club Chicago",
+   "region": "chicago",
+   "outlet_type": "nonprofit",
+   "feed_url": "https://blockclubchicago.org/feed/",
+   "entities": [
+    "Bucktown",
+    "Holstein Pool To Remain",
+    "Keep This Fun Going",
+    "Open Later Into September"
+   ],
+   "theme": "other",
+   "theme_raw": "public pool hours"
+  },
+  {
+   "id": "f20c1dba80db1377",
+   "title": "Chicago under heat warning for 4th day",
+   "link": "https://chicago.suntimes.com/weather/2026/09/04/heat-advisory",
+   "published": "2026-09-04",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Due",
+    "High",
+    "Indiana.&lt",
+    "National Weather Service",
+    "Public Schools",
+    "Temperatures"
+   ],
+   "theme": "education & schools",
+   "theme_raw": "extreme heat warning"
+  },
+  {
+   "id": "f3804c48968b1c63",
+   "title": "Sept. 3, 2026 - Full Show",
+   "link": "https://news.wttw.com/2026/09/03/sept-3-2026-full-show",
+   "published": "2026-09-04",
+   "outlet": "WTTW News",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://news.wttw.com/feed",
+   "entities": [
+    "Full Show",
+    "Full Show&lt",
+    "WTTW News&lt"
+   ],
+   "theme": "other",
+   "theme_raw": "news broadcast"
+  },
+  {
+   "id": "018f05ca2469e6e1",
+   "title": "Bears need health, production from WR Rome Odunze to form dynamic duo",
+   "link": "https://chicago.suntimes.com/bears/2026/09/03/bears-rome-odunze-luther-burden-health-dynamic-duo-wide-receiver-foot-nfl",
+   "published": "2026-09-03",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Bears",
+    "Bears&lt",
+    "Rome Odunze",
+    "Until Thursday.&lt",
+    "WR Rome Odunze"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "bears receiver injury status"
+  },
+  {
+   "id": "019333c352bf4d0b",
+   "title": "Tristan Peters' magical debut season continues with AL Rookie of the Month honors",
+   "link": "https://chicago.suntimes.com/white-sox/2026/09/03/tristan-peters-magical-debut-season-continues-with-al-rookie-of-the-month-honors-davis-martin-kyle-teel-will-venable-tyler-gilbert-jose-urquidy-erick-fedde-drew-romo",
+   "published": "2026-09-03",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "AL Rookie",
+    "All",
+    "American League",
+    "HOUSTON",
+    "Month",
+    "Star",
+    "Tristan",
+    "Tristan Peters",
+    "Tristan Peters&lt",
+    "White Sox"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "baseball rookie honors"
+  },
+  {
+   "id": "096691079fe2619b",
+   "title": "What\u2019s An African Guinea Fowl Doing In Rogers Park?",
+   "link": "https://blockclubchicago.org/2026/09/03/whats-an-african-guinea-fowl-doing-in-rogers-park/",
+   "published": "2026-09-03",
+   "outlet": "Block Club Chicago",
+   "region": "chicago",
+   "outlet_type": "nonprofit",
+   "feed_url": "https://blockclubchicago.org/feed/",
+   "entities": [
+    "African",
+    "African Guinea Fowl",
+    "Doing In Rogers Park"
+   ],
+   "theme": "other",
+   "theme_raw": "exotic bird sighting"
+  },
+  {
+   "id": "0a9a794b9b1fd92c",
+   "title": "Gloria Steinem, a Potent Voice of US Feminism, Dies at 92",
+   "link": "https://news.wttw.com/2026/09/03/gloria-steinem-potent-voice-us-feminism-dies-92",
+   "published": "2026-09-03",
+   "outlet": "WTTW News",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://news.wttw.com/feed",
+   "entities": [
+    "Associated Press&lt",
+    "Dies",
+    "Gloria Steinem",
+    "Potent Voice",
+    "US Feminism"
+   ],
+   "theme": "other",
+   "theme_raw": "feminist leader obituary"
+  },
+  {
+   "id": "10bb423e96683b85",
+   "title": "Sept. 2, 2026 - Full Show",
+   "link": "https://news.wttw.com/2026/09/02/sept-2-2026-full-show",
+   "published": "2026-09-03",
+   "outlet": "WTTW News",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://news.wttw.com/feed",
+   "entities": [
+    "Full Show",
+    "Full Show&lt",
+    "WTTW News&lt"
+   ],
+   "theme": "other",
+   "theme_raw": "news broadcast"
+  },
+  {
+   "id": "11742ee62fb155ef",
+   "title": "Star receiver James Skokna is the youngest in a string of seven brothers to play for Hinsdale Central",
+   "link": "https://chicago.suntimes.com/high-school-football/2026/09/03/james-skokna-hinsdale-central-football",
+   "published": "2026-09-03",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Growing",
+    "Hinsdale Central",
+    "Hinsdale Central.&lt",
+    "James Skokna",
+    "Red Devils. Now",
+    "Skokna",
+    "Star"
+   ],
+   "theme": "education & schools",
+   "theme_raw": "high school football family"
+  },
+  {
+   "id": "11f1bae5eb017bec",
+   "title": "USA Dodgeball National Championships to draw top players to Bedford Park this weekend",
+   "link": "https://chicago.suntimes.com/sports/2026/09/03/usa-dodgeball-national-championships-to-draw-top-players-to-bedford-park-this-weekend",
+   "published": "2026-09-03",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Admission",
+    "Bedford Park",
+    "Championships",
+    "Chicago.&lt",
+    "Midway Airport.&lt",
+    "USA Dodgeball National",
+    "USA Dodgeball National Championships",
+    "Wintrust Sports Complex"
+   ],
+   "theme": "transit & infrastructure",
+   "theme_raw": "dodgeball championship event"
+  },
+  {
+   "id": "121376e4f85e6820",
+   "title": "2026 Fall Guide Event Calendar",
+   "link": "https://www.illinoistimes.com/special-issues/fallguide/2026-fall-guide-event-calendar/",
+   "published": "2026-09-03",
+   "outlet": "Illinois Times",
+   "region": "downstate",
+   "outlet_type": "altweekly",
+   "feed_url": "https://illinoistimes.com/feed/",
+   "entities": [
+    "AWS",
+    "Audubon Society",
+    "E. Clear Lake Ave",
+    "Fall Guide Event Calendar",
+    "Free. Adams Wildlife Sanctuary",
+    "Jamie Arntzen",
+    "Ongoing Prairie HikesLast Wednesday",
+    "Through Oct"
+   ],
+   "theme": "immigration & migrants",
+   "theme_raw": "outdoor activity guide"
+  },
+  {
+   "id": "123ecfab00931882",
+   "title": "Route 66\u2019s last 100 miles in Illinois",
+   "link": "https://www.illinoistimes.com/special-issues/fallguide/route-66s-last-100-miles-in-illinois/",
+   "published": "2026-09-03",
+   "outlet": "Illinois Times",
+   "region": "downstate",
+   "outlet_type": "altweekly",
+   "feed_url": "https://illinoistimes.com/feed/",
+   "entities": [
+    "Felicia Uriosty",
+    "Granite City",
+    "Mother Road",
+    "Mr. Twist",
+    "Route",
+    "Uriosty"
+   ],
+   "theme": "labor & economy",
+   "theme_raw": "route 66 business"
+  },
+  {
+   "id": "153e7d116bede914",
+   "title": "Trump administration pushes to remove tax exemption for private colleges with DEI policies",
+   "link": "https://chicago.suntimes.com/2026/09/03/trump-administration-pushes-to-remove-tax-exemption-for-private-colleges-with-dei-policies",
+   "published": "2026-09-03",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "DEI",
+    "Trump",
+    "WASHINGTON",
+    "White House's"
+   ],
+   "theme": "city & state budget",
+   "theme_raw": "tax exemption policy proposal"
+  },
+  {
+   "id": "15a697e00d61b59e",
+   "title": "Extreme heat breaks bridges",
+   "link": "https://chicago.suntimes.com/morning-edition/2026/09/03/extreme-heat-breaks-bridges",
+   "published": "2026-09-03",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Below&lt",
+    "Brewers&lt",
+    "Cubs",
+    "Extreme",
+    "Faceworld",
+    "Keeping",
+    "Plus&lt"
+   ],
+   "theme": "transit & infrastructure",
+   "theme_raw": "heat infrastructure damage"
+  },
+  {
+   "id": "1bb6acd4c525e1b7",
+   "title": "Evanston\u2019s new Northlight Theatre is built for new plays",
+   "link": "https://www.wbez.org/theater-stages/2026/09/03/evanston-northlight-theater-chicago-suburbs-arts-annex",
+   "published": "2026-09-03",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "Broadway",
+    "CTA",
+    "Evanston",
+    "Metra",
+    "Northlight",
+    "Northlight Theatre",
+    "Northlight Theatre. Situated"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "theater venue opening"
+  },
+  {
+   "id": "1f130f8e6a3b50f5",
+   "title": "Chicago Jazz Festival 2026",
+   "link": "https://chicago.suntimes.com/events/2026/09/03/chicago-jazz-festival-2026",
+   "published": "2026-09-03",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Cultural Affairs",
+    "DCASE",
+    "Dee Dee Bridgewater",
+    "Department",
+    "Don",
+    "Grammy",
+    "Jazz Festival",
+    "Jazz Festival&lt",
+    "Labor Day",
+    "Mayor Brandon Johnson",
+    "Miles Electric",
+    "Millennium Park. The"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "jazz festival event"
+  },
+  {
+   "id": "2225521df906f305",
+   "title": "Learning from past mistakes",
+   "link": "https://www.illinoistimes.com/special-issues/fallguide/learning-from-past-mistakes/",
+   "published": "2026-09-03",
+   "outlet": "Illinois Times",
+   "region": "downstate",
+   "outlet_type": "altweekly",
+   "feed_url": "https://illinoistimes.com/feed/",
+   "entities": [
+    "Amendment",
+    "Black",
+    "Learning",
+    "Springfield"
+   ],
+   "theme": "elections & politics",
+   "theme_raw": "historical election"
+  },
+  {
+   "id": "243199cc842c5571",
+   "title": "Here's what to expect while traveling over Labor Day weekend",
+   "link": "https://chicago.suntimes.com/transportation/2026/09/03/labor-day-weekend-travel",
+   "published": "2026-09-03",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Aviation. That's",
+    "Department",
+    "Here's",
+    "Labor Day",
+    "Midway",
+    "O'Hare",
+    "Travelers"
+   ],
+   "theme": "labor & economy",
+   "theme_raw": "labor day travel"
+  },
+  {
+   "id": "2589d70c20e6d62f",
+   "title": "Sound & Gravity festival: Breaking down year two with creator Mike Reed",
+   "link": "https://www.wbez.org/music/2026/09/03/sound-gravity-festival-mike-read-bands-to-see",
+   "published": "2026-09-03",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "Breaking",
+    "Constellation",
+    "Gravity",
+    "Gravity Festival",
+    "Grouper",
+    "Mike Reed",
+    "Mike Reed.&lt",
+    "N. Western Ave",
+    "Natural Information Society.&lt",
+    "Reed",
+    "Son Lux",
+    "Sound"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "music festival preview"
+  },
+  {
+   "id": "29fd120b27f3a830",
+   "title": "Bears practice report: RB D'Andre Swift, WR Rome Odunze leave with injuries",
+   "link": "https://chicago.suntimes.com/bears/2026/09/03/bears-practice-report-rb-dandre-swift-wr-rome-odunze-leave-with-injuries",
+   "published": "2026-09-03",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "AdamSchefter",
+    "Andre Swift",
+    "Bears",
+    "Bears&lt",
+    "Breaking",
+    "Concerns",
+    "ESPN",
+    "Kyle Mon",
+    "RB D'Andre Swift",
+    "WR Rome Odunze"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "bears player injuries"
+  },
+  {
+   "id": "2c57c8b9385c77ec",
+   "title": "Residents Press Springfield Council on Housing and Policing",
+   "link": "https://www.illinoistimes.com/watch-public-meetings/springfieldcitycouncil/residents-press-springfield-council-on-housing-and-policing/",
+   "published": "2026-09-03",
+   "outlet": "Illinois Times",
+   "region": "downstate",
+   "outlet_type": "altweekly",
+   "feed_url": "https://illinoistimes.com/feed/",
+   "entities": [
+    "Housing",
+    "Policing",
+    "Policing Springfield City Council",
+    "Residents Press Springfield Council",
+    "ShotSpotter"
+   ],
+   "theme": "elections & politics",
+   "theme_raw": "municipal policy debate"
+  },
+  {
+   "id": "2c8419dab8e0c195",
+   "title": "CPS Reinstates Outdoor Activities Thursday After Extreme Heat Warning Lifted",
+   "link": "https://news.wttw.com/2026/09/03/cps-canceling-or-moving-all-outdoor-activities-inside-thursday-amid-dangerous-heat",
+   "published": "2026-09-03",
+   "outlet": "WTTW News",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://news.wttw.com/feed",
+   "entities": [
+    "CPS Reinstates Outdoor Activities",
+    "Extreme Heat",
+    "Matt Masterson&lt",
+    "Warning Lifted",
+    "Warning Lifted&lt"
+   ],
+   "theme": "education & schools",
+   "theme_raw": "school activity resumption"
+  },
+  {
+   "id": "31846fe2e04772cf",
+   "title": "18-year-old dropped off at Englewood hospital dies of gunshot wounds",
+   "link": "https://chicago.suntimes.com/crime/2026/09/03/shooting-st-bernard-hospital",
+   "published": "2026-09-03",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Cook County",
+    "Dante Hughes",
+    "Englewood",
+    "St. Bernard Hospital"
+   ],
+   "theme": "health & public health",
+   "theme_raw": "gunshot death hospital"
+  },
+  {
+   "id": "32382eedc3d36395",
+   "title": "Top five moments from Bears QB Caleb Williams' 'Hot Ones' debut",
+   "link": "https://chicago.suntimes.com/bears/2026/09/03/bears-caleb-williams-hot-ones-debut-top-5-moments-ben-johnson-quarterback-nfl-hot-wings",
+   "published": "2026-09-03",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Bears QB Caleb Williams",
+    "Bears&lt",
+    "Caleb Williams&lt",
+    "Hot Ones",
+    "Williams"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "caleb williams interview"
+  },
+  {
+   "id": "36995766fe7c23d8",
+   "title": "Felon who posed as Pablo Escobar's son admits bilking pro basketball player and others out of millions",
+   "link": "https://chicago.suntimes.com/the-watchdogs/2026/09/03/pablo-escobar-pro-basketball-fraud-pritzker",
+   "published": "2026-09-03",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Fakroune",
+    "Felon",
+    "Jawad Fakroune",
+    "Pablo Escobar",
+    "Pablo Escobar's"
+   ],
+   "theme": "courts & justice",
+   "theme_raw": "fraud scheme conviction"
+  },
+  {
+   "id": "3b7b340050c383fd",
+   "title": "CPS changes course, will play Thursday football games",
+   "link": "https://chicago.suntimes.com/high-school-football/2026/09/03/cps-calls-off-thursday-football-games-due-to-heat",
+   "published": "2026-09-03",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Back",
+    "Brooks",
+    "CPS",
+    "Corliss",
+    "Here's",
+    "Kelly",
+    "Public League",
+    "Public Schools",
+    "Rockne",
+    "Thursday's",
+    "Thursday. All",
+    "Yards"
+   ],
+   "theme": "education & schools",
+   "theme_raw": "school football schedule change"
+  },
+  {
+   "id": "3e3b3fe782f695b4",
+   "title": "Downtown Bridge That Was Stuck For Hours Has History Of Problems, Records Show",
+   "link": "https://blockclubchicago.org/2026/09/03/downtown-bridge-that-was-stuck-for-hours-has-history-of-problems-records-show/",
+   "published": "2026-09-03",
+   "outlet": "Block Club Chicago",
+   "region": "chicago",
+   "outlet_type": "nonprofit",
+   "feed_url": "https://blockclubchicago.org/feed/",
+   "entities": [
+    "Block Club",
+    "Downtown Bridge That Was",
+    "DuSable Lake Shore Drive",
+    "History Of Problems",
+    "Records Show",
+    "Stuck For Hours Has"
+   ],
+   "theme": "other",
+   "theme_raw": "bridge structural condition"
+  },
+  {
+   "id": "3f14772d1155094f",
+   "title": "Planting the seeds",
+   "link": "https://chicagoreader.com/columns-opinion/staff-notes/planting-the-seeds-september-fall-arts-2026/",
+   "published": "2026-09-03",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [
+    "Fall Arts",
+    "Planting",
+    "These"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "independent arts community"
+  },
+  {
+   "id": "435e85edd304ddc4",
+   "title": "\u2018Las cosas no est\u00e1n tranquilas\u2019: demanda contra el Operativo Midway Blitz enfrenta una decisi\u00f3n crucial en noviembre",
+   "link": "https://chicago.suntimes.com/la-voz/2026/09/03/las-cosas-no-estan-tranquilas-demanda-contra-el-operativo-midway-blitz-enfrenta-una-decision-crucial-en-noviembre",
+   "published": "2026-09-03",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "DHS",
+    "Departamento",
+    "Gregory Bovino",
+    "Las",
+    "Operativo Midway Blitz",
+    "Patrulla Fronteriza",
+    "Sara Ellis",
+    "Seguridad Nacional"
+   ],
+   "theme": "courts & justice",
+   "theme_raw": "border operation lawsuit"
+  },
+  {
+   "id": "5190e2dad974181b",
+   "title": "The Sky need to help Gabriela Jaquez rediscover her hot start",
+   "link": "https://chicago.suntimes.com/chicago-sky/2026/09/03/the-sky-need-to-help-gabriela-jaquez-rediscover-her-hot-start",
+   "published": "2026-09-03",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Gabriela Jaquez",
+    "Jaquez",
+    "Lynx",
+    "Natasha Cloud",
+    "Sky",
+    "Sky&lt",
+    "WNBA&lt"
+   ],
+   "theme": "transit & infrastructure",
+   "theme_raw": "WNBA player performance"
+  },
+  {
+   "id": "5c1bb6ff72a412ce",
+   "title": "Illinois sees strong revenue growth to start fiscal year",
+   "link": "https://capitolnewsillinois.com/news/illinois-sees-strong-revenue-growth-to-start-fiscal-year/",
+   "published": "2026-09-03",
+   "outlet": "Capitol News Illinois",
+   "region": "statewide",
+   "outlet_type": "nonprofit",
+   "feed_url": "https://capitolnewsillinois.com/feed/",
+   "entities": [
+    "Sales"
+   ],
+   "theme": "city & state budget",
+   "theme_raw": "state revenue growth"
+  },
+  {
+   "id": "5e485e476956e217",
+   "title": "2 More Belugas Die at Shedd, 1 Rescue and 1 Longtime Resident",
+   "link": "https://news.wttw.com/2026/09/03/2-more-belugas-die-shedd-1-rescue-and-1-longtime-resident",
+   "published": "2026-09-03",
+   "outlet": "WTTW News",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://news.wttw.com/feed",
+   "entities": [
+    "Belugas Die",
+    "Longtime Resident",
+    "Longtime Resident&lt",
+    "Patty Wetli&lt",
+    "Rescue",
+    "Shedd"
+   ],
+   "theme": "other",
+   "theme_raw": "marine animal deaths"
+  },
+  {
+   "id": "65f7f4475d5d54c2",
+   "title": "Chicago extends program offering free Wi-Fi to CPS students",
+   "link": "https://www.wbez.org/education/2026/09/02/chicago-extends-program-offering-free-wifi-to-cps-students",
+   "published": "2026-09-03",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "COVID",
+    "CPS",
+    "Connected",
+    "Making",
+    "Public Schools",
+    "Since"
+   ],
+   "theme": "education & schools",
+   "theme_raw": "student internet access"
+  },
+  {
+   "id": "6702337edfe23aea",
+   "title": "Chicago Faces $882M Budget Gap in 2027, as Johnson Touts Smaller Than Expected Election Year Shortfall",
+   "link": "https://news.wttw.com/2026/09/03/chicago-faces-882m-budget-gap-2027-johnson-touts-smaller-expected-election-year",
+   "published": "2026-09-03",
+   "outlet": "WTTW News",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://news.wttw.com/feed",
+   "entities": [
+    "Budget Gap",
+    "Expected Election Year Shortfall",
+    "Expected Election Year Shortfall&lt",
+    "Faces",
+    "Heather Cherone&lt",
+    "Johnson Touts Smaller Than"
+   ],
+   "theme": "city & state budget",
+   "theme_raw": "municipal budget deficit"
+  },
+  {
+   "id": "70f989bb89e26298",
+   "title": "SEC sues LSU, claiming the school recruited pro athletes against league rules",
+   "link": "https://chicago.suntimes.com/college-sports/2026/09/03/sec-sues-lsu-claiming-the-school-recruited-pro-athletes-against-league-rules",
+   "published": "2026-09-03",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Alabama",
+    "BATON ROUGE",
+    "LSU",
+    "SEC",
+    "SEC Commissioner Greg Sankey",
+    "Southeastern Conference",
+    "Tiger Stadium"
+   ],
+   "theme": "courts & justice",
+   "theme_raw": "NCAA recruiting lawsuit"
+  },
+  {
+   "id": "7457e4b1a9c5f756",
+   "title": "Cardinal Cupich, nuns challenge \u2018right-to-die\u2019 law, say Illinois \u2018has no business\u2019 forcing assisted suicide",
+   "link": "https://chicago.suntimes.com/politics/2026/09/03/cardinal-blase-cupich-chicago-archdiocese-nuns-challenge-right-to-die-law-assisted-suicide",
+   "published": "2026-09-03",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Cardinal Blase Cupich",
+    "Cardinal Cupich",
+    "Catholics",
+    "Cupich",
+    "Cupich's"
+   ],
+   "theme": "courts & justice",
+   "theme_raw": "assisted suicide law challenge"
+  },
+  {
+   "id": "79a231994a4418ab",
+   "title": "A Community Organizer\u2019s Guide to West Ridge",
+   "link": "https://borderlessmag.org/2026/09/03/west-ridge-bharat-sharma-chicago-neighborhood-guide/",
+   "published": "2026-09-03",
+   "outlet": "Borderless Magazine",
+   "region": "chicago",
+   "outlet_type": "nonprofit",
+   "feed_url": "https://borderlessmag.org/feed/",
+   "entities": [
+    "America From",
+    "Bharat Sharma",
+    "Catchlight Local",
+    "Community Organizer",
+    "Guide",
+    "Pakistani",
+    "Report",
+    "West Ridge",
+    "West Ridge Camilla Forte"
+   ],
+   "theme": "immigration & migrants",
+   "theme_raw": "neighborhood community guide"
+  },
+  {
+   "id": "7bdc5bff822638b1",
+   "title": "3 leaders who work with Chicago\u2019s immigrant communities reflect on the toll of Operation Midway Blitz",
+   "link": "https://www.wbez.org/bearing-the-blitz/2026/09/03/operation-midway-blitz-deportation-toll-angela-sedeno-cindy-eigler-vero-ortiz-immigrants",
+   "published": "2026-09-03",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "Always",
+    "Not",
+    "Operation Midway Blitz"
+   ],
+   "theme": "immigration & migrants",
+   "theme_raw": "immigration enforcement impact"
+  },
+  {
+   "id": "7efe9389482bc16d",
+   "title": "Sonic connections and thematic synergies",
+   "link": "https://chicagoreader.com/film-tv/the-cinema-scrapbook/reeling-lgbtq-film-festival-mca-dancing-revolution/",
+   "published": "2026-09-03",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [
+    "Cinema Scrapbook",
+    "Contemporary Art",
+    "Dancing",
+    "From",
+    "MCA",
+    "Museum",
+    "Revolution",
+    "Sonic"
+   ],
+   "theme": "labor & economy",
+   "theme_raw": "film screening collaboration"
+  },
+  {
+   "id": "8072be6cb007aef6",
+   "title": "The art of producing",
+   "link": "https://chicagoreader.com/performing-arts/rhinestone-digest/the-art-of-producing/",
+   "published": "2026-09-03",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [],
+   "theme": "arts culture & sports",
+   "theme_raw": "music event production"
+  },
+  {
+   "id": "8185a1d5cac71708",
+   "title": "Don\u2019t Panic! Deluxe Tattoo Is Hosting A Hayley Williams-Themed Pop-Up Monday",
+   "link": "https://blockclubchicago.org/2026/09/03/dont-panic-deluxe-tattoo-is-hosting-a-hayley-williams-themed-pop-up-monday/",
+   "published": "2026-09-03",
+   "outlet": "Block Club Chicago",
+   "region": "chicago",
+   "outlet_type": "nonprofit",
+   "feed_url": "https://blockclubchicago.org/feed/",
+   "entities": [
+    "Ally Coalition",
+    "Deluxe Tattoo Is Hosting",
+    "Don",
+    "Hayley Williams",
+    "LGBTQ",
+    "Panic",
+    "Themed Pop",
+    "Up Monday Forty",
+    "Walk"
+   ],
+   "theme": "housing & development",
+   "theme_raw": "tattoo shop benefit event"
+  },
+  {
+   "id": "81ead8e1c67a13ad",
+   "title": "Chicago\u2019s budget gap \u2013 and impact on the arts: The Rundown",
+   "link": "https://www.wbez.org/wbez-newsletter/2026/09/03/the-rundown-chicagos-budget-gap-and-impact-on-the-arts",
+   "published": "2026-09-03",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "Chicagoans",
+    "Looks"
+   ],
+   "theme": "city & state budget",
+   "theme_raw": "municipal budget arts funding"
+  },
+  {
+   "id": "853e5834fcff1071",
+   "title": "Joffrey Ballet President and CEO Greg Cameron to step down in 2027 after helping steer financial turnaround",
+   "link": "https://www.wbez.org/dance/2026/09/03/greg-cameron-joffrey-ballet-ceo-to-step-down-2027-arts-financial-turnaround",
+   "published": "2026-09-03",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "CEO Greg Cameron",
+    "Cameron",
+    "Joffrey Ballet President",
+    "Thursday.&lt"
+   ],
+   "theme": "transit & infrastructure",
+   "theme_raw": "ballet leadership transition"
+  },
+  {
+   "id": "897550c9e558a6fa",
+   "title": "Extreme heat warning canceled early on third day of brutal temperatures in Chicago area",
+   "link": "https://chicago.suntimes.com/weather/2026/09/03/extreme-heat-continues-in-chicago-area-thursday-ahead-of-cold-front-rain",
+   "published": "2026-09-03",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Chicago&amp",
+    "Cook County",
+    "Extreme",
+    "National Weather Service",
+    "Temperatures",
+    "Weather"
+   ],
+   "theme": "other",
+   "theme_raw": "heat warning cancellation"
+  },
+  {
+   "id": "8ced04b1aed54cf0",
+   "title": "Tres l\u00edderes que trabajan con las comunidades inmigrantes de Chicago reflexionan sobre el impacto del Operativo Midway Blitz",
+   "link": "https://chicago.suntimes.com/la-voz/2026/09/03/tres-lideres-que-trabajan-con-las-comunidades-inmigrantes-de-chicago-reflexionan-sobre-el-impacto-del-operativo-midway-blitz",
+   "published": "2026-09-03",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Donald Trump.&lt",
+    "Estar",
+    "Esto",
+    "Operativo Midway Blitz",
+    "Tres"
+   ],
+   "theme": "immigration & migrants",
+   "theme_raw": "immigration enforcement impact"
+  },
+  {
+   "id": "8d8d2d0b2c21bfb1",
+   "title": "Echoes of Yesteryear",
+   "link": "https://www.illinoistimes.com/special-issues/fallguide/echoes-of-yesteryear-2/",
+   "published": "2026-09-03",
+   "outlet": "Illinois Times",
+   "region": "downstate",
+   "outlet_type": "altweekly",
+   "feed_url": "https://illinoistimes.com/feed/",
+   "entities": [
+    "Cemetery",
+    "Echoes",
+    "Oak Ridge Cemetery",
+    "Participants",
+    "Sangamon County",
+    "Sangamon County Historical",
+    "Society",
+    "Walk Through Oak Ridge",
+    "Yesteryear",
+    "Yesteryear Enjoy"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "historical society event"
+  },
+  {
+   "id": "94848ee1d6b6dee7",
+   "title": "What to see on the stage this fall",
+   "link": "https://www.illinoistimes.com/special-issues/fallguide/what-to-see-on-the-stage-this-fall/",
+   "published": "2026-09-03",
+   "outlet": "Illinois Times",
+   "region": "downstate",
+   "outlet_type": "altweekly",
+   "feed_url": "https://illinoistimes.com/feed/",
+   "entities": [
+    "Theater"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "theater season preview"
+  },
+  {
+   "id": "95d3d51bfe4370fc",
+   "title": "Helping people to heal",
+   "link": "https://www.illinoistimes.com/special-issues/fallguide/helping-people-to-heal/",
+   "published": "2026-09-03",
+   "outlet": "Illinois Times",
+   "region": "downstate",
+   "outlet_type": "altweekly",
+   "feed_url": "https://illinoistimes.com/feed/",
+   "entities": [
+    "Christiansted",
+    "Deb Martin",
+    "Helping",
+    "Inc",
+    "Jared",
+    "Jared Martin",
+    "Jared Michael Martin",
+    "Keepers Foundation",
+    "St. Croix",
+    "U.S. Virgin Islands. Jared"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "suicide prevention nonprofit"
+  },
+  {
+   "id": "9ff1164bd1ec5fb6",
+   "title": "Mayday is smart and funny, realistic Sun shines",
+   "link": "https://www.illinoistimes.com/arts-culture/filmfestinterviews/mayday-is-smart-and-funny-realistic-sun-shines/",
+   "published": "2026-09-03",
+   "outlet": "Illinois Times",
+   "region": "downstate",
+   "outlet_type": "altweekly",
+   "feed_url": "https://illinoistimes.com/feed/",
+   "entities": [
+    "Branagh",
+    "Cold War",
+    "John Francis Daley",
+    "Jonathan Goldstein",
+    "Mayday",
+    "Mayday With",
+    "Mayday&lt",
+    "Red Heat",
+    "Reynolds",
+    "Smart",
+    "Sun&lt"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "film review"
+  },
+  {
+   "id": "a1236fa5aea43a4b",
+   "title": "Trump again appeals to Supreme Court on mail-voting restrictions as midterm elections loom",
+   "link": "https://chicago.suntimes.com/elections/2026/09/03/donald-trump-appeal-supreme-court-mail-voting-restrictions-midterm-elections",
+   "published": "2026-09-03",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "BOSTON",
+    "North Carolina",
+    "Supreme Court",
+    "Supreme Court Thursday",
+    "Trump"
+   ],
+   "theme": "elections & politics",
+   "theme_raw": "mail voting legal dispute"
+  },
+  {
+   "id": "a1af17d2e3857cc0",
+   "title": "Chicago has abundant water. Data center developers want a taste.",
+   "link": "https://chicagoreader.com/news/environment/data-centers-ai-water-lake-michigan/",
+   "published": "2026-09-03",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [
+    "Data",
+    "These",
+    "Waterways"
+   ],
+   "theme": "environment & energy",
+   "theme_raw": "data center water usage"
+  },
+  {
+   "id": "a442bc8ac5169ecc",
+   "title": "I\u2019m a Chicago rabbi, and I choose to forgive Kanye",
+   "link": "https://www.wbez.org/music/2026/09/03/kanye-ye-essay-rabbi-tamar-manasseh",
+   "published": "2026-09-03",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "Alternatively",
+    "Black",
+    "CTA Red Line",
+    "Kanye",
+    "RichTextSidebarModule Enhancement",
+    "Roosevelt Road.&lt",
+    "Rottweilers",
+    "Sometimes"
+   ],
+   "theme": "health & public health",
+   "theme_raw": "forgiveness mental health"
+  },
+  {
+   "id": "a4716ceb73393fa8",
+   "title": "After 3 Beluga Deaths In 8 Days, Scrutiny Of Shedd\u2019s Marineland Rescue Grows",
+   "link": "https://blockclubchicago.org/2026/09/03/2-more-beluga-whales-die-at-shedd-aquarium-including-recent-rescue/",
+   "published": "2026-09-03",
+   "outlet": "Block Club Chicago",
+   "region": "chicago",
+   "outlet_type": "nonprofit",
+   "feed_url": "https://blockclubchicago.org/feed/",
+   "entities": [
+    "Beethoven",
+    "Beluga Deaths In",
+    "Days",
+    "Marineland Rescue Grows The",
+    "Peekachu",
+    "Rain",
+    "Scrutiny Of Shedd"
+   ],
+   "theme": "other",
+   "theme_raw": "aquarium animal deaths"
+  },
+  {
+   "id": "a7ac377c0f999568",
+   "title": "Illinois sues ABC Plumbing, Heating, Cooling & Electric over alleged 'deceptive' practices",
+   "link": "https://chicago.suntimes.com/crime/2026/09/03/illinois-sues-abc-plumbing-heating-cooling-electric-over-alleged-deceptive-practices",
+   "published": "2026-09-03",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "ABC Plumbing",
+    "Arlington Heights",
+    "Attorney General Kwame",
+    "Cooling",
+    "Electric",
+    "Electric Inc",
+    "Heating",
+    "Raoul"
+   ],
+   "theme": "labor & economy",
+   "theme_raw": "deceptive business practices lawsuit"
+  },
+  {
+   "id": "a8f3e9b2afe078b7",
+   "title": "Review of ex-NFL reporter Dianna Russini's work at the Athletic concludes she didn't comply with standards",
+   "link": "https://chicago.suntimes.com/sports-media/2026/09/03/review-of-ex-nfl-reporter-dianna-russinis-work-at-the-athletic-concludes-she-didnt-comply-with-standards",
+   "published": "2026-09-03",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "April.&lt",
+    "Arizona. He",
+    "Athletic",
+    "Dianna Russini",
+    "Dianna Russini's",
+    "England Patriots",
+    "Mike Vrabel",
+    "NFL",
+    "Review",
+    "Russini's",
+    "Vrabel"
+   ],
+   "theme": "other",
+   "theme_raw": "reporter standards violation"
+  },
+  {
+   "id": "ac7ba9c3f3b10c55",
+   "title": "Pan de jam\u00f3n y queso at Aromadipan",
+   "link": "https://chicagoreader.com/food/reader-bites/pan-de-jamon-y-queso-at-aromadipan-venezuelan-food-bakery-bread/",
+   "published": "2026-09-03",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [
+    "Aromadipan",
+    "Aromadipan The",
+    "Pan",
+    "Venezuelan"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "venezuelan bakery food"
+  },
+  {
+   "id": "ad5ae302ed5eba62",
+   "title": "Every known federal prosecution in Chicago tied to Trump\u2019s immigration blitz",
+   "link": "https://chicago.suntimes.com/2026/tracker-federal-prosecutions-chicago-status-trumps-immigration-blitz-ice",
+   "published": "2026-09-03",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Every",
+    "Federal",
+    "Grand",
+    "Operation Midway Blitz. Many",
+    "Trump",
+    "Twenty"
+   ],
+   "theme": "immigration & migrants",
+   "theme_raw": "federal immigration prosecutions"
+  },
+  {
+   "id": "b09c14393b8a0d9c",
+   "title": "Illinois Capitol renovations \u2018a few months behind,\u2019 set to wrap up this winter",
+   "link": "https://capitolnewsillinois.com/news/illinois-capitol-renovations-a-few-months-behind-set-to-wrap-up-this-winter/",
+   "published": "2026-09-03",
+   "outlet": "Capitol News Illinois",
+   "region": "statewide",
+   "outlet_type": "nonprofit",
+   "feed_url": "https://capitolnewsillinois.com/feed/",
+   "entities": [
+    "Construction"
+   ],
+   "theme": "other",
+   "theme_raw": "capitol building renovation"
+  },
+  {
+   "id": "ba1c377b3f67deb6",
+   "title": "Mayor Johnson projects $882M deficit, vows to not balance budget 'on backs of working people'",
+   "link": "https://www.wbez.org/city-hall/2026/09/03/mayor-brandon-johnson-2027-budget-forecast-chicago-city-hall-deficit",
+   "published": "2026-09-03",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "Johnson",
+    "Mayor Brandon Johnson",
+    "Mayor Johnson"
+   ],
+   "theme": "city & state budget",
+   "theme_raw": "municipal budget deficit"
+  },
+  {
+   "id": "c209b39b6cc6d94e",
+   "title": "Trump Lifts Stop-Work Order on Great Lakes Invasive Carp Barrier, Construction to Resume",
+   "link": "https://news.wttw.com/2026/09/03/trump-lifts-stop-work-order-great-lakes-invasive-carp-barrier-construction-resume",
+   "published": "2026-09-03",
+   "outlet": "WTTW News",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://news.wttw.com/feed",
+   "entities": [
+    "Barrier",
+    "Construction",
+    "Great Lakes Invasive Carp",
+    "Patty Wetli&lt",
+    "Resume",
+    "Resume&lt",
+    "Trump Lifts Stop",
+    "Work Order"
+   ],
+   "theme": "other",
+   "theme_raw": "invasive species barrier"
+  },
+  {
+   "id": "c217a9bfa2a952fe",
+   "title": "No relief from the heat as September kicks off. Is this normal?",
+   "link": "https://www.wbez.org/environment/2026/09/03/september-october-chicago-heat-wave-is-this-normal",
+   "published": "2026-09-03",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "Chicago's Office",
+    "Communications",
+    "Emergency Management",
+    "Friday.&lt",
+    "Peak"
+   ],
+   "theme": "other",
+   "theme_raw": "extreme heat weather"
+  },
+  {
+   "id": "c969a84b8b4f565e",
+   "title": "What is Ye\u2019s legacy in Chicago?",
+   "link": "https://www.wbez.org/music/2026/09/03/kanye-west-ye-chicago-legacy-essays",
+   "published": "2026-09-03",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "Atlanta",
+    "Even",
+    "Kanye West",
+    "South",
+    "West"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "artist cultural legacy"
+  },
+  {
+   "id": "cc3d5fa6a1ab4aeb",
+   "title": "Celebrate jobs \u2014 while we still have them \u2014 on Labor Day",
+   "link": "https://chicago.suntimes.com/columnists/2026/09/03/artificial-intelligence-workplace-jobs-labor-day",
+   "published": "2026-09-03",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Can",
+    "Celebrate",
+    "English",
+    "Labor Day",
+    "Philip Larkin",
+    "Squat",
+    "Toads"
+   ],
+   "theme": "labor & economy",
+   "theme_raw": "labor day employment"
+  },
+  {
+   "id": "cd4e63e99c93f8c7",
+   "title": "Illinois Prisons Do Not Provide Equal Phone Access to Incarcerated Deaf People, Lawsuit Alleges",
+   "link": "https://news.wttw.com/2026/09/03/illinois-prisons-do-not-provide-equal-phone-access-incarcerated-deaf-people-lawsuit",
+   "published": "2026-09-03",
+   "outlet": "WTTW News",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://news.wttw.com/feed",
+   "entities": [
+    "Blair Paddock&lt",
+    "Incarcerated Deaf People",
+    "Lawsuit Alleges",
+    "Lawsuit Alleges&lt",
+    "Prisons Do Not",
+    "Provide Equal Phone Access"
+   ],
+   "theme": "courts & justice",
+   "theme_raw": "prison accessibility lawsuit"
+  },
+  {
+   "id": "d49dea9b0f62308d",
+   "title": "Woman critically injured in shooting in Oakland neighborhood",
+   "link": "https://chicago.suntimes.com/crime/2026/09/03/woman-critically-injured-in-bronzeville-shooting",
+   "published": "2026-09-03",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Medical Center",
+    "Oakland",
+    "Police",
+    "South Lake Park Avenue",
+    "University",
+    "Woman"
+   ],
+   "theme": "public safety & crime",
+   "theme_raw": "shooting injury incident"
+  },
+  {
+   "id": "d4fc59680c9c0828",
+   "title": "Will Notre Dame make easy work of Wisconsin at Lambeau Field?",
+   "link": "https://chicago.suntimes.com/college-sports/2026/09/03/notre-dame-wisconsin-lambeau-field-fighting-irish-badgers-college-football",
+   "published": "2026-09-03",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Alabama",
+    "College Football&lt",
+    "Irish",
+    "Lambeau Field",
+    "Miami. Alabama",
+    "Notre Dame&lt",
+    "Playoff",
+    "Quick",
+    "SEC",
+    "Will Notre Dame",
+    "Wisconsin"
+   ],
+   "theme": "education & schools",
+   "theme_raw": "college football matchup"
+  },
+  {
+   "id": "d761fe7b48cd5d6f",
+   "title": "High school football scores: Week 3",
+   "link": "https://chicago.suntimes.com/high-school-football/scores/2026/09/03/high-school-football-scores-chicago-illinois",
+   "published": "2026-09-03",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Back",
+    "Brooks",
+    "Corliss",
+    "Foreman",
+    "Goode",
+    "High",
+    "Hubbard",
+    "Kelly",
+    "Muchin",
+    "NONCONFERENCE&lt",
+    "North Lawndale",
+    "Orr"
+   ],
+   "theme": "education & schools",
+   "theme_raw": "high school football scores"
+  },
+  {
+   "id": "d7be664ff775591e",
+   "title": "Win Stracke dreamed of music as a path to peace",
+   "link": "https://chicagoreader.com/music/the-secret-history-of-chicago-music/win-stracke-old-town-school-folk-terkel-golden-ring/",
+   "published": "2026-09-03",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [
+    "Folk Music",
+    "Mark Dvorak",
+    "Old Town School",
+    "Win Stracke",
+    "Win Stracke. But"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "folk music history"
+  },
+  {
+   "id": "d7c406eee5a22fad",
+   "title": "Previewing Week 3's top high school football games",
+   "link": "https://chicago.suntimes.com/high-school-football/2026/09/03/previewing-week-3s-top-high-school-football-games",
+   "published": "2026-09-03",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Bolingbrook",
+    "Flossmoor",
+    "Friday&lt",
+    "Homewood",
+    "Lincoln",
+    "Previewing Week",
+    "Richard",
+    "Richards",
+    "Robert Williams III",
+    "Way East",
+    "Week"
+   ],
+   "theme": "education & schools",
+   "theme_raw": "high school football preview"
+  },
+  {
+   "id": "d8ec789f4e01acb5",
+   "title": "Chinatown, Bridgeport Residents Sound Alarm Over Proposed Amtrak Facility",
+   "link": "https://blockclubchicago.org/2026/09/03/chinatown-bridgeport-residents-sound-alarm-over-proposed-amtrak-facility/",
+   "published": "2026-09-03",
+   "outlet": "Block Club Chicago",
+   "region": "chicago",
+   "outlet_type": "nonprofit",
+   "feed_url": "https://blockclubchicago.org/feed/",
+   "entities": [
+    "Amtrak",
+    "Bridgeport",
+    "Bridgeport Residents Sound Alarm",
+    "Chinatown",
+    "Proposed Amtrak Facility"
+   ],
+   "theme": "environment & energy",
+   "theme_raw": "amtrak facility opposition"
+  },
+  {
+   "id": "dc7e58355e915d75",
+   "title": "Family of man fatally shot by law enforcement in Gary wants answers in \u2018unreal\u2019 incident",
+   "link": "https://www.wbez.org/crime/2026/09/03/family-of-man-fatally-shot-by-law-enforcement-in-gary-wants-answers-in-unreal-incident",
+   "published": "2026-09-03",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "Armor Security Forces",
+    "Army",
+    "Being",
+    "Crown Point.&lt",
+    "Family",
+    "Gary",
+    "Kenneth Williams Jr",
+    "Kenneth Williams Sr",
+    "Like",
+    "National Guard",
+    "Tuesday.&lt",
+    "Williams.&lt"
+   ],
+   "theme": "public safety & crime",
+   "theme_raw": "police shooting investigation"
+  },
+  {
+   "id": "e526a705a04b6f4d",
+   "title": "Are cicadas louder this year?",
+   "link": "https://www.wbez.org/environment/2026/09/03/cicadas-louder-mating-brood-decibels-coping-mechanisms-dog-days-summer-heat-trees",
+   "published": "2026-09-03",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "Anecdotally",
+    "Are",
+    "Belmont",
+    "Campbell",
+    "Cicadas",
+    "Cragin",
+    "From Garfield Park",
+    "Lake View",
+    "Morton Arboretum's",
+    "Oak Park",
+    "Spencer Campbell"
+   ],
+   "theme": "other",
+   "theme_raw": "cicada noise levels"
+  },
+  {
+   "id": "ea71c0b5a64410a5",
+   "title": "A Jazz Festival and Film Noir: 4 Arts Picks for Your Labor Day Weekend",
+   "link": "https://news.wttw.com/2026/09/03/jazz-festival-and-film-noir-4-arts-picks-your-labor-day-weekend",
+   "published": "2026-09-03",
+   "outlet": "WTTW News",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://news.wttw.com/feed",
+   "entities": [
+    "Arts Picks",
+    "Film Noir",
+    "Jazz Festival",
+    "Josh Terry&lt",
+    "Your Labor Day Weekend",
+    "Your Labor Day Weekend&lt"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "arts weekend events"
+  },
+  {
+   "id": "ebf359f0ab99ad17",
+   "title": "White Sox remain confident in Luis Castillo and Munetaka Murakami despite ugly road trip performance",
+   "link": "https://chicago.suntimes.com/white-sox/2026/09/03/white-sox-keeping-luis-castillo-in-rotation-and-munetaka-murakami-high-in-batting-order-amid-struggles-will-venable-astros-road-trip-zach-bove-al-central-division-playoffs",
+   "published": "2026-09-03",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Castillo",
+    "Cubs",
+    "HOUSTON",
+    "Luis Castillo",
+    "Munetaka Murakami",
+    "Twins",
+    "White Sox"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "white sox pitcher performance"
+  },
+  {
+   "id": "ecd894a84d3be855",
+   "title": "How does Chicago\u2019s cultural spending compare to other cities?",
+   "link": "https://www.wbez.org/arts/2026/09/03/chicago-arts-funding-mayor-brandon-johnson-city-budget-cuts",
+   "published": "2026-09-03",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "Broadway",
+    "Paired",
+    "York City",
+    "Zohran Mamdani"
+   ],
+   "theme": "city & state budget",
+   "theme_raw": "cultural spending comparison"
+  },
+  {
+   "id": "efc84fe671f19fcd",
+   "title": "Pritzker\u2019s record: Over $35 billion in personal income left Illinois during his first term",
+   "link": "https://www.illinoispolicy.org/illinois-outmigration-irs-income-loss/",
+   "published": "2026-09-03",
+   "outlet": "Illinois Policy Institute",
+   "region": "statewide",
+   "outlet_type": "advocacy",
+   "feed_url": "https://www.illinoispolicy.org/feed/",
+   "entities": [
+    "Florida",
+    "Pritzker"
+   ],
+   "theme": "other",
+   "theme_raw": "population migration"
+  },
+  {
+   "id": "f7d27ad5e3778a78",
+   "title": "Kendall Gill, Will Perdue, Scott Williams, Robbie Hummel expected to be in Bulls' TV analyst rotation",
+   "link": "https://chicago.suntimes.com/sports-media/2026/09/03/kendall-gill-will-perdue-scott-williams-robbie-hummel-chicago-bulls-tv-analyst-stacey-king",
+   "published": "2026-09-03",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Adam Amin",
+    "Bulls",
+    "Bulls TV",
+    "Bulls' TV",
+    "ESPN Radio.&lt",
+    "Gill",
+    "Jim Durham",
+    "Kendall Gill",
+    "League Windy City Bulls",
+    "NBA",
+    "Perdue",
+    "Robbie Hummel"
+   ],
+   "theme": "education & schools",
+   "theme_raw": "bulls broadcast analyst"
+  },
+  {
+   "id": "fc2b9db76108278d",
+   "title": "With Ben Brown out for season, Cubs focus on current arms rather than count on rehabbing possibilities",
+   "link": "https://chicago.suntimes.com/cubs/2026/09/03/cubs-ben-brown-out-for-season-bullpen-jacob-webb-daniel-palencia-shelby-miller-edward-cabrera-justin-steele",
+   "published": "2026-09-03",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Ben Brown",
+    "Brown",
+    "Cubs",
+    "Cubs&lt",
+    "June&lt",
+    "Manager Craig Counsell"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "cubs pitcher injury recovery"
+  },
+  {
+   "id": "fc82dfc5bc4cd84e",
+   "title": "ASL interpreter Diego Diaz lives a life of joyful chaos",
+   "link": "https://chicagoreader.com/arts-culture/diego-diaz-mosaico-interpreting-asl-sign-language/",
+   "published": "2026-09-03",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [
+    "ASL",
+    "American Sign Language",
+    "Diego Diaz",
+    "Poet Laureate Mayda",
+    "Valle"
+   ],
+   "theme": "other",
+   "theme_raw": "asl interpreter profile"
+  },
+  {
+   "id": "09dc864a05a99566",
+   "title": "Pritzker record: Illinois 5th-worst for private-sector job growth",
+   "link": "https://www.illinoispolicy.org/illinois-private-sector-job-growth-bottom-five/",
+   "published": "2026-09-02",
+   "outlet": "Illinois Policy Institute",
+   "region": "statewide",
+   "outlet_type": "advocacy",
+   "feed_url": "https://www.illinoispolicy.org/feed/",
+   "entities": [
+    "Gov. J.B. Pritzker. Since",
+    "Pritzker"
+   ],
+   "theme": "other",
+   "theme_raw": "job growth"
+  },
+  {
+   "id": "0e0a56f6e0ebbe1b",
+   "title": "Southeast Spotlight: Smoke\u2019s Bistro",
+   "link": "https://chicagoreader.com/news/southeastspotlight/smokes-bistro/",
+   "published": "2026-09-02",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [
+    "Avneel Williams",
+    "Bistro",
+    "Bistro Smoke",
+    "Bistro Some",
+    "Chef Smoke",
+    "Closed Tuesdays",
+    "Email",
+    "Facebook",
+    "Instagram",
+    "Smoke",
+    "Southeast Spotlight"
+   ],
+   "theme": "labor & economy",
+   "theme_raw": "restaurant business profile"
+  },
+  {
+   "id": "38632a2fb48dde1d",
+   "title": "Find a print copy of the Chicago Reader",
+   "link": "https://chicagoreader.com/reader/print-distribution-map/",
+   "published": "2026-09-02",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [
+    "Find",
+    "Issues",
+    "Reader The Reader",
+    "Reader&lt",
+    "Some",
+    "Wednesday. The"
+   ],
+   "theme": "other",
+   "theme_raw": "publication distribution"
+  },
+  {
+   "id": "394f4dcb60c88908",
+   "title": "CPS students ordered to stay indoors during extreme heat warning",
+   "link": "https://www.wbez.org/education/chicago-school-board/2026/09/02/cps-students-ordered-to-stay-indoors-during-extreme-heat-warning",
+   "published": "2026-09-02",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "All",
+    "CPS",
+    "National Weather Service's",
+    "Public Schools"
+   ],
+   "theme": "education & schools",
+   "theme_raw": "school heat safety"
+  },
+  {
+   "id": "3c7b8e8895337fc8",
+   "title": "Another Chicago bridge gets stuck in sweltering heat hours after DuSable Lake Shore Drive bridge reopens",
+   "link": "https://www.wbez.org/transportation/2026/09/02/lake-shore-drive-bridge-river",
+   "published": "2026-09-02",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "Another Chicago",
+    "Calumet River",
+    "ChicagoOEMC",
+    "Communications",
+    "Commuters",
+    "DuSable Lake Shore Drive",
+    "Emergency Management",
+    "Far South Side",
+    "Office",
+    "Torrence Avenue Bridge"
+   ],
+   "theme": "transit & infrastructure",
+   "theme_raw": "heat infrastructure failure"
+  },
+  {
+   "id": "458192c5bca860da",
+   "title": "The Missing Piece looks at the end of the world through the eyes of two clowns",
+   "link": "https://chicagoreader.com/performing-arts/theater/theater-review/missing-piece-silent-theatre-company/",
+   "published": "2026-09-02",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [
+    "Missing Piece",
+    "Missing Piece&lt",
+    "Silent Theatre Company",
+    "Visceral Adventure Lounge The"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "theater production review"
+  },
+  {
+   "id": "53d391875649b8d7",
+   "title": "My nearly bulletproof love for Kanye has eroded",
+   "link": "https://www.wbez.org/music/2026/09/02/ye-kanye-west-legacy-touch-the-sky-love-eroded",
+   "published": "2026-09-02",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "AnchorLink",
+    "College Dropout",
+    "Enhancement",
+    "Figure",
+    "Gold Digger",
+    "Honda. From",
+    "Jamie Foxx",
+    "Kanye",
+    "Kanye West",
+    "Life",
+    "Pablo"
+   ],
+   "theme": "education & schools",
+   "theme_raw": "kanye west fan perspective"
+  },
+  {
+   "id": "5421d5144ee5712d",
+   "title": "Chicago invested in a record 32,500 youth jobs this summer. Here\u2019s why it matters.",
+   "link": "https://thetriibe.com/2026/09/chicago-invested-in-a-record-32500-youth-jobs-this-summer-heres-why-it-matters/",
+   "published": "2026-09-02",
+   "outlet": "The TRiiBE",
+   "region": "chicago",
+   "outlet_type": "nonprofit",
+   "feed_url": "https://thetriibe.com/feed/",
+   "entities": [
+    "Mayor Brandon Johnson",
+    "Youth Works"
+   ],
+   "theme": "elections & politics",
+   "theme_raw": "youth employment program"
+  },
+  {
+   "id": "59e630a7d937f584",
+   "title": "J\u2019Uncle lacks dramatic connections",
+   "link": "https://chicagoreader.com/performing-arts/theater/theater-review/juncle-simple-theatre/",
+   "published": "2026-09-02",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [
+    "J'Uncle",
+    "Jarvis Square Theater The",
+    "Simple Theatre",
+    "Uncle",
+    "Uncle&lt"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "theater production review"
+  },
+  {
+   "id": "5c9a27323dee65a9",
+   "title": "Joan Crawford Goes to Hell is devilishly fun",
+   "link": "https://chicagoreader.com/performing-arts/theater/theater-review/joan-crawford-goes-to-hell-hell-in-a-handbag/",
+   "published": "2026-09-02",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [
+    "Clutch The",
+    "Handbag Productions",
+    "Hell",
+    "Hell&lt",
+    "Joan Crawford Goes"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "theater production review"
+  },
+  {
+   "id": "61a73a81e7f2bcb5",
+   "title": "The cost of maintaining the electric grid: The Rundown",
+   "link": "https://www.wbez.org/wbez-newsletter/2026/09/02/the-rundown-the-cost-of-maintaining-the-electric-grid",
+   "published": "2026-09-02",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "TBR"
+   ],
+   "theme": "environment & energy",
+   "theme_raw": "power grid maintenance"
+  },
+  {
+   "id": "6233b59664ffc7ce",
+   "title": "Shane at City Lit centers the violence and beauty of the American west",
+   "link": "https://chicagoreader.com/performing-arts/theater/theater-review/shane-city-lit-theater/",
+   "published": "2026-09-02",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [
+    "American",
+    "City Lit",
+    "City Lit Theater The",
+    "Shane",
+    "Shane&lt"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "theater production review"
+  },
+  {
+   "id": "7af2a5e722ffb22b",
+   "title": "Every month, every day, every hour",
+   "link": "https://chicagoreader.com/city-life/mental-health-illinois-prisons/",
+   "published": "2026-09-02",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [
+    "Content",
+    "Every",
+    "Prison"
+   ],
+   "theme": "other",
+   "theme_raw": "prison conditions advocacy"
+  },
+  {
+   "id": "7bc5d8772acee7be",
+   "title": "There\u2019s still room at Chicago\u2019s table for Ye",
+   "link": "https://www.wbez.org/music/2026/09/02/ye-kanye-west-chicago-history-legacy-dr-donda-west",
+   "published": "2026-09-02",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "AnchorLink",
+    "Black",
+    "Chicago's South Side",
+    "Dr. Donda West",
+    "Enhancement",
+    "Figure",
+    "Growing",
+    "Kanye West",
+    "State University"
+   ],
+   "theme": "education & schools",
+   "theme_raw": "kanye west chicago roots"
+  },
+  {
+   "id": "7e0817d4f0363119",
+   "title": "Ye is unrecognizable from the \u2018Old Kanye\u2019",
+   "link": "https://www.wbez.org/music/2026/09/02/ye-kanye-west-chicago-legacy-cultural-influence",
+   "published": "2026-09-02",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "Chicag",
+    "Chicken",
+    "Florida",
+    "Halsted Mall",
+    "Harold",
+    "Kanye West",
+    "Nothing",
+    "Old Kanye",
+    "South Side",
+    "Through",
+    "Wire"
+   ],
+   "theme": "education & schools",
+   "theme_raw": "kanye west cultural impact"
+  },
+  {
+   "id": "850453ad5b5414e0",
+   "title": "Did Trump detain the \u2018worst of the worst\u2019 in Chicago last fall?",
+   "link": "https://www.wbez.org/immigration/2026/08/28/trumps-blitz-on-chicago-targeting-the-worst-of-the-worst-only-detained-five-murderers-in-68-days",
+   "published": "2026-09-02",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "AnchorLink",
+    "Did Trump",
+    "Enhancement",
+    "Figure"
+   ],
+   "theme": "immigration & migrants",
+   "theme_raw": "immigration enforcement assessment"
+  },
+  {
+   "id": "a7ee01ae865614a7",
+   "title": "How comedians eat it before and after grabbing the mike",
+   "link": "https://chicagoreader.com/food/food-drink-feature/standup-comics-comedian-eating-lincon-lodge/",
+   "published": "2026-09-02",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [
+    "Jordan Wilson",
+    "Often",
+    "Today"
+   ],
+   "theme": "other",
+   "theme_raw": "comedian performance routine"
+  },
+  {
+   "id": "ac5152e6343745c5",
+   "title": "Art isn\u2019t easy, but Kokandy frames it well with Sunday in the Park With George",
+   "link": "https://chicagoreader.com/performing-arts/theater/theater-review/sunday-in-the-park-with-george-kokandy-productions/",
+   "published": "2026-09-02",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [
+    "Art",
+    "Chopin Theatre The",
+    "Kokandy",
+    "Kokandy Productions",
+    "Park With George",
+    "Park With George Sunday",
+    "Park With George&lt"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "theater production review"
+  },
+  {
+   "id": "af223ea668dccc1c",
+   "title": "Illinois hospitals to lose billions through Medicaid policy change, study finds",
+   "link": "https://capitolnewsillinois.com/news/illinois-hospitals-to-lose-billions-through-medicaid-policy-change-study-finds/",
+   "published": "2026-09-02",
+   "outlet": "Capitol News Illinois",
+   "region": "statewide",
+   "outlet_type": "nonprofit",
+   "feed_url": "https://capitolnewsillinois.com/feed/",
+   "entities": [
+    "Federal",
+    "Medicaid"
+   ],
+   "theme": "health & public health",
+   "theme_raw": "medicaid policy impact"
+  },
+  {
+   "id": "aff1f54d5965c3b9",
+   "title": "Chicago Reader Volume 55, Number 20",
+   "link": "https://chicagoreader.com/issues/volume-55-20/",
+   "published": "2026-09-02",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [
+    "Fall Arts Issue",
+    "Number",
+    "Reader Volume"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "magazine publication issue"
+  },
+  {
+   "id": "b7911be97fe9460c",
+   "title": "Mayoral candidates decry Chicago violence \u2018crisis,\u2019 even as summer murders hit 61-year low",
+   "link": "https://www.wbez.org/criminal-justice/2026/09/02/chicago-violence-mayor-johnson-giannoulias-quigley-mendoza",
+   "published": "2026-09-02",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "City",
+    "Despite",
+    "Mayor Brandon Johnson",
+    "Mayoral",
+    "Overall"
+   ],
+   "theme": "public safety & crime",
+   "theme_raw": "crime statistics politics"
+  },
+  {
+   "id": "bbab4e8f9f93c70a",
+   "title": "Seeding the Chicago theater field with new productions and companies",
+   "link": "https://chicagoreader.com/performing-arts/theater/independent-productions-initiative-greenhouse-theater-center/",
+   "published": "2026-09-02",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [
+    "Chorus Line",
+    "Eustis",
+    "Hamilton",
+    "Michael Paulson",
+    "Oskar Eustis",
+    "Public",
+    "Public Theater",
+    "Seeding",
+    "York",
+    "York Times"
+   ],
+   "theme": "transit & infrastructure",
+   "theme_raw": "theater leadership transition"
+  },
+  {
+   "id": "bf54c3c9ca6ae95f",
+   "title": "SIUE lecturer charged $100K in personal items to university credit card, feds say",
+   "link": "https://capitolnewsillinois.com/news/siue-lecturer-charged-100k-in-personal-items-to-university-credit-card-feds-say/",
+   "published": "2026-09-02",
+   "outlet": "Capitol News Illinois",
+   "region": "statewide",
+   "outlet_type": "nonprofit",
+   "feed_url": "https://capitolnewsillinois.com/feed/",
+   "entities": [
+    "SIUE"
+   ],
+   "theme": "education & schools",
+   "theme_raw": "university fraud charges"
+  },
+  {
+   "id": "c177c2d69ccbf093",
+   "title": "For the love of the game",
+   "link": "https://chicagoreader.com/visual-arts/art-feature/independent-curators/",
+   "published": "2026-09-02",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [
+    "Art Institute",
+    "From"
+   ],
+   "theme": "other",
+   "theme_raw": "art exhibition curation"
+  },
+  {
+   "id": "c343085324add12f",
+   "title": "Elephant in the Womb is an in utero clown show",
+   "link": "https://chicagoreader.com/performing-arts/theater/theater-review/elephant-in-the-womb-black-cat-theatre/",
+   "published": "2026-09-02",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [
+    "Black Cat Theatre",
+    "Elephant",
+    "Theater Wit The",
+    "Womb",
+    "Womb&lt"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "theater production review"
+  },
+  {
+   "id": "d63ec19cc7fa73f4",
+   "title": "S&P Global upgrades Illinois\u2019 credit rating",
+   "link": "https://capitolnewsillinois.com/news/sp-global-upgrades-illinois-credit-rating/",
+   "published": "2026-09-02",
+   "outlet": "Capitol News Illinois",
+   "region": "statewide",
+   "outlet_type": "nonprofit",
+   "feed_url": "https://capitolnewsillinois.com/feed/",
+   "entities": [
+    "Global Ratings",
+    "S&P Global",
+    "S&amp"
+   ],
+   "theme": "other",
+   "theme_raw": "credit rating upgrade"
+  },
+  {
+   "id": "d693469d9a6cd5d2",
+   "title": "Inside Tuley Park\u2019s community darkroom",
+   "link": "https://chicagoreader.com/city-life/social-fabric/tuley-park-chicago-community-darkroom/",
+   "published": "2026-09-02",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [
+    "Darkroom Chicago",
+    "Inside Tuley Park"
+   ],
+   "theme": "other",
+   "theme_raw": "community darkroom photography"
+  },
+  {
+   "id": "dcf3996941b4ffdc",
+   "title": "Microcinemas and movie clubs are thriving in Chicago",
+   "link": "https://chicagoreader.com/film-tv/movie-feature/microcinema-film-club-diy-movie-theater/",
+   "published": "2026-09-02",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [
+    "Many",
+    "Microcinemas"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "microcinema film venues"
+  },
+  {
+   "id": "df543398153faf57",
+   "title": "Judge orders federal logging project halted in Shawnee National Forest",
+   "link": "https://capitolnewsillinois.com/news/judge-orders-federal-logging-project-halted-in-shawnee-national-forest/",
+   "published": "2026-09-02",
+   "outlet": "Capitol News Illinois",
+   "region": "statewide",
+   "outlet_type": "nonprofit",
+   "feed_url": "https://capitolnewsillinois.com/feed/",
+   "entities": [
+    "Judge",
+    "Shawnee National Forest",
+    "U.S. Forest Service"
+   ],
+   "theme": "courts & justice",
+   "theme_raw": "logging project halted"
+  },
+  {
+   "id": "f2ef49f8d27ab9a7",
+   "title": "Rooted Out West brought Chicago\u2019s West Side together to explore ancestral memory, migration and Black futures",
+   "link": "https://thetriibe.com/2026/09/rooted-out-west-brought-chicagos-west-side-together-to-explore-ancestral-memory-migration-and-black-futures/",
+   "published": "2026-09-02",
+   "outlet": "The TRiiBE",
+   "region": "chicago",
+   "outlet_type": "nonprofit",
+   "feed_url": "https://thetriibe.com/feed/",
+   "entities": [
+    "Ald. Walter",
+    "Black",
+    "Burnett III",
+    "Mayor Brandon Johnson",
+    "Red",
+    "Rooted Out West",
+    "West Side"
+   ],
+   "theme": "elections & politics",
+   "theme_raw": "West Side community history"
+  },
+  {
+   "id": "f4ec4e1215b846cd",
+   "title": "ComEd customers pay billions to keep the lights on during storms. Will it be enough?",
+   "link": "https://www.wbez.org/environment/2026/09/02/chicago-comed-power-grid-outage-storms-electric-bills-weather-gary-indiana-climate-change",
+   "published": "2026-09-02",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "ComEd",
+    "Keeping",
+    "Northern Illinois",
+    "Sometimes",
+    "Will",
+    "Yet"
+   ],
+   "theme": "transit & infrastructure",
+   "theme_raw": "utility infrastructure costs"
+  },
+  {
+   "id": "f956cedc029f7b1e",
+   "title": "How did a native Chicago plant disappear forever?",
+   "link": "https://www.wbez.org/curious-city/2026/09/02/how-did-a-native-chicago-plant-disappear-forever",
+   "published": "2026-09-02",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "Ford",
+    "Indian Ridge Marsh Park",
+    "Indiana",
+    "Nature Conservancy",
+    "Sandwiched",
+    "South Deering",
+    "Thismia",
+    "Trevor Edmonson"
+   ],
+   "theme": "other",
+   "theme_raw": "native ecosystem preservation"
+  },
+  {
+   "id": "ffb9d5f118612338",
+   "title": "Record scratching breaks containment again",
+   "link": "https://chicagoreader.com/music/music-feature/turntablism-scratching-vinyl-record-slow-pulp-graham-hunt/",
+   "published": "2026-09-02",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [
+    "Anti",
+    "Emily Massey",
+    "Henry Stoehr",
+    "Madison",
+    "Record",
+    "Slow Pulp",
+    "Yard"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "indie band music"
+  },
+  {
+   "id": "02c6cbdc6456bb8c",
+   "title": "A play about campus hate speech: The Rundown",
+   "link": "https://www.wbez.org/wbez-newsletter/2026/09/01/the-rundown-a-play-about-campus-hate-speech",
+   "published": "2026-09-01",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "Chicago. Here",
+    "Dohrn",
+    "Heir",
+    "Zayd Ayers Dohrn"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "campus hate speech play"
+  },
+  {
+   "id": "3d2319337cedf250",
+   "title": "Aspira to let judge decide what happens to money from sale of taxpayer-funded school, after WBEZ report",
+   "link": "https://www.wbez.org/education/chicago-school-board/2026/09/01/aspira-to-let-judge-decide-what-happens-to-money-from-sale-of-taxpayer-funded-school-following-wbez-report",
+   "published": "2026-09-01",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "Aspira",
+    "Exactly",
+    "Public Sc"
+   ],
+   "theme": "education & schools",
+   "theme_raw": "charter school bankruptcy funds"
+  },
+  {
+   "id": "576af831f1360360",
+   "title": "Icons, up-and-comers, and William Shatner converge at Riot Fest 2026",
+   "link": "https://chicagoreader.com/music/concert-preview/riot-fest-douglass-park/",
+   "published": "2026-09-01",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [
+    "Douglass Park The",
+    "Icons",
+    "Riot Fest",
+    "Riot Fest Fri",
+    "William Shatner"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "music festival"
+  },
+  {
+   "id": "5a69f3105c235c08",
+   "title": "Heir to a revolutionary past, playwright and author Zayd Ayers Dohrn charts his own path",
+   "link": "https://www.wbez.org/theater-stages/2026/09/01/heir-to-a-revolutionary-past-playwright-and-author-zayd-ayers-dohrn-charts-his-own-path",
+   "published": "2026-09-01",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "Dohrn",
+    "Even",
+    "Fox News",
+    "Heir",
+    "Israel",
+    "Lake Michigan",
+    "Northwestern",
+    "Northwestern University",
+    "Palestinian",
+    "Zayd Ayers Dohrn"
+   ],
+   "theme": "education & schools",
+   "theme_raw": "playwright family history"
+  },
+  {
+   "id": "74ca826ce33820ec",
+   "title": "Busy Madison musician Graham Hunt makes indie rock feel new again",
+   "link": "https://chicagoreader.com/music/concert-preview/graham-hunt-subterranean/",
+   "published": "2026-09-01",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [
+    "Busy Madison",
+    "Graham Hunt",
+    "Graham Hunt Mon",
+    "Subterranean The"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "musician performance"
+  },
+  {
+   "id": "7c45bac13050032d",
+   "title": "The Bridgeport Records crew launches a new shop in West Town",
+   "link": "https://chicagoreader.com/music/gossip-wolf/onion-city-records-bridgeport-sound-gravity-chirp-fair-koester-films-glenn-underground/",
+   "published": "2026-09-01",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [
+    "Bridgeport Records",
+    "Jerry Morrison",
+    "Onion City Records. Bridgeport",
+    "Records",
+    "Vick Lavender",
+    "W. Chicago",
+    "West Fest",
+    "West Town",
+    "West Town Two"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "music store opening"
+  },
+  {
+   "id": "8196ea3b62c1eed9",
+   "title": "Failed inspections, bodies parked on a suburban street \u2014 the troubled history behind South Chicago Chapel",
+   "link": "https://www.wbez.org/grave-injustice/2026/09/01/south-chicago-chapel-funeral-home-bodies-clark-johanna-morgan",
+   "published": "2026-09-01",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "Clark",
+    "Evergreen Park",
+    "Failed",
+    "Heights",
+    "Johanna Morgan",
+    "South Chicago Chapel",
+    "South Side"
+   ],
+   "theme": "public safety & crime",
+   "theme_raw": "funeral home violations"
+  },
+  {
+   "id": "93e7010dd63d662c",
+   "title": "Washington Park mass shooting was \u2018somewhat targeted,\u2019 likely involved gunfight, Chicago top cop says",
+   "link": "https://www.wbez.org/crime/2026/09/01/mass-shooting-washington-park-waller-johnson",
+   "published": "2026-09-01",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "Police Supt. Fred",
+    "Waller",
+    "Washington Park"
+   ],
+   "theme": "public safety & crime",
+   "theme_raw": "washington park shooting"
+  },
+  {
+   "id": "9742d06647a9f4ba",
+   "title": "Paul Kahan, Manny\u2019s Cafeteria & Delicatessen garner top 2027 Banchet honors",
+   "link": "https://www.wbez.org/food-drink/2026/09/01/banchet-awards-2027-paul-kahan-mannys-cafeteria",
+   "published": "2026-09-01",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "Avec",
+    "Banchet",
+    "Banchet Awards",
+    "Big Star",
+    "Cafeteria",
+    "Chef Paul Kahan",
+    "Culinary Excellence Award",
+    "Delicatessen",
+    "Dove",
+    "Iconic Restaurant Award",
+    "January.&lt",
+    "Jean Banchet"
+   ],
+   "theme": "health & public health",
+   "theme_raw": "culinary awards recognition"
+  },
+  {
+   "id": "bc29a61e7db3b499",
+   "title": "SEIU Healthcare misleads about member numbers, spends little on the ones it has",
+   "link": "https://www.illinoispolicy.org/seiu-healthcare-illinois-spending-dues/",
+   "published": "2026-09-01",
+   "outlet": "Illinois Policy Institute",
+   "region": "statewide",
+   "outlet_type": "advocacy",
+   "feed_url": "https://www.illinoispolicy.org/feed/",
+   "entities": [
+    "SEIU Healthcare",
+    "While"
+   ],
+   "theme": "labor & economy",
+   "theme_raw": "union operations"
+  },
+  {
+   "id": "dde1d3dce8607998",
+   "title": "What is Illinois\u2019 FRESH Program?",
+   "link": "https://borderlessmag.org/2026/09/01/illinois-fresh-program-what-to-know-food-assistance-chicago-immigrants/",
+   "published": "2026-09-01",
+   "outlet": "Borderless Magazine",
+   "region": "chicago",
+   "outlet_type": "nonprofit",
+   "feed_url": "https://borderlessmag.org/feed/",
+   "entities": [
+    "America More",
+    "Camilla Forte",
+    "Catchlight Local",
+    "FRESH Program",
+    "Report",
+    "SNAP"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "food assistance program"
+  },
+  {
+   "id": "ea03a987013abfc5",
+   "title": "Time stops at Pueblo Unido Gallery",
+   "link": "https://chicagoreader.com/visual-arts/art-review/susy-bielak-pueblo-unido-gallery/",
+   "published": "2026-09-01",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [
+    "NEPO",
+    "Pueblo Unido Gallery",
+    "Pueblo Unido Gallery The",
+    "Time"
+   ],
+   "theme": "other",
+   "theme_raw": "art gallery exhibition"
+  },
+  {
+   "id": "f1f8b717e7b186db",
+   "title": "Takeaways from campaign tours by JB Pritzker and Darren Bailey",
+   "link": "https://capitolnewsillinois.com/news/takeaways-from-campaign-tours-by-jb-pritzker-and-darren-bailey/",
+   "published": "2026-09-01",
+   "outlet": "Capitol News Illinois",
+   "region": "statewide",
+   "outlet_type": "nonprofit",
+   "feed_url": "https://capitolnewsillinois.com/feed/",
+   "entities": [
+    "Darren Bailey",
+    "Darren Bailey Gov. JB",
+    "JB Pritzker",
+    "Pritzker",
+    "Takeaways"
+   ],
+   "theme": "elections & politics",
+   "theme_raw": "gubernatorial campaign tours"
+  },
+  {
+   "id": "0d0243c04943bb16",
+   "title": "Families call for criminal charges for South Chicago Chapel owners",
+   "link": "https://www.wbez.org/grave-injustice/2026/08/31/south-chicago-chapel-decomposing-bodies-funeral-home-vigil-families",
+   "published": "2026-08-31",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "Are",
+    "Cecelia Palmer",
+    "Families",
+    "Nicole Williams",
+    "Palmer",
+    "Smith",
+    "South Chicago Chapel"
+   ],
+   "theme": "other",
+   "theme_raw": "funeral home criminal liability"
+  },
+  {
+   "id": "1265f0a1190f357b",
+   "title": "City sues South Chicago Chapel owners over alleged building code violations: \u2018The stench was overwhelming\u2019",
+   "link": "https://www.wbez.org/grave-injustice/2026/08/31/clark-johanna-morgan-south-chicago-chapel-decomposing-bodies-lawsuit-building-department",
+   "published": "2026-08-31",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "City",
+    "Cook County Circuit Court",
+    "South Chicago Chapel",
+    "South Chicago Chapel&lt"
+   ],
+   "theme": "courts & justice",
+   "theme_raw": "funeral home code violations"
+  },
+  {
+   "id": "5a2b5467aebe9af8",
+   "title": "Pritzker pledges to stay on \u2018Team Fight\u2019 as he asks Illinois voters for 3rd term",
+   "link": "https://capitolnewsillinois.com/news/pritzker-pledges-to-stay-on-team-fight-as-he-asks-illinois-voters-for-3rd-term/",
+   "published": "2026-08-31",
+   "outlet": "Capitol News Illinois",
+   "region": "statewide",
+   "outlet_type": "nonprofit",
+   "feed_url": "https://capitolnewsillinois.com/feed/",
+   "entities": [
+    "Gov. JB Pritzker",
+    "Pritzker",
+    "Team Fight"
+   ],
+   "theme": "elections & politics",
+   "theme_raw": "governor reelection campaign"
+  },
+  {
+   "id": "737c47b7d2ead5f8",
+   "title": "Chicago offering $10,000 grants to help support food access on South and West sides",
+   "link": "https://www.wbez.org/money/2026/08/31/chicago-neighborhood-market-10-000-grants-food-access-south-west-sides",
+   "published": "2026-08-31",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "Lot",
+    "Neighborhood Market Grant",
+    "Program",
+    "Save",
+    "Small",
+    "South",
+    "West"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "food access grants program"
+  },
+  {
+   "id": "7d123b067267dedb",
+   "title": "The day the laughter died",
+   "link": "https://chicagoreader.com/visual-arts/the-day-laughter-died/",
+   "published": "2026-08-31",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [
+    "West"
+   ],
+   "theme": "other",
+   "theme_raw": "comedy art criticism"
+  },
+  {
+   "id": "9d31c90085bd99c0",
+   "title": "Illinois SNAP use falls to lowest in 13 years",
+   "link": "https://www.illinoispolicy.org/illinois-snap-use-falls-to-lowest-in-13-years/",
+   "published": "2026-08-31",
+   "outlet": "Illinois Policy Institute",
+   "region": "statewide",
+   "outlet_type": "advocacy",
+   "feed_url": "https://www.illinoispolicy.org/feed/",
+   "entities": [
+    "SNAP"
+   ],
+   "theme": "other",
+   "theme_raw": "benefits program"
+  },
+  {
+   "id": "9f436394f89a347c",
+   "title": "City of Lights is a true crime podcast that tells the truth",
+   "link": "https://chicagoreader.com/arts-culture/city-of-lights-true-crime-podcast-jeff-signorelli-willy-nast/",
+   "published": "2026-08-31",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [
+    "City",
+    "Lights",
+    "Lights&lt",
+    "Often"
+   ],
+   "theme": "public safety & crime",
+   "theme_raw": "true crime podcast"
+  },
+  {
+   "id": "f162738488753982",
+   "title": "A city within a city",
+   "link": "https://chicagoreader.com/news/quantum-crossroads/south-works-quantum-computing-us-steel/",
+   "published": "2026-08-31",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [
+    "Microelectronics Park. Construction",
+    "Quantum",
+    "Quantum Crossroads",
+    "South Chicago",
+    "Steel"
+   ],
+   "theme": "housing & development",
+   "theme_raw": "quantum computing development"
+  },
+  {
+   "id": "f74ad4a839a7adee",
+   "title": "Butter returns to Indianapolis",
+   "link": "https://chicagoreader.com/visual-arts/art-feature/butter-art-fair-indianapolis/",
+   "published": "2026-08-31",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [
+    "Butter",
+    "Butter Art Fair",
+    "Indianapolis",
+    "Stutz The"
+   ],
+   "theme": "other",
+   "theme_raw": "art fair event"
+  },
+  {
+   "id": "f9cf7f122a54e470",
+   "title": "100-degree weather to start September: The Rundown",
+   "link": "https://www.wbez.org/wbez-newsletter/2026/08/31/the-rundown-100-degree-weather-to-start-september",
+   "published": "2026-08-31",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "Labor Day",
+    "Temperatures"
+   ],
+   "theme": "labor & economy",
+   "theme_raw": "extreme heat weather"
+  },
+  {
+   "id": "5ece218c9838c4c0",
+   "title": "Black & Bronze festival returns to the South Side",
+   "link": "https://www.wbez.org/2026/08/30/from-the-front-porch-to-the-park-black-bronze-brings-generations-together",
+   "published": "2026-08-30",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "Black",
+    "Bronze",
+    "Bronze Festival",
+    "Bronzeville",
+    "Chicago's Black",
+    "Denise Moore",
+    "He's",
+    "Looking",
+    "Maybe",
+    "Moore",
+    "South Side",
+    "That's"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "south side community festival"
+  },
+  {
+   "id": "6b16091011464b99",
+   "title": "CPS wins back millions in federal funding after Trump administration settles lawsuit",
+   "link": "https://www.wbez.org/education/chicago-school-board/2026/08/28/cps-wins-back-millions-in-federal-funding-after-trump-administration-settles-lawsuit",
+   "published": "2026-08-29",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "Black Student Success Plan",
+    "CPS",
+    "March&lt",
+    "Public Schools",
+    "Trump",
+    "U.S. Depa"
+   ],
+   "theme": "education & schools",
+   "theme_raw": "school funding federal settlement"
+  },
+  {
+   "id": "0e45d92dbb2fe7c0",
+   "title": "The Rundown: A corn maze honoring Dolly Parton",
+   "link": "https://www.wbez.org/wbez-newsletter/2026/08/28/the-rundown-a-corn-maze-honoring-dolly-parton",
+   "published": "2026-08-28",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "Dolly Parton",
+    "President Barack Obama"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "dolly parton corn maze"
+  },
+  {
+   "id": "10ec886f380344c6",
+   "title": "CPS policy seeks to make it easier for students experiencing homelessness to enroll in school and get support",
+   "link": "https://www.wbez.org/education/chicago-school-board/2026/08/28/cps-policy-seeks-to-make-it-easier-for-students-experiencing-homelessness-to-enroll-in-school-and-get-support",
+   "published": "2026-08-28",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "CPS",
+    "Public Schools",
+    "School Board",
+    "While"
+   ],
+   "theme": "housing & development",
+   "theme_raw": "homeless student enrollment policy"
+  },
+  {
+   "id": "130606712661ef9e",
+   "title": "Sisters have doubts about cremated remains: \u2018Where is my mama?\u2019",
+   "link": "https://www.wbez.org/wbez-investigations/2026/08/28/sisters-mothers-cremated-remains-south-chicago-chapel-funeral-home",
+   "published": "2026-08-28",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "Franquella",
+    "Marshawna Campbell",
+    "Months",
+    "Prince",
+    "Purple Rain",
+    "Shannon's",
+    "Shawnese Shannon",
+    "Sisters"
+   ],
+   "theme": "other",
+   "theme_raw": "cremated remains dispute"
+  },
+  {
+   "id": "14eefce1d3ecf851",
+   "title": "Illinois promised to protect immigrants. Local officials helped deport them anyway.",
+   "link": "https://capitolnewsillinois.com/news/illinois-promised-to-protect-immigrants-local-officials-helped-deport-them-anyway/",
+   "published": "2026-08-28",
+   "outlet": "Capitol News Illinois",
+   "region": "statewide",
+   "outlet_type": "nonprofit",
+   "feed_url": "https://capitolnewsillinois.com/feed/",
+   "entities": [
+    "Local",
+    "Trump"
+   ],
+   "theme": "immigration & migrants",
+   "theme_raw": "immigration enforcement cooperation"
+  },
+  {
+   "id": "34a6c3f9e19d7554",
+   "title": "Adolescent Salvation is mostly sharp, smart\u2014and gasp-inducing",
+   "link": "https://chicagoreader.com/performing-arts/theater/theater-review/adolescent-salvation-theater-wit/",
+   "published": "2026-08-28",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [
+    "Adolescent Salvation",
+    "Adolescent Salvation&lt",
+    "Theater Wit The"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "theater production"
+  },
+  {
+   "id": "5c96a6c5ef08d87c",
+   "title": "Henry IV, Part 1 takes us to the tavern",
+   "link": "https://chicagoreader.com/performing-arts/theater/theater-review/henry-iv-part-one-sandbox-theatre-collective/",
+   "published": "2026-08-28",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [
+    "Henry IV",
+    "Mrs. Murphy",
+    "Part",
+    "Sandbox Theatre Collective",
+    "Sons Irish Bistro The"
+   ],
+   "theme": "other",
+   "theme_raw": "shakespeare performance"
+  },
+  {
+   "id": "7b6a02c6b3ba2a0e",
+   "title": "Best AI Hentai Generators of 2026",
+   "link": "https://chicagoreader.com/adult/ai-hentai/",
+   "published": "2026-08-28",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [
+    "AI Hentai Generators",
+    "Once"
+   ],
+   "theme": "transit & infrastructure",
+   "theme_raw": "ai hentai generators"
+  },
+  {
+   "id": "9f04bbf2ae20ecfc",
+   "title": "Advance Man explores the aftermath of space",
+   "link": "https://chicagoreader.com/performing-arts/theater/theater-review/advance-man-strawdog-theatre/",
+   "published": "2026-08-28",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [
+    "Advance Man",
+    "Advance Man&lt",
+    "Factory Theater The",
+    "Honeycomb Trilogy",
+    "Part One",
+    "Strawdog Theatre Company"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "theater production"
+  },
+  {
+   "id": "a05d36ce2cd17f12",
+   "title": "U.S. House committee reviewing whether CPS policies that support transgender students violate federal law",
+   "link": "https://www.wbez.org/education/2026/08/27/house-education-committee-reviewing-whether-cps-policies-that-support-transgender-students-violate-federal-law",
+   "published": "2026-08-28",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "CPS",
+    "Congress",
+    "Education",
+    "Public Schools",
+    "Republican",
+    "Supt. Macquline King",
+    "Thursday&lt",
+    "U.S",
+    "U.S. House",
+    "U.S. House Committee",
+    "Workforce"
+   ],
+   "theme": "education & schools",
+   "theme_raw": "transgender student policies"
+  },
+  {
+   "id": "b25bc7d61c49ff54",
+   "title": "Puff, puff, hard pass on Vape! The Grease Parody",
+   "link": "https://chicagoreader.com/performing-arts/theater/theater-review/vape-the-grease-parody-apollo-theater/",
+   "published": "2026-08-28",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [
+    "Apollo Theater The",
+    "Grease Parody",
+    "Grease Parody Vape",
+    "Grease Parody&lt",
+    "Puff",
+    "Vape"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "theater production"
+  },
+  {
+   "id": "d18ac61f13a6aace",
+   "title": "In Sisters, a human woman and an AI sibling form an uneasy bond",
+   "link": "https://chicagoreader.com/performing-arts/theater/theater-review/sisters-writers-theatre/",
+   "published": "2026-08-28",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [
+    "Glencoe The",
+    "Sisters",
+    "Sisters&lt",
+    "Writers Theatre"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "theater production"
+  },
+  {
+   "id": "e52985ac0b6f1011",
+   "title": "Best Phone Chat Line Numbers with Free Trials of 2026",
+   "link": "https://chicagoreader.com/adult/chat-lines/",
+   "published": "2026-08-28",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [
+    "Free Trials",
+    "Numbers",
+    "Phone Chat Line",
+    "Unlike",
+    "Whether"
+   ],
+   "theme": "courts & justice",
+   "theme_raw": "phone chat services"
+  },
+  {
+   "id": "fec0a187200c72b0",
+   "title": "What do NIL college football players pay in taxes?",
+   "link": "https://www.illinoispolicy.org/nil-state-income-taxes-college-football/",
+   "published": "2026-08-28",
+   "outlet": "Illinois Policy Institute",
+   "region": "statewide",
+   "outlet_type": "advocacy",
+   "feed_url": "https://www.illinoispolicy.org/feed/",
+   "entities": [
+    "NIL"
+   ],
+   "theme": "city & state budget",
+   "theme_raw": "athlete taxation"
+  },
+  {
+   "id": "16be639521e0ee85",
+   "title": "Mayor Brandon Johnson answers listener questions on rent control, ICE",
+   "link": "https://www.wbez.org/city-hall/2026/08/27/chicago-mayor-brandon-johnson-august-ask-the-mayor-live-questions-call-phone-number",
+   "published": "2026-08-27",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "Ann Simons.&lt",
+    "ICE",
+    "Johnson",
+    "Lake View",
+    "Loop",
+    "Mayor Brandon Johnson",
+    "Protecting Renters Ordinance",
+    "Sarah",
+    "Sasha"
+   ],
+   "theme": "elections & politics",
+   "theme_raw": "mayor policy discussion"
+  },
+  {
+   "id": "211cdf845e93ad82",
+   "title": "What to know about Flock\u2019s controversial license plate readers",
+   "link": "https://www.wbez.org/public-safety/2026/08/27/flock-license-plate-reader-explainer",
+   "published": "2026-08-27",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "Flock",
+    "Flock Safety",
+    "Flock's",
+    "Law",
+    "License",
+    "Meanwhile"
+   ],
+   "theme": "immigration & migrants",
+   "theme_raw": "surveillance technology"
+  },
+  {
+   "id": "271691363317d486",
+   "title": "All Seasons Orchard in Woodstock to unveil Dolly Parton corn maze",
+   "link": "https://www.wbez.org/arts-culture/2026/08/27/dolly-parton-corn-maze-woodstock-all-seasons-orchard",
+   "published": "2026-08-27",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "All Seasons Orchard",
+    "Dolly Parton",
+    "Parton",
+    "Tuesday&lt",
+    "Woodstock"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "corn maze attraction"
+  },
+  {
+   "id": "2db66b3d2221eb3c",
+   "title": "Illinois\u2019s physical mail ban has made it even more difficult to access books in prison.",
+   "link": "https://chicagoreader.com/city-life/inside-voices/illinois-prisons-book-mailing-policy/",
+   "published": "2026-08-27",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [
+    "Books",
+    "Corrections",
+    "Department"
+   ],
+   "theme": "other",
+   "theme_raw": "prison mail restrictions"
+  },
+  {
+   "id": "2eb2db68bc635329",
+   "title": "Flock license plate readers turn Chicago suburbs into ground zero for bitter fight over surveillance",
+   "link": "https://www.wbez.org/public-safety/2026/08/27/flock-license-plate-reader-alpr-chicago-suburb",
+   "published": "2026-08-27",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "Chicago.&lt",
+    "Copp",
+    "Flock",
+    "Flock Safety",
+    "McHenry County",
+    "Prairie Grove",
+    "Prosecutors",
+    "William Copp"
+   ],
+   "theme": "courts & justice",
+   "theme_raw": "license plate surveillance"
+  },
+  {
+   "id": "303dd4cd47455be6",
+   "title": "Jennifer Custer drops out of race for Chicago school board president",
+   "link": "https://www.wbez.org/education/2026/08/27/jennifer-custer-drops-out-of-race-for-chicago-school-board-president",
+   "published": "2026-08-27",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "Chalkbeat&lt",
+    "Jennifer Custer",
+    "Public Media",
+    "School Board",
+    "Sign"
+   ],
+   "theme": "education & schools",
+   "theme_raw": "school board race"
+  },
+  {
+   "id": "33c6b0a2d4ab9040",
+   "title": "Dos Santos offer love as resistance on the new Es Amor",
+   "link": "https://chicagoreader.com/music/music-feature/dos-santos-es-amor-sound-gravity-cumbia-chicha-chavez-villarreal/",
+   "published": "2026-08-27",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [
+    "Dos Santos",
+    "Es Amor This",
+    "Es Amor&lt",
+    "Even"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "music album review"
+  },
+  {
+   "id": "5125908c160a944f",
+   "title": "The fight over Flock license plate readers: The Rundown",
+   "link": "https://www.wbez.org/wbez-newsletter/2026/08/27/the-rundown-the-fight-over-flock-license-plate-readers",
+   "published": "2026-08-27",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "Anthony Bourdain",
+    "Flock",
+    "Tony&lt"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "license plate readers"
+  },
+  {
+   "id": "69a82d9de0a05d32",
+   "title": "Eventize or die?",
+   "link": "https://chicagoreader.com/film-tv/the-moviegoer/silent-film-william-castle-steel-magnolias-fast-and-furious/",
+   "published": "2026-08-27",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [
+    "Appropriately",
+    "Eventize",
+    "Google News",
+    "Moviegoer"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "film column"
+  },
+  {
+   "id": "6f3acf8033f01a78",
+   "title": "Gary residents focus on recovery after historic power outages: 'We are fighters. We are resilient.'",
+   "link": "https://www.wbez.org/communities/2026/08/26/after-the-lights-turn-on-in-gary-the-recovery-work-continues",
+   "published": "2026-08-27",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "Gary",
+    "NIPSCO",
+    "Northwest Indiana",
+    "Once",
+    "Some",
+    "Utility",
+    "While"
+   ],
+   "theme": "environment & energy",
+   "theme_raw": "power outage recovery"
+  },
+  {
+   "id": "732511d7f062dd65",
+   "title": "Emmett Till, Dr. King, Obama and Aug. 28",
+   "link": "https://www.wbez.org/politics/2026/08/27/emmett-till-dr-martin-luther-king-jr-mlk-barack-obama-tavis-smiley-pursuit-tan-suit",
+   "published": "2026-08-27",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "Black",
+    "Dr. King",
+    "Emmett Till",
+    "Let",
+    "Obama",
+    "President Barack Obama",
+    "White House"
+   ],
+   "theme": "other",
+   "theme_raw": "historical civil rights"
+  },
+  {
+   "id": "86a2ae7b42370373",
+   "title": "Best Phone Sex Numbers with Free Trials of 2026",
+   "link": "https://chicagoreader.com/adult/phone-sex/",
+   "published": "2026-08-27",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [
+    "Free Trials",
+    "Phone Sex Numbers"
+   ],
+   "theme": "courts & justice",
+   "theme_raw": "phone sex services"
+  },
+  {
+   "id": "8e4540407f2438e6",
+   "title": "Fall movies 2026: Richard Roeper\u2019s 12 most anticipated",
+   "link": "https://www.wbez.org/movies-tv/2026/08/27/fall-2026-movies-richard-roeper-most-anticipated",
+   "published": "2026-08-27",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "Brand New Day",
+    "Christopher Nolan",
+    "Fall",
+    "IMAX",
+    "Man",
+    "Meanwhile",
+    "Obsession",
+    "Odyssey",
+    "Richard Roeper",
+    "Spider",
+    "Talk",
+    "Toy Story"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "fall movie previews"
+  },
+  {
+   "id": "9ac6deaa45f80461",
+   "title": "Chicago immigration court violated due process for minors with removal orders, lawmakers say",
+   "link": "https://www.wbez.org/immigration/2026/08/26/lawmakers-advocates-allege-chicago-immigration-court-violated-due-process-for-minors-handed-removal-orders",
+   "published": "2026-08-27",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "Chicago's Downtown",
+    "Durbin",
+    "These",
+    "U.S. Rep. Mike Quigley",
+    "U.S. Sen. Dick Durbin",
+    "United States"
+   ],
+   "theme": "immigration & migrants",
+   "theme_raw": "immigration court violations"
+  },
+  {
+   "id": "aa2057b276a25c7e",
+   "title": "What is a \u2018Mega Master\u2019 Hearing?",
+   "link": "https://borderlessmag.org/2026/08/27/mega-master-immigration-hearings-what-immigrants-should-know-chicago-court/",
+   "published": "2026-08-27",
+   "outlet": "Borderless Magazine",
+   "region": "chicago",
+   "outlet_type": "nonprofit",
+   "feed_url": "https://borderlessmag.org/feed/",
+   "entities": [
+    "Borderless Magazine Illinois",
+    "Hearing",
+    "Max Herman",
+    "Mega Master"
+   ],
+   "theme": "immigration & migrants",
+   "theme_raw": "immigration court hearings"
+  },
+  {
+   "id": "c36898bf66c1903e",
+   "title": "A Foundation of Faith: How Tyrone Murphy built a life of purpose so he could help others do the same",
+   "link": "https://www.illinoispolicy.org/a-foundation-of-faith-how-tyrone-murphy-built-a-life-of-purpose-so-he-could-help-others-do-the-same/",
+   "published": "2026-08-27",
+   "outlet": "Illinois Policy Institute",
+   "region": "statewide",
+   "outlet_type": "advocacy",
+   "feed_url": "https://www.illinoispolicy.org/feed/",
+   "entities": [
+    "Faith",
+    "Foundation",
+    "Tyrone Murphy"
+   ],
+   "theme": "labor & economy",
+   "theme_raw": "business owner philanthropy"
+  },
+  {
+   "id": "d392b34e23e70361",
+   "title": "Culinary Transmissions",
+   "link": "https://chicagoreader.com/food-drink-comic/kurdish-dinner-beizar-aradini-culinary-transmissions-community-kitchen-beimal-yazdanparast-yaprax/",
+   "published": "2026-08-27",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [
+    "Community Kitchen Dinners",
+    "Culinary Transmissions",
+    "Culinary Transmissions Bridgeport",
+    "Iran",
+    "Iraq",
+    "Kurdish",
+    "Prosperity",
+    "Recipes",
+    "Survivance. Each",
+    "Syria",
+    "Turkey",
+    "U.S"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "community dinner series"
+  },
+  {
+   "id": "feb07ef3555f05d2",
+   "title": "Why have more than 200 tornadoes hit Illinois this year?",
+   "link": "https://www.wbez.org/environment/2026/08/27/200-tornadoes-illinois-2026",
+   "published": "2026-08-27",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "Grist&lt",
+    "National Weather Service. The"
+   ],
+   "theme": "environment & energy",
+   "theme_raw": "tornado weather patterns"
+  },
+  {
+   "id": "4a527a86a21d5548",
+   "title": "Though fans were expecting polar bears, many like Chicago\u2019s new NFL Rivalries fit",
+   "link": "https://thetriibe.com/2026/08/though-fans-were-expecting-polar-bears-many-like-the-chicago-bears-new-rivalries-fit/",
+   "published": "2026-08-26",
+   "outlet": "The TRiiBE",
+   "region": "chicago",
+   "outlet_type": "nonprofit",
+   "feed_url": "https://thetriibe.com/feed/",
+   "entities": [
+    "Halas Hall",
+    "NFL Rivalries",
+    "Though"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "NFL team uniforms"
+  },
+  {
+   "id": "5132943d9b0cb8cb",
+   "title": "HystericalFest makes its debut in Evanston",
+   "link": "https://chicagoreader.com/performing-arts/theater/theater-preview/hysterical-fest-violet-surprise-paula-kamen/",
+   "published": "2026-08-26",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [
+    "Act Out",
+    "Evanston",
+    "Evanston HystericalFest",
+    "Evanston The",
+    "HystericalFest",
+    "Noyes Cultural Arts Center",
+    "Piven Theatre Workshop",
+    "Women"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "theater festival debut"
+  },
+  {
+   "id": "797c2a2f83c620b9",
+   "title": "Berlin-based Afro-fusion group Jembaa Groove want to spread the love",
+   "link": "https://chicagoreader.com/music/concert-preview/jembaa-groove-sleeping-village/",
+   "published": "2026-08-26",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [
+    "Afro",
+    "Berlin",
+    "Jembaa Groove",
+    "Jembaa Groove Sat",
+    "Sleeping Village The"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "music performance"
+  },
+  {
+   "id": "847f3e39c901eeb3",
+   "title": "K-pop band BTS world tour \u2018Arirang' in Chicago unites fans",
+   "link": "https://www.wbez.org/music/2026/08/26/bts-fans-army-chicago-arirang-tour",
+   "published": "2026-08-26",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "Arirang",
+    "BTS",
+    "BTS Army",
+    "BTS Day&lt",
+    "Chicago. But",
+    "Earlier",
+    "Gov. JB Pritzker",
+    "HANA Center",
+    "Irving Park. And",
+    "It's"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "music tour event"
+  },
+  {
+   "id": "b52fcb6bdac045c9",
+   "title": "Pritzker record: Illinois loses tens of thousands of residents during his tenure",
+   "link": "https://www.illinoispolicy.org/illinois-population-loss-pritzker/",
+   "published": "2026-08-26",
+   "outlet": "Illinois Policy Institute",
+   "region": "statewide",
+   "outlet_type": "advocacy",
+   "feed_url": "https://www.illinoispolicy.org/feed/",
+   "entities": [
+    "Gov. J.B. Pritzker",
+    "Pritzker"
+   ],
+   "theme": "other",
+   "theme_raw": "state population decline"
+  },
+  {
+   "id": "d0f4bbd02b6ff1ab",
+   "title": "Punk Black FOH Fest says yes to POC punk and metal and says no to ICE",
+   "link": "https://chicagoreader.com/music/concert-preview/punk-black-foh-fest-beat-kitchen/",
+   "published": "2026-08-26",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [
+    "Beat Kitchen The",
+    "Fest Fri",
+    "ICE",
+    "ICE Punk Black FOH",
+    "POC",
+    "Punk Black FOH Fest"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "music festival"
+  },
+  {
+   "id": "f83caa62d794ba95",
+   "title": "West Englewood's shuttered Charles Warrington Earle School reopens as affordable housing",
+   "link": "https://www.wbez.org/money/2026/08/26/west-englewood-shuttered-charles-warrington-earle-school-affordable-housing",
+   "published": "2026-08-26",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "Charles Warrington Earle School",
+    "Chicago.&lt",
+    "Earle Residences",
+    "Earle's",
+    "Gorman",
+    "Matt",
+    "Project",
+    "West Englewood's",
+    "West Englewood. The",
+    "Wisconsin"
+   ],
+   "theme": "education & schools",
+   "theme_raw": "school building conversion"
+  },
+  {
+   "id": "19735179542d9227",
+   "title": "Pritzker defends 57% toll hike approved by board he appointed",
+   "link": "https://www.illinoispolicy.org/pritzker-defends-57-percent-toll-hike/",
+   "published": "2026-08-25",
+   "outlet": "Illinois Policy Institute",
+   "region": "statewide",
+   "outlet_type": "advocacy",
+   "feed_url": "https://www.illinoispolicy.org/feed/",
+   "entities": [
+    "Pritzker"
+   ],
+   "theme": "elections & politics",
+   "theme_raw": "toll rate increase"
+  },
+  {
+   "id": "78c8313feae40c7c",
+   "title": "Illinois promised to protect immigrants. Local officials helped deport them anyway.",
+   "link": "https://www.injusticewatch.org/project/ice-informants/2026/illinois-trust-act-violations-immigrants-deported/",
+   "published": "2026-08-25",
+   "outlet": "Injustice Watch",
+   "region": "chicago",
+   "outlet_type": "nonprofit",
+   "feed_url": "https://www.injusticewatch.org/feed/",
+   "entities": [
+    "Local",
+    "Trump"
+   ],
+   "theme": "immigration & migrants",
+   "theme_raw": "immigration enforcement cooperation"
+  },
+  {
+   "id": "7b174ea7c06e19fe",
+   "title": "Chicago Board of Education 101: Know the Basics of the Soon-To-Be Elected Board Guiding Chicago Public Schools",
+   "link": "https://borderlessmag.org/2026/08/25/chicago-board-of-education-101-know-the-basics-of-the-soon-to-be-elected-board-guiding-chicago-public-schools/",
+   "published": "2026-08-25",
+   "outlet": "Borderless Magazine",
+   "region": "chicago",
+   "outlet_type": "nonprofit",
+   "feed_url": "https://borderlessmag.org/feed/",
+   "entities": [
+    "Basics",
+    "Be Elected Board Guiding",
+    "Board",
+    "Chalkbeat After",
+    "Education",
+    "Know",
+    "McDermott",
+    "November. Here",
+    "Public Schools Laura",
+    "Soon"
+   ],
+   "theme": "elections & politics",
+   "theme_raw": "school board elections"
+  },
+  {
+   "id": "a93d7a1ba5f220e1",
+   "title": "The county prosecutors who became ICE informants",
+   "link": "https://www.injusticewatch.org/project/ice-informants/2026/illinois-prosecutors-helping-ice/",
+   "published": "2026-08-25",
+   "outlet": "Injustice Watch",
+   "region": "chicago",
+   "outlet_type": "nonprofit",
+   "feed_url": "https://www.injusticewatch.org/feed/",
+   "entities": [
+    "ICE"
+   ],
+   "theme": "immigration & migrants",
+   "theme_raw": "prosecutors immigration data sharing"
+  },
+  {
+   "id": "c94d3cd41d5ddbe4",
+   "title": "Harley Go\u2019Lightly holds your deepest confessions in Vessel",
+   "link": "https://chicagoreader.com/performing-arts/theater/theater-preview/harley-golightly-vessel-newport-theater/",
+   "published": "2026-08-25",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [
+    "Harley Go",
+    "Lightly",
+    "Newport Theater The",
+    "Vessel Vessel",
+    "Vessel&lt"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "theater performance"
+  },
+  {
+   "id": "e0020d34003c2818",
+   "title": "Marvin Tate gets intimate with words on his new solo album",
+   "link": "https://chicagoreader.com/music/gossip-wolf/marvin-tate-controlled-burn-resonance-hard-femme-edgewater-festival/",
+   "published": "2026-08-25",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [
+    "Controlled Burn",
+    "Marvin Tate",
+    "Tate",
+    "West"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "solo album release"
+  },
+  {
+   "id": "0c96b009962e0bd6",
+   "title": "How can CPS address its 54% of underused buildings?",
+   "link": "https://www.illinoispolicy.org/chicago-public-schools-underutilized-academic-impact/",
+   "published": "2026-08-24",
+   "outlet": "Illinois Policy Institute",
+   "region": "statewide",
+   "outlet_type": "advocacy",
+   "feed_url": "https://www.illinoispolicy.org/feed/",
+   "entities": [
+    "CPS"
+   ],
+   "theme": "education & schools",
+   "theme_raw": "school facility utilization"
+  },
+  {
+   "id": "0eeee4f340bafff8",
+   "title": "Chicago State is bringing Division I college football to the city",
+   "link": "https://thetriibe.com/2026/08/chicago-state-is-bringing-division-i-college-football-to-the-city/",
+   "published": "2026-08-24",
+   "outlet": "The TRiiBE",
+   "region": "chicago",
+   "outlet_type": "nonprofit",
+   "feed_url": "https://thetriibe.com/feed/",
+   "entities": [
+    "Cougars",
+    "Division",
+    "Roosevelt University",
+    "State"
+   ],
+   "theme": "education & schools",
+   "theme_raw": "college football launch"
+  },
+  {
+   "id": "499d6bf7634ecf28",
+   "title": "L\u2019Rain imagines new futures through experimental pop and rock",
+   "link": "https://chicagoreader.com/music/concert-preview/lrain-constellation/",
+   "published": "2026-08-24",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [
+    "Constellation The",
+    "L'Rain Fri",
+    "Rain"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "music performance"
+  },
+  {
+   "id": "5a92ccdf09de7837",
+   "title": "Pioneering UK electronic group Cabaret Voltaire bid Chicago adieu",
+   "link": "https://chicagoreader.com/music/concert-preview/cabaret-voltaire-metro/",
+   "published": "2026-08-24",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [
+    "Cabaret Voltaire",
+    "Cabaret Voltaire Tue",
+    "Metro The",
+    "Pioneering UK"
+   ],
+   "theme": "other",
+   "theme_raw": "farewell performance"
+  },
+  {
+   "id": "bc85bebc920e8dbe",
+   "title": "Carla dal Forno taps into the power of vulnerability on Confession",
+   "link": "https://chicagoreader.com/music/concert-preview/carla-dal-forno-empty-bottle/",
+   "published": "2026-08-24",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [
+    "Carla",
+    "Confession Carla",
+    "Confession&lt",
+    "Empty Bottle The",
+    "Forno",
+    "Forno Tue"
+   ],
+   "theme": "other",
+   "theme_raw": "album release"
+  },
+  {
+   "id": "d4562b3d1fbfe2a9",
+   "title": "Heavy Chicago veterans Rezn soar to new heights on Cycles in the Infinite Dream",
+   "link": "https://chicagoreader.com/music/concert-preview/rezn-thalia-hall/",
+   "published": "2026-08-24",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [
+    "Cycles",
+    "Heavy Chicago",
+    "Infinite Dream",
+    "Infinite Dream Rezn Sat",
+    "Rezn",
+    "Thalia Hall The"
+   ],
+   "theme": "other",
+   "theme_raw": "album release"
+  }
+ ]
+}

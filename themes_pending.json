@@ -1,0 +1,359 @@
+{
+  "_comment": "Emergent theme labels the model produced that map to NO canonical theme. Human review: add real ones to themes_taxonomy.json (as a new canonical theme or alias). Never auto-added \u2014 this is the human-gated taxonomy growth.",
+  "proposals": [
+    {
+      "raw_theme": "album release",
+      "count": 3,
+      "example": "Heavy Chicago veterans Rezn soar to new heights on Cycles in the Infinite Dream",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "news broadcast",
+      "count": 2,
+      "example": "Sept. 3, 2026 - Full Show",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "tourism economic impact",
+      "count": 1,
+      "example": "Travelers flocked to the \u2018Middle of Everything\u2019 last year, generating over $88 billion in economic impact",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "capitol building renovation",
+      "count": 1,
+      "example": "Illinois Capitol renovations \u2018a few months behind,\u2019 set to wrap up this winter",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "credit rating upgrade",
+      "count": 1,
+      "example": "S&P Global upgrades Illinois\u2019 credit rating",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "nonprofit leadership appointment",
+      "count": 1,
+      "example": "Ruby Bailey joins Injustice Watch as executive director",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "south side judicial races",
+      "count": 1,
+      "example": "What makes these judicial races on Chicago\u2019s South Side unique?",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "jail superintendent residency",
+      "count": 1,
+      "example": "Former juvenile jail superintendent lived in Chicago, report says",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "black philanthropy funding",
+      "count": 1,
+      "example": "Q&A: Sharon Bush unpacks why AMARA is putting Black communities at the center of its philanthropy",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "feminist leader obituary",
+      "count": 1,
+      "example": "Gloria Steinem, a Potent Voice of US Feminism, Dies at 92",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "invasive species barrier",
+      "count": 1,
+      "example": "Trump Lifts Stop-Work Order on Great Lakes Invasive Carp Barrier, Construction to Resume",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "marine animal deaths",
+      "count": 1,
+      "example": "2 More Belugas Die at Shedd, 1 Rescue and 1 Longtime Resident",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "extreme heat weather",
+      "count": 1,
+      "example": "No relief from the heat as September kicks off. Is this normal?",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "cicada noise levels",
+      "count": 1,
+      "example": "Are cicadas louder this year?",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "native ecosystem preservation",
+      "count": 1,
+      "example": "How did a native Chicago plant disappear forever?",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "funeral home criminal liability",
+      "count": 1,
+      "example": "Families call for criminal charges for South Chicago Chapel owners",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "cremated remains dispute",
+      "count": 1,
+      "example": "Sisters have doubts about cremated remains: \u2018Where is my mama?\u2019",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "historical civil rights",
+      "count": 1,
+      "example": "Emmett Till, Dr. King, Obama and Aug. 28",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "september heat wave",
+      "count": 1,
+      "example": "No relief from the heat as September kicks off. Is this normal?",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "defense secretary criticism",
+      "count": 1,
+      "example": "Hegseth needs to go if the GOP expects midterm success",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "astrology forecast",
+      "count": 1,
+      "example": "Horoscope for Friday, September 04, 2026",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "illinois football season opener",
+      "count": 1,
+      "example": "Illinois opens season with 42-23 victory against visiting UAB",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "beluga whale deaths",
+      "count": 1,
+      "example": "2 more belugas die at Shedd Aquarium",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "reporter standards violation",
+      "count": 1,
+      "example": "Review of ex-NFL reporter Dianna Russini's work at the Athletic concludes she didn't comply with standards",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "heat warning cancellation",
+      "count": 1,
+      "example": "Extreme heat warning canceled early on third day of brutal temperatures in Chicago area",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "lakefront car-free proposal",
+      "count": 1,
+      "example": "As Chicagoans Prepare To Bike The Drive, Some Dream Of A Car-Free Lakefront All Year",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "bridge structural condition",
+      "count": 1,
+      "example": "Downtown Bridge That Was Stuck For Hours Has History Of Problems, Records Show",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "exotic bird sighting",
+      "count": 1,
+      "example": "What\u2019s An African Guinea Fowl Doing In Rogers Park?",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "aquarium animal deaths",
+      "count": 1,
+      "example": "After 3 Beluga Deaths In 8 Days, Scrutiny Of Shedd\u2019s Marineland Rescue Grows",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "chicago cross-community friendship",
+      "count": 1,
+      "example": "Joanna and Iliana: From \u2018Insta girlies\u2019 to IRL friends",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "asl interpreter profile",
+      "count": 1,
+      "example": "ASL interpreter Diego Diaz lives a life of joyful chaos",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "publication distribution",
+      "count": 1,
+      "example": "Find a print copy of the Chicago Reader",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "art exhibition curation",
+      "count": 1,
+      "example": "For the love of the game",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "comedian performance routine",
+      "count": 1,
+      "example": "How comedians eat it before and after grabbing the mike",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "community darkroom photography",
+      "count": 1,
+      "example": "Inside Tuley Park\u2019s community darkroom",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "prison conditions advocacy",
+      "count": 1,
+      "example": "Every month, every day, every hour",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "art gallery exhibition",
+      "count": 1,
+      "example": "Time stops at Pueblo Unido Gallery",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "comedy art criticism",
+      "count": 1,
+      "example": "The day the laughter died",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "art fair event",
+      "count": 1,
+      "example": "Butter returns to Indianapolis",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "shakespeare performance",
+      "count": 1,
+      "example": "Henry IV, Part 1 takes us to the tavern",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "prison mail restrictions",
+      "count": 1,
+      "example": "Illinois\u2019s physical mail ban has made it even more difficult to access books in prison.",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "farewell performance",
+      "count": 1,
+      "example": "Pioneering UK electronic group Cabaret Voltaire bid Chicago adieu",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "yoga studio profile",
+      "count": 1,
+      "example": "M\u00e1s all\u00e1 del estudio",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "art criticism project",
+      "count": 1,
+      "example": "All the world\u2019s a game",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "art exhibition",
+      "count": 1,
+      "example": "The joke\u2019s on us",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "movie poster art",
+      "count": 1,
+      "example": "Ghanaian movie posters link Accra and Chicago",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "telephone history",
+      "count": 1,
+      "example": "The original pay-as-you-go phones",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "art criticism",
+      "count": 1,
+      "example": "Missing persons",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "theatrical production",
+      "count": 1,
+      "example": "Anatomy of a Suicide is harsh but compelling in its local premiere",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "population migration",
+      "count": 1,
+      "example": "Pritzker\u2019s record: Over $35 billion in personal income left Illinois during his first term",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "job growth",
+      "count": 1,
+      "example": "Pritzker record: Illinois 5th-worst for private-sector job growth",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "benefits program",
+      "count": 1,
+      "example": "Illinois SNAP use falls to lowest in 13 years",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "state population decline",
+      "count": 1,
+      "example": "Pritzker record: Illinois loses tens of thousands of residents during his tenure",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "financial disclosure transparency",
+      "count": 1,
+      "example": "Pritzker\u2019s financial disclosure less transparent than Trump\u2019s",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "toll rate increase",
+      "count": 1,
+      "example": "Illinois Tollway board approves largest passenger toll hike in Illinois history",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "chemical product regulation",
+      "count": 1,
+      "example": "Pritzker signs law to remove chemicals from makeup, nail polish, hair dye, perfumes",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "toll increase opposition",
+      "count": 1,
+      "example": "76% of online comments oppose proposed toll hikes",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "child protection agency audit",
+      "count": 1,
+      "example": "State audit finds child protection agency made progress, but was still noncompliant with 2020 law",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "public pool hours",
+      "count": 1,
+      "example": "Bucktown\u2019s Holstein Pool To Remain Open Later Into September, \u2018Keep This Fun Going\u2019",
+      "proposed_on": "2026-09-04"
+    }
+  ]
+}

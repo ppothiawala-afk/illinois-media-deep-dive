@@ -1,0 +1,15 @@
+{
+  "_comment": "Themes surging vs their OWN trailing baseline. 'normal' = a theme's mean share over prior snapshots; surge = z>=threshold. emerging = was absent, just appeared. broadening = across more outlets than usual. No sentiment; traceable to theme_history + articles.",
+  "generated": "2026-09-04T18:21:29+00:00",
+  "latest_snapshot": "2026-09-04",
+  "params": {
+    "baseline_weeks": 8,
+    "z_threshold": 2.0,
+    "min_baseline": 3,
+    "min_confident": 6
+  },
+  "history_depth_snapshots": 1,
+  "report_confidence": "low \u2014 baselines need ~6+ snapshots; only 1 exist",
+  "surging": [],
+  "emerging": []
+}
