@@ -1,0 +1,19 @@
+{
+  "_comment": "Canonical emergent-theme taxonomy. IMPORTANT: this is NOT the old 4 fixed policy topics. Two-layer design — (1) ENTITY frequency is PURELY emergent, no predefinition, the raw 'what is Illinois focused on' signal; (2) THEMES are a normalized overlay so surge trends stay comparable week to week instead of fragmenting (the same story labeled five ways kills a baseline). analyze.py maps each article's free-text model theme to a canonical theme via the aliases below; any theme it can't map is PROPOSED to themes_pending.json for human review and never auto-added. The set is deliberately broad/neutral coverage areas and grows by human-gated discovery — it is a frozen-then-extended taxonomy, not a prejudged bucket list. Edit deliberately: changing canonical themes changes historical comparability.",
+  "version": "1.0.0",
+  "frozen_on": "2026-09-03",
+  "canonical": {
+    "public safety & crime": ["crime", "policing", "police", "shooting", "violence", "homicide", "carjacking", "gun"],
+    "city & state budget": ["budget", "fiscal", "pension", "tax", "taxes", "revenue", "deficit", "spending"],
+    "elections & politics": ["election", "campaign", "mayor", "governor", "aldermanic", "ballot", "primary", "city council", "legislature", "springfield politics"],
+    "education & schools": ["cps", "schools", "school", "education", "teachers", "university", "college", "students"],
+    "housing & development": ["housing", "zoning", "development", "real estate", "homeless", "homelessness", "eviction", "gentrification"],
+    "transit & infrastructure": ["cta", "transit", "metra", "roads", "infrastructure", "ohare", "airport", "traffic"],
+    "immigration & migrants": ["immigration", "migrant", "migrants", "asylum", "border", "sanctuary", "deportation"],
+    "environment & energy": ["environment", "climate", "energy", "pollution", "water", "renewable", "utility", "emissions"],
+    "health & public health": ["health", "hospital", "medicaid", "covid", "mental health", "abortion", "healthcare"],
+    "labor & economy": ["jobs", "labor", "union", "business", "economy", "strike", "wages", "unemployment", "manufacturing"],
+    "courts & justice": ["court", "lawsuit", "trial", "prosecutor", "judge", "sentencing", "conviction", "spotlight"],
+    "arts culture & sports": ["arts", "music", "festival", "bears", "cubs", "white sox", "sports", "film", "theater", "food"]
+  }
+}

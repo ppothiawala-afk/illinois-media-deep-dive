@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Secrets — never commit
+.gh_token
+*.key
+.env
+service_account.json
+
+# OS
+.DS_Store
+
+# ── STORAGE RULE (enforced) ─────────────────────────────────────────────────
+# Derived files that are REWRITTEN WHOLESALE each run must NOT be committed —
+# git would store a fresh full copy every time and bloat history unbounded.
+# They are fully regenerable from the append-only archive (analyze.py --rebuild).
+# verify_pipeline.py check S7 FAILS the build if either is ever git-tracked.
+items_analyzed.json
+verification_report.json
+
+# INTENTIONALLY COMMITTED (do NOT ignore) — the durable source of truth plus
+# bounded/append-only derived data:
+#   items_archive.jsonl, item_sightings.jsonl, ingest_runs.jsonl,
+#   archive_watermark.json      (source of truth, append-only)
+#   theme_history.jsonl, entity_history.jsonl   (append-only time series, small)
+#   media_history.json          (weekly snapshots, bounded growth)
+#   items_recent.json           (bounded: last N days, for the dashboard)
+#   surge_report.json           (small, current surges)
+#   themes_taxonomy.json, themes_pending.json   (the frozen + proposed taxonomy)

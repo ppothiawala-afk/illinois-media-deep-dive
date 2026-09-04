@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>SYNTHETIC Capitol News Illinois (test fixture)</title>
+    <link>https://example-synthetic.test/cni</link>
+    <description>Hand-authored fixture. Not real. Do not treat as data.</description>
+    <generator>synthetic-test-fixture</generator>
+    <item>
+      <title>Illinois legislature debates pension funding in veto session</title>
+      <link>https://example-synthetic.test/cni/pension</link>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Springfield lawmakers and the governor weigh pension obligations and the state budget in the fall veto session.]]></description>
+    </item>
+    <item>
+      <title>Downstate hospital closure raises health care access concerns</title>
+      <link>https://example-synthetic.test/cni/hospital</link>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[A rural hospital closure prompts worry about Medicaid and health care access in central Illinois.]]></description>
+    </item>
+    <item>
+      <title>State board certifies primary election results</title>
+      <link>https://example-synthetic.test/cni/election</link>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[The Illinois State Board of Elections certified primary results ahead of the general campaign.]]></description>
+    </item>
+  </channel>
+</rss>

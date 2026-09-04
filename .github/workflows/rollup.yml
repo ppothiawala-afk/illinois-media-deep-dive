@@ -1,0 +1,45 @@
+# WEEKLY rollup — analyze -> snapshot -> surge -> verify.
+# RESILIENCE: derived data is committed even if verify FAILS, and a final gate
+# step reds the build. History never silently vanishes on a check failure.
+# STORAGE RULE: items_analyzed.json and verification_report.json are gitignored
+# and never committed (verify check S7 enforces this).
+name: rollup
+on:
+  schedule:
+    - cron: "40 11 * * 1"     # Mondays 11:40 UTC
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  rollup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - name: Install deps
+        run: pip install -r requirements.txt
+      - name: Analyze archive
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ -n "${ANTHROPIC_API_KEY:-}" ]; then python3 analyze.py; else python3 analyze.py --offline; fi
+      - name: Rollup snapshot + time series
+        run: python3 rollup.py
+      - name: Surge detection
+        run: python3 surge.py
+      - name: Feed health check (proposals only, human-gated)
+        run: python3 discover_feeds.py --health-check || true
+      - name: Verify (writes report; does not fail here)
+        run: python3 verify_pipeline.py || echo "verify reported failures — gate step will fail the build"
+      - name: Commit derived data (always; NEVER items_analyzed.json / verification_report.json)
+        if: always()
+        run: |
+          git config user.name "il-rollup-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add media_history.json theme_history.jsonl entity_history.jsonl items_recent.json surge_report.json feeds_patch.json themes_pending.json || true
+          git commit -m "rollup $(date -u +%F)" || echo "nothing to commit"
+          git push || echo "push skipped"
+      - name: Gate — fail if verification reported any FAIL
+        run: |
+          python3 -c "import json,sys; r=json.load(open('verification_report.json')); n=r['summary'].get('FAIL',0); print('FAILs:',n); sys.exit(1 if n else 0)"

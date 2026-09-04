@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>SYNTHETIC WTTW News (test fixture)</title>
+    <link>https://example-synthetic.test/wttw</link>
+    <description>Hand-authored fixture. Not real. Do not treat as data.</description>
+    <generator>synthetic-test-fixture</generator>
+    <item>
+      <title>Chicago faces budget gap as City Council debates property tax</title>
+      <link>https://example-synthetic.test/wttw/budget-wire</link>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Wire reprint of the city budget deficit story — same headline as WBEZ, for dedup + penetration testing.]]></description>
+    </item>
+    <item>
+      <title>CPS reopens schools after extreme heat closures</title>
+      <link>https://example-synthetic.test/wttw/cps-heat</link>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Chicago Public Schools resumed classes as teachers and students returned after heat-related closures.]]></description>
+    </item>
+    <item>
+      <title>Bears stadium proposal draws aldermanic scrutiny</title>
+      <link>https://example-synthetic.test/wttw/bears-stadium</link>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[The Chicago Bears domed stadium plan faces questions over public financing and development.]]></description>
+    </item>
+  </channel>
+</rss>

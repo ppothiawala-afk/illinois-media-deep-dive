@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Illinois Media Deep Dive</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+  :root{--bg:#0f1115;--panel:#171a21;--panel2:#1e222b;--line:#2a2f3a;--ink:#e7ebf0;
+    --muted:#9aa4b2;--accent:#4f9cf9;--accent2:#39d0a3;--warn:#f0b429;--bad:#ef5f6b;--hot:#ff7a59;}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+  a{color:var(--accent)}
+  header{padding:22px 26px 6px}
+  h1{margin:0 0 2px;font-size:22px}
+  h2{font-size:15px;margin:0 0 12px}
+  .sub{color:var(--muted);font-size:13px}
+  .wrap{padding:0 26px 44px;max-width:1200px}
+  .banner{background:linear-gradient(90deg,#1a2030,#171a21);border:1px solid var(--line);border-left:3px solid var(--warn);border-radius:10px;padding:12px 14px;margin:12px 26px 4px;color:var(--muted);font-size:12.5px}
+  .grid{display:grid;gap:16px}.cols-2{grid-template-columns:1.15fr .85fr}.cols-3{grid-template-columns:repeat(3,1fr)}
+  @media(max-width:900px){.cols-2,.cols-3{grid-template-columns:1fr}}
+  .panel{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px;margin-bottom:16px}
+  .controls{display:flex;gap:14px;align-items:center;flex-wrap:wrap;margin:16px 0}
+  label{color:var(--muted);font-size:12px;margin-right:6px}
+  select,button{background:var(--panel2);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:7px 10px;font-size:13px}
+  button{cursor:pointer}
+  .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+  .kpi{background:var(--panel2);border:1px solid var(--line);border-radius:10px;padding:12px}
+  .kpi .n{font-size:22px;font-weight:700}.kpi .l{color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.04em}
+  table{width:100%;border-collapse:collapse;font-size:13px}
+  th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{color:var(--muted);font-weight:500;font-size:11px;text-transform:uppercase;letter-spacing:.03em}
+  .tag{display:inline-block;padding:1px 7px;border-radius:20px;font-size:11px;border:1px solid var(--line);color:var(--muted)}
+  .surge{border-left:3px solid var(--hot);padding:8px 10px;margin-bottom:8px;background:var(--panel2);border-radius:8px}
+  .surge .big{font-size:15px;font-weight:600}
+  .emerging{border-left-color:var(--accent2)}
+  .muted{color:var(--muted)} .hot{color:var(--hot)} .up{color:var(--accent2)}
+  .empty{text-align:center;padding:52px 20px;color:var(--muted)}.empty .big{font-size:18px;color:var(--ink);margin-bottom:8px}
+  code{background:var(--panel2);padding:1px 6px;border-radius:5px;border:1px solid var(--line)}
+  .matrix{overflow-x:auto}.matrix td.cell{text-align:center;font-size:11px;border-radius:4px}
+  .chip{display:inline-block;font-size:11px;color:var(--muted);margin-right:8px}
+  .foot{color:var(--muted);font-size:12px;margin-top:8px;border-top:1px solid var(--line);padding-top:12px}
+  canvas{max-height:240px}
+  .lowconf{background:#2a2320;border:1px solid #4a3a20;color:var(--warn);border-radius:8px;padding:8px 10px;font-size:12.5px;margin-bottom:10px}
+</style>
+</head>
+<body>
+<header>
+  <h1>Illinois Media Deep Dive</h1>
+  <div class="sub">What Illinois news is focused on — discovered from coverage, not predefined. Counts, not sentiment. <span id="asof"></span></div>
+</header>
+<div class="banner">
+  <strong>How to read this.</strong> Themes are emergent (surfaced from the articles, then normalized so trends stay comparable); entities are raw mentions, nothing predefined.
+  “Surging” means a theme is above <em>its own</em> recent normal — not just high-volume. Sources are a curated set of Illinois outlets (see “Source composition”), <em>not</em> the whole state press; downstate is thinner because legacy dailies are paywalled. No sentiment or tone is inferred.
+</div>
+<div class="wrap"><div id="app"></div></div>
+
+<script>
+const PALETTE=["#4f9cf9","#39d0a3","#f0b429","#c98bff","#ff7a59","#5fd0e0","#e06fae","#9ad04f","#f06b6b","#6f8bff","#d0b04f","#4fd0a0","#b0b8c4"];
+let HISTORY={snapshots:[]}, RECENT={items:[]}, SURGE={surging:[],emerging:[]}, FEEDS={feeds:[]};
+let weekIdx=0, region="all", charts={};
+
+async function loadJSON(f){try{const r=await fetch(f);if(!r.ok)return null;return await r.json();}catch(e){return null;}}
+async function boot(){
+  HISTORY=await loadJSON("media_history.json")||{snapshots:[]};
+  RECENT=await loadJSON("items_recent.json")||{items:[]};
+  SURGE=await loadJSON("surge_report.json")||{surging:[],emerging:[]};
+  FEEDS=await loadJSON("feeds_config.json")||{feeds:[]};
+  weekIdx=Math.max(0,(HISTORY.snapshots||[]).length-1);
+  render();
+}
+const snaps=()=>HISTORY.snapshots||[];
+const cur=()=>snaps()[weekIdx];
+function themeColor(i){return PALETTE[i%PALETTE.length];}
+
+function render(){
+  const app=document.getElementById("app");
+  document.getElementById("asof").textContent = snaps().length
+    ? "· latest "+snaps()[snaps().length-1].date+" · "+snaps().length+" week(s) of history"
+    : "· no data collected yet";
+  if(!snaps().length){ app.innerHTML=emptyState(); renderSources(); return; }
+  app.innerHTML = controls()
+    + `<div id="focus"></div>`
+    + `<div id="surge"></div>`
+    + `<div class="panel"><h2>Theme trend — share over time</h2><canvas id="trend"></canvas><div class="foot" id="trendLegend"></div></div>`
+    + `<div id="divergence"></div>`
+    + `<div id="regions"></div>`
+    + `<div id="penetration"></div>`
+    + `<div id="sources"></div>`
+    + `<div class="foot" id="foot"></div>`;
+  wire(); renderFocus(); renderSurge(); renderTrend(); renderDivergence(); renderRegions(); renderPenetration(); renderSources(); renderFoot();
+}
+
+function emptyState(){
+  const n=(FEEDS.feeds||[]).length;
+  return `<div class="panel"><div class="empty"><div class="big">No coverage data collected yet.</div>
+    <div>The registry holds <strong>${n}</strong> Illinois feeds, but no ingest has run.</div>
+    <div style="margin-top:10px">Run <code>./run_ingest.sh</code> (daily), then <code>./run_rollup.sh</code> (weekly). This page fills in automatically.</div>
+    </div></div><div id="sources"></div>`;
+}
+
+function controls(){
+  const opts=snaps().map((s,i)=>`<option value="${i}" ${i===weekIdx?'selected':''}>${s.date}</option>`).join("");
+  const regs=["all","chicago","suburban","downstate","statewide"].map(r=>`<option value="${r}" ${r===region?'selected':''}>${r}</option>`).join("");
+  return `<div class="controls">
+    <div><label>Week</label><select id="wk">${opts}</select></div>
+    <div><label>Region</label><select id="rg">${regs}</select></div></div>`;
+}
+function wire(){
+  document.getElementById("wk").onchange=e=>{weekIdx=+e.target.value;render();};
+  document.getElementById("rg").onchange=e=>{region=e.target.value;render();};
+}
+
+// theme share for the current week, optionally region-filtered
+function themeShares(s){
+  if(region==="all"){ return Object.entries(s.themes).map(([t,b])=>[t,b.share,b.volume]); }
+  const r=(s.regions||{})[region];
+  if(!r) return [];
+  return Object.entries(r.theme_share||{}).map(([t,sh])=>[t,sh,null]);
+}
+
+function renderFocus(){
+  const s=cur();
+  const shares=themeShares(s).filter(x=>x[0]!=="other").sort((a,b)=>b[1]-a[1]);
+  const topThemes=shares.slice(0,8);
+  const ents=(s.entities_top||[]).slice(0,15);
+  const host=document.getElementById("focus");
+  host.className="panel";
+  host.innerHTML=`<h2>What Illinois is focused on — ${s.window_start} → ${s.window_end}${region!=="all"?" · "+region:""}</h2>
+    <div class="kpis" style="margin-bottom:14px">
+      <div class="kpi"><div class="n">${s.total_items}</div><div class="l">items this week</div></div>
+      <div class="kpi"><div class="n">${topThemes[0]?topThemes[0][0]:"—"}</div><div class="l">top theme</div></div>
+      <div class="kpi"><div class="n">${(SURGE.surging||[]).length}</div><div class="l">surging</div></div>
+      <div class="kpi"><div class="n">${(SURGE.emerging||[]).length}</div><div class="l">emerging</div></div>
+    </div>
+    <div class="grid cols-2">
+      <div><canvas id="themeBar"></canvas></div>
+      <div><label>Top entities (raw mentions)</label>
+        <div style="margin-top:6px;line-height:2">${ents.map(e=>`<span class="tag">${e[0]} · ${e[1]}</span>`).join(" ")||"<span class=muted>none</span>"}</div></div>
+    </div>`;
+  const ctx=document.getElementById("themeBar");
+  charts.themeBar&&charts.themeBar.destroy();
+  charts.themeBar=new Chart(ctx,{type:"bar",
+    data:{labels:topThemes.map(t=>t[0]),datasets:[{data:topThemes.map(t=>Math.round(t[1]*100)),
+      backgroundColor:topThemes.map((_,i)=>themeColor(i))}]},
+    options:{indexAxis:"y",plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>c.parsed.x+"% share"}}},
+      scales:{x:{ticks:{color:"#9aa4b2",callback:v=>v+"%"},grid:{color:"#2a2f3a"}},y:{ticks:{color:"#e7ebf0",font:{size:11}},grid:{display:false}}}}});
+}
+
+function renderSurge(){
+  const host=document.getElementById("surge"); host.className="panel";
+  const lc = SURGE.report_confidence && SURGE.report_confidence.startsWith("low");
+  const surging=SURGE.surging||[], emerging=SURGE.emerging||[];
+  const card=(e,cls)=>`<div class="surge ${cls}"><div class="big">${e.theme} ${e.broadening?'<span class="up" title="appearing across more outlets than usual">▲ broadening</span>':''}</div>
+    <div class="muted">now ${Math.round(e.latest_share*100)}% of coverage · normal ${Math.round(e.baseline_mean_share*100)}%${e.z!=null?` · z=${e.z}`:''} · ${e.baseline_points} wks baseline · confidence ${e.confidence}</div></div>`;
+  host.innerHTML=`<h2>Surge radar — what's rising vs. its own normal</h2>
+    ${lc?`<div class="lowconf">${SURGE.report_confidence}. Treat these as early hints, not established surges.</div>`:''}
+    <div class="grid cols-2">
+      <div><label>Surging (established themes rising)</label>${surging.length?surging.map(e=>card(e,"")).join(""):'<div class="muted" style="margin-top:6px">none this week</div>'}</div>
+      <div><label>Emerging (newly appearing)</label>${emerging.length?emerging.map(e=>card(e,"emerging")).join(""):'<div class="muted" style="margin-top:6px">none this week</div>'}</div>
+    </div>`;
+}
+
+function renderTrend(){
+  const ctx=document.getElementById("trend"); if(!ctx)return;
+  charts.trend&&charts.trend.destroy();
+  const S=snaps();
+  // pick the top themes by latest share to keep the chart readable
+  const latest=S[S.length-1].themes;
+  const top=Object.entries(latest).filter(([t])=>t!=="other").sort((a,b)=>b[1].share-a[1].share).slice(0,6).map(x=>x[0]);
+  const ds=top.map((t,i)=>({label:t,borderColor:themeColor(i),backgroundColor:themeColor(i),tension:.3,pointRadius:2,
+    data:S.map(s=>Math.round(((s.themes[t]||{}).share||0)*100))}));
+  charts.trend=new Chart(ctx,{type:"line",data:{labels:S.map(s=>s.date),datasets:ds},
+    options:{plugins:{legend:{display:false}},scales:{x:{ticks:{color:"#9aa4b2",font:{size:10}},grid:{color:"#2a2f3a"}},
+      y:{ticks:{color:"#9aa4b2",callback:v=>v+"%"},grid:{color:"#2a2f3a"},beginAtZero:true}}}});
+  document.getElementById("trendLegend").innerHTML=top.map((t,i)=>`<span class="chip"><span style="display:inline-block;width:10px;height:10px;background:${themeColor(i)};border-radius:2px;margin-right:4px"></span>${t}</span>`).join("");
+}
+
+function renderDivergence(){
+  const s=cur(); const host=document.getElementById("divergence"); host.className="panel";
+  const outlets=Object.entries(s.outlets||{}).sort((a,b)=>b[1].total-a[1].total);
+  // themes present this week (top by share)
+  const themes=Object.entries(s.themes).filter(([t])=>t!=="other").sort((a,b)=>b[1].share-a[1].share).slice(0,7).map(x=>x[0]);
+  const shade=x=>{const a=[30,34,42],b=[79,156,249];const c=a.map((v,i)=>Math.round(v+(b[i]-v)*Math.min(1,x*2)));return `rgb(${c[0]},${c[1]},${c[2]})`;};
+  const rows=outlets.map(([o,blk])=>`<tr><td>${o} <span class="muted" style="font-size:11px">${blk.region}·${blk.total}</span></td>${
+    themes.map(t=>{const sh=(blk.theme_share||{})[t]||0;return `<td class="cell" style="background:${sh?shade(sh):'transparent'}">${sh?Math.round(sh*100):''}</td>`;}).join("")}</tr>`).join("");
+  host.innerHTML=`<h2>Outlet divergence — who covers what (cell = % of that outlet's week on the theme)</h2>
+    <div class="matrix"><table><tr><th>Outlet</th>${themes.map(t=>`<th>${t.replace(/ &.*/,'')}</th>`).join("")}</tr>${rows||'<tr><td class=muted>no outlet data</td></tr>'}</table></div>
+    <div class="foot">Reads across a row: that outlet's attention mix. Reads down a column: which outlets attend to a theme and which ignore it — differential attention, no sentiment.</div>`;
+}
+
+function renderRegions(){
+  const s=cur(); const host=document.getElementById("regions"); host.className="panel";
+  const regs=Object.entries(s.regions||{});
+  if(!regs.length){host.innerHTML="";return;}
+  const themes=Object.entries(s.themes).filter(([t])=>t!=="other").sort((a,b)=>b[1].share-a[1].share).slice(0,6).map(x=>x[0]);
+  const rows=regs.map(([r,blk])=>`<tr><td><strong>${r}</strong> <span class="muted">${blk.total}</span></td>${
+    themes.map(t=>`<td class="cell">${Math.round(((blk.theme_share||{})[t]||0)*100)}%</td>`).join("")}</tr>`).join("");
+  host.innerHTML=`<h2>Chicago vs. downstate — theme share by region</h2>
+    <div class="matrix"><table><tr><th>Region</th>${themes.map(t=>`<th>${t.replace(/ &.*/,'')}</th>`).join("")}</tr>${rows}</table></div>
+    <div class="foot muted">Downstate depth is thinner (legacy downstate dailies are paywalled) — compare with that caveat.</div>`;
+}
+
+function renderPenetration(){
+  const s=cur(); const host=document.getElementById("penetration"); host.className="panel";
+  const p=(s.penetration||[]);
+  host.innerHTML=`<h2>Story penetration — what broke through across outlets</h2>
+    ${p.length?`<table><tr><th>Story</th><th>Theme</th><th>Outlets</th></tr>${p.map(x=>`<tr><td><a href="${x.link}" target="_blank" rel="noopener">${esc(x.title)}</a><div class="muted" style="font-size:11px">${x.outlets.join(", ")}</div></td><td><span class="tag">${x.theme}</span></td><td>${x.outlet_count}</td></tr>`).join("")}</table>`
+      :'<div class="muted">No story appeared in 2+ outlets this week (or only one outlet is active).</div>'}`;
+}
+
+function renderSources(){
+  const host=document.getElementById("sources"); if(!host)return; host.className="panel";
+  const feeds=FEEDS.feeds||[];
+  const val=feeds.filter(f=>f.validation&&f.validation.validated).length;
+  const byRegion={}; feeds.forEach(f=>{(byRegion[f.region]=byRegion[f.region]||[]).push(f);});
+  const needs=(FEEDS.needs_feed_url_discovery||[]).map(x=>x.outlet).join(", ");
+  const rows=Object.entries(byRegion).map(([r,fs])=>`<tr><td><strong>${r}</strong></td><td>${fs.length}</td><td>${fs.map(f=>`${f.outlet} <span class="muted">${f.validation&&f.validation.validated?'✓':'·'}${f.outlet_type[0]}</span>`).join(", ")}</td></tr>`).join("");
+  host.innerHTML=`<h2>Source composition — read before trusting a number</h2>
+    <div class="muted" style="margin-bottom:10px">${feeds.length} feeds · <strong>${val}</strong> validated, ${feeds.length-val} candidate. A curated Illinois cross-section (nonprofit, public, commercial, alt-weekly, advocacy), <em>not</em> the whole state press. Legacy downstate dailies are paywalled and excluded, so downstate is thinner. ${needs?`Wanted but feed not yet found: ${needs}.`:''}</div>
+    <div class="matrix"><table><tr><th>Region</th><th>Feeds</th><th>Outlets (✓ validated · type)</th></tr>${rows}</table></div>`;
+}
+
+function renderFoot(){
+  const s=cur();
+  document.getElementById("foot").innerHTML=`Data: <code>media_history.json</code> + <code>items_recent.json</code> + <code>surge_report.json</code> + <code>feeds_config.json</code>. Backend ${(s.meta&&s.meta.backend)||"—"} · taxonomy ${(s.meta&&s.meta.taxonomy_version)||"—"}. No sentiment computed anywhere.`;
+}
+function esc(x){return (x||"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));}
+boot();
+</script>
+</body>
+</html>

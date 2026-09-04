@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>SYNTHETIC WBEZ (test fixture)</title>
+    <link>https://example-synthetic.test/wbez</link>
+    <description>Hand-authored fixture. Not real. Do not treat as data.</description>
+    <generator>synthetic-test-fixture</generator>
+    <item>
+      <title>Chicago faces budget gap as City Council debates property tax</title>
+      <link>https://example-synthetic.test/wbez/budget-gap</link>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Mayor and aldermen spar over the city budget deficit and a proposed property tax increase.]]></description>
+    </item>
+    <item>
+      <title>CTA Red Line delays frustrate commuters</title>
+      <link>https://example-synthetic.test/wbez/cta-delays</link>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[Transit riders report long waits as the CTA works through signal problems on the Red Line.]]></description>
+    </item>
+    <item>
+      <title>Migrant shelter on the South Side to close</title>
+      <link>https://example-synthetic.test/wbez/shelter</link>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+      <description><![CDATA[A migrant shelter housing asylum seekers will close as the sanctuary program winds down.]]></description>
+    </item>
+  </channel>
+</rss>
