@@ -1,6 +1,6 @@
 {
   "_comment": "PROPOSALS ONLY \u2014 human review, then apply_feeds_patch.py. Discovery/health-check never edits feeds_config.json directly.",
-  "generated": "2026-09-07T16:42:16.282244+00:00",
+  "generated": "2026-09-09T15:22:36.762696+00:00",
   "adds": [],
   "flags": [
     {
@@ -21,6 +21,13 @@
       "action": "flag",
       "feed_url": "https://www.dailyherald.com/arc/outboundfeeds/feed/",
       "outlet": "Daily Herald",
+      "status_proposed": "dead",
+      "reason": "no items"
+    },
+    {
+      "action": "flag",
+      "feed_url": "https://chicagoreader.com/feed/",
+      "outlet": "Chicago Reader",
       "status_proposed": "dead",
       "reason": "no items"
     },

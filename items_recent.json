@@ -1,8 +1,1148 @@
 {
  "_comment": "Bounded (last 14d) analyzed items for the dashboard. Full analyzed corpus is git-ignored and regenerable (storage rule).",
- "generated": "2026-09-07",
- "count": 141,
+ "generated": "2026-09-09",
+ "count": 203,
  "items": [
+  {
+   "id": "03034877510da573",
+   "title": "With Ald. Rodriguez not seeking re-election, Johnson loses key City Council ally",
+   "link": "https://chicago.suntimes.com/fran-spielman-show/2026/09/09/ald-mike-rodriguez-22nd-ward-not-seeking-re-election-brandon-johnson-city-council-ally",
+   "published": "2026-09-09",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Brandon Johnson",
+    "Mike Rodriguez",
+    "Chicago City Council"
+   ],
+   "theme": "elections & politics",
+   "theme_raw": "alderman not seeking re-election",
+   "civic": true
+  },
+  {
+   "id": "04f5de95c0af9f78",
+   "title": "Illinois\u2019 top 50 state pensioners averaged $437,000 each last year",
+   "link": "https://www.illinoispolicy.org/illinois-top-50-state-pensioners-averaged-437000-each-last-year/",
+   "published": "2026-09-09",
+   "outlet": "Illinois Policy Institute",
+   "region": "statewide",
+   "outlet_type": "advocacy",
+   "feed_url": "https://www.illinoispolicy.org/feed/",
+   "entities": [
+    "Illinois"
+   ],
+   "theme": "city & state budget",
+   "theme_raw": "state pension analysis",
+   "civic": true
+  },
+  {
+   "id": "0d57e8de15d457ae",
+   "title": "Independent governor candidate Collin Corbett aims to give voters \u2018a home again\u2019 in polarized Illinois",
+   "link": "https://chicago.suntimes.com/elections/2026/09/09/collin-corbett-illinois-governor-independent-candidate-november-midterm-election",
+   "published": "2026-09-09",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Collin Corbett",
+    "Illinois"
+   ],
+   "theme": "elections & politics",
+   "theme_raw": "independent governor campaign",
+   "civic": true
+  },
+  {
+   "id": "0f836ce148efc25d",
+   "title": "Mom fatally shot while snuggling with her kids",
+   "link": "https://chicago.suntimes.com/morning-edition/2026/09/09/chicago-police-department-white-sox-amtrak-governor-jb-pritzker",
+   "published": "2026-09-09",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Amtrak",
+    "Below&lt",
+    "Can",
+    "Crystal Salter",
+    "Chicago Cubs",
+    "Keeping",
+    "Mom",
+    "Neighbors",
+    "Plus&lt",
+    "Salter",
+    "That's",
+    "Chicago White Sox"
+   ],
+   "theme": "public safety & crime",
+   "theme_raw": "fatal shooting incident",
+   "civic": true
+  },
+  {
+   "id": "1619b00e1bf5419c",
+   "title": "Midway Blitz, One Year Later: A Look At The Photos That Shook Chicago",
+   "link": "https://blockclubchicago.org/2026/09/09/one-year-after-midway-blitz-a-look-at-the-photos-that-shook-chicago/",
+   "published": "2026-09-09",
+   "outlet": "Block Club Chicago",
+   "region": "chicago",
+   "outlet_type": "nonprofit",
+   "feed_url": "https://blockclubchicago.org/feed/",
+   "entities": [
+    "Operation Midway Blitz"
+   ],
+   "theme": "immigration & migrants",
+   "theme_raw": "immigration enforcement documentation",
+   "civic": true
+  },
+  {
+   "id": "1f300067255b7bd8",
+   "title": "Girl, 6, struck and killed by school bus in Chicago suburb",
+   "link": "https://chicago.suntimes.com/news/2026/09/08/girl-6-killed-after-struck-by-school-bus-in-frankfort",
+   "published": "2026-09-09",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Frankfort",
+    "Cook County"
+   ],
+   "theme": "education & schools",
+   "theme_raw": "school bus fatality",
+   "civic": true
+  },
+  {
+   "id": "333cfb57217f42c9",
+   "title": "A Year After Operation Midway Blitz, Chicagoans Are Still Picking Up The Pieces",
+   "link": "https://blockclubchicago.org/2026/09/09/a-year-after-operation-midway-blitz-chicagoans-are-still-picking-up-the-pieces/",
+   "published": "2026-09-09",
+   "outlet": "Block Club Chicago",
+   "region": "chicago",
+   "outlet_type": "nonprofit",
+   "feed_url": "https://blockclubchicago.org/feed/",
+   "entities": [
+    "Operation Midway Blitz"
+   ],
+   "theme": "immigration & migrants",
+   "theme_raw": "immigration enforcement aftermath",
+   "civic": true
+  },
+  {
+   "id": "3d48f2c763dc0ba0",
+   "title": "Second Arson Hits Embattled West Loop Bar Habibti As Nuisance Calls Pile Up",
+   "link": "https://blockclubchicago.org/2026/09/09/second-arson-hits-embattled-west-loop-bar-habibti-as-nuisance-calls-pile-up/",
+   "published": "2026-09-09",
+   "outlet": "Block Club Chicago",
+   "region": "chicago",
+   "outlet_type": "nonprofit",
+   "feed_url": "https://blockclubchicago.org/feed/",
+   "entities": [
+    "Habibti",
+    "West Loop"
+   ],
+   "theme": "public safety & crime",
+   "theme_raw": "restaurant arson investigation",
+   "civic": true
+  },
+  {
+   "id": "47d6c396f463ece4",
+   "title": "'Orbital' is the 2026 One Book, One Chicago selection",
+   "link": "https://www.wbez.org/books/2026/09/09/orbital-novel-samantha-harvey-one-book-one-chicago-public-library-reads",
+   "published": "2026-09-09",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "Chicago Public Library"
+   ],
+   "theme": "elections & politics",
+   "theme_raw": "citywide book selection",
+   "civic": true
+  },
+  {
+   "id": "542ed266aa3d8c7f",
+   "title": "Mother who beat addiction fatally shot snuggling in bed with her 2 daughters, sister and police say",
+   "link": "https://chicago.suntimes.com/crime/2026/09/08/crystal-salter-mother-overcame-addiction-fatal-shooting-boyfriend-daughter",
+   "published": "2026-09-09",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Crystal Salter"
+   ],
+   "theme": "public safety & crime",
+   "theme_raw": "fatal shooting Chicago",
+   "civic": true
+  },
+  {
+   "id": "5b4720b7f4bcf0b2",
+   "title": "3 stabbed in 2 separate domestic fights in Rogers Park",
+   "link": "https://chicago.suntimes.com/crime/2026/09/09/3-stabbed-in-2-separate-domestic-fights-in-rogers-park",
+   "published": "2026-09-09",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Rogers Park",
+    "St. Francis Hospital"
+   ],
+   "theme": "public safety & crime",
+   "theme_raw": "domestic violence stabbings",
+   "civic": true
+  },
+  {
+   "id": "69b9d73a72b51776",
+   "title": "2-alarm fire leaves West Town apartment residents displaced",
+   "link": "https://chicago.suntimes.com/crime/2026/09/09/2-alarm-fire-leaves-west-town-apartment-residents-displaced",
+   "published": "2026-09-09",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "West Town"
+   ],
+   "theme": "other",
+   "theme_raw": "apartment fire displacement",
+   "civic": true
+  },
+  {
+   "id": "76d28945d1b87d00",
+   "title": "Number of Unhoused Chicagoans Dropped 12% in 2026 But Remains Near All-Time High, Survey Found",
+   "link": "https://news.wttw.com/2026/09/09/number-unhoused-chicagoans-dropped-12-2026-remains-near-all-time-high-survey-found",
+   "published": "2026-09-09",
+   "outlet": "WTTW News",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://news.wttw.com/feed",
+   "entities": [
+    "Chicago"
+   ],
+   "theme": "housing & development",
+   "theme_raw": "homelessness survey data",
+   "civic": true
+  },
+  {
+   "id": "b6288b98758ed266",
+   "title": "Chicago Named The Most \u2018Climate Resilient\u2019 City On Earth",
+   "link": "https://blockclubchicago.org/2026/09/09/chicago-is-the-most-climate-resilient-city-on-earth-report-finds/",
+   "published": "2026-09-09",
+   "outlet": "Block Club Chicago",
+   "region": "chicago",
+   "outlet_type": "nonprofit",
+   "feed_url": "https://blockclubchicago.org/feed/",
+   "entities": [
+    "Chicago"
+   ],
+   "theme": "environment & energy",
+   "theme_raw": "climate resilience ranking",
+   "civic": true
+  },
+  {
+   "id": "b8f5d8aedf802616",
+   "title": "These 61 organizations will receive $3.5M in Illinois local food grants",
+   "link": "https://capitolnewsillinois.com/news/these-61-organizations-will-receive-3-5m-in-illinois-local-food-grants/",
+   "published": "2026-09-09",
+   "outlet": "Capitol News Illinois",
+   "region": "statewide",
+   "outlet_type": "nonprofit",
+   "feed_url": "https://capitolnewsillinois.com/feed/",
+   "entities": [
+    "State of Illinois"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "food grants program",
+   "civic": true
+  },
+  {
+   "id": "d320120d5e6320d5",
+   "title": "From \u2018Mega Master\u2019 Hearings to Investigations, What\u2019s Changed Since \u2018Midway Blitz\u2019",
+   "link": "https://news.wttw.com/2026/09/08/mega-master-hearings-investigations-what-s-changed-midway-blitz",
+   "published": "2026-09-09",
+   "outlet": "WTTW News",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://news.wttw.com/feed",
+   "entities": [
+    "Andrew Montequin&lt",
+    "Changed Since",
+    "From",
+    "Hearings",
+    "Investigations",
+    "Mega Master",
+    "Midway Blitz"
+   ],
+   "theme": "other",
+   "theme_raw": "investigations summary",
+   "civic": true
+  },
+  {
+   "id": "d36e0f6c4295045b",
+   "title": "New ambulance for mental health crises",
+   "link": "https://www.illinoistimes.com/news/new-ambulance-for-mental-health-crises/",
+   "published": "2026-09-09",
+   "outlet": "Illinois Times",
+   "region": "downstate",
+   "outlet_type": "altweekly",
+   "feed_url": "https://illinoistimes.com/feed/",
+   "entities": [
+    "Springfield Fire Department",
+    "Sangamon County"
+   ],
+   "theme": "health & public health",
+   "theme_raw": "mental health ambulance",
+   "civic": true
+  },
+  {
+   "id": "e434a0737cd76dc0",
+   "title": "Curbing pay-to-play in Chicago politics",
+   "link": "https://chicago.suntimes.com/letters-to-the-editor/2026/09/09/city-hall-donations-contractors-ice-right-to-die-catholic-church-bears-traffic",
+   "published": "2026-09-09",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Chicago Board of Ethics",
+    "Matt Martin"
+   ],
+   "theme": "elections & politics",
+   "theme_raw": "ethics reform ordinance",
+   "civic": true
+  },
+  {
+   "id": "eca498021576a94e",
+   "title": "Roaches, flooding, unpaid loans: dozens of Chinatown residents, businesses face uncertainty as landlord\u2019s empire crumbled",
+   "link": "https://chicagoreader.com/news/chinatown-residents-businesses-uncertainty-jiazhao-frank-chen-empire-crumbled/",
+   "published": "2026-09-09",
+   "outlet": "Chicago Reader",
+   "region": "chicago",
+   "outlet_type": "altweekly",
+   "feed_url": "https://chicagoreader.com/feed/",
+   "entities": [
+    "Chinatown",
+    "Heung Seng Corporation",
+    "Better Government Association"
+   ],
+   "theme": "housing & development",
+   "theme_raw": "chinatown housing crisis",
+   "civic": true
+  },
+  {
+   "id": "0413225c9424272d",
+   "title": "Cop responding to call hurt in Near West Side crash",
+   "link": "https://chicago.suntimes.com/crime/2026/09/08/cop-responding-to-call-of-service-hurt-in-near-west-side-crash",
+   "published": "2026-09-08",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Chicago Police Department",
+    "Near West Side"
+   ],
+   "theme": "public safety & crime",
+   "theme_raw": "police vehicle crash",
+   "civic": true
+  },
+  {
+   "id": "07bf2dbab5db3418",
+   "title": "2 men wounded in West Garfield Park shooting",
+   "link": "https://chicago.suntimes.com/west-garfield-park/2026/09/07/2-men-wounded-in-west-garfield-park-shooting",
+   "published": "2026-09-08",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Chicago Police Department",
+    "West Garfield Park"
+   ],
+   "theme": "public safety & crime",
+   "theme_raw": "shooting incident",
+   "civic": true
+  },
+  {
+   "id": "08b5ad4b52d70bcb",
+   "title": "State bill would make gunmakers pay if their weapons are recovered in shootings",
+   "link": "https://www.wbez.org/health-medicine/2026/09/08/state-bill-gun-makers-pay-gun-violence",
+   "published": "2026-09-08",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "Illinois"
+   ],
+   "theme": "public safety & crime",
+   "theme_raw": "gunmaker liability law",
+   "civic": true
+  },
+  {
+   "id": "23080c4cbd754bd1",
+   "title": "Illinois Dems seek DHS probe of federal agents for excessive force during Midway Blitz",
+   "link": "https://chicago.suntimes.com/immigration/2026/09/08/illinois-democrats-congress-homeland-security-inspector-general-call-investigation-federal-agents-excessive-force",
+   "published": "2026-09-08",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Illinois",
+    "Department of Homeland Security",
+    "Midway"
+   ],
+   "theme": "immigration & migrants",
+   "theme_raw": "federal agents excessive force",
+   "civic": true
+  },
+  {
+   "id": "2732420250ae3622",
+   "title": "Legislative watchdog Mike McCuskey resigning in wake of complaints over handling of Benton harassment case",
+   "link": "https://chicago.suntimes.com/springfield/2026/09/08/mike-mccuskey-resigns-benton-report-investigation-complaint",
+   "published": "2026-09-08",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Mike McCuskey",
+    "Illinois"
+   ],
+   "theme": "courts & justice",
+   "theme_raw": "Illinois watchdog resignation",
+   "civic": true
+  },
+  {
+   "id": "282fe37897cccc09",
+   "title": "Lincoln-Way East students plan walkout over racial harassment incident at Homewood-Flossmoor football game",
+   "link": "https://chicago.suntimes.com/high-school-football/2026/09/08/lincoln-way-east-racial-incident-homewood-flossmoor",
+   "published": "2026-09-08",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Lincoln-Way East",
+    "Toriano Griggs",
+    "Homewood-Flossmoor"
+   ],
+   "theme": "education & schools",
+   "theme_raw": "racial harassment walkout",
+   "civic": true
+  },
+  {
+   "id": "2d68f9f571716c9f",
+   "title": "Death of CTA passenger shoved off moving Red Line train at 69th Street probed as homicide",
+   "link": "https://chicago.suntimes.com/crime/2026/09/08/death-of-cta-passenger-shoved-off-moving-red-line-train-at-69th-street-ruled-homicide",
+   "published": "2026-09-08",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Chicago Transit Authority",
+    "Red Line",
+    "Greater Grand Crossing"
+   ],
+   "theme": "public safety & crime",
+   "theme_raw": "CTA homicide investigation",
+   "civic": true
+  },
+  {
+   "id": "2d9b976725b3f9c4",
+   "title": "Judge Weighing Arguments To Halt Illinois\u2019 \u2018Medical Aid In Dying\u2019 Law Ahead Of Saturday Start",
+   "link": "https://blockclubchicago.org/2026/09/08/judge-weighing-arguments-to-halt-illinois-medical-aid-in-dying-law-ahead-of-saturday-start/",
+   "published": "2026-09-08",
+   "outlet": "Block Club Chicago",
+   "region": "chicago",
+   "outlet_type": "nonprofit",
+   "feed_url": "https://blockclubchicago.org/feed/",
+   "entities": [
+    "Illinois",
+    "End-of-Life Options for Terminally Ill Patients Act"
+   ],
+   "theme": "courts & justice",
+   "theme_raw": "medical aid in dying law",
+   "civic": true
+  },
+  {
+   "id": "2f45a8cbca817587",
+   "title": "Midway Blitz 1 year later",
+   "link": "https://chicago.suntimes.com/morning-edition/2026/09/08/trump-administration-midway-blitz-labor-day-weekend",
+   "published": "2026-09-08",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Operation Midway Blitz"
+   ],
+   "theme": "immigration & migrants",
+   "theme_raw": "immigration enforcement operation",
+   "civic": true
+  },
+  {
+   "id": "3812b41f2636dbf0",
+   "title": "Legislature needs to question its inspector general",
+   "link": "https://www.illinoistimes.com/news-opinion/politics/legislature-needs-to-question-its-inspector-general/",
+   "published": "2026-09-08",
+   "outlet": "Illinois Times",
+   "region": "downstate",
+   "outlet_type": "altweekly",
+   "feed_url": "https://illinoistimes.com/feed/",
+   "entities": [
+    "Illinois General Assembly"
+   ],
+   "theme": "elections & politics",
+   "theme_raw": "state inspector general",
+   "civic": true
+  },
+  {
+   "id": "396a96729afaf056",
+   "title": "2 men shot to death in Englewood home; 1 in custody",
+   "link": "https://chicago.suntimes.com/crime/2026/09/08/2-men-shot-to-death-in-englewood-home-1-in-custody",
+   "published": "2026-09-08",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Chicago Police Department",
+    "Englewood"
+   ],
+   "theme": "public safety & crime",
+   "theme_raw": "homicide",
+   "civic": true
+  },
+  {
+   "id": "3adaf0e0d00a2192",
+   "title": "Chicago-Area Businesses Lost $1.2 Billion Because Of Immigration Crackdown, Report Says",
+   "link": "https://blockclubchicago.org/2026/09/08/chicago-area-businesses-lost-1-2-billion-because-of-immigration-enforcement-report-says/",
+   "published": "2026-09-08",
+   "outlet": "Block Club Chicago",
+   "region": "chicago",
+   "outlet_type": "nonprofit",
+   "feed_url": "https://blockclubchicago.org/feed/",
+   "entities": [
+    "U.S. Border Patrol",
+    "ICE",
+    "Cook County",
+    "University of Illinois Chicago"
+   ],
+   "theme": "immigration & migrants",
+   "theme_raw": "immigration enforcement impact",
+   "civic": true
+  },
+  {
+   "id": "3b1cc903d60ec50e",
+   "title": "Midway Blitz: One year later",
+   "link": "https://chicago.suntimes.com/morning-edition/2026/09/08/trump-administration-midway-blitz-labor-day-weekend",
+   "published": "2026-09-08",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Chicago",
+    "Operation Midway Blitz",
+    "Donald Trump"
+   ],
+   "theme": "immigration & migrants",
+   "theme_raw": "immigration enforcement",
+   "civic": true
+  },
+  {
+   "id": "4472272116b0d26b",
+   "title": "Remember Sept. 11 this Friday",
+   "link": "https://www.illinoistimes.com/arts-culture/itpicks/remember-sept-11-this-friday/",
+   "published": "2026-09-08",
+   "outlet": "Illinois Times",
+   "region": "downstate",
+   "outlet_type": "altweekly",
+   "feed_url": "https://illinoistimes.com/feed/",
+   "entities": [
+    "Springfield Fire Department"
+   ],
+   "theme": "public safety & crime",
+   "theme_raw": "september 11 commemoration",
+   "civic": true
+  },
+  {
+   "id": "47511743d877ae8c",
+   "title": "Legislative Inspector General Michael McCuskey resigns amid criticism",
+   "link": "https://capitolnewsillinois.com/news/legislative-inspector-general-michael-mccuskey-resigns-amid-criticism/",
+   "published": "2026-09-08",
+   "outlet": "Capitol News Illinois",
+   "region": "statewide",
+   "outlet_type": "nonprofit",
+   "feed_url": "https://capitolnewsillinois.com/feed/",
+   "entities": [
+    "Michael McCuskey",
+    "Illinois General Assembly"
+   ],
+   "theme": "other",
+   "theme_raw": "inspector general resignation",
+   "civic": true
+  },
+  {
+   "id": "48d7ea82eb487cf9",
+   "title": "8 Killed in Shootings Over Labor Day Weekend Across Chicago: Police",
+   "link": "https://news.wttw.com/2026/09/08/8-killed-shootings-over-labor-day-weekend-across-chicago-police",
+   "published": "2026-09-08",
+   "outlet": "WTTW News",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://news.wttw.com/feed",
+   "entities": [
+    "Chicago Police Department",
+    "Chicago"
+   ],
+   "theme": "public safety & crime",
+   "theme_raw": "weekend shooting deaths",
+   "civic": true
+  },
+  {
+   "id": "4d32122ddaf3f892",
+   "title": "\u2018Ready for the Fight\u2019: Why JB Pritzker is taking his slogan national with PAC targeting MAGA",
+   "link": "https://capitolnewsillinois.com/news/ready-for-the-fight-why-jb-pritzker-is-taking-his-slogan-national-with-pac-targeting-maga/",
+   "published": "2026-09-08",
+   "outlet": "Capitol News Illinois",
+   "region": "statewide",
+   "outlet_type": "nonprofit",
+   "feed_url": "https://capitolnewsillinois.com/feed/",
+   "entities": [
+    "JB Pritzker"
+   ],
+   "theme": "other",
+   "theme_raw": "political action committee",
+   "civic": true
+  },
+  {
+   "id": "508c5b5e6ce6ff19",
+   "title": "8 killed, 30 wounded in Labor Day weekend gun violence",
+   "link": "https://chicago.suntimes.com/news/2026/09/07/labor-day-weekend-shooting",
+   "published": "2026-09-08",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Chicago"
+   ],
+   "theme": "public safety & crime",
+   "theme_raw": "gun violence",
+   "civic": true
+  },
+  {
+   "id": "57fe7dd39cec7f97",
+   "title": "9 killed, 30 wounded in Labor Day weekend violence",
+   "link": "https://chicago.suntimes.com/news/2026/09/07/labor-day-weekend-shooting",
+   "published": "2026-09-08",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Chicago"
+   ],
+   "theme": "public safety & crime",
+   "theme_raw": "Chicago Labor Day violence",
+   "civic": true
+  },
+  {
+   "id": "6ca8bed39656e969",
+   "title": "Hourslong SWAT response concludes in Logan Square",
+   "link": "https://chicago.suntimes.com/logan-square/2026/09/07/police-response-blocks-logan-square-streets-for-several-hours",
+   "published": "2026-09-08",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Chicago",
+    "Logan Square"
+   ],
+   "theme": "public safety & crime",
+   "theme_raw": "police standoff",
+   "civic": true
+  },
+  {
+   "id": "711db3285ee2c073",
+   "title": "Skokie zoning reform would make home renovations easier",
+   "link": "https://www.illinoispolicy.org/skokie-zoning-reform-would-make-home-renovations-easier/",
+   "published": "2026-09-08",
+   "outlet": "Illinois Policy Institute",
+   "region": "statewide",
+   "outlet_type": "advocacy",
+   "feed_url": "https://www.illinoispolicy.org/feed/",
+   "entities": [
+    "Skokie"
+   ],
+   "theme": "housing & development",
+   "theme_raw": "zoning reform",
+   "civic": true
+  },
+  {
+   "id": "7823aceea6d42df3",
+   "title": "Operation Midway Blitz by the numbers: 68 days, 4,000 detained, 2,700 deported",
+   "link": "https://www.wbez.org/?entry-link-operation-midway-blitz-by-the-numbers-68-days-4-000-detained-2-700-deported",
+   "published": "2026-09-08",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "Operation Midway Blitz"
+   ],
+   "theme": "immigration & migrants",
+   "theme_raw": "immigration enforcement operation",
+   "civic": true
+  },
+  {
+   "id": "89756deea829727d",
+   "title": "9 killed, 30 wounded over Labor Day weekend in Chicago",
+   "link": "https://chicago.suntimes.com/crime/2026/09/08/9-killed-30-wounded-over-labor-day-weekend-in-chicago",
+   "published": "2026-09-08",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Chicago"
+   ],
+   "theme": "public safety & crime",
+   "theme_raw": "Chicago Labor Day violence",
+   "civic": true
+  },
+  {
+   "id": "8f37f145f56ed3bf",
+   "title": "Could 124-Year-Old Cortland Bridge Lose Its Landmark Status? Alderpeople Push To Tear It Down",
+   "link": "https://blockclubchicago.org/2026/09/08/could-124-year-old-cortland-bridge-lose-its-landmark-status-alderpeople-push-to-tear-it-down/",
+   "published": "2026-09-08",
+   "outlet": "Block Club Chicago",
+   "region": "chicago",
+   "outlet_type": "nonprofit",
+   "feed_url": "https://blockclubchicago.org/feed/",
+   "entities": [
+    "Cortland Bridge",
+    "Brian Hopkins",
+    "Scott Waguespack",
+    "Chicago"
+   ],
+   "theme": "other",
+   "theme_raw": "landmark bridge status",
+   "civic": true
+  },
+  {
+   "id": "9c36cdab6654083c",
+   "title": "A look back at how Operation Midway Blitz played out",
+   "link": "https://www.wbez.org/bearing-the-blitz/2026/09/08/a-look-back-at-how-operation-midway-blitz-played-out",
+   "published": "2026-09-08",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "Donald Trump"
+   ],
+   "theme": "immigration & migrants",
+   "theme_raw": "immigration enforcement",
+   "civic": true
+  },
+  {
+   "id": "9f1f65ff3b83cd90",
+   "title": "Adolescente embarazada es baleada en La Villita en d\u00eda festivo",
+   "link": "https://chicago.suntimes.com/la-voz/2026/09/08/adolescente-embarazada-es-baleada-en-la-villita-en-dia-festivo",
+   "published": "2026-09-08",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Chicago Police Department"
+   ],
+   "theme": "public safety & crime",
+   "theme_raw": "shooting incident",
+   "civic": true
+  },
+  {
+   "id": "9feb1a9a83c41165",
+   "title": "Pregnant 16-year-old girl shot in Little Village",
+   "link": "https://chicago.suntimes.com/crime/2026/09/07/girl-16-shot-in-little-village",
+   "published": "2026-09-08",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Chicago Police Department",
+    "Little Village"
+   ],
+   "theme": "public safety & crime",
+   "theme_raw": "shooting incident",
+   "civic": true
+  },
+  {
+   "id": "a0c76a4aec72126e",
+   "title": "Illinois State Museum to host Free Frank Freedom Day event on Sept. 13",
+   "link": "https://www.illinoistimes.com/local-history/illinois-state-museum-to-host-free-frank-freedom-day-event-on-sept-13/",
+   "published": "2026-09-08",
+   "outlet": "Illinois Times",
+   "region": "downstate",
+   "outlet_type": "altweekly",
+   "feed_url": "https://illinoistimes.com/feed/",
+   "entities": [
+    "Illinois State Museum",
+    "National Park Service",
+    "New Philadelphia Association"
+   ],
+   "theme": "labor & economy",
+   "theme_raw": "museum freedom day event",
+   "civic": true
+  },
+  {
+   "id": "a294e3a7ae8b62c1",
+   "title": "Photos: What Operation Midway Blitz left behind",
+   "link": "https://www.wbez.org/bearing-the-blitz/2026/09/08/photos-what-operation-midway-blitz-left-behind",
+   "published": "2026-09-08",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "Chicago",
+    "Donald Trump"
+   ],
+   "theme": "immigration & migrants",
+   "theme_raw": "immigration enforcement",
+   "civic": true
+  },
+  {
+   "id": "a3dd0afcf6714569",
+   "title": "One Former CPS Teacher\u2019s Mission to Support Bilingual Families",
+   "link": "https://borderlessmag.org/2026/09/08/cps-teacher-psychologist-funding-language-school-curriculum-canvassing-as-told-to/",
+   "published": "2026-09-08",
+   "outlet": "Borderless Magazine",
+   "region": "chicago",
+   "outlet_type": "nonprofit",
+   "feed_url": "https://borderlessmag.org/feed/",
+   "entities": [
+    "Chicago Public Schools"
+   ],
+   "theme": "immigration & migrants",
+   "theme_raw": "bilingual family support program",
+   "civic": true
+  },
+  {
+   "id": "a4ffa75ba68bfa4c",
+   "title": "2 boys critically wounded in Grand Boulevard shooting",
+   "link": "https://chicago.suntimes.com/crime/2026/09/07/2-boys-critically-wounded-in-grand-boulevard-shooting",
+   "published": "2026-09-08",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Chicago Police Department",
+    "Grand Boulevard"
+   ],
+   "theme": "public safety & crime",
+   "theme_raw": "shooting incident",
+   "civic": true
+  },
+  {
+   "id": "a628511227796535",
+   "title": "How much has the Chicago Teachers Union spent on Chicago school board candidates?",
+   "link": "https://www.illinoispolicy.org/ctu-chicago-school-board-candidate-spending/",
+   "published": "2026-09-08",
+   "outlet": "Illinois Policy Institute",
+   "region": "statewide",
+   "outlet_type": "advocacy",
+   "feed_url": "https://www.illinoispolicy.org/feed/",
+   "entities": [
+    "Chicago Teachers Union",
+    "Chicago Public Schools"
+   ],
+   "theme": "city & state budget",
+   "theme_raw": "union school board spending",
+   "civic": true
+  },
+  {
+   "id": "a758cd3d4f3d37d3",
+   "title": "Conversion Of Former Logan Square Recovery Center Into Apartments Finally Moving Forward",
+   "link": "https://blockclubchicago.org/2026/09/08/logan-square-conversion-of-former-recovery-center-into-apartment-complex-finally-moving-forward/",
+   "published": "2026-09-08",
+   "outlet": "Block Club Chicago",
+   "region": "chicago",
+   "outlet_type": "nonprofit",
+   "feed_url": "https://blockclubchicago.org/feed/",
+   "entities": [
+    "Logan Square"
+   ],
+   "theme": "housing & development",
+   "theme_raw": "housing development approval",
+   "civic": true
+  },
+  {
+   "id": "aab590d5098b7eb5",
+   "title": "Judge weighing arguments to halt Illinois\u2019 \u2018medical aid in dying\u2019 law ahead of Sept. 12 start",
+   "link": "https://capitolnewsillinois.com/news/judge-weighing-arguments-to-halt-illinois-medical-aid-in-dying-law-ahead-of-sept-12-start/",
+   "published": "2026-09-08",
+   "outlet": "Capitol News Illinois",
+   "region": "statewide",
+   "outlet_type": "nonprofit",
+   "feed_url": "https://capitolnewsillinois.com/feed/",
+   "entities": [
+    "State of Illinois"
+   ],
+   "theme": "courts & justice",
+   "theme_raw": "medical aid in dying law",
+   "civic": true
+  },
+  {
+   "id": "b0b96cf157c3f644",
+   "title": "A Chicago couple was poised to open a new Lincoln Avenue bistro. Then the city shut down their street",
+   "link": "https://www.wbez.org/food-drink/2026/09/08/gunnys-lincoln-park-bar-bistro-small-business-lincoln-avenue-chicago",
+   "published": "2026-09-08",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "Chicago",
+    "Gunny's Pub",
+    "Lincoln Avenue"
+   ],
+   "theme": "labor & economy",
+   "theme_raw": "business street closure",
+   "civic": true
+  },
+  {
+   "id": "b286de567db67e75",
+   "title": "Man seriously injured, woman missing after vehicle plunges into Little Calumet River in West Pullman",
+   "link": "https://chicago.suntimes.com/crime/2026/09/08/man-seriously-injured-woman-missing-after-vehicle-plunges-into-little-calumet-river-in-west-pullman",
+   "published": "2026-09-08",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Little Calumet River",
+    "West Pullman"
+   ],
+   "theme": "education & schools",
+   "theme_raw": "vehicle accident",
+   "civic": true
+  },
+  {
+   "id": "b30b1a7e5b84f7bc",
+   "title": "\u2018You want to show the world and bear witness\u2019: Sun-Times, WBEZ reporters on last fall\u2019s deportation campaign",
+   "link": "https://www.wbez.org/bearing-the-blitz/2026/09/08/wbez-chicago-sun-times-reporters-operation-midway-blitz-reflection",
+   "published": "2026-09-08",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "Department of Homeland Security",
+    "Operation Midway Blitz"
+   ],
+   "theme": "immigration & migrants",
+   "theme_raw": "immigration enforcement campaign",
+   "civic": true
+  },
+  {
+   "id": "bba4d772978c3b90",
+   "title": "Plan to move Sox out of Bridgeport and Amtrak in panned by elected officials, neighborhood residents",
+   "link": "https://www.wbez.org/city-hall/2026/09/08/justin-ishbia-new-white-sox-stadium-proposal-south-loop-amtrak-railyard-bridgeport-nicole-lee",
+   "published": "2026-09-08",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "Chicago White Sox",
+    "Bridgeport",
+    "South Loop",
+    "Amtrak"
+   ],
+   "theme": "arts culture & sports",
+   "theme_raw": "White Sox relocation plan",
+   "civic": true
+  },
+  {
+   "id": "c8c93994995fa227",
+   "title": "Career Connections",
+   "link": "https://www.illinoistimes.com/arts-culture/career-connections/",
+   "published": "2026-09-08",
+   "outlet": "Illinois Times",
+   "region": "downstate",
+   "outlet_type": "altweekly",
+   "feed_url": "https://illinoistimes.com/feed/",
+   "entities": [
+    "Greater Springfield Chamber of Commerce"
+   ],
+   "theme": "education & schools",
+   "theme_raw": "career education program",
+   "civic": true
+  },
+  {
+   "id": "cc05e7efc1476ebc",
+   "title": "UIC Report Estimates $1.2B of Retail, Restaurant Activity Lost During Heightened Immigration Enforcement in Chicago Area",
+   "link": "https://news.wttw.com/2026/09/08/uic-report-estimates-12b-retail-restaurant-activity-lost-during-heightened-immigration",
+   "published": "2026-09-08",
+   "outlet": "WTTW News",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://news.wttw.com/feed",
+   "entities": [
+    "University of Illinois Chicago",
+    "Chicago"
+   ],
+   "theme": "immigration & migrants",
+   "theme_raw": "immigration enforcement impact",
+   "civic": true
+  },
+  {
+   "id": "d52f40940f593bd2",
+   "title": "The Illinois Capitol renovation is almost done. What\u2019s next?",
+   "link": "https://capitolnewsillinois.com/news/the-illinois-capitol-renovation-is-almost-done-whats-next/",
+   "published": "2026-09-08",
+   "outlet": "Capitol News Illinois",
+   "region": "statewide",
+   "outlet_type": "nonprofit",
+   "feed_url": "https://capitolnewsillinois.com/feed/",
+   "entities": [
+    "Illinois State Capitol"
+   ],
+   "theme": "other",
+   "theme_raw": "capitol renovation project",
+   "civic": true
+  },
+  {
+   "id": "f1da6a6c80469446",
+   "title": "Second racist Lincoln-Way East incident alleged by Homewood-Flossmoor",
+   "link": "https://chicago.suntimes.com/high-school-sports/2026/09/08/lincoln-way-east-racist-incident-homewood-flossmoor",
+   "published": "2026-09-08",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Lincoln-Way East",
+    "Homewood-Flossmoor"
+   ],
+   "theme": "education & schools",
+   "theme_raw": "high school racist incident",
+   "civic": true
+  },
+  {
+   "id": "f9a760882a607eb4",
+   "title": "City Officials Promise Safe Mexican Independence Day Celebrations This Weekend, 1 Year After Midway Blitz",
+   "link": "https://blockclubchicago.org/2026/09/08/city-officials-promise-safe-mexican-independence-day-celebrations-this-weekend-1-year-after-midway-blitz/",
+   "published": "2026-09-08",
+   "outlet": "Block Club Chicago",
+   "region": "chicago",
+   "outlet_type": "nonprofit",
+   "feed_url": "https://blockclubchicago.org/feed/",
+   "entities": [
+    "Chicago"
+   ],
+   "theme": "immigration & migrants",
+   "theme_raw": "mexican independence day safety",
+   "civic": true
+  },
+  {
+   "id": "fa10ba302d7fe778",
+   "title": "Amtrak\u2019s Bridgeport Plan A \u2018Knife Through The Heart\u2019 Of Neighborhood, Residents Say",
+   "link": "https://blockclubchicago.org/2026/09/08/amtrak-plan-for-bridgeport-a-knife-through-the-heart-of-neighborhood-residents-say-at-protest/",
+   "published": "2026-09-08",
+   "outlet": "Block Club Chicago",
+   "region": "chicago",
+   "outlet_type": "nonprofit",
+   "feed_url": "https://blockclubchicago.org/feed/",
+   "entities": [
+    "Amtrak",
+    "Bridgeport",
+    "Rate Field"
+   ],
+   "theme": "other",
+   "theme_raw": "amtrak bridgeport facility opposition",
+   "civic": true
+  },
+  {
+   "id": "fcf833c802b55916",
+   "title": "Man dies, woman missing after vehicle plunges into Little Calumet River in West Pullman",
+   "link": "https://chicago.suntimes.com/crime/2026/09/08/man-seriously-injured-woman-missing-after-vehicle-plunges-into-little-calumet-river-in-west-pullman",
+   "published": "2026-09-08",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Little Calumet River",
+    "West Pullman"
+   ],
+   "theme": "environment & energy",
+   "theme_raw": "vehicle water accident",
+   "civic": true
+  },
+  {
+   "id": "05338340ce2685c7",
+   "title": "SWAT Standoff On Lightfoot\u2019s Logan Square Block Lasts Hours",
+   "link": "https://blockclubchicago.org/2026/09/07/swat-standoff-breaks-out-on-former-mayor-lori-lightfoots-logan-square-block-police-say/",
+   "published": "2026-09-07",
+   "outlet": "Block Club Chicago",
+   "region": "chicago",
+   "outlet_type": "nonprofit",
+   "feed_url": "https://blockclubchicago.org/feed/",
+   "entities": [
+    "Chicago Police Department"
+   ],
+   "theme": "public safety & crime",
+   "theme_raw": "police standoff",
+   "civic": true
+  },
+  {
+   "id": "063b02047e211175",
+   "title": "Man, 45, critically wounded in South Shore shooting",
+   "link": "https://chicago.suntimes.com/crime/2026/09/07/man-45-critically-wounded-in-south-shore-shooting",
+   "published": "2026-09-07",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Chicago Police Department",
+    "South Shore"
+   ],
+   "theme": "public safety & crime",
+   "theme_raw": "shooting incident",
+   "civic": true
+  },
+  {
+   "id": "0af9d5fb9af6b8c3",
+   "title": "Authorities identify woman found fatally shot in Near West Side home",
+   "link": "https://chicago.suntimes.com/crime/2026/09/06/woman-fatally-shot-near-west-side-home",
+   "published": "2026-09-07",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Chicago Police Department"
+   ],
+   "theme": "public safety & crime",
+   "theme_raw": "fatal shooting",
+   "civic": true
+  },
   {
    "id": "17a996742c5e184f",
    "title": "Man fatally shot in Logan Square, police say",
@@ -13,12 +1153,11 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "Logan Square",
     "Kosciuszko Park",
     "Chicago Police Department"
    ],
    "theme": "public safety & crime",
-   "theme_raw": "fatal shooting incident",
+   "theme_raw": "logan square shooting",
    "civic": true
   },
   {
@@ -34,7 +1173,7 @@
     "Chicago"
    ],
    "theme": "public safety & crime",
-   "theme_raw": "Labor Day gun violence",
+   "theme_raw": "labor day shootings",
    "civic": true
   },
   {
@@ -88,7 +1227,7 @@
     "Weariness"
    ],
    "theme": "labor & economy",
-   "theme_raw": "union voter sentiment",
+   "theme_raw": "union voter politics",
    "civic": true
   },
   {
@@ -103,10 +1242,42 @@
    "entities": [
     "Illinois Department of Public Health",
     "Manners Park",
-    "Agency for Toxic Substances and Disease Registry"
+    "Taylorville"
    ],
    "theme": "health & public health",
    "theme_raw": "lead contamination park",
+   "civic": true
+  },
+  {
+   "id": "63cb7a7b5331a8a0",
+   "title": "Body found in car on Dan Ryan near Rate Field",
+   "link": "https://chicago.suntimes.com/public-safety/2026/09/07/body-inside-car-on-dan-ryan-near-rate-field-exit",
+   "published": "2026-09-07",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Illinois State Police"
+   ],
+   "theme": "public safety & crime",
+   "theme_raw": "body found on expressway",
+   "civic": true
+  },
+  {
+   "id": "95726ac2006ee36a",
+   "title": "6-month-old dead, 7 others hurt in rollover crash on I-57 in south suburbs",
+   "link": "https://chicago.suntimes.com/transportation/2026/09/07/interstate-57-crash",
+   "published": "2026-09-07",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Illinois State Police"
+   ],
+   "theme": "health & public health",
+   "theme_raw": "highway crash fatality",
    "civic": true
   },
   {
@@ -119,12 +1290,11 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "Carlita Jenkins",
-    "Englewood",
-    "Chicago Police Department"
+    "Chicago Police Department",
+    "Carlita Jenkins"
    ],
    "theme": "public safety & crime",
-   "theme_raw": "homicide charge filing",
+   "theme_raw": "fatal shooting charge",
    "civic": true
   },
   {
@@ -140,7 +1310,7 @@
     "Illinois"
    ],
    "theme": "housing & development",
-   "theme_raw": "housing market recovery Illinois",
+   "theme_raw": "Illinois housing recovery lag",
    "civic": true
   },
   {
@@ -153,12 +1323,28 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "Cecelia Morrison Payne",
-    "South Shore",
-    "Chicago Police Department"
+    "Chicago Police Department",
+    "Cecelia Morrison Payne"
    ],
    "theme": "public safety & crime",
-   "theme_raw": "homicide charge filing",
+   "theme_raw": "south shore shooting charge",
+   "civic": true
+  },
+  {
+   "id": "d2aa1c0bf8def1c1",
+   "title": "CFD: 1 dead on CTA Red Line tracks near 63rd Street",
+   "link": "https://chicago.suntimes.com/transportation/2026/09/07/cfd-1-dead-on-cta-red-line-tracks-near-63rd-street",
+   "published": "2026-09-07",
+   "outlet": "Chicago Sun-Times",
+   "region": "chicago",
+   "outlet_type": "commercial",
+   "feed_url": "https://chicago.suntimes.com/feed",
+   "entities": [
+    "Chicago Fire Department",
+    "Chicago Transit Authority"
+   ],
+   "theme": "transit & infrastructure",
+   "theme_raw": "death on transit",
    "civic": true
   },
   {
@@ -174,7 +1360,7 @@
     "Illinois Department of Children and Family Services"
    ],
    "theme": "other",
-   "theme_raw": "DCFS compliance audit",
+   "theme_raw": "dcfs compliance audit",
    "civic": true
   },
   {
@@ -187,31 +1373,10 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "Near West Side",
-    "Officers",
-    "Stroger Hospital",
-    "West Jackson Boulevard. She",
-    "Woman"
+    "Near West Side"
    ],
    "theme": "public safety & crime",
    "theme_raw": "fatal shooting",
-   "civic": true
-  },
-  {
-   "id": "29abeac12280a543",
-   "title": "Some cyclists at Bike the Drive dream of safer roads for all",
-   "link": "https://www.wbez.org/transportation/2026/09/06/25th-annual-bike-the-drive-lake-shore-drive-cyclists-active-transportation-alliance",
-   "published": "2026-09-06",
-   "outlet": "WBEZ",
-   "region": "chicago",
-   "outlet_type": "public",
-   "feed_url": "https://www.wbez.org/rss",
-   "entities": [
-    "Bike the Drive",
-    "DuSable Lake Shore Drive"
-   ],
-   "theme": "transit & infrastructure",
-   "theme_raw": "cycling event safety",
    "civic": true
   },
   {
@@ -224,11 +1389,11 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "Rogers Park",
-    "Chicago Police Department"
+    "Chicago Police Department",
+    "Rogers Park"
    ],
    "theme": "public safety & crime",
-   "theme_raw": "police pursuit injuries",
+   "theme_raw": "police pursuit incident",
    "civic": true
   },
   {
@@ -258,10 +1423,12 @@
    "feed_url": "https://blockclubchicago.org/feed/",
    "entities": [
     "Chicago White Sox",
+    "South Loop",
+    "Bridgeport",
     "Amtrak"
    ],
-   "theme": "arts culture & sports",
-   "theme_raw": "White Sox South Loop stadium",
+   "theme": "housing & development",
+   "theme_raw": "White Sox stadium development",
    "civic": true
   },
   {
@@ -278,7 +1445,7 @@
     "Homewood-Flossmoor"
    ],
    "theme": "education & schools",
-   "theme_raw": "racial harassment incident",
+   "theme_raw": "racial harassment at game",
    "civic": true
   },
   {
@@ -295,7 +1462,7 @@
     "South Shore"
    ],
    "theme": "public safety & crime",
-   "theme_raw": "shooting victim",
+   "theme_raw": "shooting incident",
    "civic": true
   },
   {
@@ -308,7 +1475,7 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "Frankfort",
+    "Corie Walsh",
     "Will County"
    ],
    "theme": "courts & justice",
@@ -325,15 +1492,10 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "Another",
-    "Holy Cross Hospital.&lt",
-    "Lawn",
-    "SUV",
-    "South Claremont Avenue",
-    "Teen"
+    "Chicago Lawn"
    ],
    "theme": "public safety & crime",
-   "theme_raw": "drive-by shooting",
+   "theme_raw": "shooting injury",
    "civic": true
   },
   {
@@ -349,7 +1511,7 @@
     "Chicago Police Department"
    ],
    "theme": "public safety & crime",
-   "theme_raw": "shooting South Shore",
+   "theme_raw": "South Shore shooting",
    "civic": true
   },
   {
@@ -362,8 +1524,8 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "West Englewood",
-    "Chicago Police Department"
+    "Chicago Police Department",
+    "West Englewood"
    ],
    "theme": "public safety & crime",
    "theme_raw": "fatal shooting",
@@ -379,8 +1541,8 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "Chicago Lawn",
-    "Chicago Police Department"
+    "Chicago Police Department",
+    "Chicago Lawn"
    ],
    "theme": "public safety & crime",
    "theme_raw": "fatal shooting",
@@ -416,7 +1578,7 @@
     "Chicago Federation of Labor"
    ],
    "theme": "labor & economy",
-   "theme_raw": "labor day celebration",
+   "theme_raw": "labor day parade",
    "civic": true
   },
   {
@@ -430,12 +1592,12 @@
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
     "Chicago White Sox",
-    "Canal Edge LLC",
     "Justin Ishbia",
+    "Canal Edge LLC",
     "The Railyards"
    ],
    "theme": "housing & development",
-   "theme_raw": "stadium proposal announced",
+   "theme_raw": "new stadium proposal",
    "civic": true
   },
   {
@@ -532,7 +1694,8 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "Fuller Park"
+    "Fuller Park",
+    "Chicago"
    ],
    "theme": "public safety & crime",
    "theme_raw": "child shooting incident",
@@ -567,23 +1730,7 @@
     "Chicago"
    ],
    "theme": "housing & development",
-   "theme_raw": "housing homelessness",
-   "civic": true
-  },
-  {
-   "id": "1462eb73e7cb58cc",
-   "title": "No relief from the heat as September kicks off. Is this normal?",
-   "link": "https://chicago.suntimes.com/weather/2026/09/01/september-october-chicago-heat-wave-is-this-normal",
-   "published": "2026-09-04",
-   "outlet": "Chicago Sun-Times",
-   "region": "chicago",
-   "outlet_type": "commercial",
-   "feed_url": "https://chicago.suntimes.com/feed",
-   "entities": [
-    "Chicago"
-   ],
-   "theme": "other",
-   "theme_raw": "heat wave weather conditions",
+   "theme_raw": "homelessness after displacement",
    "civic": true
   },
   {
@@ -596,15 +1743,10 @@
    "outlet_type": "nonprofit",
    "feed_url": "https://blockclubchicago.org/feed/",
    "entities": [
-    "City Was",
-    "Cruise Ship To Pass",
-    "Despite Heat To Allow",
-    "Officials Say Federal",
-    "Open Downtown Bridge",
-    "Required"
+    "Chicago"
    ],
    "theme": "other",
-   "theme_raw": "bridge operations",
+   "theme_raw": "bridge operation regulation",
    "civic": true
   },
   {
@@ -652,8 +1794,8 @@
     "Illinois",
     "Trump administration"
    ],
-   "theme": "health & public health",
-   "theme_raw": "state healthcare lawsuit",
+   "theme": "courts & justice",
+   "theme_raw": "state litigation gender care",
    "civic": true
   },
   {
@@ -672,7 +1814,7 @@
     "Arlington Heights"
    ],
    "theme": "arts culture & sports",
-   "theme_raw": "NFL stadium location",
+   "theme_raw": "stadium relocation",
    "civic": true
   },
   {
@@ -689,7 +1831,7 @@
     "Chicago Police Department"
    ],
    "theme": "public safety & crime",
-   "theme_raw": "homicide shooting",
+   "theme_raw": "fatal shooting",
    "civic": true
   },
   {
@@ -705,7 +1847,24 @@
     "Ford City Mall"
    ],
    "theme": "housing & development",
-   "theme_raw": "mall redevelopment concerns",
+   "theme_raw": "mall redevelopment proposal",
+   "civic": true
+  },
+  {
+   "id": "62bab744867e8ee6",
+   "title": "Pritzker\u2019s record: Governor signs nearly 400 bills, vetoes just one",
+   "link": "https://www.illinoispolicy.org/pritzker-record-governor-signs-nearly-400-bills-vetoes-just-one/",
+   "published": "2026-09-04",
+   "outlet": "Illinois Policy Institute",
+   "region": "statewide",
+   "outlet_type": "advocacy",
+   "feed_url": "https://www.illinoispolicy.org/feed/",
+   "entities": [
+    "JB Pritzker",
+    "Illinois"
+   ],
+   "theme": "elections & politics",
+   "theme_raw": "governor veto record",
    "civic": true
   },
   {
@@ -718,11 +1877,10 @@
    "outlet_type": "advocacy",
    "feed_url": "https://www.illinoispolicy.org/feed/",
    "entities": [
-    "JB Pritzker",
-    "Illinois Policy"
+    "JB Pritzker"
    ],
    "theme": "elections & politics",
-   "theme_raw": "gubernatorial legislative record",
+   "theme_raw": "gubernatorial veto record",
    "civic": true
   },
   {
@@ -767,10 +1925,20 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "Chicago"
+    "Bovino",
+    "Bovino&lt",
+    "Cole&lt",
+    "Federal",
+    "Gregory Bovino",
+    "Midway Blitz",
+    "Once",
+    "Operation Midway Blitz&lt",
+    "Prosecutors",
+    "Sheridan&lt",
+    "U.S. Border Patrol Cmdr"
    ],
    "theme": "courts & justice",
-   "theme_raw": "grand jury testimony",
+   "theme_raw": "ICE operation grand jury",
    "civic": true
   },
   {
@@ -786,7 +1954,7 @@
     "Chicago"
    ],
    "theme": "elections & politics",
-   "theme_raw": "bridge heat damage",
+   "theme_raw": "bridge heat expansion",
    "civic": true
   },
   {
@@ -799,10 +1967,10 @@
    "outlet_type": "nonprofit",
    "feed_url": "https://capitolnewsillinois.com/feed/",
    "entities": [
-    "Department of Children and Family Services"
+    "Illinois Department of Children and Family Services"
    ],
    "theme": "other",
-   "theme_raw": "child protection audit",
+   "theme_raw": "child protection agency audit",
    "civic": true
   },
   {
@@ -818,7 +1986,7 @@
     "Springfield"
    ],
    "theme": "environment & energy",
-   "theme_raw": "water main break",
+   "theme_raw": "water main break damage",
    "civic": true
   },
   {
@@ -848,13 +2016,7 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "Area",
-    "Englewood",
-    "Medical Center",
-    "Police",
-    "South Peoria Avenue",
-    "University",
-    "Woman"
+    "Englewood"
    ],
    "theme": "public safety & crime",
    "theme_raw": "fatal shooting",
@@ -906,7 +2068,7 @@
     "Frankfort"
    ],
    "theme": "public safety & crime",
-   "theme_raw": "criminal charge filing",
+   "theme_raw": "criminal homicide charge",
    "civic": true
   },
   {
@@ -954,7 +2116,7 @@
     "Chicago Public Schools"
    ],
    "theme": "education & schools",
-   "theme_raw": "school activities heat postponement",
+   "theme_raw": "heat advisory school closure",
    "civic": true
   },
   {
@@ -970,7 +2132,7 @@
     "Chicago"
    ],
    "theme": "transit & infrastructure",
-   "theme_raw": "bridge infrastructure heat",
+   "theme_raw": "heat effects on infrastructure",
    "civic": true
   },
   {
@@ -986,7 +2148,7 @@
     "South Shore"
    ],
    "theme": "housing & development",
-   "theme_raw": "homeless residents housing",
+   "theme_raw": "housing displacement raid",
    "civic": true
   },
   {
@@ -1034,7 +2196,7 @@
     "Illinois Capitol"
    ],
    "theme": "other",
-   "theme_raw": "capitol renovations status",
+   "theme_raw": "capitol renovation timeline",
    "civic": true
   },
   {
@@ -1051,7 +2213,7 @@
     "Bucktown"
    ],
    "theme": "other",
-   "theme_raw": "pool hours extension",
+   "theme_raw": "pool hours extended",
    "civic": true
   },
   {
@@ -1071,23 +2233,6 @@
    "civic": true
   },
   {
-   "id": "f20c1dba80db1377",
-   "title": "Chicago under heat warning for 4th day",
-   "link": "https://chicago.suntimes.com/weather/2026/09/04/heat-advisory",
-   "published": "2026-09-04",
-   "outlet": "Chicago Sun-Times",
-   "region": "chicago",
-   "outlet_type": "commercial",
-   "feed_url": "https://chicago.suntimes.com/feed",
-   "entities": [
-    "Chicago",
-    "National Weather Service"
-   ],
-   "theme": "education & schools",
-   "theme_raw": "heat warning weather alert",
-   "civic": true
-  },
-  {
    "id": "ff75a522c7b48b7d",
    "title": "Travelers Flocked to Illinois Last Year, Generating More Than $88B in Economic Impact",
    "link": "https://news.wttw.com/2026/09/04/travelers-flocked-illinois-last-year-generating-more-88b-economic-impact",
@@ -1104,22 +2249,6 @@
    "civic": true
   },
   {
-   "id": "153e7d116bede914",
-   "title": "Trump administration pushes to remove tax exemption for private colleges with DEI policies",
-   "link": "https://chicago.suntimes.com/2026/09/03/trump-administration-pushes-to-remove-tax-exemption-for-private-colleges-with-dei-policies",
-   "published": "2026-09-03",
-   "outlet": "Chicago Sun-Times",
-   "region": "chicago",
-   "outlet_type": "commercial",
-   "feed_url": "https://chicago.suntimes.com/feed",
-   "entities": [
-    "Trump administration"
-   ],
-   "theme": "city & state budget",
-   "theme_raw": "tax exemption policy proposal",
-   "civic": true
-  },
-  {
    "id": "15a697e00d61b59e",
    "title": "Extreme heat breaks bridges",
    "link": "https://chicago.suntimes.com/morning-edition/2026/09/03/extreme-heat-breaks-bridges",
@@ -1129,11 +2258,10 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "Chicago",
-    "Faceworld"
+    "Chicago"
    ],
    "theme": "transit & infrastructure",
-   "theme_raw": "heat infrastructure witness retaliation",
+   "theme_raw": "infrastructure heat damage",
    "civic": true
   },
   {
@@ -1151,7 +2279,7 @@
     "Chicago Jazz Festival"
    ],
    "theme": "arts culture & sports",
-   "theme_raw": "jazz festival announcement",
+   "theme_raw": "chicago jazz festival",
    "civic": true
   },
   {
@@ -1167,7 +2295,7 @@
     "Springfield City Council"
    ],
    "theme": "elections & politics",
-   "theme_raw": "shotspotter contract review",
+   "theme_raw": "city council shotspotter",
    "civic": true
   },
   {
@@ -1183,7 +2311,7 @@
     "Chicago Public Schools"
    ],
    "theme": "education & schools",
-   "theme_raw": "school activities heat policy",
+   "theme_raw": "school activity resumption",
    "civic": true
   },
   {
@@ -1196,29 +2324,12 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "Chicago Police",
-    "Saint Bernard Hospital",
-    "Englewood"
+    "St. Bernard Hospital",
+    "Englewood",
+    "Chicago Police Department"
    ],
    "theme": "public safety & crime",
-   "theme_raw": "shooting victim death",
-   "civic": true
-  },
-  {
-   "id": "36995766fe7c23d8",
-   "title": "Felon who posed as Pablo Escobar's son admits bilking pro basketball player and others out of millions",
-   "link": "https://chicago.suntimes.com/the-watchdogs/2026/09/03/pablo-escobar-pro-basketball-fraud-pritzker",
-   "published": "2026-09-03",
-   "outlet": "Chicago Sun-Times",
-   "region": "chicago",
-   "outlet_type": "commercial",
-   "feed_url": "https://chicago.suntimes.com/feed",
-   "entities": [
-    "Jawad Fakroune",
-    "Chicago"
-   ],
-   "theme": "courts & justice",
-   "theme_raw": "fraud conviction admission",
+   "theme_raw": "shooting death hospital",
    "civic": true
   },
   {
@@ -1234,7 +2345,7 @@
     "Chicago Public Schools"
    ],
    "theme": "education & schools",
-   "theme_raw": "public school football schedule",
+   "theme_raw": "public school football games",
    "civic": true
   },
   {
@@ -1250,7 +2361,7 @@
     "DuSable Lake Shore Drive"
    ],
    "theme": "transit & infrastructure",
-   "theme_raw": "bridge infrastructure condition",
+   "theme_raw": "bridge infrastructure inspection",
    "civic": true
   },
   {
@@ -1263,11 +2374,11 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "Operativo Midway Blitz",
+    "Operation Midway Blitz",
     "Gregory Bovino"
    ],
    "theme": "courts & justice",
-   "theme_raw": "border enforcement operation lawsuit",
+   "theme_raw": "midway blitz operation lawsuit",
    "civic": true
   },
   {
@@ -1300,7 +2411,7 @@
     "Chicago Connected"
    ],
    "theme": "education & schools",
-   "theme_raw": "student internet access",
+   "theme_raw": "student internet access program",
    "civic": true
   },
   {
@@ -1316,7 +2427,7 @@
     "Brandon Johnson"
    ],
    "theme": "city & state budget",
-   "theme_raw": "municipal budget shortfall",
+   "theme_raw": "city budget gap",
    "civic": true
   },
   {
@@ -1350,7 +2461,7 @@
     "Operation Midway Blitz"
    ],
    "theme": "immigration & migrants",
-   "theme_raw": "immigration enforcement",
+   "theme_raw": "immigration enforcement impact",
    "civic": true
   },
   {
@@ -1366,7 +2477,7 @@
     "Chicago"
    ],
    "theme": "city & state budget",
-   "theme_raw": "budget arts funding",
+   "theme_raw": "budget impact on arts",
    "civic": true
   },
   {
@@ -1399,7 +2510,7 @@
     "Operativo Midway Blitz"
    ],
    "theme": "immigration & migrants",
-   "theme_raw": "immigration enforcement operation",
+   "theme_raw": "immigration enforcement",
    "civic": true
   },
   {
@@ -1415,7 +2526,7 @@
     "Springfield City Council"
    ],
    "theme": "public safety & crime",
-   "theme_raw": "ShotSpotter policing housing",
+   "theme_raw": "Springfield housing policing",
    "civic": true
   },
   {
@@ -1431,7 +2542,7 @@
     "Chicago"
    ],
    "theme": "environment & energy",
-   "theme_raw": "data centers water usage",
+   "theme_raw": "data center water usage",
    "civic": true
   },
   {
@@ -1444,7 +2555,7 @@
    "outlet_type": "commercial",
    "feed_url": "https://chicago.suntimes.com/feed",
    "entities": [
-    "Illinois",
+    "Illinois Attorney General",
     "Kwame Raoul",
     "ABC Plumbing, Heating, Cooling & Electric",
     "Arlington Heights"
@@ -1466,8 +2577,8 @@
     "Chicago",
     "Operation Midway Blitz"
    ],
-   "theme": "immigration & migrants",
-   "theme_raw": "federal prosecutions immigration",
+   "theme": "courts & justice",
+   "theme_raw": "federal prosecutions chicago",
    "civic": true
   },
   {
@@ -1496,8 +2607,8 @@
    "outlet_type": "public",
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
-    "Chicago",
-    "Brandon Johnson"
+    "Brandon Johnson",
+    "Chicago"
    ],
    "theme": "city & state budget",
    "theme_raw": "municipal budget deficit",
@@ -1513,11 +2624,10 @@
    "outlet_type": "public",
    "feed_url": "https://news.wttw.com/feed",
    "entities": [
-    "Great Lakes",
-    "Trump Administration"
+    "Great Lakes"
    ],
    "theme": "other",
-   "theme_raw": "invasive species barrier construction",
+   "theme_raw": "invasive species barrier",
    "civic": true
   },
   {
@@ -1530,10 +2640,11 @@
    "outlet_type": "public",
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
-    "Chicago"
+    "Chicago",
+    "Chicago's Office of Emergency Management and Communications"
    ],
    "theme": "other",
-   "theme_raw": "heat weather safety",
+   "theme_raw": "heat wave weather advisory",
    "civic": true
   },
   {
@@ -1565,7 +2676,7 @@
     "Oakland"
    ],
    "theme": "public safety & crime",
-   "theme_raw": "shooting victim injury",
+   "theme_raw": "shooting injury oakland",
    "civic": true
   },
   {
@@ -1583,7 +2694,7 @@
     "Bridgeport"
    ],
    "theme": "environment & energy",
-   "theme_raw": "amtrak facility opposition",
+   "theme_raw": "amtrak facility proposal",
    "civic": true
   },
   {
@@ -1600,7 +2711,7 @@
     "Kenneth Williams Sr."
    ],
    "theme": "public safety & crime",
-   "theme_raw": "police shooting death",
+   "theme_raw": "police shooting investigation",
    "civic": true
   },
   {
@@ -1616,8 +2727,8 @@
     "Chicago",
     "New York City"
    ],
-   "theme": "arts culture & sports",
-   "theme_raw": "arts funding comparison",
+   "theme": "city & state budget",
+   "theme_raw": "cultural spending comparison",
    "civic": true
   },
   {
@@ -1630,8 +2741,7 @@
    "outlet_type": "advocacy",
    "feed_url": "https://www.illinoispolicy.org/feed/",
    "entities": [
-    "JB Pritzker",
-    "Illinois Policy"
+    "JB Pritzker"
    ],
    "theme": "other",
    "theme_raw": "population migration",
@@ -1647,11 +2757,10 @@
    "outlet_type": "advocacy",
    "feed_url": "https://www.illinoispolicy.org/feed/",
    "entities": [
-    "JB Pritzker",
-    "Illinois Policy"
+    "JB Pritzker"
    ],
    "theme": "other",
-   "theme_raw": "state job growth",
+   "theme_raw": "job growth record",
    "civic": true
   },
   {
@@ -1667,7 +2776,7 @@
     "Chicago Public Schools"
    ],
    "theme": "education & schools",
-   "theme_raw": "student heat safety",
+   "theme_raw": "school heat safety measures",
    "civic": true
   },
   {
@@ -1684,8 +2793,8 @@
     "Torrence Avenue Bridge",
     "DuSable Lake Shore Drive"
    ],
-   "theme": "transit & infrastructure",
-   "theme_raw": "bridge infrastructure heat",
+   "theme": "other",
+   "theme_raw": "bridge malfunction in heat",
    "civic": true
   },
   {
@@ -1736,8 +2845,8 @@
     "Chicago",
     "Donald Trump"
    ],
-   "theme": "other",
-   "theme_raw": "law enforcement detention",
+   "theme": "immigration & migrants",
+   "theme_raw": "immigration detention policy",
    "civic": true
   },
   {
@@ -1766,11 +2875,10 @@
    "outlet_type": "public",
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
-    "Chicago",
     "Brandon Johnson"
    ],
-   "theme": "elections & politics",
-   "theme_raw": "mayoral election crime debate",
+   "theme": "public safety & crime",
+   "theme_raw": "mayoral campaign violence",
    "civic": true
   },
   {
@@ -1786,7 +2894,24 @@
     "Southern Illinois University Edwardsville"
    ],
    "theme": "education & schools",
-   "theme_raw": "university fraud charges",
+   "theme_raw": "university credit card fraud",
+   "civic": true
+  },
+  {
+   "id": "d1521362c2244d88",
+   "title": "Pritzker\u2019s record: Illinois 5th-worst for private-sector job growth",
+   "link": "https://www.illinoispolicy.org/illinois-private-sector-job-growth-bottom-five/",
+   "published": "2026-09-02",
+   "outlet": "Illinois Policy Institute",
+   "region": "statewide",
+   "outlet_type": "advocacy",
+   "feed_url": "https://www.illinoispolicy.org/feed/",
+   "entities": [
+    "Illinois",
+    "JB Pritzker"
+   ],
+   "theme": "other",
+   "theme_raw": "state job growth ranking",
    "civic": true
   },
   {
@@ -1837,7 +2962,7 @@
     "Walter Burnett III"
    ],
    "theme": "elections & politics",
-   "theme_raw": "west side community summit",
+   "theme_raw": "West Side community summit",
    "civic": true
   },
   {
@@ -1854,6 +2979,22 @@
    ],
    "theme": "transit & infrastructure",
    "theme_raw": "utility infrastructure spending",
+   "civic": true
+  },
+  {
+   "id": "f956cedc029f7b1e",
+   "title": "How did a native Chicago plant disappear forever?",
+   "link": "https://www.wbez.org/curious-city/2026/09/02/how-did-a-native-chicago-plant-disappear-forever",
+   "published": "2026-09-02",
+   "outlet": "WBEZ",
+   "region": "chicago",
+   "outlet_type": "public",
+   "feed_url": "https://www.wbez.org/rss",
+   "entities": [
+    "Indian Ridge Marsh Park"
+   ],
+   "theme": "other",
+   "theme_raw": "native marsh ecosystem",
    "civic": true
   },
   {
@@ -1882,8 +3023,7 @@
    "outlet_type": "public",
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
-    "South Chicago Chapel",
-    "Evergreen Park"
+    "South Chicago Chapel"
    ],
    "theme": "public safety & crime",
    "theme_raw": "funeral home violations",
@@ -1899,11 +3039,10 @@
    "outlet_type": "public",
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
-    "Chicago",
     "Washington Park"
    ],
    "theme": "public safety & crime",
-   "theme_raw": "mass shooting investigation",
+   "theme_raw": "park mass shooting investigation",
    "civic": true
   },
   {
@@ -1916,11 +3055,10 @@
    "outlet_type": "advocacy",
    "feed_url": "https://www.illinoispolicy.org/feed/",
    "entities": [
-    "SEIU Healthcare",
-    "Illinois Policy"
+    "SEIU Healthcare"
    ],
-   "theme": "city & state budget",
-   "theme_raw": "union spending",
+   "theme": "labor & economy",
+   "theme_raw": "union accountability",
    "civic": true
   },
   {
@@ -1953,7 +3091,7 @@
     "Darren Bailey"
    ],
    "theme": "elections & politics",
-   "theme_raw": "campaign tour comparison",
+   "theme_raw": "gubernatorial campaign tours",
    "civic": true
   },
   {
@@ -1969,7 +3107,7 @@
     "South Chicago Chapel"
    ],
    "theme": "other",
-   "theme_raw": "funeral home complaints",
+   "theme_raw": "funeral home criminal complaint",
    "civic": true
   },
   {
@@ -1982,7 +3120,7 @@
    "outlet_type": "public",
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
-    "Chicago",
+    "City of Chicago",
     "South Chicago Chapel"
    ],
    "theme": "courts & justice",
@@ -2003,7 +3141,7 @@
     "Illinois"
    ],
    "theme": "elections & politics",
-   "theme_raw": "gubernatorial reelection campaign",
+   "theme_raw": "governor reelection campaign",
    "civic": true
   },
   {
@@ -2016,7 +3154,7 @@
    "outlet_type": "public",
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
-    "Chicago"
+    "City of Chicago"
    ],
    "theme": "arts culture & sports",
    "theme_raw": "food access grant program",
@@ -2032,10 +3170,10 @@
    "outlet_type": "advocacy",
    "feed_url": "https://www.illinoispolicy.org/feed/",
    "entities": [
-    "Illinois Policy"
+    "SNAP"
    ],
    "theme": "other",
-   "theme_raw": "benefit program participation",
+   "theme_raw": "SNAP benefits decline",
    "civic": true
   },
   {
@@ -2049,7 +3187,7 @@
    "feed_url": "https://chicagoreader.com/feed/",
    "entities": [
     "South Chicago",
-    "Quantum Crossroads"
+    "Chicago Reader"
    ],
    "theme": "housing & development",
    "theme_raw": "quantum computing development",
@@ -2068,7 +3206,7 @@
     "Chicago Public Schools"
    ],
    "theme": "education & schools",
-   "theme_raw": "school federal funding recovery",
+   "theme_raw": "federal education funding settlement",
    "civic": true
   },
   {
@@ -2084,7 +3222,7 @@
     "Chicago Public Schools"
    ],
    "theme": "housing & development",
-   "theme_raw": "student homelessness policy",
+   "theme_raw": "homeless student enrollment policy",
    "civic": true
   },
   {
@@ -2100,7 +3238,7 @@
     "Illinois"
    ],
    "theme": "immigration & migrants",
-   "theme_raw": "local deportation cooperation",
+   "theme_raw": "immigration enforcement cooperation",
    "civic": true
   },
   {
@@ -2134,7 +3272,7 @@
     "WBEZ"
    ],
    "theme": "elections & politics",
-   "theme_raw": "mayor public radio appearance",
+   "theme_raw": "mayor public affairs Q&A",
    "civic": true
   },
   {
@@ -2166,7 +3304,7 @@
     "Illinois"
    ],
    "theme": "other",
-   "theme_raw": "prison mail policy",
+   "theme_raw": "prison book access policy",
    "civic": true
   },
   {
@@ -2184,7 +3322,7 @@
     "Prairie Grove"
    ],
    "theme": "courts & justice",
-   "theme_raw": "surveillance technology conflict",
+   "theme_raw": "license plate reader surveillance",
    "civic": true
   },
   {
@@ -2200,8 +3338,8 @@
     "Jennifer Custer",
     "Chicago Public Schools"
    ],
-   "theme": "education & schools",
-   "theme_raw": "school board race withdrawal",
+   "theme": "elections & politics",
+   "theme_raw": "school board election",
    "civic": true
   },
   {
@@ -2214,9 +3352,7 @@
    "outlet_type": "public",
    "feed_url": "https://www.wbez.org/rss",
    "entities": [
-    "Anthony Bourdain",
-    "Flock",
-    "Tony&lt"
+    "Flock"
    ],
    "theme": "arts culture & sports",
    "theme_raw": "license plate readers debate",
@@ -2270,106 +3406,6 @@
    ],
    "theme": "immigration & migrants",
    "theme_raw": "immigration court hearings",
-   "civic": true
-  },
-  {
-   "id": "b52fcb6bdac045c9",
-   "title": "Pritzker record: Illinois loses tens of thousands of residents during his tenure",
-   "link": "https://www.illinoispolicy.org/illinois-population-loss-pritzker/",
-   "published": "2026-08-26",
-   "outlet": "Illinois Policy Institute",
-   "region": "statewide",
-   "outlet_type": "advocacy",
-   "feed_url": "https://www.illinoispolicy.org/feed/",
-   "entities": [
-    "Illinois",
-    "JB Pritzker"
-   ],
-   "theme": "other",
-   "theme_raw": "state population decline",
-   "civic": true
-  },
-  {
-   "id": "f83caa62d794ba95",
-   "title": "West Englewood's shuttered Charles Warrington Earle School reopens as affordable housing",
-   "link": "https://www.wbez.org/money/2026/08/26/west-englewood-shuttered-charles-warrington-earle-school-affordable-housing",
-   "published": "2026-08-26",
-   "outlet": "WBEZ",
-   "region": "chicago",
-   "outlet_type": "public",
-   "feed_url": "https://www.wbez.org/rss",
-   "entities": [
-    "Charles Warrington Earle School",
-    "Chicago Public Schools"
-   ],
-   "theme": "housing & development",
-   "theme_raw": "closed school affordable housing",
-   "civic": true
-  },
-  {
-   "id": "19735179542d9227",
-   "title": "Pritzker defends 57% toll hike approved by board he appointed",
-   "link": "https://www.illinoispolicy.org/pritzker-defends-57-percent-toll-hike/",
-   "published": "2026-08-25",
-   "outlet": "Illinois Policy Institute",
-   "region": "statewide",
-   "outlet_type": "advocacy",
-   "feed_url": "https://www.illinoispolicy.org/feed/",
-   "entities": [
-    "JB Pritzker",
-    "Illinois Tollway"
-   ],
-   "theme": "elections & politics",
-   "theme_raw": "toll hike approval",
-   "civic": true
-  },
-  {
-   "id": "78c8313feae40c7c",
-   "title": "Illinois promised to protect immigrants. Local officials helped deport them anyway.",
-   "link": "https://www.injusticewatch.org/project/ice-informants/2026/illinois-trust-act-violations-immigrants-deported/",
-   "published": "2026-08-25",
-   "outlet": "Injustice Watch",
-   "region": "chicago",
-   "outlet_type": "nonprofit",
-   "feed_url": "https://www.injusticewatch.org/feed/",
-   "entities": [
-    "Illinois"
-   ],
-   "theme": "immigration & migrants",
-   "theme_raw": "local deportation cooperation",
-   "civic": true
-  },
-  {
-   "id": "7b174ea7c06e19fe",
-   "title": "Chicago Board of Education 101: Know the Basics of the Soon-To-Be Elected Board Guiding Chicago Public Schools",
-   "link": "https://borderlessmag.org/2026/08/25/chicago-board-of-education-101-know-the-basics-of-the-soon-to-be-elected-board-guiding-chicago-public-schools/",
-   "published": "2026-08-25",
-   "outlet": "Borderless Magazine",
-   "region": "chicago",
-   "outlet_type": "nonprofit",
-   "feed_url": "https://borderlessmag.org/feed/",
-   "entities": [
-    "Chicago Board of Education",
-    "Chicago Public Schools"
-   ],
-   "theme": "elections & politics",
-   "theme_raw": "school board elections",
-   "civic": true
-  },
-  {
-   "id": "a93d7a1ba5f220e1",
-   "title": "The county prosecutors who became ICE informants",
-   "link": "https://www.injusticewatch.org/project/ice-informants/2026/illinois-prosecutors-helping-ice/",
-   "published": "2026-08-25",
-   "outlet": "Injustice Watch",
-   "region": "chicago",
-   "outlet_type": "nonprofit",
-   "feed_url": "https://www.injusticewatch.org/feed/",
-   "entities": [
-    "Illinois"
-   ],
-   "theme": "immigration & migrants",
-   "theme_raw": "prosecutors sharing immigration data",
    "civic": true
   }
  ]
