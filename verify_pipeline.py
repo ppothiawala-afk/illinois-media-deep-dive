@@ -56,7 +56,10 @@ def git_tracked(name):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--data-dir")
-    ap.add_argument("--dead-outlet-window", type=int, default=3)
+    ap.add_argument("--dead-feed-days", type=int, default=21,
+                    help="an active outlet with no NEW archived item in this many days "
+                         "is a likely dead feed (judged from the archive, not snapshots, "
+                         "so overlapping/low-volume runs don't false-positive)")
     args = ap.parse_args()
 
     data_dir = store.resolve_data_dir(args.data_dir)
@@ -170,21 +173,35 @@ def main():
                    f"window boundary reproduces from archive [{ws}..{we}] "
                    f"({len(win)} in-window, {civ} civic)")
 
-    if len(snaps) < args.dead_outlet_window:
-        record("D4", "DATA", "WARN",
-               f"only {len(snaps)} snapshot(s); need {args.dead_outlet_window} to judge dead outlets")
+    if not archive:
+        record("D4", "DATA", "WARN", "no archive yet — cannot judge dead feeds")
     else:
-        recent_snaps = snaps[-args.dead_outlet_window:]
+        from datetime import date, datetime as _dt, timezone as _tz
+        today = _dt.now(_tz.utc).date()
         active_outlets = {f["outlet"] for f in feeds if f.get("status") == "active"}
-        silent = []
+        latest = {}  # outlet -> most recent activity (first_seen preferred, else published)
+        first_dates = []
+        for it in archive:
+            o = it.get("outlet")
+            d = store.parse_date(it.get("first_seen") or it.get("published"))
+            if not d:
+                continue
+            first_dates.append(d)
+            if o and (o not in latest or d > latest[o]):
+                latest[o] = d
+        # cold-start safe: a never-seen outlet is only "dead" once the archive itself
+        # is older than the threshold (otherwise it may just not have ingested yet)
+        span = (today - min(first_dates)).days if first_dates else 0
+        dead = []
         for o in sorted(active_outlets):
-            tots = [s.get("outlets", {}).get(o, {}).get("total", 0) for s in recent_snaps]
-            if all(t == 0 for t in tots):
-                silent.append(o)
-        record("D4", "DATA", "FAIL" if silent else "PASS",
-               f"{len(silent)} active outlet(s) silent for {args.dead_outlet_window} snapshots "
-               f"(likely dead feeds): {silent}" if silent
-               else f"every active outlet produced items within the last {args.dead_outlet_window} snapshots")
+            d = latest.get(o)
+            silent_days = (today - d).days if d else span
+            if silent_days > args.dead_feed_days:
+                dead.append(f"{o} ({'never' if d is None else str(silent_days)+'d'})")
+        record("D4", "DATA", "FAIL" if dead else "PASS",
+               f"{len(dead)} active outlet(s) silent >{args.dead_feed_days}d in the archive "
+               f"(likely dead feeds): {dead}" if dead
+               else f"every active outlet produced items within the last {args.dead_feed_days} days")
 
     if feeds:
         val = sum(1 for f in feeds if f.get("validation", {}).get("validated"))
