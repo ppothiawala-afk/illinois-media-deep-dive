@@ -1,15 +1,58 @@
 {
   "_comment": "Themes surging vs their OWN trailing baseline. 'normal' = a theme's mean share over prior snapshots; surge = z>=threshold. emerging = was absent, just appeared. broadening = across more outlets than usual. No sentiment; traceable to theme_history + articles.",
-  "generated": "2026-09-09T15:22:28+00:00",
-  "latest_snapshot": "2026-09-09",
+  "generated": "2026-09-14T17:08:20+00:00",
+  "latest_snapshot": "2026-09-14",
   "params": {
     "baseline_weeks": 8,
     "z_threshold": 2.0,
     "min_baseline": 3,
     "min_confident": 6
   },
-  "history_depth_snapshots": 3,
-  "report_confidence": "low \u2014 baselines need ~6+ snapshots; only 3 exist",
-  "surging": [],
+  "history_depth_snapshots": 4,
+  "report_confidence": "low \u2014 baselines need ~6+ snapshots; only 4 exist",
+  "surging": [
+    {
+      "theme": "health & public health",
+      "latest_share": 0.0571,
+      "latest_volume": 12,
+      "baseline_mean_share": 0.0235,
+      "baseline_std": 0.0036,
+      "baseline_points": 3,
+      "z": 9.24,
+      "breadth_now": 3,
+      "breadth_baseline": 2.33,
+      "broadening": true,
+      "confidence": "low",
+      "kind": "surging"
+    },
+    {
+      "theme": "transit & infrastructure",
+      "latest_share": 0.0857,
+      "latest_volume": 18,
+      "baseline_mean_share": 0.0429,
+      "baseline_std": 0.013,
+      "baseline_points": 3,
+      "z": 3.28,
+      "breadth_now": 5,
+      "breadth_baseline": 3.0,
+      "broadening": true,
+      "confidence": "low",
+      "kind": "surging"
+    },
+    {
+      "theme": "elections & politics",
+      "latest_share": 0.1429,
+      "latest_volume": 30,
+      "baseline_mean_share": 0.0829,
+      "baseline_std": 0.0253,
+      "baseline_points": 3,
+      "z": 2.37,
+      "breadth_now": 7,
+      "breadth_baseline": 6.0,
+      "broadening": true,
+      "confidence": "low",
+      "kind": "surging"
+    }
+  ],
   "emerging": []
 }

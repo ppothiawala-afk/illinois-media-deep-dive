@@ -1974,6 +1974,746 @@
     "all_in_window": 365,
     "contains_synthetic": false
    }
+  },
+  {
+   "date": "2026-09-14",
+   "window_start": "2026-09-08",
+   "window_end": "2026-09-14",
+   "window_days": 7,
+   "total_items": 210,
+   "themes": {
+    "public safety & crime": {
+     "volume": 47,
+     "share": 0.2238,
+     "outlet_breadth": 7,
+     "top_entities": [
+      [
+       "Chicago Police Department",
+       18
+      ],
+      [
+       "Chicago",
+       10
+      ],
+      [
+       "Humboldt Park",
+       3
+      ],
+      [
+       "West Garfield Park",
+       2
+      ],
+      [
+       "Chicago Transit Authority",
+       2
+      ],
+      [
+       "Crystal Salter",
+       2
+      ]
+     ]
+    },
+    "city & state budget": {
+     "volume": 5,
+     "share": 0.0238,
+     "outlet_breadth": 2,
+     "top_entities": [
+      [
+       "Chicago Teachers Union",
+       1
+      ],
+      [
+       "Chicago Public Schools",
+       1
+      ],
+      [
+       "Illinois",
+       1
+      ],
+      [
+       "Chicago City Council",
+       1
+      ],
+      [
+       "Chicago",
+       1
+      ],
+      [
+       "Illinois General Assembly",
+       1
+      ]
+     ]
+    },
+    "elections & politics": {
+     "volume": 30,
+     "share": 0.1429,
+     "outlet_breadth": 7,
+     "top_entities": [
+      [
+       "Brandon Johnson",
+       13
+      ],
+      [
+       "Chicago",
+       8
+      ],
+      [
+       "Chicago City Council",
+       7
+      ],
+      [
+       "JB Pritzker",
+       2
+      ],
+      [
+       "Mike Rodriguez",
+       2
+      ],
+      [
+       "Bally's",
+       2
+      ]
+     ]
+    },
+    "education & schools": {
+     "volume": 9,
+     "share": 0.0429,
+     "outlet_breadth": 4,
+     "top_entities": [
+      [
+       "Lincoln-Way East",
+       2
+      ],
+      [
+       "Homewood-Flossmoor",
+       2
+      ],
+      [
+       "Chicago Public Schools",
+       2
+      ],
+      [
+       "Homewood-Flossmoor High School",
+       2
+      ],
+      [
+       "Lincoln-Way East High School",
+       2
+      ],
+      [
+       "Toriano Griggs",
+       1
+      ]
+     ]
+    },
+    "housing & development": {
+     "volume": 9,
+     "share": 0.0429,
+     "outlet_breadth": 5,
+     "top_entities": [
+      [
+       "Chicago",
+       2
+      ],
+      [
+       "Skokie",
+       1
+      ],
+      [
+       "Logan Square",
+       1
+      ],
+      [
+       "Heung Seng Corporation",
+       1
+      ],
+      [
+       "Chinatown",
+       1
+      ],
+      [
+       "LaSalle Street",
+       1
+      ]
+     ]
+    },
+    "transit & infrastructure": {
+     "volume": 18,
+     "share": 0.0857,
+     "outlet_breadth": 5,
+     "top_entities": [
+      [
+       "Chicago Transit Authority",
+       5
+      ],
+      [
+       "Illinois",
+       3
+      ],
+      [
+       "Chicago",
+       3
+      ],
+      [
+       "Northern Illinois Transit Authority",
+       2
+      ],
+      [
+       "Kyle Bickham",
+       2
+      ],
+      [
+       "Chicago Police Department",
+       2
+      ]
+     ]
+    },
+    "immigration & migrants": {
+     "volume": 19,
+     "share": 0.0905,
+     "outlet_breadth": 5,
+     "top_entities": [
+      [
+       "Operation Midway Blitz",
+       6
+      ],
+      [
+       "Chicago",
+       4
+      ],
+      [
+       "Illinois",
+       3
+      ],
+      [
+       "Department of Homeland Security",
+       3
+      ],
+      [
+       "Midway Blitz",
+       3
+      ],
+      [
+       "Donald Trump",
+       3
+      ]
+     ]
+    },
+    "environment & energy": {
+     "volume": 5,
+     "share": 0.0238,
+     "outlet_breadth": 4,
+     "top_entities": [
+      [
+       "Little Calumet River",
+       2
+      ],
+      [
+       "West Pullman",
+       2
+      ],
+      [
+       "Nicor Gas",
+       2
+      ],
+      [
+       "Debate",
+       1
+      ],
+      [
+       "Resident Backlash",
+       1
+      ],
+      [
+       "Resident Backlash The",
+       1
+      ]
+     ]
+    },
+    "health & public health": {
+     "volume": 12,
+     "share": 0.0571,
+     "outlet_breadth": 3,
+     "top_entities": [
+      [
+       "Illinois",
+       2
+      ],
+      [
+       "Chicago Police Department",
+       2
+      ],
+      [
+       "West Suburban Hospital",
+       2
+      ],
+      [
+       "Weiss Memorial Hospital",
+       2
+      ],
+      [
+       "Sangamon County Mental Health Board",
+       1
+      ],
+      [
+       "Rogers Park",
+       1
+      ]
+     ]
+    },
+    "labor & economy": {
+     "volume": 4,
+     "share": 0.019,
+     "outlet_breadth": 3,
+     "top_entities": [
+      [
+       "Illinois State Museum",
+       1
+      ],
+      [
+       "National Park Service",
+       1
+      ],
+      [
+       "New Philadelphia Association",
+       1
+      ],
+      [
+       "Springfield",
+       1
+      ],
+      [
+       "Chicago",
+       1
+      ],
+      [
+       "Gunny's Pub",
+       1
+      ]
+     ]
+    },
+    "courts & justice": {
+     "volume": 20,
+     "share": 0.0952,
+     "outlet_breadth": 7,
+     "top_entities": [
+      [
+       "Illinois",
+       8
+      ],
+      [
+       "Chicago",
+       3
+      ],
+      [
+       "Mike McCuskey",
+       1
+      ],
+      [
+       "Department of Children and Family Services",
+       1
+      ],
+      [
+       "Heidi Mueller",
+       1
+      ],
+      [
+       "Better Government Association",
+       1
+      ]
+     ]
+    },
+    "arts culture & sports": {
+     "volume": 10,
+     "share": 0.0476,
+     "outlet_breadth": 5,
+     "top_entities": [
+      [
+       "Chicago White Sox",
+       3
+      ],
+      [
+       "Chicago",
+       3
+      ],
+      [
+       "Illinois",
+       2
+      ],
+      [
+       "Bridgeport",
+       1
+      ],
+      [
+       "South Loop",
+       1
+      ],
+      [
+       "Amtrak",
+       1
+      ]
+     ]
+    },
+    "other": {
+     "volume": 22,
+     "share": 0.1048,
+     "outlet_breadth": 5,
+     "top_entities": [
+      [
+       "Michael McCuskey",
+       2
+      ],
+      [
+       "Illinois",
+       2
+      ],
+      [
+       "West Town",
+       2
+      ],
+      [
+       "Chicago",
+       2
+      ],
+      [
+       "O'Hare International Airport",
+       2
+      ],
+      [
+       "Crisis Lifeline",
+       2
+      ]
+     ]
+    }
+   },
+   "entities_top": [
+    [
+     "Chicago",
+     37
+    ],
+    [
+     "Illinois",
+     23
+    ],
+    [
+     "Chicago Police Department",
+     22
+    ],
+    [
+     "Brandon Johnson",
+     13
+    ],
+    [
+     "Chicago City Council",
+     8
+    ],
+    [
+     "Chicago Transit Authority",
+     7
+    ],
+    [
+     "Operation Midway Blitz",
+     6
+    ],
+    [
+     "Midway Blitz",
+     4
+    ],
+    [
+     "Cook County",
+     4
+    ],
+    [
+     "Chicago White Sox",
+     4
+    ],
+    [
+     "Department of Homeland Security",
+     3
+    ],
+    [
+     "Red Line",
+     3
+    ],
+    [
+     "Donald Trump",
+     3
+    ],
+    [
+     "Michael McCuskey",
+     3
+    ],
+    [
+     "Logan Square",
+     3
+    ],
+    [
+     "Springfield",
+     3
+    ],
+    [
+     "Chicago Public Schools",
+     3
+    ],
+    [
+     "Little Calumet River",
+     3
+    ],
+    [
+     "West Pullman",
+     3
+    ],
+    [
+     "Amtrak",
+     3
+    ]
+   ],
+   "regions": {
+    "chicago": {
+     "total": 177,
+     "theme_share": {
+      "public safety & crime": 0.2599,
+      "immigration & migrants": 0.1073,
+      "courts & justice": 0.0791,
+      "education & schools": 0.0395,
+      "other": 0.1073,
+      "housing & development": 0.0452,
+      "labor & economy": 0.0113,
+      "environment & energy": 0.0169,
+      "arts culture & sports": 0.0395,
+      "elections & politics": 0.1412,
+      "transit & infrastructure": 0.096,
+      "health & public health": 0.0508,
+      "city & state budget": 0.0056
+     }
+    },
+    "downstate": {
+     "total": 14,
+     "theme_share": {
+      "elections & politics": 0.0714,
+      "public safety & crime": 0.0714,
+      "labor & economy": 0.0714,
+      "education & schools": 0.1429,
+      "health & public health": 0.2143,
+      "environment & energy": 0.0714,
+      "courts & justice": 0.1429,
+      "transit & infrastructure": 0.0714,
+      "arts culture & sports": 0.1429
+     }
+    },
+    "statewide": {
+     "total": 19,
+     "theme_share": {
+      "other": 0.1579,
+      "elections & politics": 0.2105,
+      "housing & development": 0.0526,
+      "city & state budget": 0.2105,
+      "courts & justice": 0.2105,
+      "arts culture & sports": 0.0526,
+      "environment & energy": 0.0526,
+      "labor & economy": 0.0526
+     }
+    }
+   },
+   "outlets": {
+    "Chicago Sun-Times": {
+     "total": 95,
+     "region": "chicago",
+     "theme_share": {
+      "public safety & crime": 0.3684,
+      "immigration & migrants": 0.0737,
+      "courts & justice": 0.0737,
+      "education & schools": 0.0526,
+      "environment & energy": 0.0211,
+      "elections & politics": 0.1263,
+      "other": 0.0842,
+      "health & public health": 0.0842,
+      "housing & development": 0.0211,
+      "arts culture & sports": 0.0211,
+      "transit & infrastructure": 0.0737
+     }
+    },
+    "WBEZ": {
+     "total": 26,
+     "region": "chicago",
+     "theme_share": {
+      "public safety & crime": 0.0385,
+      "immigration & migrants": 0.1538,
+      "labor & economy": 0.0769,
+      "arts culture & sports": 0.1538,
+      "transit & infrastructure": 0.1923,
+      "elections & politics": 0.1923,
+      "education & schools": 0.0385,
+      "courts & justice": 0.0769,
+      "health & public health": 0.0385,
+      "other": 0.0385
+     }
+    },
+    "Block Club Chicago": {
+     "total": 28,
+     "region": "chicago",
+     "theme_share": {
+      "courts & justice": 0.0357,
+      "immigration & migrants": 0.1786,
+      "other": 0.25,
+      "housing & development": 0.1429,
+      "public safety & crime": 0.1429,
+      "elections & politics": 0.1071,
+      "transit & infrastructure": 0.1071,
+      "arts culture & sports": 0.0357
+     }
+    },
+    "Illinois Times": {
+     "total": 14,
+     "region": "downstate",
+     "theme_share": {
+      "elections & politics": 0.0714,
+      "public safety & crime": 0.0714,
+      "labor & economy": 0.0714,
+      "education & schools": 0.1429,
+      "health & public health": 0.2143,
+      "environment & energy": 0.0714,
+      "courts & justice": 0.1429,
+      "transit & infrastructure": 0.0714,
+      "arts culture & sports": 0.1429
+     }
+    },
+    "Capitol News Illinois": {
+     "total": 12,
+     "region": "statewide",
+     "theme_share": {
+      "other": 0.25,
+      "elections & politics": 0.1667,
+      "courts & justice": 0.3333,
+      "arts culture & sports": 0.0833,
+      "environment & energy": 0.0833,
+      "labor & economy": 0.0833
+     }
+    },
+    "WTTW News": {
+     "total": 21,
+     "region": "chicago",
+     "theme_share": {
+      "public safety & crime": 0.1905,
+      "immigration & migrants": 0.0476,
+      "elections & politics": 0.2381,
+      "housing & development": 0.0476,
+      "other": 0.1429,
+      "environment & energy": 0.0476,
+      "transit & infrastructure": 0.0952,
+      "city & state budget": 0.0476,
+      "courts & justice": 0.1429
+     }
+    },
+    "Illinois Policy Institute": {
+     "total": 7,
+     "region": "statewide",
+     "theme_share": {
+      "housing & development": 0.1429,
+      "city & state budget": 0.5714,
+      "elections & politics": 0.2857
+     }
+    },
+    "Borderless Magazine": {
+     "total": 4,
+     "region": "chicago",
+     "theme_share": {
+      "education & schools": 0.25,
+      "immigration & migrants": 0.5,
+      "public safety & crime": 0.25
+     }
+    },
+    "Chicago Reader": {
+     "total": 3,
+     "region": "chicago",
+     "theme_share": {
+      "housing & development": 0.3333,
+      "courts & justice": 0.3333,
+      "public safety & crime": 0.3333
+     }
+    }
+   },
+   "penetration": [
+    {
+     "title": "Operation Midway Blitz by the numbers: 68 days, 4,000 detained, 2,700 deported",
+     "link": "https://www.wbez.org/?entry-link-operation-midway-blitz-by-the-numbers-68-days-4-000-detained-2-700-deported",
+     "theme": "immigration & migrants",
+     "outlet_count": 2,
+     "outlets": [
+      "Chicago Sun-Times",
+      "WBEZ"
+     ]
+    },
+    {
+     "title": "Photos: What Operation Midway Blitz left behind",
+     "link": "https://www.wbez.org/bearing-the-blitz/2026/09/08/photos-what-operation-midway-blitz-left-behind",
+     "theme": "immigration & migrants",
+     "outlet_count": 2,
+     "outlets": [
+      "Chicago Sun-Times",
+      "WBEZ"
+     ]
+    },
+    {
+     "title": "A look back at how Operation Midway Blitz played out",
+     "link": "https://www.wbez.org/bearing-the-blitz/2026/09/08/a-look-back-at-how-operation-midway-blitz-played-out",
+     "theme": "immigration & migrants",
+     "outlet_count": 2,
+     "outlets": [
+      "Chicago Sun-Times",
+      "WBEZ"
+     ]
+    },
+    {
+     "title": "A Chicago couple was poised to open a new Lincoln Avenue bistro. Then the city shut down their street",
+     "link": "https://www.wbez.org/food-drink/2026/09/08/gunnys-lincoln-park-bar-bistro-small-business-lincoln-avenue-chicago",
+     "theme": "labor & economy",
+     "outlet_count": 2,
+     "outlets": [
+      "Chicago Sun-Times",
+      "WBEZ"
+     ]
+    },
+    {
+     "title": "These 61 organizations will receive $3.5M in Illinois local food grants",
+     "link": "https://capitolnewsillinois.com/news/these-61-organizations-will-receive-3-5m-in-illinois-local-food-grants/",
+     "theme": "arts culture & sports",
+     "outlet_count": 2,
+     "outlets": [
+      "Capitol News Illinois",
+      "WTTW News"
+     ]
+    },
+    {
+     "title": "Legislative Inspector General Michael McCuskey resigns amid criticism",
+     "link": "https://capitolnewsillinois.com/news/legislative-inspector-general-michael-mccuskey-resigns-amid-criticism/",
+     "theme": "other",
+     "outlet_count": 2,
+     "outlets": [
+      "Capitol News Illinois",
+      "Illinois Times"
+     ]
+    },
+    {
+     "title": "Judge weighing arguments to halt Illinois\u2019 \u2018medical aid in dying\u2019 law ahead of Sept. 12 start",
+     "link": "https://capitolnewsillinois.com/news/judge-weighing-arguments-to-halt-illinois-medical-aid-in-dying-law-ahead-of-sept-12-start/",
+     "theme": "courts & justice",
+     "outlet_count": 2,
+     "outlets": [
+      "Capitol News Illinois",
+      "WTTW News"
+     ]
+    }
+   ],
+   "meta": {
+    "backend": "anthropic:claude-haiku-4-5-20251001",
+    "taxonomy_version": "1.0.0",
+    "civic_only": true,
+    "civic_items": 210,
+    "noncivic_dropped": 232,
+    "all_in_window": 442,
+    "contains_synthetic": false
+   }
   }
  ]
 }
