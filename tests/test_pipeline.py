@@ -124,6 +124,28 @@ class Pipe(unittest.TestCase):
         snap=json.loads((Path(self.tmp)/"media_history.json").read_text())["snapshots"][-1]
         self.assertEqual(snap["total_items"],3,"--include-noncivic should keep all")
 
+    def test_event_tracking(self):
+        # an archive item mentioning a watchlist term is tracked; a non-match isn't
+        arch = Path(self.tmp) / "items_archive.jsonl"
+        items = [
+            {"id":"e1","title":"Operation Midway Blitz expands to more Chicago neighborhoods",
+             "summary":"Federal agents widen the operation.","published":"2026-09-07",
+             "outlet":"WBEZ","region":"chicago","link":"http://x/1"},
+            {"id":"e2","title":"Operativo Midway Blitz: las cifras del impacto economico",
+             "summary":"El impacto en la economia local.","published":"2026-09-08",
+             "outlet":"Chicago Sun-Times","region":"chicago","link":"http://x/2"},
+            {"id":"e3","title":"Cubs win in extra innings","summary":"baseball recap",
+             "published":"2026-09-07","outlet":"Chicago Sun-Times","region":"chicago","link":"http://x/3"},
+        ]
+        arch.write_text("".join(json.dumps(i)+"\n" for i in items))
+        run("track_events.py","--data-dir",self.tmp)
+        rep=json.loads((Path(self.tmp)/"events_report.json").read_text())
+        mb=next(e for e in rep["events"] if e["slug"]=="operation-midway-blitz")
+        self.assertEqual(mb["total_mentions"],2,"both Midway Blitz items matched, Cubs excluded")
+        self.assertEqual(mb["virality"]["breadth_total_outlets"],2)
+        titles=[a["title"] for a in mb["recent_articles"]]
+        self.assertTrue(any("impacto economico" in t for t in titles),"economic-impact article tracked")
+
     def test_verify_fails_on_synthetic_in_shipped(self):
         self.ingest(); run("analyze.py","--offline","--data-dir",self.tmp)
         run("rollup.py","--window-days","3650","--data-dir",self.tmp)

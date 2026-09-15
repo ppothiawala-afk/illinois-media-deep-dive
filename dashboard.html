@@ -57,7 +57,7 @@
 
 <script>
 const PALETTE=["#4f9cf9","#39d0a3","#f0b429","#c98bff","#ff7a59","#5fd0e0","#e06fae","#9ad04f","#f06b6b","#6f8bff","#d0b04f","#4fd0a0","#b0b8c4"];
-let HISTORY={snapshots:[]}, RECENT={items:[]}, SURGE={surging:[],emerging:[]}, FEEDS={feeds:[]};
+let HISTORY={snapshots:[]}, RECENT={items:[]}, SURGE={surging:[],emerging:[]}, FEEDS={feeds:[]}, EVENTS={events:[]};
 let weekIdx=0, region="all", charts={};
 
 async function loadJSON(f){try{const r=await fetch(f);if(!r.ok)return null;return await r.json();}catch(e){return null;}}
@@ -65,6 +65,7 @@ async function boot(){
   HISTORY=await loadJSON("media_history.json")||{snapshots:[]};
   RECENT=await loadJSON("items_recent.json")||{items:[]};
   SURGE=await loadJSON("surge_report.json")||{surging:[],emerging:[]};
+  EVENTS=await loadJSON("events_report.json")||{events:[]};
   FEEDS=await loadJSON("feeds_config.json")||{feeds:[]};
   weekIdx=Math.max(0,(HISTORY.snapshots||[]).length-1);
   render();
@@ -82,13 +83,58 @@ function render(){
   app.innerHTML = controls()
     + `<div id="focus"></div>`
     + `<div id="surge"></div>`
+    + `<div id="events"></div>`
     + `<div class="panel"><h2>Theme trend — share over time</h2><canvas id="trend"></canvas><div class="foot" id="trendLegend"></div></div>`
     + `<div id="divergence"></div>`
     + `<div id="regions"></div>`
     + `<div id="penetration"></div>`
     + `<div id="sources"></div>`
     + `<div class="foot" id="foot"></div>`;
-  wire(); renderFocus(); renderSurge(); renderTrend(); renderDivergence(); renderRegions(); renderPenetration(); renderSources(); renderFoot();
+  wire(); renderFocus(); renderSurge(); renderEvents(); renderTrend(); renderDivergence(); renderRegions(); renderPenetration(); renderSources(); renderFoot();
+}
+
+function renderEvents(){
+  const host=document.getElementById("events"); if(!host)return;
+  const evs=(EVENTS.events||[]).filter(e=>e.total_mentions>0);
+  if(!evs.length){ host.innerHTML=""; return; }
+  const badge=t=>{const c={rising:"#39d0a3",fading:"#f0b429",dormant:"#9aa4b2",steady:"#4f9cf9",new:"#c98bff"}[t]||"#9aa4b2";return `<span class="tag" style="color:${c};border-color:${c}">${t}</span>`;};
+  host.className="panel";
+  host.innerHTML=`<h2>Event tracker — media attention over time <span class="muted" style="font-weight:400;font-size:12px">(coverage, not public opinion)</span></h2>`
+    + evs.map(e=>{
+      const v=e.virality||{};
+      const co=(e.co_entities||[]).slice(0,8).map(x=>`<span class="tag">${esc(x[0])} · ${x[1]}</span>`).join(" ");
+      const th=(e.co_themes||[]).slice(0,4).map(x=>`<span class="tag">${esc(x[0])}</span>`).join(" ");
+      const arts=(e.recent_articles||[]).slice(0,5).map(a=>`<li><a href="${esc(a.link)}" target="_blank" rel="noopener">${esc(a.title)}</a> <span class="muted" style="font-size:11px">— ${esc(a.outlet)}, ${esc(a.published)}</span></li>`).join("");
+      return `<div style="border-top:1px solid var(--line);padding-top:12px;margin-top:12px">
+        <div style="display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap">
+          <div style="font-size:16px;font-weight:600">${esc(e.name)} ${badge(v.trend)}${v.broadening?' <span class="up" title="spreading across more outlets">▲ broadening</span>':''}</div>
+          <div class="muted" style="font-size:12px">${e.first_seen} → ${e.last_seen}</div></div>
+        <div class="kpis" style="margin:10px 0">
+          <div class="kpi"><div class="n">${e.total_mentions}</div><div class="l">total mentions</div></div>
+          <div class="kpi"><div class="n">${v.breadth_total_outlets||0}</div><div class="l">outlets (breadth)</div></div>
+          <div class="kpi"><div class="n">${v.peak_week_mentions||0}</div><div class="l">peak week (${v.peak_week||'—'})</div></div>
+          <div class="kpi"><div class="n">${v.latest_week_mentions||0}</div><div class="l">latest week</div></div></div>
+        <div class="grid cols-2">
+          <div><canvas id="ev_${esc(e.slug)}"></canvas></div>
+          <div><label>Travels with (co-mentioned)</label><div style="margin:6px 0 10px">${co||'<span class=muted>—</span>'}</div>
+            <label>Themes</label><div style="margin-top:6px">${th}</div></div>
+        </div>
+        <div style="margin-top:10px"><label>Recent coverage</label><ul style="margin-top:4px">${arts}</ul></div>
+      </div>`;
+    }).join("");
+  // draw the weekly mention series per event
+  evs.forEach(e=>{
+    const ctx=document.getElementById("ev_"+e.slug); if(!ctx)return;
+    charts["ev_"+e.slug]&&charts["ev_"+e.slug].destroy();
+    const s=e.series||[];
+    charts["ev_"+e.slug]=new Chart(ctx,{type:"line",
+      data:{labels:s.map(x=>x.week),datasets:[
+        {label:"mentions",borderColor:"#ff7a59",backgroundColor:"#ff7a59",tension:.3,pointRadius:3,data:s.map(x=>x.mentions),yAxisID:"y"},
+        {label:"outlets",borderColor:"#4f9cf9",backgroundColor:"#4f9cf9",tension:.3,pointRadius:2,borderDash:[4,3],data:s.map(x=>x.outlets),yAxisID:"y"}]},
+      options:{plugins:{legend:{labels:{color:"#9aa4b2",boxWidth:12,font:{size:10}}}},
+        scales:{x:{ticks:{color:"#9aa4b2",font:{size:9}},grid:{color:"#2a2f3a"}},
+          y:{ticks:{color:"#9aa4b2",font:{size:10}},grid:{color:"#2a2f3a"},beginAtZero:true}}}});
+  });
 }
 
 function emptyState(){

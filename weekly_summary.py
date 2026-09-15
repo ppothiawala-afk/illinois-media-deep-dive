@@ -41,6 +41,7 @@ def main():
     hist = load(data_dir, store.HISTORY_NAME, {"snapshots": []})
     recent = load(data_dir, RECENT_NAME, {"items": []})
     surge = load(data_dir, SURGE_NAME, {"surging": [], "emerging": []})
+    events = load(data_dir, "events_report.json", {"events": []})
     if not hist["snapshots"]:
         raise SystemExit("No snapshots — run rollup.py first.")
     snap = hist["snapshots"][-1]
@@ -90,6 +91,23 @@ def main():
                 + (", broadening" if e.get("broadening") else "") + ")" for e in rows) + "\n")
         else:
             L.append(f"**{label}:** none this week\n")
+
+    # tracked events (watchlist)
+    tracked = [e for e in events.get("events", []) if e.get("total_mentions", 0) > 0]
+    if tracked:
+        L.append("## Tracked events — media attention over time\n")
+        for e in tracked:
+            v = e.get("virality", {})
+            L.append(f"### {e['name']} — {v.get('trend','?')}{' · broadening' if v.get('broadening') else ''}")
+            L.append(f"{e['total_mentions']} mentions across {v.get('breadth_total_outlets',0)} outlets · "
+                     f"{e.get('first_seen')} → {e.get('last_seen')} · peak {v.get('peak_week','—')} "
+                     f"({v.get('peak_week_mentions',0)} mentions) · latest week {v.get('latest_week_mentions',0)}\n")
+            L.append("weekly: " + " · ".join(f"{s['week']}: {s['mentions']}m/{s['outlets']}o" for s in e.get("series", [])) + "\n")
+            if e.get("co_entities"):
+                L.append("travels with: " + ", ".join(f"{c[0]} ({c[1]})" for c in e["co_entities"][:8]) + "\n")
+            for a in e.get("recent_articles", [])[:args.examples]:
+                L.append(f"- [{a['title']}]({a['link']}) — *{a['outlet']}*, {a['published']}")
+            L.append("")
 
     # themes with linked examples (the review-and-compare core)
     L.append("## Themes with example articles — click to verify the tag\n")
@@ -186,6 +204,26 @@ ul{margin:6px 0;padding-left:20px} li{margin:3px 0} .warn{background:#fff7e6;bor
                 + (", broadening" if e.get('broadening') else "") + ")" for e in rows) + "</p>")
         else:
             H.append(f"<p><b>{label}:</b> none this week</p>")
+
+    if tracked:
+        H.append("<h2>Tracked events — media attention over time</h2>")
+        for e in tracked:
+            v = e.get("virality", {})
+            H.append(f"<h3>{esc(e['name'])} — {esc(v.get('trend','?'))}"
+                     + (" · broadening" if v.get("broadening") else "") + "</h3>")
+            H.append(f'<p class="small">{e["total_mentions"]} mentions across {v.get("breadth_total_outlets",0)} outlets · '
+                     f'{e.get("first_seen")} &rarr; {e.get("last_seen")} · peak {v.get("peak_week","—")} '
+                     f'({v.get("peak_week_mentions",0)}) · latest week {v.get("latest_week_mentions",0)}</p>')
+            H.append('<p class="small"><b>weekly:</b> ' + " · ".join(
+                f"{s['week']}: {s['mentions']}m/{s['outlets']}o" for s in e.get("series", [])) + "</p>")
+            if e.get("co_entities"):
+                H.append('<p class="small"><b>travels with:</b> ' + ", ".join(
+                    f"{esc(c[0])} ({c[1]})" for c in e["co_entities"][:8]) + "</p>")
+            H.append("<ul>")
+            for a in e.get("recent_articles", [])[:args.examples]:
+                H.append(f'<li><a href="{esc(a["link"])}" target="_blank">{esc(a["title"])}</a> '
+                         f'<span class="small">— {esc(a["outlet"])}, {esc(a["published"])}</span></li>')
+            H.append("</ul>")
 
     H.append("<h2>Themes with example articles — click to verify the tag</h2>")
     for sh, t, v in themes:

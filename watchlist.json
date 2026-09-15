@@ -1,0 +1,14 @@
+{
+  "_comment": "Human-gated event/campaign watchlist. Each entry is tracked across the WHOLE archive (retroactive — a new entry gets its full history from first mention). 'match' = lowercased substrings; an article matches if ANY match term appears in its title+summary+entities and NO 'exclude' term does. Keep match terms specific and add excludes to avoid false hits (e.g. a football 'blitz'). track_events.py reads this; it never edits it. NO sentiment — this measures MEDIA attention (coverage), not public opinion or the event's real-world scale.",
+  "version": "1.0.0",
+  "events": [
+    {
+      "name": "Operation Midway Blitz",
+      "slug": "operation-midway-blitz",
+      "match": ["operation midway blitz", "midway blitz"],
+      "exclude": [],
+      "added": "2026-09-15",
+      "notes": "Federal immigration enforcement operation in the Chicago area (detentions/deportations). Watch for the economic-impact and legal-challenge angles."
+    }
+  ]
+}
