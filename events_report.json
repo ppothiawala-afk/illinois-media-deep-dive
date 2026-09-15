@@ -1,0 +1,172 @@
+{
+  "_comment": "Media-attention tracking for watchlist events. VIRALITY is shown as transparent components (breadth = distinct outlets, velocity = latest vs trailing weeks), not a black-box score. Counts, not sentiment; measures COVERAGE attention, not public opinion or real scale. Retroactive: history reconstructed from the full archive.",
+  "generated": "2026-09-15T16:04:19+00:00",
+  "watchlist_version": "1.0.0",
+  "events": [
+    {
+      "name": "Operation Midway Blitz",
+      "slug": "operation-midway-blitz",
+      "notes": "Federal immigration enforcement operation in the Chicago area (detentions/deportations). Watch for the economic-impact and legal-challenge angles.",
+      "total_mentions": 30,
+      "first_seen": "2026-06-24",
+      "last_seen": "2026-09-14",
+      "weeks_active": 5,
+      "virality": {
+        "breadth_total_outlets": 6,
+        "breadth_peak_week_outlets": 5,
+        "peak_week": "2026-09-07",
+        "peak_week_mentions": 22,
+        "latest_week_mentions": 1,
+        "prior_weeks_avg_mentions": 7.25,
+        "trend": "fading",
+        "broadening": false
+      },
+      "series": [
+        {
+          "week": "2026-06-22",
+          "mentions": 1,
+          "outlets": 1,
+          "regions": 1
+        },
+        {
+          "week": "2026-08-10",
+          "mentions": 1,
+          "outlets": 1,
+          "regions": 1
+        },
+        {
+          "week": "2026-08-31",
+          "mentions": 5,
+          "outlets": 2,
+          "regions": 1
+        },
+        {
+          "week": "2026-09-07",
+          "mentions": 22,
+          "outlets": 5,
+          "regions": 1
+        },
+        {
+          "week": "2026-09-14",
+          "mentions": 1,
+          "outlets": 1,
+          "regions": 1
+        }
+      ],
+      "co_themes": [
+        [
+          "immigration & migrants",
+          20
+        ],
+        [
+          "other",
+          5
+        ],
+        [
+          "courts & justice",
+          2
+        ],
+        [
+          "elections & politics",
+          2
+        ],
+        [
+          "public safety & crime",
+          1
+        ]
+      ],
+      "co_entities": [
+        [
+          "Chicago",
+          12
+        ],
+        [
+          "Department of Homeland Security",
+          4
+        ],
+        [
+          "Illinois",
+          3
+        ],
+        [
+          "Donald Trump",
+          3
+        ],
+        [
+          "Brandon Johnson",
+          2
+        ],
+        [
+          "Trump Administration",
+          1
+        ],
+        [
+          "Gregory Bovino",
+          1
+        ],
+        [
+          "University of Illinois Chicago",
+          1
+        ],
+        [
+          "Boys Noize&lt",
+          1
+        ],
+        [
+          "DJ Hiroko Yamamura",
+          1
+        ]
+      ],
+      "recent_articles": [
+        {
+          "title": "A year after Operation Midway Blitz, Chicago celebrates 'strength' at the Mexican Independence Day Parade",
+          "link": "https://chicago.suntimes.com/arts-and-culture/2026/09/13/mexican-independence-day-parade-operation-midway-blitz-year-later",
+          "outlet": "Chicago Sun-Times",
+          "region": "chicago",
+          "published": "2026-09-14",
+          "theme": "immigration & migrants"
+        },
+        {
+          "title": "Un a\u00f1o de silencio tras la muerte de Silverio Villegas Gonz\u00e1lez a manos de ICE a pesar de los llamados de justicia",
+          "link": "https://chicago.suntimes.com/la-voz/2026/09/12/un-ano-de-silencio-tras-la-muerte-de-silverio-villegas-gonzalez-a-manos-de-ice-a-pesar-de-los-llamados-de-justicia",
+          "outlet": "Chicago Sun-Times",
+          "region": "chicago",
+          "published": "2026-09-12",
+          "theme": "other"
+        },
+        {
+          "title": "Las cifras del Operativo Midway Blitz: 68 d\u00edas, 4,000 detenidos, 2,700 deportados",
+          "link": "https://chicago.suntimes.com/?entry-link-las-cifras-del-operativo-midway-blitz-68-dias-4-000-detenidos-2-700-deportados",
+          "outlet": "Chicago Sun-Times",
+          "region": "chicago",
+          "published": "2026-09-11",
+          "theme": "other"
+        },
+        {
+          "title": "5 things to know about lawyer-turned-influencer Rachel Cohen, Mayor Brandon Johnson\u2019s new chief spokesperson",
+          "link": "https://www.wbez.org/city-hall/2026/09/11/five-things-to-know-about-rachel-cohen-brandon-johnson-communications-director",
+          "outlet": "WBEZ",
+          "region": "chicago",
+          "published": "2026-09-11",
+          "theme": "elections & politics"
+        },
+        {
+          "title": "Lawyer Who Went Viral Opposing Midway Blitz Named Mayor Johnson\u2019s Chief Spokesperson",
+          "link": "https://blockclubchicago.org/2026/09/11/lawyer-who-went-viral-opposing-midway-blitz-named-mayor-johnsons-communications-director/",
+          "outlet": "Block Club Chicago",
+          "region": "chicago",
+          "published": "2026-09-11",
+          "theme": "elections & politics"
+        },
+        {
+          "title": "This Week In Photos:\u00a0One Year Since Midway Blitz, Latest Amtrak Plans Frustrate Neighbors, More",
+          "link": "https://blockclubchicago.org/2026/09/11/this-week-in-photos-one-year-since-midway-blitz-latest-amtrak-sox-stadium-plans-fluster-neighbors-and-more/",
+          "outlet": "Block Club Chicago",
+          "region": "chicago",
+          "published": "2026-09-11",
+          "theme": "other"
+        }
+      ]
+    }
+  ]
+}

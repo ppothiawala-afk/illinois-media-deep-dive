@@ -1,15 +1,8 @@
 {
   "_comment": "PROPOSALS ONLY \u2014 human review, then apply_feeds_patch.py. Discovery/health-check never edits feeds_config.json directly.",
-  "generated": "2026-09-14T17:08:26.161791+00:00",
+  "generated": "2026-09-15T16:04:29.932622+00:00",
   "adds": [],
   "flags": [
-    {
-      "action": "flag",
-      "feed_url": "https://illinoisanswers.org/feed/",
-      "outlet": "Illinois Answers Project",
-      "status_proposed": "dead",
-      "reason": "no items"
-    },
     {
       "action": "flag",
       "feed_url": "https://thetriibe.com/feed/",
@@ -32,6 +25,21 @@
       "reason": "stale: 0 in 30d (20 total)"
     }
   ],
-  "validates": [],
+  "validates": [
+    {
+      "action": "validate",
+      "feed_url": "https://illinoisanswers.org/feed/",
+      "outlet": "Illinois Answers Project",
+      "status_proposed": "active",
+      "validation": {
+        "validated": true,
+        "validated_on": "2026-09-15",
+        "method": "discover_feeds --health-check live parse",
+        "items_seen": 10,
+        "recent": 10
+      },
+      "reason": "healthy: 10 items, 10 recent"
+    }
+  ],
   "rejects": []
 }
