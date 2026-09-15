@@ -97,6 +97,10 @@ def main():
     ap.add_argument("--examples", type=int, default=6)
     ap.add_argument("--min-mentions", type=int, default=3,
                     help="entity needs at least this many mentions to be explorable")
+    ap.add_argument("--search-days", type=int, default=180,
+                    help="bounded window shipped to the browser for the open search box")
+    ap.add_argument("--search-cap", type=int, default=3000,
+                    help="max articles in the browser search corpus (keeps the JSON small)")
     ap.add_argument("--data-dir")
     args = ap.parse_args()
 
@@ -151,6 +155,33 @@ def main():
     }
     (Path(data_dir) / REPORT_NAME).write_text(json.dumps(report, indent=2))
     print(f"explorer: {len(top_entities)} entities + {len(themes)} themes -> {REPORT_NAME}")
+
+    # ── bounded search corpus for the browser's open search/discovery box ──
+    # Anything OLDER or DEEPER than this window is reached via search_archive.py
+    # (full-archive, server-side). Kept small: title + entities + a summary snippet.
+    from datetime import date, timedelta
+    today = date.today()
+    cutoff = today - timedelta(days=args.search_days)
+    by_recent = sorted(archive, key=lambda h: h.get("published", ""), reverse=True)
+    corpus = []
+    for h in by_recent:
+        d = store.parse_date(h.get("published"))
+        if not d or d < cutoff:
+            continue
+        a = an.get(h["id"], {})
+        searchable = f"{h.get('title','')} {h.get('summary','')[:160]} {' '.join(a.get('entities',[]))}".lower()
+        corpus.append({"t": h.get("title"), "d": h.get("published"), "o": h.get("outlet"),
+                       "r": h.get("region"), "th": a.get("theme"),
+                       "e": a.get("entities", [])[:6], "l": h.get("link"), "s": searchable})
+        if len(corpus) >= args.search_cap:
+            break
+    (Path(data_dir) / "search_corpus.json").write_text(json.dumps({
+        "_comment": "Bounded recent-article corpus for the dashboard's client-side "
+                    "search/discovery box. Older/deeper searches use search_archive.py "
+                    "(full archive, server-side). Fields shortened to keep it small.",
+        "generated": datetime.now(timezone.utc).date().isoformat(),
+        "window_days": args.search_days, "count": len(corpus), "articles": corpus}))
+    print(f"search corpus: {len(corpus)} recent articles (<= {args.search_days}d) -> search_corpus.json")
 
 
 if __name__ == "__main__":

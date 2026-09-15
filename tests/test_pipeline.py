@@ -156,6 +156,22 @@ class Pipe(unittest.TestCase):
         self.assertIn("series", t); self.assertIn("virality", t)
         self.assertIn(t["kind"], ("entity","theme"))
 
+    def test_search_archive(self):
+        self.ingest(); run("analyze.py","--offline","--data-dir",self.tmp)
+        p=run("search_archive.py","budget","--data-dir",self.tmp)  # fixtures mention budget
+        self.assertIn("mentions", p.stdout)
+        self.assertIn("watchlist.json", p.stdout)  # prints the track-this snippet
+        # a term that doesn't appear returns the no-mentions path, not a crash
+        p2=run("search_archive.py","zznonexistentterm","--data-dir",self.tmp)
+        self.assertIn("No dated mentions", p2.stdout)
+
+    def test_explorer_search_corpus(self):
+        self.ingest(); run("analyze.py","--offline","--data-dir",self.tmp)
+        run("build_explorer.py","--data-dir",self.tmp,"--min-mentions","1","--search-days","36500")
+        sc=json.loads((Path(self.tmp)/"search_corpus.json").read_text())
+        self.assertTrue(sc["articles"], "search corpus populated")
+        self.assertIn("s", sc["articles"][0])  # searchable field present
+
     def test_verify_fails_on_synthetic_in_shipped(self):
         self.ingest(); run("analyze.py","--offline","--data-dir",self.tmp)
         run("rollup.py","--window-days","3650","--data-dir",self.tmp)

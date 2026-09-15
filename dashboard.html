@@ -57,8 +57,8 @@
 
 <script>
 const PALETTE=["#4f9cf9","#39d0a3","#f0b429","#c98bff","#ff7a59","#5fd0e0","#e06fae","#9ad04f","#f06b6b","#6f8bff","#d0b04f","#4fd0a0","#b0b8c4"];
-let HISTORY={snapshots:[]}, RECENT={items:[]}, SURGE={surging:[],emerging:[]}, FEEDS={feeds:[]}, EVENTS={events:[]}, EXPLORER={topics:[]};
-let weekIdx=0, region="all", charts={}, exploreSel=null;
+let HISTORY={snapshots:[]}, RECENT={items:[]}, SURGE={surging:[],emerging:[]}, FEEDS={feeds:[]}, EVENTS={events:[]}, EXPLORER={topics:[]}, SEARCH={articles:[]};
+let weekIdx=0, region="all", charts={}, exploreSel=null, searchTimer=null;
 
 async function loadJSON(f){try{const r=await fetch(f);if(!r.ok)return null;return await r.json();}catch(e){return null;}}
 async function boot(){
@@ -67,6 +67,7 @@ async function boot(){
   SURGE=await loadJSON("surge_report.json")||{surging:[],emerging:[]};
   EVENTS=await loadJSON("events_report.json")||{events:[]};
   EXPLORER=await loadJSON("explorer.json")||{topics:[]};
+  SEARCH=await loadJSON("search_corpus.json")||{articles:[]};
   FEEDS=await loadJSON("feeds_config.json")||{feeds:[]};
   weekIdx=Math.max(0,(HISTORY.snapshots||[]).length-1);
   render();
@@ -83,6 +84,7 @@ function render(){
   if(!snaps().length){ app.innerHTML=emptyState(); renderSources(); return; }
   app.innerHTML = controls()
     + `<div id="focus"></div>`
+    + `<div id="search"></div>`
     + `<div id="explore"></div>`
     + `<div id="surge"></div>`
     + `<div id="events"></div>`
@@ -92,7 +94,51 @@ function render(){
     + `<div id="penetration"></div>`
     + `<div id="sources"></div>`
     + `<div class="foot" id="foot"></div>`;
-  wire(); renderFocus(); renderExplore(); renderSurge(); renderEvents(); renderTrend(); renderDivergence(); renderRegions(); renderPenetration(); renderSources(); renderFoot();
+  wire(); renderFocus(); renderSearch(); renderExplore(); renderSurge(); renderEvents(); renderTrend(); renderDivergence(); renderRegions(); renderPenetration(); renderSources(); renderFoot();
+}
+
+function renderSearch(){
+  const host=document.getElementById("search"); if(!host)return;
+  const arts=SEARCH.articles||[];
+  host.className="panel";
+  host.innerHTML=`<h2>Search & discover — find anything, then track it</h2>
+    <div class="controls" style="margin:0 0 8px">
+      <input id="searchBox" placeholder="e.g. midway blitz, data center, teachers strike" autocomplete="off"
+        style="flex:1;min-width:260px;background:var(--panel2);color:var(--ink);border:1px solid var(--line);border-radius:8px;padding:9px 12px;font-size:14px"/>
+    </div>
+    <div class="muted" style="font-size:12px;margin-bottom:6px">Searches the last ${SEARCH.window_days||180} days (${arts.length} articles) in your browser. For the full archive back to the first mention, use <code>search_archive.py "your term"</code>.</div>
+    <div id="searchResults"><span class="muted">Type a term to see its recent coverage, timeline, and a one-line snippet to track it permanently.</span></div>`;
+  const box=document.getElementById("searchBox");
+  box.oninput=()=>{ clearTimeout(searchTimer); searchTimer=setTimeout(()=>doSearch(box.value),180); };
+}
+
+function doSearch(q){
+  const host=document.getElementById("searchResults"); if(!host)return;
+  q=(q||"").trim().toLowerCase();
+  charts.search&&charts.search.destroy();
+  if(q.length<2){ host.innerHTML='<span class="muted">Type at least 2 characters.</span>'; return; }
+  const terms=q.split(/\s+/);
+  const hits=(SEARCH.articles||[]).filter(a=>terms.every(t=>(a.s||"").includes(t)));
+  if(!hits.length){ host.innerHTML=`<span class="muted">No matches for “${esc(q)}” in the recent window. Try the full archive: <code>search_archive.py "${esc(q)}"</code></span>`; return; }
+  // weekly histogram
+  const wk={}, outlets=new Set();
+  hits.forEach(a=>{ const d=(a.d||"").slice(0,10); if(!d)return; const dt=new Date(d+"T00:00:00"); const day=(dt.getUTCDay()+6)%7; dt.setUTCDate(dt.getUTCDate()-day); const w=dt.toISOString().slice(0,10); wk[w]=(wk[w]||0)+1; outlets.add(a.o); });
+  const weeks=Object.keys(wk).sort();
+  const slug=q.replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+  const arts=hits.slice(0,30).sort((a,b)=>(b.d||"").localeCompare(a.d||"")).map(a=>`<li><a href="${esc(a.l)}" target="_blank" rel="noopener">${esc(a.t)}</a> <span class="muted" style="font-size:11px">— ${esc(a.o)}, ${esc(a.d)}${a.th?' · '+esc(a.th):''}</span></li>`).join("");
+  host.innerHTML=`<div class="kpis" style="margin-bottom:10px">
+      <div class="kpi"><div class="n">${hits.length}</div><div class="l">matches (recent)</div></div>
+      <div class="kpi"><div class="n">${outlets.size}</div><div class="l">outlets</div></div>
+      <div class="kpi"><div class="n">${weeks.length}</div><div class="l">weeks active</div></div></div>
+    <canvas id="searchChart" style="max-height:170px"></canvas>
+    <div class="foot"><label>Track “${esc(q)}” permanently →</label> add to <code>watchlist.json</code>:
+      <div><code>{"name":"${esc(q)}","slug":"${esc(slug)}","match":["${esc(q)}"],"exclude":[],"added":"today"}</code></div>
+      <div style="margin-top:4px">…or investigate the full archive: <code>python3 search_archive.py "${esc(q)}"</code></div></div>
+    <div style="margin-top:8px"><label>Matching coverage (most recent 30)</label><ul style="margin-top:4px">${arts}</ul></div>`;
+  const ctx=document.getElementById("searchChart");
+  charts.search=new Chart(ctx,{type:"bar",
+    data:{labels:weeks,datasets:[{label:"mentions/week",data:weeks.map(w=>wk[w]),backgroundColor:"#ff7a59"}]},
+    options:{plugins:{legend:{display:false}},scales:{x:{ticks:{color:"#9aa4b2",font:{size:9}},grid:{display:false}},y:{ticks:{color:"#9aa4b2",font:{size:10}},grid:{color:"#2a2f3a"},beginAtZero:true}}}});
 }
 
 function renderExplore(){
