@@ -1,4 +1,6 @@
 # Illinois Media Deep Dive — dependency-light by design.
-# stdlib does most of the work; two third-party packages:
 feedparser>=6.0.0     # RSS/Atom parsing (fetch_feeds.py, discover_feeds.py)
 anthropic>=0.40.0     # ONLY analyze.py Layer-2 theme tagging (API mode); --offline needs neither
+# Phase-two social signals (track_social.py) — optional; the pipeline runs without them:
+pytrends>=4.9.0       # Google Trends (unofficial, best-effort, flaky/rate-limited)
+praw>=7.7.0           # Reddit API (needs REDDIT_CLIENT_ID / REDDIT_CLIENT_SECRET)

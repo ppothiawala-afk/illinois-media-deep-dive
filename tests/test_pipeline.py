@@ -172,6 +172,26 @@ class Pipe(unittest.TestCase):
         self.assertTrue(sc["articles"], "search corpus populated")
         self.assertIn("s", sc["articles"][0])  # searchable field present
 
+    def test_social_mock(self):
+        # --mock produces a valid social_report without network/creds
+        run("track_social.py","--mock","--data-dir",self.tmp)
+        rep=json.loads((Path(self.tmp)/"social_report.json").read_text())
+        self.assertTrue(rep["mock"])
+        ev=rep["events"][0]
+        self.assertEqual(ev["google_trends"]["status"],"ok")
+        self.assertEqual(ev["reddit"]["status"],"ok")
+        self.assertTrue(ev["google_trends"]["series"])
+
+    def test_social_not_configured(self):
+        # live mode with no Reddit creds -> graceful 'not_configured', no crash
+        import os as _os
+        env=dict(_os.environ); env.pop("REDDIT_CLIENT_ID",None); env.pop("REDDIT_CLIENT_SECRET",None)
+        p=subprocess.run([sys.executable,str(ROOT/"track_social.py"),"--data-dir",self.tmp],
+                         cwd=ROOT,capture_output=True,text=True,env=env)
+        self.assertEqual(p.returncode,0)
+        rep=json.loads((Path(self.tmp)/"social_report.json").read_text())
+        self.assertEqual(rep["events"][0]["reddit"]["status"],"not_configured")
+
     def test_verify_fails_on_synthetic_in_shipped(self):
         self.ingest(); run("analyze.py","--offline","--data-dir",self.tmp)
         run("rollup.py","--window-days","3650","--data-dir",self.tmp)

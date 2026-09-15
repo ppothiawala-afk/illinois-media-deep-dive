@@ -57,7 +57,7 @@
 
 <script>
 const PALETTE=["#4f9cf9","#39d0a3","#f0b429","#c98bff","#ff7a59","#5fd0e0","#e06fae","#9ad04f","#f06b6b","#6f8bff","#d0b04f","#4fd0a0","#b0b8c4"];
-let HISTORY={snapshots:[]}, RECENT={items:[]}, SURGE={surging:[],emerging:[]}, FEEDS={feeds:[]}, EVENTS={events:[]}, EXPLORER={topics:[]}, SEARCH={articles:[]};
+let HISTORY={snapshots:[]}, RECENT={items:[]}, SURGE={surging:[],emerging:[]}, FEEDS={feeds:[]}, EVENTS={events:[]}, EXPLORER={topics:[]}, SEARCH={articles:[]}, SOCIAL={events:[]};
 let weekIdx=0, region="all", charts={}, exploreSel=null, searchTimer=null;
 
 async function loadJSON(f){try{const r=await fetch(f);if(!r.ok)return null;return await r.json();}catch(e){return null;}}
@@ -66,6 +66,7 @@ async function boot(){
   RECENT=await loadJSON("items_recent.json")||{items:[]};
   SURGE=await loadJSON("surge_report.json")||{surging:[],emerging:[]};
   EVENTS=await loadJSON("events_report.json")||{events:[]};
+  SOCIAL=await loadJSON("social_report.json")||{events:[]};
   EXPLORER=await loadJSON("explorer.json")||{topics:[]};
   SEARCH=await loadJSON("search_corpus.json")||{articles:[]};
   FEEDS=await loadJSON("feeds_config.json")||{feeds:[]};
@@ -232,6 +233,7 @@ function renderEvents(){
           <div><label>Travels with (co-mentioned)</label><div style="margin:6px 0 10px">${co||'<span class=muted>—</span>'}</div>
             <label>Themes</label><div style="margin-top:6px">${th}</div></div>
         </div>
+        <div id="soc_${esc(e.slug)}"></div>
         <div style="margin-top:10px"><label>Recent coverage</label><ul style="margin-top:4px">${arts}</ul></div>
       </div>`;
     }).join("");
@@ -247,7 +249,32 @@ function renderEvents(){
       options:{plugins:{legend:{labels:{color:"#9aa4b2",boxWidth:12,font:{size:10}}}},
         scales:{x:{ticks:{color:"#9aa4b2",font:{size:9}},grid:{color:"#2a2f3a"}},
           y:{ticks:{color:"#9aa4b2",font:{size:10}},grid:{color:"#2a2f3a"},beginAtZero:true}}}});
+    renderSocial(e);
   });
+}
+
+function renderSocial(e){
+  const host=document.getElementById("soc_"+e.slug); if(!host)return;
+  const s=((SOCIAL.events||[]).find(x=>x.slug===e.slug))||null;
+  if(!s){ host.innerHTML=""; return; }
+  const gt=s.google_trends||{}, rd=s.reddit||{};
+  const bad=st=>({not_configured:"not configured",unavailable:"library missing",error:"error",no_data:"no data"}[st]||st);
+  const gtOk=gt.status==="ok"&&(gt.series||[]).length, rdOk=rd.status==="ok"&&(rd.series||[]).length;
+  host.innerHTML=`<div style="border-top:1px dashed var(--line);margin-top:12px;padding-top:10px">
+    <label>Public attention — separate signals, not media coverage${(gt.mock||rd.mock)?' <span class="tag" style="color:var(--warn);border-color:var(--warn)">MOCK</span>':''}</label>
+    <div class="grid cols-2" style="margin-top:6px">
+      <div><div class="muted" style="font-size:11px;margin-bottom:2px">Google Trends — IL search interest (0–100)</div>
+        ${gtOk?`<canvas id="gt_${esc(e.slug)}" style="max-height:150px"></canvas>`:`<div class="muted" style="font-size:12px">unavailable (${esc(bad(gt.status))})</div>`}</div>
+      <div><div class="muted" style="font-size:11px;margin-bottom:2px">Reddit — posts/week${rdOk&&rd.top_subreddits?' · '+rd.top_subreddits.slice(0,3).map(x=>'r/'+esc(x[0])).join(', '):''}</div>
+        ${rdOk?`<canvas id="rd_${esc(e.slug)}" style="max-height:150px"></canvas>`:`<div class="muted" style="font-size:12px">unavailable (${esc(bad(rd.status))})</div>`}</div>
+    </div>
+    <div class="muted" style="font-size:11px;margin-top:4px">Different populations, different units — read side by side, never averaged.</div></div>`;
+  if(gtOk){ const c=document.getElementById("gt_"+e.slug); charts["gt_"+e.slug]&&charts["gt_"+e.slug].destroy();
+    charts["gt_"+e.slug]=new Chart(c,{type:"line",data:{labels:gt.series.map(x=>x.week),datasets:[{label:"interest",borderColor:"#39d0a3",backgroundColor:"#39d0a3",tension:.3,pointRadius:2,data:gt.series.map(x=>x.interest)}]},
+      options:{plugins:{legend:{display:false}},scales:{x:{ticks:{color:"#9aa4b2",font:{size:9}},grid:{display:false}},y:{ticks:{color:"#9aa4b2",font:{size:10}},grid:{color:"#2a2f3a"},beginAtZero:true,max:100}}}}); }
+  if(rdOk){ const c=document.getElementById("rd_"+e.slug); charts["rd_"+e.slug]&&charts["rd_"+e.slug].destroy();
+    charts["rd_"+e.slug]=new Chart(c,{type:"bar",data:{labels:rd.series.map(x=>x.week),datasets:[{label:"posts",backgroundColor:"#c98bff",data:rd.series.map(x=>x.posts)}]},
+      options:{plugins:{legend:{display:false}},scales:{x:{ticks:{color:"#9aa4b2",font:{size:9}},grid:{display:false}},y:{ticks:{color:"#9aa4b2",font:{size:10}},grid:{color:"#2a2f3a"},beginAtZero:true}}}}); }
 }
 
 function emptyState(){

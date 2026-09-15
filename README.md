@@ -119,6 +119,26 @@ D1 archive integrity/truncation, D2 sightings resolve, D3 de-circularized (snaps
 total + per-region recomputed from the archive window), D4 dead-outlet detection, D5
 feed-health coverage.
 
+## Public attention — phase two (social signals, optional)
+
+`track_social.py` adds **public-attention** signals beside media coverage for each
+watchlist event, shown as **separate, labeled lines — never blended** (each platform
+is a different, non-representative population):
+
+- **Google Trends** (IL search interest, 0–100) — closest proxy for "are people
+  looking this up." Uses the *unofficial* `pytrends`; free but flaky/rate-limited, and
+  the numbers are relative. Best-effort: if it fails, the signal shows "unavailable."
+- **Reddit** (posts/upvotes/comments per week) — official API, reliable when
+  configured. Set up: create an app at reddit.com/prefs/apps (type "script"), then add
+  repo secrets `REDDIT_CLIENT_ID` and `REDDIT_CLIENT_SECRET`. Without them it degrades
+  to "not configured."
+
+It runs in the weekly rollup and **never fails the build** — a provider error is
+recorded per-event and the pipeline continues. Test the plumbing with
+`python3 track_social.py --mock` (synthetic, labeled MOCK). This is *media/social
+attention*, not public opinion; Reddit ≠ the public, search interest ≠ the public.
+For reliable Trends at scale, swap `pytrends` for a paid provider (SerpAPI/DataForSEO).
+
 ## Setup
 
 ```bash

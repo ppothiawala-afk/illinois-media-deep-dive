@@ -42,6 +42,25 @@ def main():
     recent = load(data_dir, RECENT_NAME, {"items": []})
     surge = load(data_dir, SURGE_NAME, {"surging": [], "emerging": []})
     events = load(data_dir, "events_report.json", {"events": []})
+    social = {s["slug"]: s for s in load(data_dir, "social_report.json", {"events": []}).get("events", [])}
+
+    def social_line(slug):
+        s = social.get(slug)
+        if not s:
+            return None
+        gt, rd = s.get("google_trends", {}), s.get("reddit", {})
+        bits = []
+        if gt.get("status") == "ok" and gt.get("series"):
+            bits.append(f"Google Trends peak {max(x['interest'] for x in gt['series'])}/100 (IL)")
+        else:
+            bits.append(f"Trends: {gt.get('status','n/a')}")
+        if rd.get("status") == "ok" and rd.get("series"):
+            posts = sum(x["posts"] for x in rd["series"])
+            subs = ", ".join("r/" + t[0] for t in rd.get("top_subreddits", [])[:3])
+            bits.append(f"Reddit {posts} posts" + (f" ({subs})" if subs else ""))
+        else:
+            bits.append(f"Reddit: {rd.get('status','n/a')}")
+        return "public attention — " + " · ".join(bits) + (" [MOCK]" if s.get("google_trends", {}).get("mock") else "")
     if not hist["snapshots"]:
         raise SystemExit("No snapshots — run rollup.py first.")
     snap = hist["snapshots"][-1]
@@ -103,6 +122,9 @@ def main():
                      f"{e.get('first_seen')} → {e.get('last_seen')} · peak {v.get('peak_week','—')} "
                      f"({v.get('peak_week_mentions',0)} mentions) · latest week {v.get('latest_week_mentions',0)}\n")
             L.append("weekly: " + " · ".join(f"{s['week']}: {s['mentions']}m/{s['outlets']}o" for s in e.get("series", [])) + "\n")
+            sl = social_line(e["slug"])
+            if sl:
+                L.append(sl + "\n")
             if e.get("co_entities"):
                 L.append("travels with: " + ", ".join(f"{c[0]} ({c[1]})" for c in e["co_entities"][:8]) + "\n")
             for a in e.get("recent_articles", [])[:args.examples]:
@@ -216,6 +238,9 @@ ul{margin:6px 0;padding-left:20px} li{margin:3px 0} .warn{background:#fff7e6;bor
                      f'({v.get("peak_week_mentions",0)}) · latest week {v.get("latest_week_mentions",0)}</p>')
             H.append('<p class="small"><b>weekly:</b> ' + " · ".join(
                 f"{s['week']}: {s['mentions']}m/{s['outlets']}o" for s in e.get("series", [])) + "</p>")
+            sl = social_line(e["slug"])
+            if sl:
+                H.append(f'<p class="small"><b>{esc(sl.split(" — ")[0])}:</b> {esc(sl.split(" — ",1)[1])}</p>')
             if e.get("co_entities"):
                 H.append('<p class="small"><b>travels with:</b> ' + ", ".join(
                     f"{esc(c[0])} ({c[1]})" for c in e["co_entities"][:8]) + "</p>")
