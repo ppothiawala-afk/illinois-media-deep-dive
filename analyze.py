@@ -174,6 +174,8 @@ def extract_entities(text, exclude=frozenset()):
         low = phrase.lower()
         if len(phrase) < 3:
             continue
+        if re.search(r"&(lt|gt|amp|quot|#)", low):   # HTML-entity fragments
+            continue
         if low in exclude:                      # exact outlet name
             continue
         if any(tok in exclude for tok in low.split()) and len(words) == 1:

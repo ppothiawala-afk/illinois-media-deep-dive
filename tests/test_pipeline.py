@@ -146,6 +146,16 @@ class Pipe(unittest.TestCase):
         titles=[a["title"] for a in mb["recent_articles"]]
         self.assertTrue(any("impacto economico" in t for t in titles),"economic-impact article tracked")
 
+    def test_explorer_builds(self):
+        self.ingest(); run("analyze.py","--offline","--data-dir",self.tmp)
+        run("build_explorer.py","--data-dir",self.tmp,"--min-mentions","1")
+        ex=json.loads((Path(self.tmp)/"explorer.json").read_text())
+        self.assertTrue(ex["themes"], "themes present in explorer")
+        self.assertTrue(ex["topics"], "topics present")
+        t=ex["topics"][0]
+        self.assertIn("series", t); self.assertIn("virality", t)
+        self.assertIn(t["kind"], ("entity","theme"))
+
     def test_verify_fails_on_synthetic_in_shipped(self):
         self.ingest(); run("analyze.py","--offline","--data-dir",self.tmp)
         run("rollup.py","--window-days","3650","--data-dir",self.tmp)

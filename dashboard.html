@@ -57,8 +57,8 @@
 
 <script>
 const PALETTE=["#4f9cf9","#39d0a3","#f0b429","#c98bff","#ff7a59","#5fd0e0","#e06fae","#9ad04f","#f06b6b","#6f8bff","#d0b04f","#4fd0a0","#b0b8c4"];
-let HISTORY={snapshots:[]}, RECENT={items:[]}, SURGE={surging:[],emerging:[]}, FEEDS={feeds:[]}, EVENTS={events:[]};
-let weekIdx=0, region="all", charts={};
+let HISTORY={snapshots:[]}, RECENT={items:[]}, SURGE={surging:[],emerging:[]}, FEEDS={feeds:[]}, EVENTS={events:[]}, EXPLORER={topics:[]};
+let weekIdx=0, region="all", charts={}, exploreSel=null;
 
 async function loadJSON(f){try{const r=await fetch(f);if(!r.ok)return null;return await r.json();}catch(e){return null;}}
 async function boot(){
@@ -66,6 +66,7 @@ async function boot(){
   RECENT=await loadJSON("items_recent.json")||{items:[]};
   SURGE=await loadJSON("surge_report.json")||{surging:[],emerging:[]};
   EVENTS=await loadJSON("events_report.json")||{events:[]};
+  EXPLORER=await loadJSON("explorer.json")||{topics:[]};
   FEEDS=await loadJSON("feeds_config.json")||{feeds:[]};
   weekIdx=Math.max(0,(HISTORY.snapshots||[]).length-1);
   render();
@@ -82,6 +83,7 @@ function render(){
   if(!snaps().length){ app.innerHTML=emptyState(); renderSources(); return; }
   app.innerHTML = controls()
     + `<div id="focus"></div>`
+    + `<div id="explore"></div>`
     + `<div id="surge"></div>`
     + `<div id="events"></div>`
     + `<div class="panel"><h2>Theme trend — share over time</h2><canvas id="trend"></canvas><div class="foot" id="trendLegend"></div></div>`
@@ -90,7 +92,72 @@ function render(){
     + `<div id="penetration"></div>`
     + `<div id="sources"></div>`
     + `<div class="foot" id="foot"></div>`;
-  wire(); renderFocus(); renderSurge(); renderEvents(); renderTrend(); renderDivergence(); renderRegions(); renderPenetration(); renderSources(); renderFoot();
+  wire(); renderFocus(); renderExplore(); renderSurge(); renderEvents(); renderTrend(); renderDivergence(); renderRegions(); renderPenetration(); renderSources(); renderFoot();
+}
+
+function renderExplore(){
+  const host=document.getElementById("explore"); if(!host)return;
+  const topics=EXPLORER.topics||[];
+  if(!topics.length){ host.innerHTML=""; return; }
+  const ents=topics.filter(t=>t.kind==="entity"), thms=topics.filter(t=>t.kind==="theme");
+  if(!exploreSel) exploreSel = (ents[0]||topics[0]).name;
+  const opt=t=>`<option value="${esc(t.name)}" ${t.name===exploreSel?'selected':''}>${esc(t.name)} (${t.total_mentions})</option>`;
+  host.className="panel";
+  host.innerHTML=`<h2>Explore — pick a topic to drill into its full history</h2>
+    <div class="controls" style="margin:0 0 6px">
+      <div><label>Topic</label>
+        <select id="exPick" style="min-width:280px">
+          <optgroup label="Entities (people / orgs / places)">${ents.map(opt).join("")}</optgroup>
+          <optgroup label="Themes">${thms.map(opt).join("")}</optgroup>
+        </select></div>
+      <div class="muted" style="font-size:12px">Full-history mention timeline · media coverage, not opinion</div>
+    </div>
+    <div id="topicDetail"></div>`;
+  document.getElementById("exPick").onchange=e=>{exploreSel=e.target.value;renderTopicDetail();};
+  renderTopicDetail();
+}
+
+function renderTopicDetail(){
+  const host=document.getElementById("topicDetail"); if(!host)return;
+  const t=(EXPLORER.topics||[]).find(x=>x.name===exploreSel); if(!t){host.innerHTML="";return;}
+  const v=t.virality||{};
+  const badge=k=>{const c={rising:"#39d0a3",fading:"#f0b429",dormant:"#9aa4b2",steady:"#4f9cf9",new:"#c98bff"}[k]||"#9aa4b2";return `<span class="tag" style="color:${c};border-color:${c}">${k}</span>`;};
+  const co=(t.co_entities||[]).slice(0,8).map(x=>`<span class="tag" style="cursor:pointer" data-ent="${esc(x[0])}">${esc(x[0])} · ${x[1]}</span>`).join(" ");
+  const th=(t.co_themes||[]).slice(0,4).map(x=>`<span class="tag">${esc(x[0])}</span>`).join(" ");
+  const arts=(t.recent_articles||[]).slice(0,6).map(a=>`<li><a href="${esc(a.link)}" target="_blank" rel="noopener">${esc(a.title)}</a> <span class="muted" style="font-size:11px">— ${esc(a.outlet)}, ${esc(a.published)}</span></li>`).join("");
+  const slug=t.name.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+  const track = t.kind==="entity"
+    ? `<div class="foot"><label>Track this permanently →</label> add to <code>watchlist.json</code>:
+       <div><code>{"name":"${esc(t.name)}","slug":"${slug}","match":["${esc(t.name.toLowerCase())}"],"exclude":[],"added":"today"}</code></div></div>` : "";
+  host.innerHTML=`<div style="font-size:16px;font-weight:600;margin:4px 0">${esc(t.name)} ${badge(v.trend)} <span class="muted" style="font-weight:400;font-size:12px">${t.kind}</span></div>
+    <div class="kpis" style="margin:8px 0">
+      <div class="kpi"><div class="n">${t.total_mentions}</div><div class="l">total mentions</div></div>
+      <div class="kpi"><div class="n">${v.breadth_total_outlets||0}</div><div class="l">outlets (breadth)</div></div>
+      <div class="kpi"><div class="n">${v.peak_week_mentions||0}</div><div class="l">peak (${v.peak_week||'—'})</div></div>
+      <div class="kpi"><div class="n">${t.first_seen}</div><div class="l">first seen</div></div></div>
+    <div class="grid cols-2">
+      <div><canvas id="topicChart"></canvas></div>
+      <div><label>Co-mentioned (click to jump)</label><div style="margin:6px 0 10px">${co||'<span class=muted>—</span>'}</div>
+        ${t.kind==="entity"?`<label>Themes</label><div style="margin-top:6px">${th}</div>`:''}</div>
+    </div>
+    <div style="margin-top:10px"><label>Recent coverage</label><ul style="margin-top:4px">${arts}</ul></div>
+    ${track}`;
+  // co-entity chips jump the picker
+  host.querySelectorAll("[data-ent]").forEach(el=>el.onclick=()=>{
+    const n=el.getAttribute("data-ent");
+    if((EXPLORER.topics||[]).some(x=>x.name===n)){exploreSel=n;
+      const p=document.getElementById("exPick"); if(p)p.value=n; renderTopicDetail();}
+  });
+  const ctx=document.getElementById("topicChart");
+  charts.topic&&charts.topic.destroy();
+  const s=t.series||[];
+  charts.topic=new Chart(ctx,{type:"line",
+    data:{labels:s.map(x=>x.week),datasets:[
+      {label:"mentions",borderColor:"#ff7a59",backgroundColor:"#ff7a59",tension:.3,pointRadius:3,data:s.map(x=>x.mentions)},
+      {label:"outlets",borderColor:"#4f9cf9",backgroundColor:"#4f9cf9",borderDash:[4,3],tension:.3,pointRadius:2,data:s.map(x=>x.outlets)}]},
+    options:{plugins:{legend:{labels:{color:"#9aa4b2",boxWidth:12,font:{size:10}}}},
+      scales:{x:{ticks:{color:"#9aa4b2",font:{size:9}},grid:{color:"#2a2f3a"}},
+        y:{ticks:{color:"#9aa4b2",font:{size:10}},grid:{color:"#2a2f3a"},beginAtZero:true}}}});
 }
 
 function renderEvents(){
@@ -181,8 +248,8 @@ function renderFocus(){
     </div>
     <div class="grid cols-2">
       <div><canvas id="themeBar"></canvas></div>
-      <div><label>Top entities (raw mentions)</label>
-        <div style="margin-top:6px;line-height:2">${ents.map(e=>`<span class="tag">${e[0]} · ${e[1]}</span>`).join(" ")||"<span class=muted>none</span>"}</div></div>
+      <div><label>Top entities (raw mentions) — click to explore</label>
+        <div style="margin-top:6px;line-height:2" id="focusEnts">${ents.map(e=>`<span class="tag" style="cursor:pointer" data-ent="${esc(e[0])}">${esc(e[0])} · ${e[1]}</span>`).join(" ")||"<span class=muted>none</span>"}</div></div>
     </div>`;
   const ctx=document.getElementById("themeBar");
   charts.themeBar&&charts.themeBar.destroy();
@@ -191,6 +258,14 @@ function renderFocus(){
       backgroundColor:topThemes.map((_,i)=>themeColor(i))}]},
     options:{indexAxis:"y",plugins:{legend:{display:false},tooltip:{callbacks:{label:c=>c.parsed.x+"% share"}}},
       scales:{x:{ticks:{color:"#9aa4b2",callback:v=>v+"%"},grid:{color:"#2a2f3a"}},y:{ticks:{color:"#e7ebf0",font:{size:11}},grid:{display:false}}}}});
+  const fe=document.getElementById("focusEnts");
+  if(fe) fe.querySelectorAll("[data-ent]").forEach(el=>el.onclick=()=>{
+    const n=el.getAttribute("data-ent");
+    if((EXPLORER.topics||[]).some(x=>x.name===n)){
+      exploreSel=n; const p=document.getElementById("exPick"); if(p)p.value=n;
+      renderTopicDetail(); document.getElementById("explore").scrollIntoView({behavior:"smooth"});
+    }
+  });
 }
 
 function renderSurge(){
