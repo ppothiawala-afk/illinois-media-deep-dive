@@ -2720,11 +2720,11 @@
    "window_start": "2026-09-09",
    "window_end": "2026-09-15",
    "window_days": 7,
-   "total_items": 194,
+   "total_items": 191,
    "themes": {
     "public safety & crime": {
      "volume": 38,
-     "share": 0.1959,
+     "share": 0.199,
      "outlet_breadth": 5,
      "top_entities": [
       [
@@ -2732,30 +2732,30 @@
        18
       ],
       [
-       "Humboldt Park",
-       4
+       "Chicago",
+       5
       ],
       [
-       "Chicago",
-       3
+       "Humboldt Park",
+       4
       ],
       [
        "Crystal Salter",
        2
       ],
       [
-       "Des Plaines Police Department",
+       "Habibti",
        2
       ],
       [
-       "Back of the Yards",
+       "Des Plaines Police Department",
        2
       ]
      ]
     },
     "city & state budget": {
      "volume": 5,
-     "share": 0.0258,
+     "share": 0.0262,
      "outlet_breadth": 2,
      "top_entities": [
       [
@@ -2786,20 +2786,20 @@
     },
     "elections & politics": {
      "volume": 33,
-     "share": 0.1701,
+     "share": 0.1728,
      "outlet_breadth": 5,
      "top_entities": [
       [
        "Brandon Johnson",
-       14
-      ],
-      [
-       "Chicago",
-       9
+       15
       ],
       [
        "Chicago City Council",
        7
+      ],
+      [
+       "Chicago",
+       5
       ],
       [
        "Mike Rodriguez",
@@ -2817,7 +2817,7 @@
     },
     "education & schools": {
      "volume": 9,
-     "share": 0.0464,
+     "share": 0.0471,
      "outlet_breadth": 3,
      "top_entities": [
       [
@@ -2826,6 +2826,10 @@
       ],
       [
        "Lincoln-Way East High School",
+       2
+      ],
+      [
+       "Chicago Public Schools",
        2
       ],
       [
@@ -2839,16 +2843,12 @@
       [
        "Cook County",
        1
-      ],
-      [
-       "Chicago Public Schools",
-       1
       ]
      ]
     },
     "housing & development": {
      "volume": 7,
-     "share": 0.0361,
+     "share": 0.0366,
      "outlet_breadth": 4,
      "top_entities": [
       [
@@ -2856,7 +2856,15 @@
        2
       ],
       [
+       "Chinatown",
+       1
+      ],
+      [
        "Heung Seng Corporation",
+       1
+      ],
+      [
+       "Bureau of Investigative Journalism",
        1
       ],
       [
@@ -2864,34 +2872,26 @@
        1
       ],
       [
-       "Better Government Association",
-       1
-      ],
-      [
        "Bellwether Residences",
-       1
-      ],
-      [
-       "City of Chicago",
        1
       ]
      ]
     },
     "transit & infrastructure": {
      "volume": 19,
-     "share": 0.0979,
+     "share": 0.0995,
      "outlet_breadth": 5,
      "top_entities": [
       [
        "Chicago Transit Authority",
-       6
-      ],
-      [
-       "Illinois",
-       3
+       7
       ],
       [
        "Chicago Police Department",
+       4
+      ],
+      [
+       "Illinois",
        3
       ],
       [
@@ -2903,14 +2903,14 @@
        2
       ],
       [
-       "Wicker Park",
-       2
+       "Midway",
+       1
       ]
      ]
     },
     "immigration & migrants": {
-     "volume": 10,
-     "share": 0.0515,
+     "volume": 9,
+     "share": 0.0471,
      "outlet_breadth": 3,
      "top_entities": [
       [
@@ -2922,61 +2922,69 @@
        2
       ],
       [
-       "Midway Blitz",
-       2
-      ],
-      [
        "Chicago",
        2
       ],
       [
-       "Silverio Villegas Gonz\u00e1lez",
-       2
+       "Department of Homeland Security",
+       1
       ],
       [
-       "Franklin Park",
-       2
+       "Midway International Airport",
+       1
+      ],
+      [
+       "U.S. Customs and Border Protection",
+       1
       ]
      ]
     },
     "environment & energy": {
      "volume": 6,
-     "share": 0.0309,
-     "outlet_breadth": 5,
+     "share": 0.0314,
+     "outlet_breadth": 4,
      "top_entities": [
       [
        "Nicor Gas",
        2
       ],
       [
-       "Illinois Attorney General",
+       "Illinois",
        2
       ],
       [
+       "Open House Chicago",
+       1
+      ],
+      [
+       "Muddy Waters MOJO Museum",
+       1
+      ],
+      [
+       "Kenwood",
+       1
+      ],
+      [
        "Debate",
-       1
-      ],
-      [
-       "Resident Backlash",
-       1
-      ],
-      [
-       "Resident Backlash The",
-       1
-      ],
-      [
-       "Water Line",
        1
       ]
      ]
     },
     "health & public health": {
      "volume": 15,
-     "share": 0.0773,
+     "share": 0.0785,
      "outlet_breadth": 4,
      "top_entities": [
       [
        "Illinois",
+       3
+      ],
+      [
+       "Rogers Park",
+       2
+      ],
+      [
+       "St. Francis Hospital",
        2
       ],
       [
@@ -2984,42 +2992,22 @@
        2
       ],
       [
+       "Cook County Circuit Court",
+       2
+      ],
+      [
        "West Suburban Hospital",
        2
-      ],
-      [
-       "Weiss Memorial Hospital",
-       2
-      ],
-      [
-       "Rogers Park",
-       1
-      ],
-      [
-       "St. Francis Hospital",
-       1
       ]
      ]
     },
     "labor & economy": {
      "volume": 3,
-     "share": 0.0155,
+     "share": 0.0157,
      "outlet_breadth": 3,
      "top_entities": [
       [
-       "Brandon Johnson",
-       1
-      ],
-      [
-       "Mike Rodr\u00edguez",
-       1
-      ],
-      [
-       "Chicago City Council",
-       1
-      ],
-      [
-       "Richard M. Daley",
+       "Richard Daley",
        1
       ],
       [
@@ -3027,22 +3015,34 @@
        1
       ],
       [
-       "Governor J.B. Pritzker",
+       "Yaraslov Vishnevski",
+       1
+      ],
+      [
+       "Harrisburg",
+       1
+      ],
+      [
+       "JB Pritzker",
+       1
+      ],
+      [
+       "Illinois",
        1
       ]
      ]
     },
     "courts & justice": {
-     "volume": 18,
-     "share": 0.0928,
-     "outlet_breadth": 6,
+     "volume": 16,
+     "share": 0.0838,
+     "outlet_breadth": 5,
      "top_entities": [
       [
        "Illinois",
        5
       ],
       [
-       "Illinois Department of Children and Family Services",
+       "Department of Children and Family Services",
        1
       ],
       [
@@ -3064,13 +3064,17 @@
      ]
     },
     "arts culture & sports": {
-     "volume": 11,
-     "share": 0.0567,
+     "volume": 10,
+     "share": 0.0524,
      "outlet_breadth": 6,
      "top_entities": [
       [
        "Chicago",
-       5
+       4
+      ],
+      [
+       "Illinois",
+       2
       ],
       [
        "Chicago White Sox",
@@ -3081,28 +3085,20 @@
        2
       ],
       [
-       "Chicago Architecture Center",
-       1
-      ],
-      [
-       "Illinois",
-       1
-      ],
-      [
        "Springfield",
+       1
+      ],
+      [
+       "Illinois Grocery Initiative",
        1
       ]
      ]
     },
     "other": {
-     "volume": 20,
-     "share": 0.1031,
+     "volume": 21,
+     "share": 0.1099,
      "outlet_breadth": 4,
      "top_entities": [
-      [
-       "Chicago",
-       3
-      ],
       [
        "West Town",
        2
@@ -3112,7 +3108,7 @@
        2
       ],
       [
-       "Illinois",
+       "Silverio Villegas Gonz\u00e1lez",
        2
       ],
       [
@@ -3122,22 +3118,26 @@
       [
        "Illinois congressional delegation",
        1
+      ],
+      [
+       "Department of Homeland Security",
+       1
       ]
      ]
     }
    },
    "entities_top": [
     [
-     "Chicago",
-     28
+     "Chicago Police Department",
+     27
     ],
     [
-     "Chicago Police Department",
-     26
+     "Chicago",
+     23
     ],
     [
      "Illinois",
-     19
+     21
     ],
     [
      "Brandon Johnson",
@@ -3145,7 +3145,7 @@
     ],
     [
      "Chicago City Council",
-     9
+     8
     ],
     [
      "Chicago Transit Authority",
@@ -3156,15 +3156,11 @@
      5
     ],
     [
-     "Franklin Park",
-     4
-    ],
-    [
      "Humboldt Park",
      4
     ],
     [
-     "Midway Blitz",
+     "Chicago White Sox",
      3
     ],
     [
@@ -3172,19 +3168,19 @@
      3
     ],
     [
-     "Cook County",
-     3
-    ],
-    [
-     "West Loop",
-     3
-    ],
-    [
-     "O'Hare International Airport",
-     3
-    ],
-    [
      "Springfield",
+     3
+    ],
+    [
+     "Franklin Park",
+     3
+    ],
+    [
+     "Cook County Circuit Court",
+     3
+    ],
+    [
+     "U.S. Immigration and Customs Enforcement",
      3
     ],
     [
@@ -3206,37 +3202,41 @@
     [
      "Lincoln-Way East High School",
      2
+    ],
+    [
+     "Department of Homeland Security",
+     2
     ]
    ],
    "regions": {
     "chicago": {
-     "total": 168,
+     "total": 165,
      "theme_share": {
-      "elections & politics": 0.1786,
-      "public safety & crime": 0.2262,
-      "education & schools": 0.0417,
-      "immigration & migrants": 0.0595,
-      "other": 0.1071,
-      "transit & infrastructure": 0.1071,
-      "health & public health": 0.0714,
-      "housing & development": 0.0417,
-      "arts culture & sports": 0.0476,
-      "environment & energy": 0.0179,
-      "labor & economy": 0.0119,
-      "courts & justice": 0.0774,
-      "city & state budget": 0.0119
+      "elections & politics": 0.1818,
+      "public safety & crime": 0.2303,
+      "education & schools": 0.0424,
+      "immigration & migrants": 0.0545,
+      "other": 0.1212,
+      "transit & infrastructure": 0.1091,
+      "environment & energy": 0.0121,
+      "health & public health": 0.0727,
+      "housing & development": 0.0424,
+      "arts culture & sports": 0.0424,
+      "courts & justice": 0.0727,
+      "city & state budget": 0.0121,
+      "labor & economy": 0.0061
      }
     },
     "statewide": {
      "total": 14,
      "theme_share": {
       "city & state budget": 0.2143,
-      "courts & justice": 0.2143,
+      "courts & justice": 0.1429,
       "arts culture & sports": 0.0714,
-      "environment & energy": 0.0714,
+      "environment & energy": 0.1429,
       "elections & politics": 0.2143,
-      "other": 0.1429,
-      "labor & economy": 0.0714
+      "other": 0.0714,
+      "labor & economy": 0.1429
      }
     },
     "downstate": {
@@ -3256,18 +3256,16 @@
      "total": 91,
      "region": "chicago",
      "theme_share": {
-      "elections & politics": 0.1538,
-      "public safety & crime": 0.3187,
+      "elections & politics": 0.1648,
+      "public safety & crime": 0.3077,
       "education & schools": 0.0659,
-      "immigration & migrants": 0.0549,
-      "other": 0.0769,
-      "health & public health": 0.0989,
+      "immigration & migrants": 0.044,
+      "other": 0.0879,
+      "health & public health": 0.1099,
       "housing & development": 0.022,
       "arts culture & sports": 0.022,
-      "labor & economy": 0.011,
       "transit & infrastructure": 0.0879,
-      "courts & justice": 0.0769,
-      "environment & energy": 0.011
+      "courts & justice": 0.0879
      }
     },
     "Illinois Policy Institute": {
@@ -3299,27 +3297,26 @@
      "region": "chicago",
      "theme_share": {
       "immigration & migrants": 0.1071,
-      "public safety & crime": 0.1429,
       "environment & energy": 0.0357,
-      "other": 0.2857,
-      "elections & politics": 0.1429,
+      "public safety & crime": 0.1786,
+      "other": 0.3214,
+      "elections & politics": 0.1071,
       "transit & infrastructure": 0.0714,
       "housing & development": 0.1071,
       "arts culture & sports": 0.0357,
-      "health & public health": 0.0714
+      "health & public health": 0.0357
      }
     },
     "WBEZ": {
-     "total": 21,
+     "total": 18,
      "region": "chicago",
      "theme_share": {
-      "transit & infrastructure": 0.2857,
-      "elections & politics": 0.2857,
-      "arts culture & sports": 0.1905,
-      "education & schools": 0.0476,
-      "courts & justice": 0.0952,
-      "labor & economy": 0.0476,
-      "health & public health": 0.0476
+      "transit & infrastructure": 0.3333,
+      "elections & politics": 0.3333,
+      "education & schools": 0.0556,
+      "labor & economy": 0.0556,
+      "health & public health": 0.0556,
+      "arts culture & sports": 0.1667
      }
     },
     "Illinois Times": {
@@ -3346,10 +3343,11 @@
      "total": 7,
      "region": "statewide",
      "theme_share": {
-      "courts & justice": 0.4286,
+      "courts & justice": 0.2857,
       "arts culture & sports": 0.1429,
-      "environment & energy": 0.1429,
-      "other": 0.2857
+      "environment & energy": 0.2857,
+      "other": 0.1429,
+      "labor & economy": 0.1429
      }
     },
     "Chicago Reader": {
@@ -3384,26 +3382,6 @@
      ]
     },
     {
-     "title": "\u2018Zero fights\u2019 at a Chicago teen beach gathering, but some adults left youth feeling discouraged",
-     "link": "https://www.wbez.org/moment-of-youth/2026/09/10/teen-beach-gathering-conflict",
-     "theme": "courts & justice",
-     "outlet_count": 2,
-     "outlets": [
-      "Chicago Sun-Times",
-      "WBEZ"
-     ]
-    },
-    {
-     "title": "In Englewood, a new sculpture park blooms with murals, vivid color and hope for 'good things'",
-     "link": "https://www.wbez.org/arts-culture/2026/09/10/englewood-arts-collective-sculpture-park-music-fest-community-space-vacant-lot-chicago",
-     "theme": "courts & justice",
-     "outlet_count": 2,
-     "outlets": [
-      "Chicago Sun-Times",
-      "WBEZ"
-     ]
-    },
-    {
      "title": "What is NITA, Chicago's new transit agency tasked with reforming CTA/Metra/Pace?",
      "link": "https://www.wbez.org/transportation/2026/09/10/nita-northern-illinois-transit-authority-cta-metra-pace",
      "theme": "transit & infrastructure",
@@ -3418,8 +3396,8 @@
     "backend": "anthropic:claude-haiku-4-5-20251001",
     "taxonomy_version": "1.0.0",
     "civic_only": true,
-    "civic_items": 194,
-    "noncivic_dropped": 238,
+    "civic_items": 191,
+    "noncivic_dropped": 241,
     "all_in_window": 432,
     "contains_synthetic": false
    }

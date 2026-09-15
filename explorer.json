@@ -1,6 +1,6 @@
 {
   "_comment": "Precomputed drill-down data for the dashboard's interactive Explore picker: top entities + all themes, each with full-history weekly series, virality, co-occurrence, and linked articles. Bounded to top-N. Counts, not sentiment; media coverage attention.",
-  "generated": "2026-09-15T17:13:22+00:00",
+  "generated": "2026-09-15T17:32:35+00:00",
   "entities": [
     "Chicago",
     "Illinois",
@@ -8,39 +8,39 @@
     "Chicago Police Department",
     "Chicago White Sox",
     "Chicago Cubs",
-    "Chicago Reader",
     "Brandon Johnson",
     "JB Pritzker",
     "Chicago Public Schools",
-    "Cook County",
     "AnchorLink",
+    "Chicago Reader",
     "Enhancement",
     "HtmlModule",
-    "Caleb Williams",
+    "Cook County",
     "Aries",
     "Horoscope",
     "HoroscopeStar",
     "HoroscopeStarbox",
+    "Caleb Williams",
     "DEAR ABBY",
-    "Ben Johnson",
     "Chicago Transit Authority",
+    "Ben Johnson",
     "Operation Midway Blitz",
-    "Chicago City Council",
-    "Chicago Sky",
-    "Springfield",
-    "Trump administration",
-    "Englewood",
-    "South Shore",
     "Donald Trump",
-    "Milwaukee Brewers",
-    "Carolina Panthers",
-    "Full Show",
-    "Logan Square",
+    "Springfield",
+    "South Shore",
+    "Chicago Sky",
+    "Chicago City Council",
+    "Labor Day",
     "Bridgeport",
-    "Illinois Policy",
-    "Midway Blitz",
+    "Full Show",
+    "Englewood",
+    "Chicago Bulls",
+    "Logan Square",
     "Avoid",
+    "Carolina Panthers",
     "Injustice Watch",
+    "Illinois State Police",
+    "Department of Homeland Security",
     "Illinois General Assembly"
   ],
   "themes": [
@@ -62,16 +62,16 @@
     {
       "name": "Chicago",
       "kind": "entity",
-      "total_mentions": 119,
+      "total_mentions": 104,
       "first_seen": "2026-01-28",
       "last_seen": "2026-09-15",
       "virality": {
         "breadth_total_outlets": 8,
-        "breadth_peak_week_outlets": 6,
+        "breadth_peak_week_outlets": 5,
         "peak_week": "2026-09-07",
-        "peak_week_mentions": 48,
-        "latest_week_mentions": 16,
-        "prior_weeks_avg_mentions": 14.71,
+        "peak_week_mentions": 42,
+        "latest_week_mentions": 13,
+        "prior_weeks_avg_mentions": 12.86,
         "trend": "steady"
       },
       "series": [
@@ -88,6 +88,12 @@
           "regions": 1
         },
         {
+          "week": "2026-07-13",
+          "mentions": 1,
+          "outlets": 1,
+          "regions": 1
+        },
+        {
           "week": "2026-08-10",
           "mentions": 3,
           "outlets": 2,
@@ -95,62 +101,62 @@
         },
         {
           "week": "2026-08-17",
-          "mentions": 2,
-          "outlets": 2,
+          "mentions": 1,
+          "outlets": 1,
           "regions": 1
         },
         {
           "week": "2026-08-24",
-          "mentions": 5,
-          "outlets": 3,
+          "mentions": 4,
+          "outlets": 2,
           "regions": 1
         },
         {
           "week": "2026-08-31",
-          "mentions": 43,
+          "mentions": 38,
           "outlets": 5,
           "regions": 1
         },
         {
           "week": "2026-09-07",
-          "mentions": 48,
-          "outlets": 6,
+          "mentions": 42,
+          "outlets": 5,
           "regions": 2
         },
         {
           "week": "2026-09-14",
-          "mentions": 16,
-          "outlets": 5,
+          "mentions": 13,
+          "outlets": 4,
           "regions": 1
         }
       ],
       "co_entities": [
         [
+          "JB Pritzker",
+          3
+        ],
+        [
+          "Donald Trump",
+          3
+        ],
+        [
           "Brandon Johnson",
-          7
+          3
         ],
         [
           "Operation Midway Blitz",
-          6
+          3
         ],
         [
-          "JB Pritzker",
-          3
+          "Chicago Police Department",
+          2
         ],
         [
           "Kanye West",
           2
         ],
         [
-          "Chicago Bears",
-          2
-        ],
-        [
-          "Chicago Cubs",
-          2
-        ],
-        [
-          "Chicago White Sox",
+          "Fuller Park",
           2
         ],
         [
@@ -158,34 +164,34 @@
           2
         ],
         [
-          "Chicago Transit Authority",
+          "Greater Chicago Food Depository",
           2
         ],
         [
-          "Little Village",
-          2
+          "Cook County",
+          1
         ]
       ],
       "co_themes": [
         [
           "arts culture & sports",
-          26
-        ],
-        [
-          "other",
-          19
-        ],
-        [
-          "immigration & migrants",
-          14
+          21
         ],
         [
           "public safety & crime",
+          17
+        ],
+        [
+          "other",
+          14
+        ],
+        [
+          "immigration & migrants",
           13
         ],
         [
-          "elections & politics",
-          11
+          "transit & infrastructure",
+          9
         ],
         [
           "city & state budget",
@@ -240,7 +246,7 @@
     {
       "name": "Illinois",
       "kind": "entity",
-      "total_mentions": 60,
+      "total_mentions": 59,
       "first_seen": "2026-06-05",
       "last_seen": "2026-09-15",
       "virality": {
@@ -248,9 +254,9 @@
         "breadth_peak_week_outlets": 9,
         "peak_week": "2026-09-07",
         "peak_week_mentions": 24,
-        "latest_week_mentions": 3,
-        "prior_weeks_avg_mentions": 7.86,
-        "trend": "fading"
+        "latest_week_mentions": 4,
+        "prior_weeks_avg_mentions": 7.57,
+        "trend": "steady"
       },
       "series": [
         {
@@ -279,13 +285,13 @@
         },
         {
           "week": "2026-08-10",
-          "mentions": 7,
+          "mentions": 6,
           "outlets": 2,
           "regions": 2
         },
         {
           "week": "2026-08-17",
-          "mentions": 3,
+          "mentions": 2,
           "outlets": 1,
           "regions": 1
         },
@@ -298,7 +304,7 @@
         {
           "week": "2026-08-31",
           "mentions": 12,
-          "outlets": 5,
+          "outlets": 6,
           "regions": 2
         },
         {
@@ -309,19 +315,15 @@
         },
         {
           "week": "2026-09-14",
-          "mentions": 3,
-          "outlets": 3,
-          "regions": 2
+          "mentions": 4,
+          "outlets": 4,
+          "regions": 3
         }
       ],
       "co_entities": [
         [
           "JB Pritzker",
-          7
-        ],
-        [
-          "Trump administration",
-          2
+          6
         ],
         [
           "Department of Homeland Security",
@@ -329,14 +331,6 @@
         ],
         [
           "Trump Administration",
-          1
-        ],
-        [
-          "Michigan",
-          1
-        ],
-        [
-          "Chicago",
           1
         ],
         [
@@ -348,37 +342,49 @@
           1
         ],
         [
-          "Midway Blitz",
+          "Chicago",
           1
         ],
         [
           "Mike McCuskey",
+          1
+        ],
+        [
+          "End-of-Life Options for Terminally Ill Patients Act",
+          1
+        ],
+        [
+          "Collin Corbett",
+          1
+        ],
+        [
+          "Midway International Airport",
           1
         ]
       ],
       "co_themes": [
         [
           "courts & justice",
-          13
+          14
         ],
         [
           "other",
-          11
+          8
         ],
         [
           "immigration & migrants",
-          9
+          7
         ],
         [
           "elections & politics",
           5
         ],
         [
-          "education & schools",
-          5
+          "city & state budget",
+          4
         ],
         [
-          "city & state budget",
+          "education & schools",
           4
         ]
       ],
@@ -398,11 +404,18 @@
           "theme": "environment & energy"
         },
         {
+          "title": "Thousands at risk of losing health insurance",
+          "link": "https://chicago.suntimes.com/morning-edition/2026/09/15/trump-health-insurance-bailey-construction-illinois-bloodhound-q50-ai",
+          "outlet": "Chicago Sun-Times",
+          "published": "2026-09-15",
+          "theme": "health & public health"
+        },
+        {
           "title": "\u2018Huge step forward\u2019: Illinois inches closer on battery storage, solar goals",
           "link": "https://capitolnewsillinois.com/news/huge-step-forward-illinois-inches-closer-on-battery-storage-solar-goals/",
           "outlet": "Capitol News Illinois",
           "published": "2026-09-14",
-          "theme": "other"
+          "theme": "environment & energy"
         },
         {
           "title": "Judge declines to block Illinois\u2019 \u2018medical aid in dying\u2019 law ahead of Sept. 12 start",
@@ -417,20 +430,13 @@
           "outlet": "WBEZ",
           "published": "2026-09-11",
           "theme": "health & public health"
-        },
-        {
-          "title": "Tech Group Sues Illinois Over Social Media, Digital Ad Taxes",
-          "link": "https://news.wttw.com/2026/09/11/tech-group-sues-illinois-over-social-media-digital-ad-taxes",
-          "outlet": "WTTW News",
-          "published": "2026-09-11",
-          "theme": "courts & justice"
         }
       ]
     },
     {
       "name": "Chicago Bears",
       "kind": "entity",
-      "total_mentions": 55,
+      "total_mentions": 54,
       "first_seen": "2026-08-11",
       "last_seen": "2026-09-15",
       "virality": {
@@ -438,8 +444,8 @@
         "breadth_peak_week_outlets": 2,
         "peak_week": "2026-09-07",
         "peak_week_mentions": 38,
-        "latest_week_mentions": 6,
-        "prior_weeks_avg_mentions": 12.25,
+        "latest_week_mentions": 5,
+        "prior_weeks_avg_mentions": 16.33,
         "trend": "fading"
       },
       "series": [
@@ -450,14 +456,8 @@
           "regions": 2
         },
         {
-          "week": "2026-08-24",
-          "mentions": 1,
-          "outlets": 1,
-          "regions": 1
-        },
-        {
           "week": "2026-08-31",
-          "mentions": 8,
+          "mentions": 9,
           "outlets": 1,
           "regions": 1
         },
@@ -469,7 +469,7 @@
         },
         {
           "week": "2026-09-14",
-          "mentions": 6,
+          "mentions": 5,
           "outlets": 2,
           "regions": 1
         }
@@ -477,7 +477,7 @@
       "co_entities": [
         [
           "Caleb Williams",
-          12
+          10
         ],
         [
           "Ben Johnson",
@@ -485,26 +485,26 @@
         ],
         [
           "Carolina Panthers",
-          7
-        ],
-        [
-          "Halas Hall",
-          3
+          6
         ],
         [
           "Rome Odunze",
-          3
+          5
         ],
         [
           "D'Andre Swift",
-          3
+          5
         ],
         [
-          "Chicago",
+          "Chicago Bulls",
           2
         ],
         [
           "Chicago Cubs",
+          2
+        ],
+        [
+          "Pete Crow-Armstrong",
           2
         ],
         [
@@ -519,7 +519,7 @@
       "co_themes": [
         [
           "arts culture & sports",
-          53
+          52
         ],
         [
           "health & public health",
@@ -560,17 +560,17 @@
           "theme": "arts culture & sports"
         },
         {
-          "title": "Bears QB Caleb Williams for MVP? It's early, but it's possible",
-          "link": "https://chicago.suntimes.com/bears/2026/09/14/bears-panthersquarterback-caleb-williams-mvp-way-too-early-nfl-josh-allen-lamar-jackson-joe-burrow-59-points",
-          "outlet": "Chicago Sun-Times",
-          "published": "2026-09-14",
-          "theme": "arts culture & sports"
-        },
-        {
           "title": "Ben Johnson Wants the Bears To Be the Top-Scoring Offense in NFL history. They\u2019re Off to a Good Start",
           "link": "https://news.wttw.com/2026/09/13/ben-johnson-wants-bears-be-top-scoring-offense-nfl-history-they-re-good-start",
           "outlet": "WTTW News",
           "published": "2026-09-14",
+          "theme": "arts culture & sports"
+        },
+        {
+          "title": "Why Bears coach Ben Johnson brought back 'Good, Better, Best' for 2026",
+          "link": "https://chicago.suntimes.com/bears/2026/09/13/bears-coach-ben-johnson-brings-back-good-better-best-for-2026",
+          "outlet": "Chicago Sun-Times",
+          "published": "2026-09-13",
           "theme": "arts culture & sports"
         }
       ]
@@ -578,17 +578,17 @@
     {
       "name": "Chicago Police Department",
       "kind": "entity",
-      "total_mentions": 45,
+      "total_mentions": 46,
       "first_seen": "2026-07-16",
       "last_seen": "2026-09-15",
       "virality": {
         "breadth_total_outlets": 4,
         "breadth_peak_week_outlets": 3,
         "peak_week": "2026-09-07",
-        "peak_week_mentions": 30,
-        "latest_week_mentions": 7,
-        "prior_weeks_avg_mentions": 12.67,
-        "trend": "steady"
+        "peak_week_mentions": 32,
+        "latest_week_mentions": 6,
+        "prior_weeks_avg_mentions": 13.33,
+        "trend": "fading"
       },
       "series": [
         {
@@ -605,13 +605,13 @@
         },
         {
           "week": "2026-09-07",
-          "mentions": 30,
+          "mentions": 32,
           "outlets": 3,
           "regions": 1
         },
         {
           "week": "2026-09-14",
-          "mentions": 7,
+          "mentions": 6,
           "outlets": 2,
           "regions": 1
         }
@@ -622,20 +622,32 @@
           4
         ],
         [
-          "Humboldt Park",
+          "Chicago Transit Authority",
           3
+        ],
+        [
+          "Chicago",
+          2
+        ],
+        [
+          "Chicago Lawn",
+          2
+        ],
+        [
+          "Humboldt Park",
+          2
         ],
         [
           "Lake Michigan",
           2
         ],
         [
-          "Chicago Transit Authority",
-          2
+          "West Englewood",
+          1
         ],
         [
-          "Wicker Park",
-          2
+          "Rogers Park",
+          1
         ],
         [
           "Carlita Jenkins",
@@ -643,18 +655,6 @@
         ],
         [
           "Englewood",
-          1
-        ],
-        [
-          "Kosciuszko Park",
-          1
-        ],
-        [
-          "Logan Square",
-          1
-        ],
-        [
-          "Cecelia Morrison Payne",
           1
         ]
       ],
@@ -665,14 +665,14 @@
         ],
         [
           "transit & infrastructure",
-          4
+          5
         ],
         [
           "health & public health",
           2
         ],
         [
-          "environment & energy",
+          "other",
           1
         ],
         [
@@ -714,18 +714,18 @@
           "theme": "city & state budget"
         },
         {
-          "title": "Man seriously wounded in South Shore shooting",
-          "link": "https://chicago.suntimes.com/crime/2026/09/13/man-seriously-wounded-in-south-shore-shooting",
-          "outlet": "Chicago Sun-Times",
-          "published": "2026-09-14",
-          "theme": "public safety & crime"
-        },
-        {
           "title": "Man grabbed woman, sexually abused her on CTA Blue Line in Wicker Park",
           "link": "https://chicago.suntimes.com/crime/2026/09/14/man-grabbed-woman-sexually-abused-her-on-cta-blue-line-in-wicker-park",
           "outlet": "Chicago Sun-Times",
           "published": "2026-09-14",
           "theme": "transit & infrastructure"
+        },
+        {
+          "title": "Rapper BloodHound Q50 fatally ambushed by 6 gunmen in Fuller Park",
+          "link": "https://chicago.suntimes.com/crime/2026/09/13/homicide-fuller-park",
+          "outlet": "Chicago Sun-Times",
+          "published": "2026-09-14",
+          "theme": "public safety & crime"
         }
       ]
     },
@@ -770,11 +770,11 @@
           3
         ],
         [
-          "Cleveland Guardians",
+          "Amtrak",
           3
         ],
         [
-          "Amtrak",
+          "Bridgeport",
           3
         ],
         [
@@ -782,41 +782,45 @@
           3
         ],
         [
-          "Munetaka Murakami",
-          2
-        ],
-        [
           "Tristan Peters",
           2
         ],
         [
-          "Kyle Teel",
+          "Cleveland Guardians",
           2
         ],
         [
-          "Minnesota Twins",
+          "South Loop",
           2
         ],
         [
-          "Justin Ishbia",
+          "Chicago Cubs",
           2
         ],
         [
-          "Bridgeport",
+          "St. Louis Cardinals",
+          2
+        ],
+        [
+          "Mike Shirley",
           2
         ]
       ],
       "co_themes": [
         [
           "arts culture & sports",
-          32
+          30
         ],
         [
           "housing & development",
-          2
+          3
         ],
         [
           "other",
+          1
+        ],
+        [
+          "public safety & crime",
           1
         ]
       ],
@@ -868,7 +872,7 @@
     {
       "name": "Chicago Cubs",
       "kind": "entity",
-      "total_mentions": 28,
+      "total_mentions": 27,
       "first_seen": "2026-09-03",
       "last_seen": "2026-09-15",
       "virality": {
@@ -876,7 +880,7 @@
         "breadth_peak_week_outlets": 1,
         "peak_week": "2026-09-07",
         "peak_week_mentions": 14,
-        "latest_week_mentions": 3,
+        "latest_week_mentions": 2,
         "prior_weeks_avg_mentions": 12.5,
         "trend": "fading"
       },
@@ -895,34 +899,30 @@
         },
         {
           "week": "2026-09-14",
-          "mentions": 3,
+          "mentions": 2,
           "outlets": 1,
           "regions": 1
         }
       ],
       "co_entities": [
         [
-          "Milwaukee Brewers",
-          6
-        ],
-        [
           "Pete Crow-Armstrong",
-          4
+          5
         ],
         [
-          "Wrigley Field",
-          3
+          "Milwaukee Brewers",
+          4
         ],
         [
           "Chicago Bears",
           2
         ],
         [
-          "Chicago",
+          "Chicago Bulls",
           2
         ],
         [
-          "Craig Counsell",
+          "Wrigley Field",
           2
         ],
         [
@@ -934,25 +934,29 @@
           2
         ],
         [
+          "Brewers",
+          2
+        ],
+        [
           "Alex Bregman",
           2
         ],
         [
-          "Ben Brown",
-          1
+          "Pittsburgh Pirates",
+          2
         ]
       ],
       "co_themes": [
         [
           "arts culture & sports",
-          26
+          25
         ],
         [
           "labor & economy",
           1
         ],
         [
-          "health & public health",
+          "public safety & crime",
           1
         ]
       ],
@@ -963,13 +967,6 @@
           "outlet": "Chicago Sun-Times",
           "published": "2026-09-15",
           "theme": "arts culture & sports"
-        },
-        {
-          "title": "Thousands at risk of losing health insurance",
-          "link": "https://chicago.suntimes.com/morning-edition/2026/09/15/trump-health-insurance-bailey-construction-illinois-bloodhound-q50-ai",
-          "outlet": "Chicago Sun-Times",
-          "published": "2026-09-15",
-          "theme": "health & public health"
         },
         {
           "title": "WAR, what is it good for? Absolutely nothin\u2019 if you\u2019re Cubs' starting pitchers: \u2018I\u2019ll take our guys any day\u2019",
@@ -998,154 +995,13 @@
           "outlet": "Chicago Sun-Times",
           "published": "2026-09-12",
           "theme": "arts culture & sports"
-        }
-      ]
-    },
-    {
-      "name": "Chicago Reader",
-      "kind": "entity",
-      "total_mentions": 28,
-      "first_seen": "2026-08-14",
-      "last_seen": "2026-09-11",
-      "virality": {
-        "breadth_total_outlets": 1,
-        "breadth_peak_week_outlets": 1,
-        "peak_week": "2026-08-17",
-        "peak_week_mentions": 7,
-        "latest_week_mentions": 6,
-        "prior_weeks_avg_mentions": 5.5,
-        "trend": "steady"
-      },
-      "series": [
-        {
-          "week": "2026-08-10",
-          "mentions": 4,
-          "outlets": 1,
-          "regions": 1
         },
         {
-          "week": "2026-08-17",
-          "mentions": 7,
-          "outlets": 1,
-          "regions": 1
-        },
-        {
-          "week": "2026-08-24",
-          "mentions": 5,
-          "outlets": 1,
-          "regions": 1
-        },
-        {
-          "week": "2026-08-31",
-          "mentions": 6,
-          "outlets": 1,
-          "regions": 1
-        },
-        {
-          "week": "2026-09-07",
-          "mentions": 6,
-          "outlets": 1,
-          "regions": 1
-        }
-      ],
-      "co_entities": [
-        [
-          "Theater Wit",
-          2
-        ],
-        [
-          "Harm's Way",
-          1
-        ],
-        [
-          "Bohemian National Cemetery",
-          1
-        ],
-        [
-          "Music Theater Works",
-          1
-        ],
-        [
-          "North Shore Center for the Performing Arts",
-          1
-        ],
-        [
-          "Redtwist Theatre",
-          1
-        ],
-        [
-          "Music Box Theatre",
-          1
-        ],
-        [
-          "Schubas",
-          1
-        ],
-        [
-          "Adolescent Salvation",
-          1
-        ],
-        [
-          "Henry IV, Part 1",
-          1
-        ]
-      ],
-      "co_themes": [
-        [
-          "arts culture & sports",
-          21
-        ],
-        [
-          "other",
-          6
-        ],
-        [
-          "housing & development",
-          1
-        ]
-      ],
-      "recent_articles": [
-        {
-          "title": "Review: The Uprising",
-          "link": "https://chicagoreader.com/film-tv/review-the-uprising/",
-          "outlet": "Chicago Reader",
-          "published": "2026-09-11",
+          "title": "Cubs use picky lineup and struggling bullpen to beat Pirates 4-3",
+          "link": "https://chicago.suntimes.com/cubs/2026/09/12/cubs-use-picky-lineup-and-struggling-bullpen-to-beat-pirates-4-3",
+          "outlet": "Chicago Sun-Times",
+          "published": "2026-09-12",
           "theme": "arts culture & sports"
-        },
-        {
-          "title": "Review: Hope",
-          "link": "https://chicagoreader.com/film-tv/movie-review/review-hope/",
-          "outlet": "Chicago Reader",
-          "published": "2026-09-11",
-          "theme": "arts culture & sports"
-        },
-        {
-          "title": "Bodies, baths, and beyond",
-          "link": "https://chicagoreader.com/visual-arts/art-feature/olivia-zubko-nymphaeum/",
-          "outlet": "Chicago Reader",
-          "published": "2026-09-11",
-          "theme": "other"
-        },
-        {
-          "title": "Rapper Open Mike Eagle pulls you closer on Doomed!",
-          "link": "https://chicagoreader.com/music/concert-preview/open-mike-eagle-thalia-hall/",
-          "outlet": "Chicago Reader",
-          "published": "2026-09-11",
-          "theme": "other"
-        },
-        {
-          "title": "Chicago sound artist Anna Johnson celebrates her debut album, Swarm of Tongues",
-          "link": "https://chicagoreader.com/music/concert-preview/anna-johnson-empty-bottle/",
-          "outlet": "Chicago Reader",
-          "published": "2026-09-11",
-          "theme": "arts culture & sports"
-        },
-        {
-          "title": "Roaches, flooding, unpaid loans: dozens of Chinatown residents, businesses face uncertainty as landlord\u2019s empire crumbled",
-          "link": "https://chicagoreader.com/news/chinatown-residents-businesses-uncertainty-jiazhao-frank-chen-empire-crumbled/",
-          "outlet": "Chicago Reader",
-          "published": "2026-09-09",
-          "theme": "housing & development"
         }
       ]
     },
@@ -1198,15 +1054,19 @@
       ],
       "co_entities": [
         [
-          "Chicago",
-          7
+          "Chicago City Council",
+          4
         ],
         [
-          "Chicago City Council",
-          5
+          "Chicago",
+          3
         ],
         [
           "Mike Rodriguez",
+          2
+        ],
+        [
+          "Rachel Cohen",
           2
         ],
         [
@@ -1226,10 +1086,6 @@
           1
         ],
         [
-          "TRiiBE",
-          1
-        ],
-        [
           "Chicago Youth Works",
           1
         ],
@@ -1241,7 +1097,7 @@
       "co_themes": [
         [
           "elections & politics",
-          19
+          20
         ],
         [
           "city & state budget",
@@ -1253,10 +1109,6 @@
         ],
         [
           "arts culture & sports",
-          1
-        ],
-        [
-          "labor & economy",
           1
         ]
       ],
@@ -1308,15 +1160,15 @@
     {
       "name": "JB Pritzker",
       "kind": "entity",
-      "total_mentions": 21,
+      "total_mentions": 22,
       "first_seen": "2026-08-10",
-      "last_seen": "2026-09-14",
+      "last_seen": "2026-09-15",
       "virality": {
         "breadth_total_outlets": 5,
         "breadth_peak_week_outlets": 2,
         "peak_week": "2026-08-31",
         "peak_week_mentions": 7,
-        "latest_week_mentions": 1,
+        "latest_week_mentions": 2,
         "prior_weeks_avg_mentions": 4.0,
         "trend": "fading"
       },
@@ -1353,22 +1205,18 @@
         },
         {
           "week": "2026-09-14",
-          "mentions": 1,
-          "outlets": 1,
-          "regions": 1
+          "mentions": 2,
+          "outlets": 2,
+          "regions": 2
         }
       ],
       "co_entities": [
         [
           "Illinois",
-          7
+          6
         ],
         [
           "Chicago",
-          3
-        ],
-        [
-          "Illinois Policy",
           3
         ],
         [
@@ -1388,45 +1236,56 @@
           1
         ],
         [
-          "Texas",
-          1
-        ],
-        [
-          "Dallas",
-          1
-        ],
-        [
           "Bulls Prep",
+          1
+        ],
+        [
+          "Clark",
+          1
+        ],
+        [
+          "DRW",
+          1
+        ],
+        [
+          "Hanson",
           1
         ]
       ],
       "co_themes": [
         [
           "other",
-          7
+          8
         ],
         [
           "elections & politics",
           7
         ],
         [
-          "city & state budget",
-          3
+          "labor & economy",
+          2
         ],
         [
           "education & schools",
           2
         ],
         [
-          "labor & economy",
-          1
+          "city & state budget",
+          2
         ],
         [
-          "immigration & migrants",
+          "arts culture & sports",
           1
         ]
       ],
       "recent_articles": [
+        {
+          "title": "Pritzker\u2019s record: Illinois wages grow 0% in 7 years",
+          "link": "https://www.illinoispolicy.org/illinois-wage-growth-pritzker/",
+          "outlet": "Illinois Policy Institute",
+          "published": "2026-09-15",
+          "theme": "labor & economy"
+        },
         {
           "title": "President Trump endorses Darren Bailey in Illinois governor race \u2014 \u2018Pritzker\u2019s a disaster\u2019",
           "link": "https://chicago.suntimes.com/elections/2026/09/14/trump-endorses-bailey-pritzker-illinois-governor-race",
@@ -1453,17 +1312,10 @@
           "link": "https://capitolnewsillinois.com/news/ready-for-the-fight-why-jb-pritzker-is-taking-his-slogan-national-with-pac-targeting-maga/",
           "outlet": "Capitol News Illinois",
           "published": "2026-09-08",
-          "theme": "city & state budget"
+          "theme": "other"
         },
         {
           "title": "Pritzker\u2019s record: Governor signs nearly 400 bills, vetoes just one",
-          "link": "https://www.illinoispolicy.org/pritzker-record-governor-signs-nearly-400-bills-vetoes-just-one/",
-          "outlet": "Illinois Policy Institute",
-          "published": "2026-09-04",
-          "theme": "elections & politics"
-        },
-        {
-          "title": "Pritzker record: Governor signs nearly 400 bills, vetoes just one",
           "link": "https://www.illinoispolicy.org/pritzker-record-governor-signs-nearly-400-bills-vetoes-just-one/",
           "outlet": "Illinois Policy Institute",
           "published": "2026-09-04",
@@ -1474,17 +1326,17 @@
     {
       "name": "Chicago Public Schools",
       "kind": "entity",
-      "total_mentions": 17,
+      "total_mentions": 18,
       "first_seen": "2026-08-11",
-      "last_seen": "2026-09-10",
+      "last_seen": "2026-09-15",
       "virality": {
-        "breadth_total_outlets": 5,
-        "breadth_peak_week_outlets": 3,
+        "breadth_total_outlets": 6,
+        "breadth_peak_week_outlets": 4,
         "peak_week": "2026-08-24",
-        "peak_week_mentions": 7,
-        "latest_week_mentions": 3,
-        "prior_weeks_avg_mentions": 3.5,
-        "trend": "steady"
+        "peak_week_mentions": 6,
+        "latest_week_mentions": 1,
+        "prior_weeks_avg_mentions": 3.4,
+        "trend": "fading"
       },
       "series": [
         {
@@ -1501,7 +1353,7 @@
         },
         {
           "week": "2026-08-24",
-          "mentions": 7,
+          "mentions": 6,
           "outlets": 3,
           "regions": 2
         },
@@ -1513,22 +1365,20 @@
         },
         {
           "week": "2026-09-07",
-          "mentions": 3,
-          "outlets": 3,
+          "mentions": 4,
+          "outlets": 4,
           "regions": 2
+        },
+        {
+          "week": "2026-09-14",
+          "mentions": 1,
+          "outlets": 1,
+          "regions": 1
         }
       ],
       "co_entities": [
         [
           "Chicago Board of Education",
-          1
-        ],
-        [
-          "Charles Warrington Earle School",
-          1
-        ],
-        [
-          "Chicago",
           1
         ],
         [
@@ -1540,15 +1390,19 @@
           1
         ],
         [
-          "Trump administration",
-          1
-        ],
-        [
           "Chicago Connected",
           1
         ],
         [
           "Chicago Teachers Union",
+          1
+        ],
+        [
+          "Steven Dixon Jr.",
+          1
+        ],
+        [
+          "Bridgeport",
           1
         ]
       ],
@@ -1566,11 +1420,22 @@
           1
         ],
         [
+          "courts & justice",
+          1
+        ],
+        [
           "city & state budget",
           1
         ]
       ],
       "recent_articles": [
+        {
+          "title": "Chicago man charged after boy fires gun on school bus in Bridgeport",
+          "link": "https://chicago.suntimes.com/crime/2026/09/15/chicago-man-charged-after-boy-fires-gun-on-school-bus-in-bridgeport",
+          "outlet": "Chicago Sun-Times",
+          "published": "2026-09-15",
+          "theme": "education & schools"
+        },
         {
           "title": "Chicago school board candidates sign pledge to ban AI use in schools",
           "link": "https://www.wbez.org/education/2026/09/10/chicago-school-board-candidates-sign-pledge-to-ban-ai-use-in-schools",
@@ -1593,215 +1458,18 @@
           "theme": "city & state budget"
         },
         {
+          "title": "Adorned By M, CPS Teacher\u2019s Pop-Up Vintage Boutique, Opens In Beverly",
+          "link": "https://blockclubchicago.org/2026/09/08/adorned-by-m-cps-teachers-pop-up-vintage-boutique-opens-in-beverly/",
+          "outlet": "Block Club Chicago",
+          "published": "2026-09-08",
+          "theme": "education & schools"
+        },
+        {
           "title": "CPS postpones Friday football games due to heat advisory",
           "link": "https://chicago.suntimes.com/high-school-football/2026/09/04/chicago-public-schools-football-heat-postponed",
           "outlet": "Chicago Sun-Times",
           "published": "2026-09-04",
           "theme": "education & schools"
-        },
-        {
-          "title": "CPS changes course, will play Thursday football games",
-          "link": "https://chicago.suntimes.com/high-school-football/2026/09/03/cps-calls-off-thursday-football-games-due-to-heat",
-          "outlet": "Chicago Sun-Times",
-          "published": "2026-09-03",
-          "theme": "education & schools"
-        },
-        {
-          "title": "Chicago extends program offering free Wi-Fi to CPS students",
-          "link": "https://www.wbez.org/education/2026/09/02/chicago-extends-program-offering-free-wifi-to-cps-students",
-          "outlet": "WBEZ",
-          "published": "2026-09-03",
-          "theme": "education & schools"
-        }
-      ]
-    },
-    {
-      "name": "Cook County",
-      "kind": "entity",
-      "total_mentions": 16,
-      "first_seen": "2026-01-26",
-      "last_seen": "2026-09-12",
-      "virality": {
-        "breadth_total_outlets": 3,
-        "breadth_peak_week_outlets": 2,
-        "peak_week": "2026-09-07",
-        "peak_week_mentions": 4,
-        "latest_week_mentions": 4,
-        "prior_weeks_avg_mentions": 1.14,
-        "trend": "rising"
-      },
-      "series": [
-        {
-          "week": "2026-01-26",
-          "mentions": 2,
-          "outlets": 1,
-          "regions": 1
-        },
-        {
-          "week": "2026-02-09",
-          "mentions": 2,
-          "outlets": 1,
-          "regions": 1
-        },
-        {
-          "week": "2026-03-02",
-          "mentions": 1,
-          "outlets": 1,
-          "regions": 1
-        },
-        {
-          "week": "2026-03-09",
-          "mentions": 1,
-          "outlets": 1,
-          "regions": 1
-        },
-        {
-          "week": "2026-03-16",
-          "mentions": 2,
-          "outlets": 1,
-          "regions": 1
-        },
-        {
-          "week": "2026-04-27",
-          "mentions": 1,
-          "outlets": 1,
-          "regions": 1
-        },
-        {
-          "week": "2026-05-25",
-          "mentions": 1,
-          "outlets": 1,
-          "regions": 1
-        },
-        {
-          "week": "2026-06-01",
-          "mentions": 1,
-          "outlets": 1,
-          "regions": 1
-        },
-        {
-          "week": "2026-08-31",
-          "mentions": 1,
-          "outlets": 1,
-          "regions": 1
-        },
-        {
-          "week": "2026-09-07",
-          "mentions": 4,
-          "outlets": 2,
-          "regions": 1
-        }
-      ],
-      "co_entities": [
-        [
-          "Injustice Watch",
-          2
-        ],
-        [
-          "Illinois Supreme Court",
-          1
-        ],
-        [
-          "James R. Brown",
-          1
-        ],
-        [
-          "Leonard Dixon",
-          1
-        ],
-        [
-          "Chicago",
-          1
-        ],
-        [
-          "Greg Bingham",
-          1
-        ],
-        [
-          "Eileen O'Neill Burke",
-          1
-        ],
-        [
-          "University of Illinois Chicago",
-          1
-        ],
-        [
-          "Frankfort",
-          1
-        ],
-        [
-          "Garfield Park",
-          1
-        ]
-      ],
-      "co_themes": [
-        [
-          "elections & politics",
-          6
-        ],
-        [
-          "courts & justice",
-          3
-        ],
-        [
-          "public safety & crime",
-          2
-        ],
-        [
-          "other",
-          1
-        ],
-        [
-          "city & state budget",
-          1
-        ],
-        [
-          "immigration & migrants",
-          1
-        ]
-      ],
-      "recent_articles": [
-        {
-          "title": "Judge to appoint receiver to take control of West Suburban, Weiss Memorial hospitals amid legal battle",
-          "link": "https://chicago.suntimes.com/health/2026/09/11/west-suburban-weiss-memorial-hospitals-receivership-legal-battle",
-          "outlet": "Chicago Sun-Times",
-          "published": "2026-09-12",
-          "theme": "health & public health"
-        },
-        {
-          "title": "Garfield Park neighborhood shooting ruled homicide",
-          "link": "https://chicago.suntimes.com/crime/2026/09/12/garfield-park-neighborhood-shooting-ruled-homicide-autopsy",
-          "outlet": "Chicago Sun-Times",
-          "published": "2026-09-12",
-          "theme": "public safety & crime"
-        },
-        {
-          "title": "Girl, 6, struck and killed by school bus in Chicago suburb",
-          "link": "https://chicago.suntimes.com/news/2026/09/08/girl-6-killed-after-struck-by-school-bus-in-frankfort",
-          "outlet": "Chicago Sun-Times",
-          "published": "2026-09-09",
-          "theme": "education & schools"
-        },
-        {
-          "title": "Chicago-Area Businesses Lost $1.2 Billion Because Of Immigration Crackdown, Report Says",
-          "link": "https://blockclubchicago.org/2026/09/08/chicago-area-businesses-lost-1-2-billion-because-of-immigration-enforcement-report-says/",
-          "outlet": "Block Club Chicago",
-          "published": "2026-09-08",
-          "theme": "immigration & migrants"
-        },
-        {
-          "title": "Man dies of heat-related causes on South Side, raising Cook County's heat death toll to 14",
-          "link": "https://chicago.suntimes.com/news/2026/09/04/heat-death",
-          "outlet": "Chicago Sun-Times",
-          "published": "2026-09-04",
-          "theme": "public safety & crime"
-        },
-        {
-          "title": "What can you tell us about these Cook County judges running for retention?",
-          "link": "https://www.injusticewatch.org/judges/judicial-elections/2026-retention/2026/cook-county-judges-running-for-retention-november-2026-tips/",
-          "outlet": "Injustice Watch",
-          "published": "2026-06-02",
-          "theme": "elections & politics"
         }
       ]
     },
@@ -1938,6 +1606,148 @@
           "outlet": "Chicago Sun-Times",
           "published": "2026-09-11",
           "theme": "arts culture & sports"
+        }
+      ]
+    },
+    {
+      "name": "Chicago Reader",
+      "kind": "entity",
+      "total_mentions": 15,
+      "first_seen": "2026-08-28",
+      "last_seen": "2026-09-14",
+      "virality": {
+        "breadth_total_outlets": 1,
+        "breadth_peak_week_outlets": 1,
+        "peak_week": "2026-08-31",
+        "peak_week_mentions": 6,
+        "latest_week_mentions": 1,
+        "prior_weeks_avg_mentions": 4.67,
+        "trend": "fading"
+      },
+      "series": [
+        {
+          "week": "2026-08-24",
+          "mentions": 5,
+          "outlets": 1,
+          "regions": 1
+        },
+        {
+          "week": "2026-08-31",
+          "mentions": 6,
+          "outlets": 1,
+          "regions": 1
+        },
+        {
+          "week": "2026-09-07",
+          "mentions": 3,
+          "outlets": 1,
+          "regions": 1
+        },
+        {
+          "week": "2026-09-14",
+          "mentions": 1,
+          "outlets": 1,
+          "regions": 1
+        }
+      ],
+      "co_entities": [
+        [
+          "Adolescent Salvation",
+          1
+        ],
+        [
+          "Theater Wit",
+          1
+        ],
+        [
+          "Henry IV, Part 1",
+          1
+        ],
+        [
+          "Sandbox Theatre Collective",
+          1
+        ],
+        [
+          "Mrs. Murphy & Sons Irish Bistro",
+          1
+        ],
+        [
+          "Advance Man",
+          1
+        ],
+        [
+          "Honeycomb Trilogy",
+          1
+        ],
+        [
+          "Strawdog Theatre Company",
+          1
+        ],
+        [
+          "Factory Theater",
+          1
+        ],
+        [
+          "Sisters",
+          1
+        ]
+      ],
+      "co_themes": [
+        [
+          "arts culture & sports",
+          10
+        ],
+        [
+          "other",
+          4
+        ],
+        [
+          "housing & development",
+          1
+        ]
+      ],
+      "recent_articles": [
+        {
+          "title": "Deconstructing identity",
+          "link": "https://chicagoreader.com/visual-arts/art-feature/clotilde-jimenez-mariane-ibrahim/",
+          "outlet": "Chicago Reader",
+          "published": "2026-09-14",
+          "theme": "other"
+        },
+        {
+          "title": "Review: The Uprising",
+          "link": "https://chicagoreader.com/film-tv/review-the-uprising/",
+          "outlet": "Chicago Reader",
+          "published": "2026-09-11",
+          "theme": "arts culture & sports"
+        },
+        {
+          "title": "Review: Hope",
+          "link": "https://chicagoreader.com/film-tv/movie-review/review-hope/",
+          "outlet": "Chicago Reader",
+          "published": "2026-09-11",
+          "theme": "arts culture & sports"
+        },
+        {
+          "title": "Roaches, flooding, unpaid loans: dozens of Chinatown residents, businesses face uncertainty as landlord\u2019s empire crumbled",
+          "link": "https://chicagoreader.com/news/chinatown-residents-businesses-uncertainty-jiazhao-frank-chen-empire-crumbled/",
+          "outlet": "Chicago Reader",
+          "published": "2026-09-09",
+          "theme": "housing & development"
+        },
+        {
+          "title": "Chicago Reader Volume 55, Number 20",
+          "link": "https://chicagoreader.com/issues/volume-55-20/",
+          "outlet": "Chicago Reader",
+          "published": "2026-09-02",
+          "theme": "arts culture & sports"
+        },
+        {
+          "title": "Find a print copy of the Chicago Reader",
+          "link": "https://chicagoreader.com/reader/print-distribution-map/",
+          "outlet": "Chicago Reader",
+          "published": "2026-09-02",
+          "theme": "other"
         }
       ]
     },
@@ -2214,41 +2024,77 @@
       ]
     },
     {
-      "name": "Caleb Williams",
+      "name": "Cook County",
       "kind": "entity",
-      "total_mentions": 12,
-      "first_seen": "2026-08-11",
-      "last_seen": "2026-09-15",
+      "total_mentions": 13,
+      "first_seen": "2026-01-28",
+      "last_seen": "2026-09-12",
       "virality": {
-        "breadth_total_outlets": 4,
-        "breadth_peak_week_outlets": 2,
-        "peak_week": "2026-09-07",
-        "peak_week_mentions": 6,
+        "breadth_total_outlets": 2,
+        "breadth_peak_week_outlets": 1,
+        "peak_week": "2026-02-09",
+        "peak_week_mentions": 2,
         "latest_week_mentions": 2,
-        "prior_weeks_avg_mentions": 3.33,
-        "trend": "steady"
+        "prior_weeks_avg_mentions": 1.14,
+        "trend": "rising"
       },
       "series": [
         {
-          "week": "2026-08-10",
-          "mentions": 2,
-          "outlets": 2,
-          "regions": 2
+          "week": "2026-01-26",
+          "mentions": 1,
+          "outlets": 1,
+          "regions": 1
         },
         {
-          "week": "2026-08-31",
+          "week": "2026-02-09",
           "mentions": 2,
           "outlets": 1,
           "regions": 1
         },
         {
-          "week": "2026-09-07",
-          "mentions": 6,
-          "outlets": 2,
+          "week": "2026-03-02",
+          "mentions": 1,
+          "outlets": 1,
           "regions": 1
         },
         {
-          "week": "2026-09-14",
+          "week": "2026-03-09",
+          "mentions": 1,
+          "outlets": 1,
+          "regions": 1
+        },
+        {
+          "week": "2026-03-16",
+          "mentions": 2,
+          "outlets": 1,
+          "regions": 1
+        },
+        {
+          "week": "2026-04-27",
+          "mentions": 1,
+          "outlets": 1,
+          "regions": 1
+        },
+        {
+          "week": "2026-05-25",
+          "mentions": 1,
+          "outlets": 1,
+          "regions": 1
+        },
+        {
+          "week": "2026-06-01",
+          "mentions": 1,
+          "outlets": 1,
+          "regions": 1
+        },
+        {
+          "week": "2026-08-31",
+          "mentions": 1,
+          "outlets": 1,
+          "regions": 1
+        },
+        {
+          "week": "2026-09-07",
           "mentions": 2,
           "outlets": 1,
           "regions": 1
@@ -2256,94 +2102,110 @@
       ],
       "co_entities": [
         [
-          "Chicago Bears",
-          12
-        ],
-        [
-          "Ben Johnson",
+          "Injustice Watch",
           2
         ],
         [
-          "Soldier Field",
+          "Chicago",
           1
         ],
         [
-          "Chicago Bulls",
+          "Leonard Dixon",
           1
         ],
         [
-          "Chicago Cubs",
+          "Greg Bingham",
           1
         ],
         [
-          "Cairo Santos. Bears",
+          "Eileen O'Neill Burke",
           1
         ],
         [
-          "Four",
+          "ICE",
           1
         ],
         [
-          "Grady Jarrett",
+          "Frankfort",
           1
         ],
         [
-          "Halas Hall. The Bears",
+          "Garfield Park",
           1
         ],
         [
-          "Joe Thuney",
+          "West Flournoy Street",
           1
         ]
       ],
       "co_themes": [
         [
-          "arts culture & sports",
-          12
+          "elections & politics",
+          6
+        ],
+        [
+          "public safety & crime",
+          2
+        ],
+        [
+          "other",
+          1
+        ],
+        [
+          "city & state budget",
+          1
+        ],
+        [
+          "courts & justice",
+          1
+        ],
+        [
+          "immigration & migrants",
+          1
         ]
       ],
       "recent_articles": [
         {
-          "title": "Hall of Famer Drew Brees' comment in production meeting stuck with Bears QB Caleb Williams in Panthers game",
-          "link": "https://chicago.suntimes.com/bears/2026/09/14/hall-of-famer-drew-brees-comment-in-production-meeting-stuck-with-bears-qb-caleb-williams-in-panthers-game",
+          "title": "Garfield Park neighborhood shooting ruled homicide",
+          "link": "https://chicago.suntimes.com/crime/2026/09/12/garfield-park-neighborhood-shooting-ruled-homicide-autopsy",
           "outlet": "Chicago Sun-Times",
-          "published": "2026-09-15",
-          "theme": "arts culture & sports"
+          "published": "2026-09-12",
+          "theme": "public safety & crime"
         },
         {
-          "title": "Bears QB Caleb Williams for MVP? It's early, but it's possible",
-          "link": "https://chicago.suntimes.com/bears/2026/09/14/bears-panthersquarterback-caleb-williams-mvp-way-too-early-nfl-josh-allen-lamar-jackson-joe-burrow-59-points",
+          "title": "Girl, 6, struck and killed by school bus in Chicago suburb",
+          "link": "https://chicago.suntimes.com/news/2026/09/08/girl-6-killed-after-struck-by-school-bus-in-frankfort",
           "outlet": "Chicago Sun-Times",
-          "published": "2026-09-14",
-          "theme": "arts culture & sports"
+          "published": "2026-09-09",
+          "theme": "education & schools"
         },
         {
-          "title": "Caleb Williams and Bears Trounce Panthers 59-37 in Highest-Scoring Season Opener in NFL History",
-          "link": "https://news.wttw.com/2026/09/13/caleb-williams-and-bears-trounce-panthers-59-37-highest-scoring-season-opener-nfl",
-          "outlet": "WTTW News",
-          "published": "2026-09-13",
-          "theme": "arts culture & sports"
+          "title": "Man dies of heat-related causes on South Side, raising Cook County's heat death toll to 14",
+          "link": "https://chicago.suntimes.com/news/2026/09/04/heat-death",
+          "outlet": "Chicago Sun-Times",
+          "published": "2026-09-04",
+          "theme": "public safety & crime"
         },
         {
-          "title": "As engineer and artist blend styles, Bears' Ben Johnson gets 'goosebumps' about future with Caleb Williams",
-          "link": "https://chicago.suntimes.com/bears/2026/09/11/as-engineer-and-artist-blend-styles-bears-ben-johnson-gets-goosebumps-about-future-with-caleb-williams",
-          "outlet": "Chicago Sun-Times",
-          "published": "2026-09-11",
-          "theme": "arts culture & sports"
+          "title": "What can you tell us about these Cook County judges running for retention?",
+          "link": "https://www.injusticewatch.org/judges/judicial-elections/2026-retention/2026/cook-county-judges-running-for-retention-november-2026-tips/",
+          "outlet": "Injustice Watch",
+          "published": "2026-06-02",
+          "theme": "elections & politics"
         },
         {
-          "title": "Playoff loss to Rams haunts, propels Bears QB Caleb Williams into new season",
-          "link": "https://chicago.suntimes.com/bears/2026/09/10/playoff-loss-to-rams-haunts-propels-bears-qb-caleb-williams-into-new-season",
-          "outlet": "Chicago Sun-Times",
-          "published": "2026-09-10",
-          "theme": "arts culture & sports"
+          "title": "ICE deported them. Cook County prosecutors still want them arrested for missing court.",
+          "link": "https://www.injusticewatch.org/criminal-courts/prosecutors/2026/traffic-court-warrants-after-deportation/",
+          "outlet": "Injustice Watch",
+          "published": "2026-05-28",
+          "theme": "immigration & migrants"
         },
         {
-          "title": "Bears name 5 captains for 2026 season",
-          "link": "https://chicago.suntimes.com/bears/2026/09/08/bears-name-captains-ben-johnson-caleb-williams-joe-thuney-grady-jarrett-cairo-santos-tj-edwards-nfl",
-          "outlet": "Chicago Sun-Times",
-          "published": "2026-09-08",
-          "theme": "arts culture & sports"
+          "title": "Cook County prosecutor fights to block exonerated people from clearing their names",
+          "link": "https://www.injusticewatch.org/project/denying-innocence/2026/cook-county-prosecutor-fights-to-block-certificates-of-innocence/",
+          "outlet": "Injustice Watch",
+          "published": "2026-04-30",
+          "theme": "courts & justice"
         }
       ]
     },
@@ -2876,10 +2738,140 @@
       ]
     },
     {
-      "name": "DEAR ABBY",
+      "name": "Caleb Williams",
       "kind": "entity",
       "total_mentions": 11,
-      "first_seen": "2026-09-04",
+      "first_seen": "2026-08-11",
+      "last_seen": "2026-09-15",
+      "virality": {
+        "breadth_total_outlets": 4,
+        "breadth_peak_week_outlets": 2,
+        "peak_week": "2026-09-07",
+        "peak_week_mentions": 5,
+        "latest_week_mentions": 2,
+        "prior_weeks_avg_mentions": 3.0,
+        "trend": "steady"
+      },
+      "series": [
+        {
+          "week": "2026-08-10",
+          "mentions": 2,
+          "outlets": 2,
+          "regions": 2
+        },
+        {
+          "week": "2026-08-31",
+          "mentions": 2,
+          "outlets": 1,
+          "regions": 1
+        },
+        {
+          "week": "2026-09-07",
+          "mentions": 5,
+          "outlets": 2,
+          "regions": 1
+        },
+        {
+          "week": "2026-09-14",
+          "mentions": 2,
+          "outlets": 1,
+          "regions": 1
+        }
+      ],
+      "co_entities": [
+        [
+          "Chicago Bears",
+          10
+        ],
+        [
+          "Soldier Field",
+          1
+        ],
+        [
+          "Hot Ones",
+          1
+        ],
+        [
+          "Chicago Bulls",
+          1
+        ],
+        [
+          "Chicago Cubs",
+          1
+        ],
+        [
+          "Pete Crow-Armstrong",
+          1
+        ],
+        [
+          "USC",
+          1
+        ],
+        [
+          "Ben Johnson",
+          1
+        ],
+        [
+          "Drew Brees",
+          1
+        ]
+      ],
+      "co_themes": [
+        [
+          "arts culture & sports",
+          11
+        ]
+      ],
+      "recent_articles": [
+        {
+          "title": "Hall of Famer Drew Brees' comment in production meeting stuck with Bears QB Caleb Williams in Panthers game",
+          "link": "https://chicago.suntimes.com/bears/2026/09/14/hall-of-famer-drew-brees-comment-in-production-meeting-stuck-with-bears-qb-caleb-williams-in-panthers-game",
+          "outlet": "Chicago Sun-Times",
+          "published": "2026-09-15",
+          "theme": "arts culture & sports"
+        },
+        {
+          "title": "Bears QB Caleb Williams for MVP? It's early, but it's possible",
+          "link": "https://chicago.suntimes.com/bears/2026/09/14/bears-panthersquarterback-caleb-williams-mvp-way-too-early-nfl-josh-allen-lamar-jackson-joe-burrow-59-points",
+          "outlet": "Chicago Sun-Times",
+          "published": "2026-09-14",
+          "theme": "arts culture & sports"
+        },
+        {
+          "title": "Caleb Williams and Bears Trounce Panthers 59-37 in Highest-Scoring Season Opener in NFL History",
+          "link": "https://news.wttw.com/2026/09/13/caleb-williams-and-bears-trounce-panthers-59-37-highest-scoring-season-opener-nfl",
+          "outlet": "WTTW News",
+          "published": "2026-09-13",
+          "theme": "arts culture & sports"
+        },
+        {
+          "title": "As engineer and artist blend styles, Bears' Ben Johnson gets 'goosebumps' about future with Caleb Williams",
+          "link": "https://chicago.suntimes.com/bears/2026/09/11/as-engineer-and-artist-blend-styles-bears-ben-johnson-gets-goosebumps-about-future-with-caleb-williams",
+          "outlet": "Chicago Sun-Times",
+          "published": "2026-09-11",
+          "theme": "arts culture & sports"
+        },
+        {
+          "title": "The Bears' pass-catchers might be the best they've had in 13 years",
+          "link": "https://chicago.suntimes.com/bears/2026/09/10/bears-caleb-williams-pass-catchers-best-since-2013-colston-loveland-luther-burden-rome-odunze-nfl-ben-johnson-panthers-week-1",
+          "outlet": "Chicago Sun-Times",
+          "published": "2026-09-10",
+          "theme": "arts culture & sports"
+        },
+        {
+          "title": "Bears QB Caleb Williams ready to get to work after summer of 'Madden,' PCA and Ye",
+          "link": "https://chicago.suntimes.com/bears/2026/09/08/bears-panthers-caleb-williams-pete-crow-armstrong-kanye-west-madden-back-work-quarterback-week-1-ben-johnson-nfl",
+          "outlet": "Chicago Sun-Times",
+          "published": "2026-09-08",
+          "theme": "arts culture & sports"
+        }
+      ]
+    },
+    {
+      "name": "DEAR ABBY",
+      "kind": "entity",
+      "total_mentions": 10,
+      "first_seen": "2026-09-05",
       "last_seen": "2026-09-15",
       "virality": {
         "breadth_total_outlets": 1,
@@ -2887,13 +2879,13 @@
         "peak_week": "2026-09-07",
         "peak_week_mentions": 6,
         "latest_week_mentions": 2,
-        "prior_weeks_avg_mentions": 4.5,
+        "prior_weeks_avg_mentions": 4.0,
         "trend": "fading"
       },
       "series": [
         {
           "week": "2026-08-31",
-          "mentions": 3,
+          "mentions": 2,
           "outlets": 1,
           "regions": 1
         },
@@ -2916,28 +2908,12 @@
           3
         ],
         [
-          "Boyfriend",
-          2
-        ],
-        [
           "I've",
           2
         ],
         [
           "Facebook",
           2
-        ],
-        [
-          "Back",
-          1
-        ],
-        [
-          "Evan",
-          1
-        ],
-        [
-          "Mitzi",
-          1
         ],
         [
           "Even",
@@ -2950,6 +2926,22 @@
         [
           "Son",
           1
+        ],
+        [
+          "Antisocial",
+          1
+        ],
+        [
+          "It's",
+          1
+        ],
+        [
+          "Abby",
+          1
+        ],
+        [
+          "Boyfriend",
+          1
         ]
       ],
       "co_themes": [
@@ -2959,7 +2951,7 @@
         ],
         [
           "health & public health",
-          2
+          1
         ]
       ],
       "recent_articles": [
@@ -3008,31 +3000,157 @@
       ]
     },
     {
-      "name": "Ben Johnson",
+      "name": "Chicago Transit Authority",
       "kind": "entity",
-      "total_mentions": 11,
-      "first_seen": "2026-09-08",
-      "last_seen": "2026-09-15",
+      "total_mentions": 10,
+      "first_seen": "2026-09-07",
+      "last_seen": "2026-09-14",
       "virality": {
-        "breadth_total_outlets": 1,
-        "breadth_peak_week_outlets": 1,
+        "breadth_total_outlets": 3,
+        "breadth_peak_week_outlets": 3,
         "peak_week": "2026-09-07",
-        "peak_week_mentions": 9,
-        "latest_week_mentions": 2,
-        "prior_weeks_avg_mentions": 9.0,
+        "peak_week_mentions": 7,
+        "latest_week_mentions": 3,
+        "prior_weeks_avg_mentions": 7.0,
         "trend": "fading"
       },
       "series": [
         {
           "week": "2026-09-07",
-          "mentions": 9,
+          "mentions": 7,
+          "outlets": 3,
+          "regions": 1
+        },
+        {
+          "week": "2026-09-14",
+          "mentions": 3,
+          "outlets": 2,
+          "regions": 1
+        }
+      ],
+      "co_entities": [
+        [
+          "Chicago Police Department",
+          3
+        ],
+        [
+          "Chicago Fire Department",
+          1
+        ],
+        [
+          "Northern Illinois Transit Authority",
+          1
+        ],
+        [
+          "Metra",
+          1
+        ],
+        [
+          "Pace",
+          1
+        ],
+        [
+          "Bronzeville",
+          1
+        ],
+        [
+          "Chinatown",
+          1
+        ],
+        [
+          "Kyle Bickham",
+          1
+        ],
+        [
+          "Humboldt Park",
+          1
+        ],
+        [
+          "Wicker Park",
+          1
+        ]
+      ],
+      "co_themes": [
+        [
+          "transit & infrastructure",
+          9
+        ],
+        [
+          "public safety & crime",
+          1
+        ]
+      ],
+      "recent_articles": [
+        {
+          "title": "Man grabbed woman, sexually abused her at CTA Blue Line station in Wicker Park: CPD",
+          "link": "https://chicago.suntimes.com/crime/2026/09/14/man-grabbed-woman-sexually-abused-her-on-cta-blue-line-in-wicker-park",
+          "outlet": "Chicago Sun-Times",
+          "published": "2026-09-14",
+          "theme": "transit & infrastructure"
+        },
+        {
+          "title": "This group is building benches at bus stops that don\u2019t have one. Will the city let them?",
+          "link": "https://www.wbez.org/transportation/2026/09/14/cta-bus-stop-bench-ukrainian-village",
+          "outlet": "WBEZ",
+          "published": "2026-09-14",
+          "theme": "transit & infrastructure"
+        },
+        {
+          "title": "Man grabbed woman, sexually abused her on CTA Blue Line in Wicker Park",
+          "link": "https://chicago.suntimes.com/crime/2026/09/14/man-grabbed-woman-sexually-abused-her-on-cta-blue-line-in-wicker-park",
+          "outlet": "Chicago Sun-Times",
+          "published": "2026-09-14",
+          "theme": "transit & infrastructure"
+        },
+        {
+          "title": "1 Killed, 6 Wounded In Humboldt Park Mass Shooting Sunday, Police Say",
+          "link": "https://blockclubchicago.org/2026/09/13/1-killed-6-others-wounded-in-humboldt-park-mass-shooting-sunday-police-say/",
+          "outlet": "Block Club Chicago",
+          "published": "2026-09-13",
+          "theme": "public safety & crime"
+        },
+        {
+          "title": "15-year-old girl charged with murder after man shoved from moving Red Line train",
+          "link": "https://chicago.suntimes.com/crime/2026/09/13/15-year-old-girl-charged-murder-man-shoved-cta-red-line-train",
+          "outlet": "Chicago Sun-Times",
+          "published": "2026-09-13",
+          "theme": "transit & infrastructure"
+        },
+        {
+          "title": "Family calls for CTA security upgrades after man was fatally thrown from moving CTA train",
+          "link": "https://chicago.suntimes.com/crime/2026/09/12/family-calls-for-cta-security-upgrades-after-man-was-fatally-thrown-from-moving-cta-train",
+          "outlet": "Chicago Sun-Times",
+          "published": "2026-09-12",
+          "theme": "transit & infrastructure"
+        }
+      ]
+    },
+    {
+      "name": "Ben Johnson",
+      "kind": "entity",
+      "total_mentions": 10,
+      "first_seen": "2026-09-08",
+      "last_seen": "2026-09-15",
+      "virality": {
+        "breadth_total_outlets": 2,
+        "breadth_peak_week_outlets": 2,
+        "peak_week": "2026-09-07",
+        "peak_week_mentions": 8,
+        "latest_week_mentions": 2,
+        "prior_weeks_avg_mentions": 8.0,
+        "trend": "fading"
+      },
+      "series": [
+        {
+          "week": "2026-09-07",
+          "mentions": 8,
           "outlets": 1,
           "regions": 1
         },
         {
           "week": "2026-09-14",
           "mentions": 2,
-          "outlets": 1,
+          "outlets": 2,
           "regions": 1
         }
       ],
@@ -3042,7 +3160,7 @@
           10
         ],
         [
-          "Caleb Williams",
+          "Carolina Panthers",
           2
         ],
         [
@@ -3054,34 +3172,14 @@
           1
         ],
         [
-          "Cairo Santos. Bears",
-          1
-        ],
-        [
-          "Four",
-          1
-        ],
-        [
-          "Grady Jarrett",
-          1
-        ],
-        [
-          "Halas Hall. The Bears",
-          1
-        ],
-        [
-          "Joe Thuney",
-          1
-        ],
-        [
-          "T.J. Edwards",
+          "Caleb Williams",
           1
         ]
       ],
       "co_themes": [
         [
           "arts culture & sports",
-          11
+          10
         ]
       ],
       "recent_articles": [
@@ -3093,9 +3191,9 @@
           "theme": "arts culture & sports"
         },
         {
-          "title": "Ben Johnson (59 points) 'didn't get into this profession trying to be mediocre'",
-          "link": "https://chicago.suntimes.com/bears/2026/09/14/bears-panthers-59-points-ben-johnson-mediocre-super-bowl-highest-scoring-nfl",
-          "outlet": "Chicago Sun-Times",
+          "title": "Ben Johnson Wants the Bears To Be the Top-Scoring Offense in NFL history. They\u2019re Off to a Good Start",
+          "link": "https://news.wttw.com/2026/09/13/ben-johnson-wants-bears-be-top-scoring-offense-nfl-history-they-re-good-start",
+          "outlet": "WTTW News",
           "published": "2026-09-14",
           "theme": "arts culture & sports"
         },
@@ -3126,136 +3224,6 @@
           "outlet": "Chicago Sun-Times",
           "published": "2026-09-13",
           "theme": "arts culture & sports"
-        }
-      ]
-    },
-    {
-      "name": "Chicago Transit Authority",
-      "kind": "entity",
-      "total_mentions": 10,
-      "first_seen": "2026-09-07",
-      "last_seen": "2026-09-14",
-      "virality": {
-        "breadth_total_outlets": 3,
-        "breadth_peak_week_outlets": 3,
-        "peak_week": "2026-09-07",
-        "peak_week_mentions": 8,
-        "latest_week_mentions": 2,
-        "prior_weeks_avg_mentions": 8.0,
-        "trend": "fading"
-      },
-      "series": [
-        {
-          "week": "2026-09-07",
-          "mentions": 8,
-          "outlets": 3,
-          "regions": 1
-        },
-        {
-          "week": "2026-09-14",
-          "mentions": 2,
-          "outlets": 2,
-          "regions": 1
-        }
-      ],
-      "co_entities": [
-        [
-          "Red Line",
-          2
-        ],
-        [
-          "Chicago Police Department",
-          2
-        ],
-        [
-          "Chicago",
-          2
-        ],
-        [
-          "Chicago Fire Department",
-          1
-        ],
-        [
-          "Greater Grand Crossing",
-          1
-        ],
-        [
-          "Northern Illinois Transit Authority",
-          1
-        ],
-        [
-          "Metra",
-          1
-        ],
-        [
-          "Pace",
-          1
-        ],
-        [
-          "Bronzeville",
-          1
-        ],
-        [
-          "Chinatown",
-          1
-        ]
-      ],
-      "co_themes": [
-        [
-          "transit & infrastructure",
-          7
-        ],
-        [
-          "public safety & crime",
-          2
-        ],
-        [
-          "other",
-          1
-        ]
-      ],
-      "recent_articles": [
-        {
-          "title": "This group is building benches at bus stops that don\u2019t have one. Will the city let them?",
-          "link": "https://www.wbez.org/transportation/2026/09/14/cta-bus-stop-bench-ukrainian-village",
-          "outlet": "WBEZ",
-          "published": "2026-09-14",
-          "theme": "transit & infrastructure"
-        },
-        {
-          "title": "Man grabbed woman, sexually abused her on CTA Blue Line in Wicker Park",
-          "link": "https://chicago.suntimes.com/crime/2026/09/14/man-grabbed-woman-sexually-abused-her-on-cta-blue-line-in-wicker-park",
-          "outlet": "Chicago Sun-Times",
-          "published": "2026-09-14",
-          "theme": "transit & infrastructure"
-        },
-        {
-          "title": "Kyle Bickham Died After He Was Pushed Off A Moving Red Line Train. His Family Wants Justice",
-          "link": "https://blockclubchicago.org/2026/09/13/kyle-bickham-died-last-week-after-he-was-pushed-off-a-moving-cta-train-his-family-wants-justice/",
-          "outlet": "Block Club Chicago",
-          "published": "2026-09-13",
-          "theme": "other"
-        },
-        {
-          "title": "1 Killed, 6 Wounded In Humboldt Park Mass Shooting Sunday, Police Say",
-          "link": "https://blockclubchicago.org/2026/09/13/1-killed-6-others-wounded-in-humboldt-park-mass-shooting-sunday-police-say/",
-          "outlet": "Block Club Chicago",
-          "published": "2026-09-13",
-          "theme": "public safety & crime"
-        },
-        {
-          "title": "15-year-old girl charged with murder after man shoved from moving Red Line train",
-          "link": "https://chicago.suntimes.com/crime/2026/09/13/15-year-old-girl-charged-murder-man-shoved-cta-red-line-train",
-          "outlet": "Chicago Sun-Times",
-          "published": "2026-09-13",
-          "theme": "transit & infrastructure"
-        },
-        {
-          "title": "Family calls for CTA security upgrades after man was fatally thrown from moving CTA train",
-          "link": "https://chicago.suntimes.com/crime/2026/09/12/family-calls-for-cta-security-upgrades-after-man-was-fatally-thrown-from-moving-cta-train",
-          "outlet": "Chicago Sun-Times",
-          "published": "2026-09-12",
-          "theme": "transit & infrastructure"
         }
       ]
     },
@@ -3297,45 +3265,29 @@
       "co_entities": [
         [
           "Chicago",
-          6
+          3
         ],
         [
-          "Midway Blitz",
-          2
-        ],
-        [
-          "Construction",
+          "Gregory Bovino",
           1
         ],
         [
-          "Keeping",
+          "Border Patrol",
           1
         ],
         [
-          "LeClaire Courts",
-          1
-        ],
-        [
-          "President Donald Trump's",
-          1
-        ],
-        [
-          "Look At The Photos",
-          1
-        ],
-        [
-          "Shook Chicago As",
-          1
-        ],
-        [
-          "Year Later",
+          "DJ Hiroko Yamamura",
           1
         ]
       ],
       "co_themes": [
         [
           "immigration & migrants",
-          9
+          8
+        ],
+        [
+          "courts & justice",
+          1
         ]
       ],
       "recent_articles": [
@@ -3347,15 +3299,15 @@
           "theme": "immigration & migrants"
         },
         {
-          "title": "How Operation Midway Blitz Shattered Dreams For Chicago Teens Planning Quincea\u00f1eras",
-          "link": "https://blockclubchicago.org/2026/09/11/how-operation-midway-blitz-shattered-dreams-for-chicago-teens-planning-quinceaneras/",
+          "title": "Midway Blitz, One Year Later: A Look At The Photos That Shook Chicago",
+          "link": "https://blockclubchicago.org/2026/09/09/one-year-after-midway-blitz-a-look-at-the-photos-that-shook-chicago/",
           "outlet": "Block Club Chicago",
-          "published": "2026-09-11",
+          "published": "2026-09-09",
           "theme": "immigration & migrants"
         },
         {
-          "title": "Midway Blitz, One Year Later: A Look At The Photos That Shook Chicago",
-          "link": "https://blockclubchicago.org/2026/09/09/one-year-after-midway-blitz-a-look-at-the-photos-that-shook-chicago/",
+          "title": "A Year After Operation Midway Blitz, Chicagoans Are Still Picking Up The Pieces",
+          "link": "https://blockclubchicago.org/2026/09/09/a-year-after-operation-midway-blitz-chicagoans-are-still-picking-up-the-pieces/",
           "outlet": "Block Club Chicago",
           "published": "2026-09-09",
           "theme": "immigration & migrants"
@@ -3368,9 +3320,9 @@
           "theme": "immigration & migrants"
         },
         {
-          "title": "Midway Blitz: One year later",
-          "link": "https://chicago.suntimes.com/morning-edition/2026/09/08/trump-administration-midway-blitz-labor-day-weekend",
-          "outlet": "Chicago Sun-Times",
+          "title": "The Rundown: A look back at Operation Midway Blitz",
+          "link": "https://www.wbez.org/wbez-newsletter/2026/09/08/the-rundown-a-look-back-at-operation-midway-blitz",
+          "outlet": "WBEZ",
           "published": "2026-09-08",
           "theme": "immigration & migrants"
         },
@@ -3384,251 +3336,159 @@
       ]
     },
     {
-      "name": "Chicago City Council",
+      "name": "Donald Trump",
       "kind": "entity",
       "total_mentions": 9,
-      "first_seen": "2026-09-09",
+      "first_seen": "2026-08-20",
       "last_seen": "2026-09-14",
       "virality": {
-        "breadth_total_outlets": 2,
-        "breadth_peak_week_outlets": 2,
+        "breadth_total_outlets": 5,
+        "breadth_peak_week_outlets": 3,
         "peak_week": "2026-09-07",
-        "peak_week_mentions": 8,
-        "latest_week_mentions": 1,
-        "prior_weeks_avg_mentions": 8.0,
-        "trend": "fading"
+        "peak_week_mentions": 5,
+        "latest_week_mentions": 2,
+        "prior_weeks_avg_mentions": 2.33,
+        "trend": "steady"
       },
       "series": [
         {
-          "week": "2026-09-07",
-          "mentions": 8,
-          "outlets": 2,
-          "regions": 1
-        },
-        {
-          "week": "2026-09-14",
+          "week": "2026-08-17",
           "mentions": 1,
           "outlets": 1,
           "regions": 1
-        }
-      ],
-      "co_entities": [
-        [
-          "Brandon Johnson",
-          5
-        ],
-        [
-          "Mike Rodriguez",
-          2
-        ],
-        [
-          "Bally's",
-          2
-        ],
-        [
-          "Matt O'Shea",
-          1
-        ],
-        [
-          "Mike Rodr\u00edguez",
-          1
-        ]
-      ],
-      "co_themes": [
-        [
-          "elections & politics",
-          7
-        ],
-        [
-          "city & state budget",
-          1
-        ],
-        [
-          "labor & economy",
-          1
-        ]
-      ],
-      "recent_articles": [
-        {
-          "title": "City Council committee backs raising threshold for taking on debt",
-          "link": "https://chicago.suntimes.com/city-hall/2026/09/14/city-council-finance-committee-borrowing-threshold-marty-quinn",
-          "outlet": "Chicago Sun-Times",
-          "published": "2026-09-14",
-          "theme": "elections & politics"
         },
-        {
-          "title": "Alcalde Johnson pierde aliado clave luego de que concejal Rodr\u00edguez no busca reelecci\u00f3n",
-          "link": "https://chicago.suntimes.com/la-voz/2026/09/10/alcalde-johnson-pierde-aliado-clave-luego-de-que-concejal-rodriguez-no-busca-reeleccion",
-          "outlet": "Chicago Sun-Times",
-          "published": "2026-09-10",
-          "theme": "labor & economy"
-        },
-        {
-          "title": "City Council Budget Chair on Pensions, Taxes and the Projected $882M Budget Gap",
-          "link": "https://news.wttw.com/2026/09/10/city-council-budget-chair-pensions-taxes-and-projected-882m-budget-gap",
-          "outlet": "WTTW News",
-          "published": "2026-09-10",
-          "theme": "city & state budget"
-        },
-        {
-          "title": "Southwest Side veteran Ald. Matt O'Shea will call it quits after four terms",
-          "link": "https://chicago.suntimes.com/elections/2026/09/10/southwest-side-ald-matt-oshea-stepping-down-city-council-election-2027",
-          "outlet": "Chicago Sun-Times",
-          "published": "2026-09-10",
-          "theme": "elections & politics"
-        },
-        {
-          "title": "With Ald. Rodriguez not seeking reelection, Johnson loses key City Council ally",
-          "link": "https://chicago.suntimes.com/fran-spielman-show/2026/09/09/ald-mike-rodriguez-22nd-ward-not-seeking-re-election-brandon-johnson-city-council-ally",
-          "outlet": "Chicago Sun-Times",
-          "published": "2026-09-09",
-          "theme": "elections & politics"
-        },
-        {
-          "title": "Bally's Council committee hearing turns into a political 'circus' with more questions than answers",
-          "link": "https://chicago.suntimes.com/city-hall/2026/09/09/ballys-permanent-casino-river-west-construction-slowdown-video-gambling-terminals-city-council-license-committee",
-          "outlet": "Chicago Sun-Times",
-          "published": "2026-09-09",
-          "theme": "elections & politics"
-        }
-      ]
-    },
-    {
-      "name": "Chicago Sky",
-      "kind": "entity",
-      "total_mentions": 8,
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-09-14",
-      "virality": {
-        "breadth_total_outlets": 2,
-        "breadth_peak_week_outlets": 2,
-        "peak_week": "2026-08-31",
-        "peak_week_mentions": 4,
-        "latest_week_mentions": 1,
-        "prior_weeks_avg_mentions": 3.5,
-        "trend": "fading"
-      },
-      "series": [
         {
           "week": "2026-08-31",
-          "mentions": 4,
-          "outlets": 2,
+          "mentions": 1,
+          "outlets": 1,
           "regions": 1
         },
         {
           "week": "2026-09-07",
-          "mentions": 3,
-          "outlets": 1,
+          "mentions": 5,
+          "outlets": 3,
           "regions": 1
         },
         {
           "week": "2026-09-14",
-          "mentions": 1,
-          "outlets": 1,
-          "regions": 1
+          "mentions": 2,
+          "outlets": 2,
+          "regions": 2
         }
       ],
       "co_entities": [
         [
-          "Enes Kanter Freedom",
-          2
-        ],
-        [
-          "Gabriela Jaquez",
-          1
-        ],
-        [
-          "Natasha Cloud",
-          1
-        ],
-        [
-          "Cathy Engelbert",
-          1
-        ],
-        [
-          "Michael Alter",
-          1
-        ]
-      ],
-      "co_themes": [
-        [
-          "courts & justice",
+          "Chicago",
           3
         ],
         [
-          "arts culture & sports",
+          "Betrayal",
+          1
+        ],
+        [
+          "Borderless Magazine President Donald",
+          1
+        ],
+        [
+          "Ecuador",
+          1
+        ],
+        [
+          "Fled Violence",
+          1
+        ],
+        [
+          "Followed U.S. Asylum Rules",
+          1
+        ],
+        [
+          "Medill",
+          1
+        ],
+        [
+          "R. Taylor Robinson",
+          1
+        ],
+        [
+          "Seems Like",
+          1
+        ],
+        [
+          "Still Faced Deportation",
+          1
+        ]
+      ],
+      "co_themes": [
+        [
+          "immigration & migrants",
+          5
+        ],
+        [
+          "other",
           2
         ],
         [
-          "transit & infrastructure",
-          1
-        ],
-        [
-          "education & schools",
-          1
-        ],
-        [
           "elections & politics",
-          1
+          2
         ]
       ],
       "recent_articles": [
         {
-          "title": "Three things still at stake when the Sky return from the FIBA World Cup break",
-          "link": "https://chicago.suntimes.com/chicago-sky/2026/09/14/three-things-still-at-stake-when-the-sky-return-from-the-fiba-break",
+          "title": "President Trump endorses Darren Bailey in Illinois governor race \u2014 \u2018Pritzker\u2019s a disaster\u2019",
+          "link": "https://chicago.suntimes.com/elections/2026/09/14/trump-endorses-bailey-pritzker-illinois-governor-race",
           "outlet": "Chicago Sun-Times",
           "published": "2026-09-14",
-          "theme": "arts culture & sports"
+          "theme": "elections & politics"
         },
         {
-          "title": "Sky owner Michael Alter should reconsider one-man band approach to front office",
-          "link": "https://chicago.suntimes.com/chicago-sky/2026/09/11/sky-owner-michael-alter-should-reconsider-one-man-band-approach-to-front-office",
-          "outlet": "Chicago Sun-Times",
-          "published": "2026-09-11",
-          "theme": "arts culture & sports"
+          "title": "Trump: \u2018I\u2019m all for Bailey\u2019",
+          "link": "https://capitolnewsillinois.com/news/trump-im-all-for-bailey/",
+          "outlet": "Capitol News Illinois",
+          "published": "2026-09-14",
+          "theme": "other"
         },
         {
-          "title": "Sky\u2019s Natasha Cloud knows what she wants in the next WNBA commissioner",
-          "link": "https://chicago.suntimes.com/chicago-sky/2026/09/10/skys-natasha-cloud-knows-what-she-wants-in-the-next-wnba-commissioner",
-          "outlet": "Chicago Sun-Times",
+          "title": "Trump, Hoping to Salvage Midterms, Makes Dubious Pledge to Give Every US Adult $5,000 If GOP Wins",
+          "link": "https://news.wttw.com/2026/09/10/trump-hoping-salvage-midterms-makes-dubious-pledge-give-every-us-adult-5000-if-gop-wins",
+          "outlet": "WTTW News",
           "published": "2026-09-10",
           "theme": "elections & politics"
         },
         {
-          "title": "Sky\u2019s Kate Martin is still figuring out who she is as a player",
-          "link": "https://chicago.suntimes.com/chicago-sky/2026/09/09/skys-kate-martin-is-still-figuring-out-who-she-is-as-a-player",
+          "title": "Trump makes 9/11 about himself with lies",
+          "link": "https://chicago.suntimes.com/columnists/2026/09/10/trump-9-11-s-e-cupp",
           "outlet": "Chicago Sun-Times",
-          "published": "2026-09-09",
-          "theme": "education & schools"
+          "published": "2026-09-10",
+          "theme": "other"
         },
         {
-          "title": "Enes Kanter Freedom responds to stadium ban by suing the Sky",
-          "link": "https://chicago.suntimes.com/chicago-sky/2026/09/04/enes-kanter-freedom-is-suing-the-sky",
+          "title": "Midway Blitz: One year later",
+          "link": "https://chicago.suntimes.com/morning-edition/2026/09/08/trump-administration-midway-blitz-labor-day-weekend",
           "outlet": "Chicago Sun-Times",
-          "published": "2026-09-04",
-          "theme": "courts & justice"
+          "published": "2026-09-08",
+          "theme": "immigration & migrants"
         },
         {
-          "title": "Chicago Sky Owner Calls Enes Kanter Freedom Lawsuit \u2018Meritless and Frivolous\u2019",
-          "link": "https://news.wttw.com/2026/09/04/sky-owner-michael-alter-calls-enes-kanter-freedom-lawsuit-meritless-and-frivolous",
-          "outlet": "WTTW News",
-          "published": "2026-09-04",
-          "theme": "courts & justice"
+          "title": "A look back at how Operation Midway Blitz played out",
+          "link": "https://www.wbez.org/bearing-the-blitz/2026/09/08/a-look-back-at-how-operation-midway-blitz-played-out",
+          "outlet": "WBEZ",
+          "published": "2026-09-08",
+          "theme": "immigration & migrants"
         }
       ]
     },
     {
       "name": "Springfield",
       "kind": "entity",
-      "total_mentions": 8,
+      "total_mentions": 9,
       "first_seen": "2026-09-03",
       "last_seen": "2026-09-10",
       "virality": {
         "breadth_total_outlets": 2,
         "breadth_peak_week_outlets": 2,
         "peak_week": "2026-09-07",
-        "peak_week_mentions": 5,
-        "latest_week_mentions": 5,
+        "peak_week_mentions": 6,
+        "latest_week_mentions": 6,
         "prior_weeks_avg_mentions": 3.0,
         "trend": "rising"
       },
@@ -3641,7 +3501,7 @@
         },
         {
           "week": "2026-09-07",
-          "mentions": 5,
+          "mentions": 6,
           "outlets": 2,
           "regions": 2
         }
@@ -3649,6 +3509,14 @@
       "co_entities": [
         [
           "Abraham Lincoln",
+          1
+        ],
+        [
+          "Lutheran High School",
+          1
+        ],
+        [
+          "St. John's Lutheran Church",
           1
         ],
         [
@@ -3679,7 +3547,7 @@
         ],
         [
           "elections & politics",
-          1
+          2
         ],
         [
           "environment & energy",
@@ -3728,269 +3596,25 @@
           "theme": "arts culture & sports"
         },
         {
+          "title": "Lutheran High receives $6 million gift",
+          "link": "https://www.illinoistimes.com/news/lutheran-high-receives-6-million-gift/",
+          "outlet": "Illinois Times",
+          "published": "2026-09-07",
+          "theme": "elections & politics"
+        },
+        {
           "title": "Lincoln's blood-stained gloves from his assassination resurface in California museum",
           "link": "https://chicago.suntimes.com/illinois/2026/09/07/abraham-lincoln-bloodstained-gloves-assassination-california-museum",
           "outlet": "Chicago Sun-Times",
           "published": "2026-09-07",
           "theme": "other"
-        },
-        {
-          "title": "Derailed but not deterred",
-          "link": "https://www.illinoistimes.com/news/derailed-but-not-deterred/",
-          "outlet": "Illinois Times",
-          "published": "2026-09-04",
-          "theme": "environment & energy"
-        }
-      ]
-    },
-    {
-      "name": "Trump administration",
-      "kind": "entity",
-      "total_mentions": 7,
-      "first_seen": "2026-08-29",
-      "last_seen": "2026-09-14",
-      "virality": {
-        "breadth_total_outlets": 4,
-        "breadth_peak_week_outlets": 2,
-        "peak_week": "2026-08-31",
-        "peak_week_mentions": 3,
-        "latest_week_mentions": 2,
-        "prior_weeks_avg_mentions": 1.67,
-        "trend": "steady"
-      },
-      "series": [
-        {
-          "week": "2026-08-24",
-          "mentions": 1,
-          "outlets": 1,
-          "regions": 1
-        },
-        {
-          "week": "2026-08-31",
-          "mentions": 3,
-          "outlets": 1,
-          "regions": 1
-        },
-        {
-          "week": "2026-09-07",
-          "mentions": 1,
-          "outlets": 1,
-          "regions": 1
-        },
-        {
-          "week": "2026-09-14",
-          "mentions": 2,
-          "outlets": 2,
-          "regions": 2
-        }
-      ],
-      "co_entities": [
-        [
-          "Illinois",
-          2
-        ],
-        [
-          "Shawnee Forest",
-          2
-        ],
-        [
-          "Chicago Public Schools",
-          1
-        ],
-        [
-          "Supreme Court",
-          1
-        ]
-      ],
-      "co_themes": [
-        [
-          "health & public health",
-          2
-        ],
-        [
-          "other",
-          2
-        ],
-        [
-          "education & schools",
-          1
-        ],
-        [
-          "elections & politics",
-          1
-        ],
-        [
-          "city & state budget",
-          1
-        ]
-      ],
-      "recent_articles": [
-        {
-          "title": "\u2018Looking at the Forest as a Crop\u2019: Trump\u2019s Logging Rule Would Expose Shawnee Forest",
-          "link": "https://news.wttw.com/2026/09/14/looking-forest-crop-trump-s-logging-rule-would-expose-shawnee-forest",
-          "outlet": "WTTW News",
-          "published": "2026-09-14",
-          "theme": "other"
-        },
-        {
-          "title": "\u2018Looking at the forest as a crop\u2019: Trump admin\u2019s logging rule would expose Shawnee Forest",
-          "link": "https://capitolnewsillinois.com/news/looking-at-the-forest-as-a-crop-trump-admins-logging-rule-would-expose-shawnee-forest/",
-          "outlet": "Capitol News Illinois",
-          "published": "2026-09-14",
-          "theme": "other"
-        },
-        {
-          "title": "Illinois officials press Trump administration to restore crisis lifeline for LGBTQ+ youth",
-          "link": "https://chicago.suntimes.com/news/2026/09/10/illinois-officials-put-pressure-on-trump-administration-to-restore-crisis-lifeline-for-lgbtq-youth",
-          "outlet": "Chicago Sun-Times",
-          "published": "2026-09-10",
-          "theme": "health & public health"
-        },
-        {
-          "title": "Illinois joins lawsuit against latest Trump admin push to cut funding for youth gender-affirming care",
-          "link": "https://chicago.suntimes.com/health/2026/09/04/illinois-joins-lawsuit-against-second-trump-admin-push-to-cut-federal-funding-for-youth-gender-affirming-care",
-          "outlet": "Chicago Sun-Times",
-          "published": "2026-09-04",
-          "theme": "health & public health"
-        },
-        {
-          "title": "Trump administration pushes to remove tax exemption for private colleges with DEI policies",
-          "link": "https://chicago.suntimes.com/2026/09/03/trump-administration-pushes-to-remove-tax-exemption-for-private-colleges-with-dei-policies",
-          "outlet": "Chicago Sun-Times",
-          "published": "2026-09-03",
-          "theme": "city & state budget"
-        },
-        {
-          "title": "Trump again appeals to Supreme Court on mail-voting restrictions as midterm elections loom",
-          "link": "https://chicago.suntimes.com/elections/2026/09/03/donald-trump-appeal-supreme-court-mail-voting-restrictions-midterm-elections",
-          "outlet": "Chicago Sun-Times",
-          "published": "2026-09-03",
-          "theme": "elections & politics"
-        }
-      ]
-    },
-    {
-      "name": "Englewood",
-      "kind": "entity",
-      "total_mentions": 7,
-      "first_seen": "2026-09-03",
-      "last_seen": "2026-09-10",
-      "virality": {
-        "breadth_total_outlets": 3,
-        "breadth_peak_week_outlets": 3,
-        "peak_week": "2026-09-07",
-        "peak_week_mentions": 4,
-        "latest_week_mentions": 4,
-        "prior_weeks_avg_mentions": 3.0,
-        "trend": "steady"
-      },
-      "series": [
-        {
-          "week": "2026-08-31",
-          "mentions": 3,
-          "outlets": 1,
-          "regions": 1
-        },
-        {
-          "week": "2026-09-07",
-          "mentions": 4,
-          "outlets": 3,
-          "regions": 1
-        }
-      ],
-      "co_entities": [
-        [
-          "St. Bernard Hospital",
-          1
-        ],
-        [
-          "Chicago Police",
-          1
-        ],
-        [
-          "Carlita Jenkins",
-          1
-        ],
-        [
-          "Chicago Police Department",
-          1
-        ],
-        [
-          "Englewood Music Festival",
-          1
-        ],
-        [
-          "79th Street Renaissance Festival",
-          1
-        ],
-        [
-          "Auburn Gresham",
-          1
-        ]
-      ],
-      "co_themes": [
-        [
-          "public safety & crime",
-          5
-        ],
-        [
-          "courts & justice",
-          1
-        ],
-        [
-          "arts culture & sports",
-          1
-        ]
-      ],
-      "recent_articles": [
-        {
-          "title": "2 South Side Music Festivals Return To Englewood, Auburn Gresham Saturday",
-          "link": "https://blockclubchicago.org/2026/09/10/2-south-side-music-festivals-return-to-englewood-auburn-gresham-saturday/",
-          "outlet": "Block Club Chicago",
-          "published": "2026-09-10",
-          "theme": "arts culture & sports"
-        },
-        {
-          "title": "In Englewood, a new sculpture park blooms with murals, vivid color and hope for 'good things'",
-          "link": "https://www.wbez.org/arts-culture/2026/09/10/englewood-arts-collective-sculpture-park-music-fest-community-space-vacant-lot-chicago",
-          "outlet": "WBEZ",
-          "published": "2026-09-10",
-          "theme": "courts & justice"
-        },
-        {
-          "title": "2 men shot to death in Englewood home; 1 in custody",
-          "link": "https://chicago.suntimes.com/crime/2026/09/08/2-men-shot-to-death-in-englewood-home-1-in-custody",
-          "outlet": "Chicago Sun-Times",
-          "published": "2026-09-08",
-          "theme": "public safety & crime"
-        },
-        {
-          "title": "Woman charged with fatally shooting another woman in Englewood",
-          "link": "https://chicago.suntimes.com/news/2026/09/07/woman-charged-fatal-englewood-shooting",
-          "outlet": "Chicago Sun-Times",
-          "published": "2026-09-07",
-          "theme": "public safety & crime"
-        },
-        {
-          "title": "Woman fatally shot in Englewood",
-          "link": "https://chicago.suntimes.com/crime/2026/09/04/woman-gunned-down-while-walking-in-englewood",
-          "outlet": "Chicago Sun-Times",
-          "published": "2026-09-04",
-          "theme": "public safety & crime"
-        },
-        {
-          "title": "Woman gunned down while walking in Englewood",
-          "link": "https://chicago.suntimes.com/crime/2026/09/04/woman-gunned-down-while-walking-in-englewood",
-          "outlet": "Chicago Sun-Times",
-          "published": "2026-09-04",
-          "theme": "public safety & crime"
         }
       ]
     },
     {
       "name": "South Shore",
       "kind": "entity",
-      "total_mentions": 7,
+      "total_mentions": 8,
       "first_seen": "2026-09-04",
       "last_seen": "2026-09-14",
       "virality": {
@@ -3999,13 +3623,13 @@
         "peak_week": "2026-09-07",
         "peak_week_mentions": 4,
         "latest_week_mentions": 1,
-        "prior_weeks_avg_mentions": 3.0,
+        "prior_weeks_avg_mentions": 3.5,
         "trend": "fading"
       },
       "series": [
         {
           "week": "2026-08-31",
-          "mentions": 2,
+          "mentions": 3,
           "outlets": 1,
           "regions": 1
         },
@@ -4029,10 +3653,6 @@
         ],
         [
           "Cecelia Morrison Payne",
-          1
-        ],
-        [
-          "71st Street",
           1
         ],
         [
@@ -4062,12 +3682,16 @@
         [
           "Please",
           1
+        ],
+        [
+          "Prosser",
+          1
         ]
       ],
       "co_themes": [
         [
           "public safety & crime",
-          4
+          5
         ],
         [
           "housing & development",
@@ -4115,159 +3739,249 @@
           "theme": "public safety & crime"
         },
         {
-          "title": "37-year-old man fatally shot in South Shore area",
-          "link": "https://chicago.suntimes.com/crime/2026/09/03/37-year-old-man-fatally-shot-in-south-shore-area",
+          "title": "Boy, 15, found with gunshot wounds in South Shore",
+          "link": "https://chicago.suntimes.com/2026/09/05/boy-15-found-with-gunshot-wounds-in-south-shore",
           "outlet": "Chicago Sun-Times",
-          "published": "2026-09-04",
+          "published": "2026-09-06",
           "theme": "public safety & crime"
         }
       ]
     },
     {
-      "name": "Donald Trump",
+      "name": "Chicago Sky",
       "kind": "entity",
-      "total_mentions": 7,
-      "first_seen": "2026-08-20",
+      "total_mentions": 8,
+      "first_seen": "2026-09-03",
       "last_seen": "2026-09-14",
       "virality": {
-        "breadth_total_outlets": 5,
-        "breadth_peak_week_outlets": 3,
-        "peak_week": "2026-09-07",
+        "breadth_total_outlets": 2,
+        "breadth_peak_week_outlets": 2,
+        "peak_week": "2026-08-31",
         "peak_week_mentions": 4,
-        "latest_week_mentions": 2,
-        "prior_weeks_avg_mentions": 2.5,
-        "trend": "steady"
+        "latest_week_mentions": 1,
+        "prior_weeks_avg_mentions": 3.5,
+        "trend": "fading"
       },
       "series": [
         {
-          "week": "2026-08-17",
-          "mentions": 1,
-          "outlets": 1,
+          "week": "2026-08-31",
+          "mentions": 4,
+          "outlets": 2,
           "regions": 1
         },
         {
           "week": "2026-09-07",
-          "mentions": 4,
-          "outlets": 3,
+          "mentions": 3,
+          "outlets": 1,
           "regions": 1
         },
         {
           "week": "2026-09-14",
-          "mentions": 2,
-          "outlets": 2,
-          "regions": 2
+          "mentions": 1,
+          "outlets": 1,
+          "regions": 1
         }
       ],
       "co_entities": [
         [
-          "Betrayal",
+          "Gabriela Jaquez",
           1
         ],
         [
-          "Borderless Magazine President Donald",
+          "Enes Kanter Freedom",
           1
         ],
         [
-          "Ecuador",
+          "Natasha Cloud",
           1
         ],
         [
-          "Fled Violence",
+          "Cathy Engelbert",
           1
         ],
         [
-          "Followed U.S. Asylum Rules",
-          1
-        ],
-        [
-          "Medill",
-          1
-        ],
-        [
-          "R. Taylor Robinson",
-          1
-        ],
-        [
-          "Seems Like",
-          1
-        ],
-        [
-          "Still Faced Deportation",
-          1
-        ],
-        [
-          "Uganda",
+          "Michael Alter",
           1
         ]
       ],
       "co_themes": [
         [
-          "immigration & migrants",
+          "courts & justice",
           3
         ],
         [
-          "other",
+          "transit & infrastructure",
           2
         ],
         [
-          "elections & politics",
+          "arts culture & sports",
           2
+        ],
+        [
+          "education & schools",
+          1
         ]
       ],
       "recent_articles": [
         {
-          "title": "President Trump endorses Darren Bailey in Illinois governor race \u2014 \u2018Pritzker\u2019s a disaster\u2019",
-          "link": "https://chicago.suntimes.com/elections/2026/09/14/trump-endorses-bailey-pritzker-illinois-governor-race",
+          "title": "Three things still at stake when the Sky return from the FIBA World Cup break",
+          "link": "https://chicago.suntimes.com/chicago-sky/2026/09/14/three-things-still-at-stake-when-the-sky-return-from-the-fiba-break",
           "outlet": "Chicago Sun-Times",
           "published": "2026-09-14",
-          "theme": "elections & politics"
+          "theme": "arts culture & sports"
         },
         {
-          "title": "Trump: \u2018I\u2019m all for Bailey\u2019",
-          "link": "https://capitolnewsillinois.com/news/trump-im-all-for-bailey/",
-          "outlet": "Capitol News Illinois",
-          "published": "2026-09-14",
-          "theme": "other"
+          "title": "Sky owner Michael Alter should reconsider one-man band approach to front office",
+          "link": "https://chicago.suntimes.com/chicago-sky/2026/09/11/sky-owner-michael-alter-should-reconsider-one-man-band-approach-to-front-office",
+          "outlet": "Chicago Sun-Times",
+          "published": "2026-09-11",
+          "theme": "arts culture & sports"
         },
         {
-          "title": "Trump, Hoping to Salvage Midterms, Makes Dubious Pledge to Give Every US Adult $5,000 If GOP Wins",
-          "link": "https://news.wttw.com/2026/09/10/trump-hoping-salvage-midterms-makes-dubious-pledge-give-every-us-adult-5000-if-gop-wins",
+          "title": "Sky\u2019s Natasha Cloud knows what she wants in the next WNBA commissioner",
+          "link": "https://chicago.suntimes.com/chicago-sky/2026/09/10/skys-natasha-cloud-knows-what-she-wants-in-the-next-wnba-commissioner",
+          "outlet": "Chicago Sun-Times",
+          "published": "2026-09-10",
+          "theme": "transit & infrastructure"
+        },
+        {
+          "title": "Sky\u2019s Kate Martin is still figuring out who she is as a player",
+          "link": "https://chicago.suntimes.com/chicago-sky/2026/09/09/skys-kate-martin-is-still-figuring-out-who-she-is-as-a-player",
+          "outlet": "Chicago Sun-Times",
+          "published": "2026-09-09",
+          "theme": "education & schools"
+        },
+        {
+          "title": "Enes Kanter Freedom responds to stadium ban by suing the Sky",
+          "link": "https://chicago.suntimes.com/chicago-sky/2026/09/04/enes-kanter-freedom-is-suing-the-sky",
+          "outlet": "Chicago Sun-Times",
+          "published": "2026-09-04",
+          "theme": "courts & justice"
+        },
+        {
+          "title": "Chicago Sky Owner Calls Enes Kanter Freedom Lawsuit \u2018Meritless and Frivolous\u2019",
+          "link": "https://news.wttw.com/2026/09/04/sky-owner-michael-alter-calls-enes-kanter-freedom-lawsuit-meritless-and-frivolous",
           "outlet": "WTTW News",
-          "published": "2026-09-10",
-          "theme": "elections & politics"
-        },
-        {
-          "title": "Trump makes 9/11 about himself with lies",
-          "link": "https://chicago.suntimes.com/columnists/2026/09/10/trump-9-11-s-e-cupp",
-          "outlet": "Chicago Sun-Times",
-          "published": "2026-09-10",
-          "theme": "other"
-        },
-        {
-          "title": "A look back at how Operation Midway Blitz played out",
-          "link": "https://www.wbez.org/bearing-the-blitz/2026/09/08/a-look-back-at-how-operation-midway-blitz-played-out",
-          "outlet": "WBEZ",
-          "published": "2026-09-08",
-          "theme": "immigration & migrants"
-        },
-        {
-          "title": "Photos: What Operation Midway Blitz left behind",
-          "link": "https://www.wbez.org/bearing-the-blitz/2026/09/08/photos-what-operation-midway-blitz-left-behind",
-          "outlet": "WBEZ",
-          "published": "2026-09-08",
-          "theme": "immigration & migrants"
+          "published": "2026-09-04",
+          "theme": "courts & justice"
         }
       ]
     },
     {
-      "name": "Milwaukee Brewers",
+      "name": "Chicago City Council",
+      "kind": "entity",
+      "total_mentions": 8,
+      "first_seen": "2026-09-09",
+      "last_seen": "2026-09-14",
+      "virality": {
+        "breadth_total_outlets": 2,
+        "breadth_peak_week_outlets": 2,
+        "peak_week": "2026-09-07",
+        "peak_week_mentions": 7,
+        "latest_week_mentions": 1,
+        "prior_weeks_avg_mentions": 7.0,
+        "trend": "fading"
+      },
+      "series": [
+        {
+          "week": "2026-09-07",
+          "mentions": 7,
+          "outlets": 2,
+          "regions": 1
+        },
+        {
+          "week": "2026-09-14",
+          "mentions": 1,
+          "outlets": 1,
+          "regions": 1
+        }
+      ],
+      "co_entities": [
+        [
+          "Brandon Johnson",
+          4
+        ],
+        [
+          "Bally's",
+          2
+        ],
+        [
+          "Mike Rodriguez",
+          1
+        ],
+        [
+          "Matt O'Shea",
+          1
+        ],
+        [
+          "Mike Rodr\u00edguez",
+          1
+        ]
+      ],
+      "co_themes": [
+        [
+          "elections & politics",
+          7
+        ],
+        [
+          "city & state budget",
+          1
+        ]
+      ],
+      "recent_articles": [
+        {
+          "title": "City Council committee backs raising threshold for taking on debt",
+          "link": "https://chicago.suntimes.com/city-hall/2026/09/14/city-council-finance-committee-borrowing-threshold-marty-quinn",
+          "outlet": "Chicago Sun-Times",
+          "published": "2026-09-14",
+          "theme": "elections & politics"
+        },
+        {
+          "title": "Alcalde Johnson pierde aliado clave luego de que concejal Rodr\u00edguez no busca reelecci\u00f3n",
+          "link": "https://chicago.suntimes.com/la-voz/2026/09/10/alcalde-johnson-pierde-aliado-clave-luego-de-que-concejal-rodriguez-no-busca-reeleccion",
+          "outlet": "Chicago Sun-Times",
+          "published": "2026-09-10",
+          "theme": "elections & politics"
+        },
+        {
+          "title": "City Council Budget Chair on Pensions, Taxes and the Projected $882M Budget Gap",
+          "link": "https://news.wttw.com/2026/09/10/city-council-budget-chair-pensions-taxes-and-projected-882m-budget-gap",
+          "outlet": "WTTW News",
+          "published": "2026-09-10",
+          "theme": "city & state budget"
+        },
+        {
+          "title": "Southwest Side veteran Ald. Matt O'Shea will call it quits after four terms",
+          "link": "https://chicago.suntimes.com/elections/2026/09/10/southwest-side-ald-matt-oshea-stepping-down-city-council-election-2027",
+          "outlet": "Chicago Sun-Times",
+          "published": "2026-09-10",
+          "theme": "elections & politics"
+        },
+        {
+          "title": "With Ald. Rodriguez not seeking reelection, Johnson loses key City Council ally",
+          "link": "https://chicago.suntimes.com/fran-spielman-show/2026/09/09/ald-mike-rodriguez-22nd-ward-not-seeking-re-election-brandon-johnson-city-council-ally",
+          "outlet": "Chicago Sun-Times",
+          "published": "2026-09-09",
+          "theme": "elections & politics"
+        },
+        {
+          "title": "Bally's Council committee hearing turns into a political 'circus' with more questions than answers",
+          "link": "https://chicago.suntimes.com/city-hall/2026/09/09/ballys-permanent-casino-river-west-construction-slowdown-video-gambling-terminals-city-council-license-committee",
+          "outlet": "Chicago Sun-Times",
+          "published": "2026-09-09",
+          "theme": "elections & politics"
+        }
+      ]
+    },
+    {
+      "name": "Labor Day",
       "kind": "entity",
       "total_mentions": 7,
-      "first_seen": "2026-09-05",
+      "first_seen": "2026-08-31",
       "last_seen": "2026-09-10",
       "virality": {
-        "breadth_total_outlets": 1,
-        "breadth_peak_week_outlets": 1,
+        "breadth_total_outlets": 3,
+        "breadth_peak_week_outlets": 2,
         "peak_week": "2026-09-07",
         "peak_week_mentions": 4,
         "latest_week_mentions": 4,
@@ -4278,38 +3992,216 @@
         {
           "week": "2026-08-31",
           "mentions": 3,
-          "outlets": 1,
+          "outlets": 2,
           "regions": 1
         },
         {
           "week": "2026-09-07",
           "mentions": 4,
+          "outlets": 2,
+          "regions": 2
+        }
+      ],
+      "co_entities": [
+        [
+          "Temperatures",
+          1
+        ],
+        [
+          "Aviation. That's",
+          1
+        ],
+        [
+          "Department",
+          1
+        ],
+        [
+          "Here's",
+          1
+        ],
+        [
+          "Midway",
+          1
+        ],
+        [
+          "O'Hare",
+          1
+        ],
+        [
+          "Travelers",
+          1
+        ],
+        [
+          "Can",
+          1
+        ],
+        [
+          "Celebrate",
+          1
+        ],
+        [
+          "English",
+          1
+        ]
+      ],
+      "co_themes": [
+        [
+          "labor & economy",
+          5
+        ],
+        [
+          "elections & politics",
+          1
+        ],
+        [
+          "arts culture & sports",
+          1
+        ]
+      ],
+      "recent_articles": [
+        {
+          "title": "September music rises",
+          "link": "https://www.illinoistimes.com/music/now-playing/september-music-rises/",
+          "outlet": "Illinois Times",
+          "published": "2026-09-10",
+          "theme": "arts culture & sports"
+        },
+        {
+          "title": "Fuel prices at record Labor Day high in US thanks to Iran War and refinery issues",
+          "link": "https://chicago.suntimes.com/nation-world/2026/09/07/fuel-price-labor-day",
+          "outlet": "Chicago Sun-Times",
+          "published": "2026-09-07",
+          "theme": "labor & economy"
+        },
+        {
+          "title": "Weariness, wariness likely to follow blue-collar union voters to the polls",
+          "link": "https://chicago.suntimes.com/other-views/2026/09/07/blue-collar-voters-unions-november-polls-trump-labor-day-robert-forrant",
+          "outlet": "Chicago Sun-Times",
+          "published": "2026-09-07",
+          "theme": "elections & politics"
+        },
+        {
+          "title": "Lincoln's bloody gloves resurface",
+          "link": "https://chicago.suntimes.com/morning-edition/2026/09/07/labor-day-abraham-lincoln-white-sox-midway-blitz",
+          "outlet": "Chicago Sun-Times",
+          "published": "2026-09-07",
+          "theme": "labor & economy"
+        },
+        {
+          "title": "Celebrate jobs \u2014 while we still have them \u2014 on Labor Day",
+          "link": "https://chicago.suntimes.com/columnists/2026/09/03/artificial-intelligence-workplace-jobs-labor-day",
+          "outlet": "Chicago Sun-Times",
+          "published": "2026-09-03",
+          "theme": "labor & economy"
+        },
+        {
+          "title": "Here's what to expect while traveling over Labor Day weekend",
+          "link": "https://chicago.suntimes.com/transportation/2026/09/03/labor-day-weekend-travel",
+          "outlet": "Chicago Sun-Times",
+          "published": "2026-09-03",
+          "theme": "labor & economy"
+        }
+      ]
+    },
+    {
+      "name": "Bridgeport",
+      "kind": "entity",
+      "total_mentions": 7,
+      "first_seen": "2026-08-27",
+      "last_seen": "2026-09-15",
+      "virality": {
+        "breadth_total_outlets": 4,
+        "breadth_peak_week_outlets": 2,
+        "peak_week": "2026-08-31",
+        "peak_week_mentions": 2,
+        "latest_week_mentions": 2,
+        "prior_weeks_avg_mentions": 1.67,
+        "trend": "steady"
+      },
+      "series": [
+        {
+          "week": "2026-08-24",
+          "mentions": 1,
+          "outlets": 1,
+          "regions": 1
+        },
+        {
+          "week": "2026-08-31",
+          "mentions": 2,
+          "outlets": 1,
+          "regions": 1
+        },
+        {
+          "week": "2026-09-07",
+          "mentions": 2,
+          "outlets": 2,
+          "regions": 1
+        },
+        {
+          "week": "2026-09-14",
+          "mentions": 2,
           "outlets": 1,
           "regions": 1
         }
       ],
       "co_entities": [
         [
-          "Chicago Cubs",
-          6
+          "Amtrak",
+          3
         ],
         [
-          "Craig Counsell",
+          "Chicago White Sox",
+          3
+        ],
+        [
+          "South Loop",
           2
         ],
         [
-          "Colin Rea",
+          "Co-Prosperity",
           1
         ],
         [
-          "Pat Murphy",
+          "Community Kitchen Dinners",
+          1
+        ],
+        [
+          "Recipes for Survivance",
+          1
+        ],
+        [
+          "Chinatown",
+          1
+        ],
+        [
+          "Rate Field",
+          1
+        ],
+        [
+          "Steven Dixon Jr.",
+          1
+        ],
+        [
+          "Chicago Public Schools",
           1
         ]
       ],
       "co_themes": [
         [
           "arts culture & sports",
-          6
+          2
+        ],
+        [
+          "education & schools",
+          2
+        ],
+        [
+          "environment & energy",
+          1
+        ],
+        [
+          "housing & development",
+          1
         ],
         [
           "other",
@@ -4318,134 +4210,46 @@
       ],
       "recent_articles": [
         {
-          "title": "After Brewers sweep, Cubs fighting for playoff spot as wild-card standings tighten, series losses keep coming",
-          "link": "https://chicago.suntimes.com/cubs/2026/09/10/cubs-brewers-nl-central-standings-nl-wild-card-standings-phillies-diamondbacks-padres-playoffs-postseason-kevin-gausman-craig-counsell-ian-happ",
+          "title": "No injuries after 12-year-old fires gun left unattended on school bus in Bridgeport",
+          "link": "https://chicago.suntimes.com/crime/2026/09/14/boy-gun-school-bus-bridgeport",
           "outlet": "Chicago Sun-Times",
-          "published": "2026-09-10",
-          "theme": "arts culture & sports"
+          "published": "2026-09-15",
+          "theme": "education & schools"
         },
         {
-          "title": "Kevin Gausman allows three homers, but a lot goes wrong for Cubs as Brewers sweep cements Central control",
-          "link": "https://chicago.suntimes.com/cubs/2026/09/09/cubs-kevin-gausman-trade-deadline-jed-hoyer-brewers-starting-rotation-playoff-starter-clay-holmes-ian-happ-phil-maton",
+          "title": "Chicago man charged after boy fires gun on school bus in Bridgeport",
+          "link": "https://chicago.suntimes.com/crime/2026/09/15/chicago-man-charged-after-boy-fires-gun-on-school-bus-in-bridgeport",
           "outlet": "Chicago Sun-Times",
-          "published": "2026-09-10",
-          "theme": "arts culture & sports"
+          "published": "2026-09-15",
+          "theme": "education & schools"
         },
         {
-          "title": "Jacob Webb blows another save before Brewers walk-off Cubs in 10 innings",
-          "link": "https://chicago.suntimes.com/cubs/2026/09/08/jacob-webb-blows-save-chicago-cubs-milwaukee-brewers-craig-counsell-caleb-thielbar-matt-shaw-nico-hoerner-jackson-chourio-phillies-diamondbacks",
-          "outlet": "Chicago Sun-Times",
-          "published": "2026-09-09",
-          "theme": "arts culture & sports"
-        },
-        {
-          "title": "Cubs laud Brewers as among baseball's best, but shouldn't Cubs be, too? It doesn't look like it",
-          "link": "https://chicago.suntimes.com/cubs/2026/09/07/chicago-cubs-milwaukee-brewers-craig-counsell-matthew-boyd-jed-hoyer",
-          "outlet": "Chicago Sun-Times",
-          "published": "2026-09-07",
-          "theme": "arts culture & sports"
-        },
-        {
-          "title": "Craig Counsell or Pat Murphy? We went to Whitefish Bay for the answer",
-          "link": "https://chicago.suntimes.com/cubs/2026/09/06/craig-counsell-cubs-pat-murphy-brewers-chicago-milwaukee-whitefish-bay-mlb",
-          "outlet": "Chicago Sun-Times",
-          "published": "2026-09-06",
+          "title": "Amtrak\u2019s Bridgeport Plan A \u2018Knife Through The Heart\u2019 Of Neighborhood, Residents Say",
+          "link": "https://blockclubchicago.org/2026/09/08/amtrak-plan-for-bridgeport-a-knife-through-the-heart-of-neighborhood-residents-say-at-protest/",
+          "outlet": "Block Club Chicago",
+          "published": "2026-09-08",
           "theme": "other"
         },
         {
-          "title": "Cubs might not catch Brewers in NL Central, but eyes are on World Series, no matter how they get there",
-          "link": "https://chicago.suntimes.com/cubs/2026/09/06/cubs-might-not-catch-brewers-in-nl-central-but-eyes-are-on-world-series-no-matter-how-they-get-there",
-          "outlet": "Chicago Sun-Times",
+          "title": "Plan to move Sox out of Bridgeport and Amtrak in panned by elected officials, neighborhood residents",
+          "link": "https://www.wbez.org/city-hall/2026/09/08/justin-ishbia-new-white-sox-stadium-proposal-south-loop-amtrak-railyard-bridgeport-nicole-lee",
+          "outlet": "WBEZ",
+          "published": "2026-09-08",
+          "theme": "arts culture & sports"
+        },
+        {
+          "title": "Future White Sox Owner Unveils Plans For  South Loop Stadium As Part Of New \u2018Railyards\u2019 Development",
+          "link": "https://blockclubchicago.org/2026/09/06/future-white-sox-owner-unveils-plans-for-a-south-loop-stadium-as-part-of-new-railyards-megadevelopment/",
+          "outlet": "Block Club Chicago",
           "published": "2026-09-06",
-          "theme": "arts culture & sports"
-        }
-      ]
-    },
-    {
-      "name": "Carolina Panthers",
-      "kind": "entity",
-      "total_mentions": 7,
-      "first_seen": "2026-09-07",
-      "last_seen": "2026-09-13",
-      "virality": {
-        "breadth_total_outlets": 2,
-        "breadth_peak_week_outlets": 2,
-        "peak_week": "2026-09-07",
-        "peak_week_mentions": 7,
-        "latest_week_mentions": 7,
-        "prior_weeks_avg_mentions": 0.0,
-        "trend": "new"
-      },
-      "series": [
-        {
-          "week": "2026-09-07",
-          "mentions": 7,
-          "outlets": 2,
-          "regions": 1
-        }
-      ],
-      "co_entities": [
-        [
-          "Chicago Bears",
-          7
-        ],
-        [
-          "Caleb Williams",
-          1
-        ],
-        [
-          "Ben Johnson",
-          1
-        ]
-      ],
-      "co_themes": [
-        [
-          "arts culture & sports",
-          7
-        ]
-      ],
-      "recent_articles": [
-        {
-          "title": "Bears' grades are in. How did they do against the Panthers?",
-          "link": "https://chicago.suntimes.com/bears/2026/09/13/chicago-bears-caleb-williams-ben-johnson-carolina-panthers-nfl-bryce-young",
-          "outlet": "Chicago Sun-Times",
-          "published": "2026-09-13",
-          "theme": "arts culture & sports"
+          "theme": "housing & development"
         },
         {
-          "title": "Bears blast Panthers with historic offensive outburst in 59-37, then say there's so much more they can do",
-          "link": "https://chicago.suntimes.com/bears/2026/09/13/bears-inactives-vs-panthers-for-week-1-backup-qb-tyson-bagent-inactive-but-designated-as-emergency-3rd-qb",
-          "outlet": "Chicago Sun-Times",
-          "published": "2026-09-13",
-          "theme": "arts culture & sports"
-        },
-        {
-          "title": "Caleb Williams and Bears Trounce Panthers 59-37 in Highest-Scoring Season Opener in NFL History",
-          "link": "https://news.wttw.com/2026/09/13/caleb-williams-and-bears-trounce-panthers-59-37-highest-scoring-season-opener-nfl",
-          "outlet": "WTTW News",
-          "published": "2026-09-13",
-          "theme": "arts culture & sports"
-        },
-        {
-          "title": "What to watch for in Bears-Panthers when each team has the ball",
-          "link": "https://chicago.suntimes.com/bears/2026/09/13/what-to-watch-for-in-bears-panthers-when-each-team-has-the-ball",
-          "outlet": "Chicago Sun-Times",
-          "published": "2026-09-13",
-          "theme": "arts culture & sports"
-        },
-        {
-          "title": "Bears predictions: Week 1 at Panthers",
-          "link": "https://chicago.suntimes.com/bears/2026/09/10/bears-panthers-week-1-predictions-picks-season-opener-charlotte-nc-odds-point-spread-caleb-williams-ben-johnson",
-          "outlet": "Chicago Sun-Times",
-          "published": "2026-09-10",
-          "theme": "arts culture & sports"
-        },
-        {
-          "title": "Halas Intrigue podcast: Picking the Bears-Panthers season opener",
-          "link": "https://chicago.suntimes.com/halas-intrigue/2026/09/10/bears-panthers-predictions-podcast",
-          "outlet": "Chicago Sun-Times",
-          "published": "2026-09-10",
-          "theme": "arts culture & sports"
+          "title": "Chinatown, Bridgeport Residents Sound Alarm Over Proposed Amtrak Facility",
+          "link": "https://blockclubchicago.org/2026/09/03/chinatown-bridgeport-residents-sound-alarm-over-proposed-amtrak-facility/",
+          "outlet": "Block Club Chicago",
+          "published": "2026-09-03",
+          "theme": "environment & energy"
         }
       ]
     },
@@ -4537,19 +4341,275 @@
       ]
     },
     {
+      "name": "Englewood",
+      "kind": "entity",
+      "total_mentions": 6,
+      "first_seen": "2026-09-03",
+      "last_seen": "2026-09-10",
+      "virality": {
+        "breadth_total_outlets": 2,
+        "breadth_peak_week_outlets": 2,
+        "peak_week": "2026-08-31",
+        "peak_week_mentions": 3,
+        "latest_week_mentions": 3,
+        "prior_weeks_avg_mentions": 3.0,
+        "trend": "steady"
+      },
+      "series": [
+        {
+          "week": "2026-08-31",
+          "mentions": 3,
+          "outlets": 1,
+          "regions": 1
+        },
+        {
+          "week": "2026-09-07",
+          "mentions": 3,
+          "outlets": 2,
+          "regions": 1
+        }
+      ],
+      "co_entities": [
+        [
+          "St. Bernard Hospital",
+          1
+        ],
+        [
+          "Chicago Police",
+          1
+        ],
+        [
+          "Area",
+          1
+        ],
+        [
+          "Medical Center",
+          1
+        ],
+        [
+          "Police",
+          1
+        ],
+        [
+          "South Peoria Avenue",
+          1
+        ],
+        [
+          "University",
+          1
+        ],
+        [
+          "Woman",
+          1
+        ],
+        [
+          "Carlita Jenkins",
+          1
+        ],
+        [
+          "Chicago Police Department",
+          1
+        ]
+      ],
+      "co_themes": [
+        [
+          "public safety & crime",
+          5
+        ],
+        [
+          "courts & justice",
+          1
+        ]
+      ],
+      "recent_articles": [
+        {
+          "title": "In Englewood, a new sculpture park blooms with murals, vivid color and hope for 'good things'",
+          "link": "https://www.wbez.org/arts-culture/2026/09/10/englewood-arts-collective-sculpture-park-music-fest-community-space-vacant-lot-chicago",
+          "outlet": "WBEZ",
+          "published": "2026-09-10",
+          "theme": "courts & justice"
+        },
+        {
+          "title": "2 men shot to death in Englewood home; 1 in custody",
+          "link": "https://chicago.suntimes.com/crime/2026/09/08/2-men-shot-to-death-in-englewood-home-1-in-custody",
+          "outlet": "Chicago Sun-Times",
+          "published": "2026-09-08",
+          "theme": "public safety & crime"
+        },
+        {
+          "title": "Woman charged with fatally shooting another woman in Englewood",
+          "link": "https://chicago.suntimes.com/news/2026/09/07/woman-charged-fatal-englewood-shooting",
+          "outlet": "Chicago Sun-Times",
+          "published": "2026-09-07",
+          "theme": "public safety & crime"
+        },
+        {
+          "title": "Woman fatally shot in Englewood",
+          "link": "https://chicago.suntimes.com/crime/2026/09/04/woman-gunned-down-while-walking-in-englewood",
+          "outlet": "Chicago Sun-Times",
+          "published": "2026-09-04",
+          "theme": "public safety & crime"
+        },
+        {
+          "title": "Woman gunned down while walking in Englewood",
+          "link": "https://chicago.suntimes.com/crime/2026/09/04/woman-gunned-down-while-walking-in-englewood",
+          "outlet": "Chicago Sun-Times",
+          "published": "2026-09-04",
+          "theme": "public safety & crime"
+        },
+        {
+          "title": "18-year-old dropped off at Englewood hospital dies of gunshot wounds",
+          "link": "https://chicago.suntimes.com/crime/2026/09/03/shooting-st-bernard-hospital",
+          "outlet": "Chicago Sun-Times",
+          "published": "2026-09-03",
+          "theme": "public safety & crime"
+        }
+      ]
+    },
+    {
+      "name": "Chicago Bulls",
+      "kind": "entity",
+      "total_mentions": 6,
+      "first_seen": "2026-09-03",
+      "last_seen": "2026-09-13",
+      "virality": {
+        "breadth_total_outlets": 1,
+        "breadth_peak_week_outlets": 1,
+        "peak_week": "2026-08-31",
+        "peak_week_mentions": 4,
+        "latest_week_mentions": 2,
+        "prior_weeks_avg_mentions": 4.0,
+        "trend": "fading"
+      },
+      "series": [
+        {
+          "week": "2026-08-31",
+          "mentions": 4,
+          "outlets": 1,
+          "regions": 1
+        },
+        {
+          "week": "2026-09-07",
+          "mentions": 2,
+          "outlets": 1,
+          "regions": 1
+        }
+      ],
+      "co_entities": [
+        [
+          "Stacey King",
+          2
+        ],
+        [
+          "Chicago Bears",
+          2
+        ],
+        [
+          "Chicago Cubs",
+          2
+        ],
+        [
+          "Pete Crow-Armstrong",
+          2
+        ],
+        [
+          "Kendall Gill",
+          1
+        ],
+        [
+          "Will Perdue",
+          1
+        ],
+        [
+          "Scott Williams",
+          1
+        ],
+        [
+          "Robbie Hummel",
+          1
+        ],
+        [
+          "Adam Amin",
+          1
+        ],
+        [
+          "Caleb Williams",
+          1
+        ]
+      ],
+      "co_themes": [
+        [
+          "arts culture & sports",
+          3
+        ],
+        [
+          "other",
+          2
+        ],
+        [
+          "courts & justice",
+          1
+        ]
+      ],
+      "recent_articles": [
+        {
+          "title": "Bulls Preview: The guard room has talent but will it SLAP when called",
+          "link": "https://chicago.suntimes.com/bulls/2026/09/13/bulls-preview-guard-room-has-talent-will-it-slap-when-called",
+          "outlet": "Chicago Sun-Times",
+          "published": "2026-09-13",
+          "theme": "courts & justice"
+        },
+        {
+          "title": "Bulls announce plans on how they will honor Stacey King this season",
+          "link": "https://chicago.suntimes.com/bulls/2026/09/10/bulls-announce-plans-honor-stacey-king-this-season",
+          "outlet": "Chicago Sun-Times",
+          "published": "2026-09-10",
+          "theme": "other"
+        },
+        {
+          "title": "Is the Bulls' Matas Buzelis almost a forgotten man? It feels that way",
+          "link": "https://chicago.suntimes.com/bulls/2026/09/06/bulls-matas-buzelis-forgotten-man-it-feels-that-way",
+          "outlet": "Chicago Sun-Times",
+          "published": "2026-09-06",
+          "theme": "other"
+        },
+        {
+          "title": "Chicago sports\u2019 bright future on display as Bears, Bulls, Cubs stars have \u2018started something pretty cool\u2019",
+          "link": "https://chicago.suntimes.com/cubs/2026/09/04/cubs-bears-bulls-chicago-sports-pete-crow-armstrong-caleb-williams-caleb-wilson-matas-buzelis",
+          "outlet": "Chicago Sun-Times",
+          "published": "2026-09-05",
+          "theme": "arts culture & sports"
+        },
+        {
+          "title": "Bears' Caleb Williams, Bulls players lead PCA cheering section",
+          "link": "https://chicago.suntimes.com/bears/2026/09/03/bears-qb-caleb-williams-cubs-pete-crow-armstrong-caleb-wilson-matas-buzelis-cheering-section-wrigley-field",
+          "outlet": "Chicago Sun-Times",
+          "published": "2026-09-04",
+          "theme": "arts culture & sports"
+        },
+        {
+          "title": "Kendall Gill, Will Perdue, Scott Williams, Robbie Hummel expected to be in Bulls' TV analyst rotation",
+          "link": "https://chicago.suntimes.com/sports-media/2026/09/03/kendall-gill-will-perdue-scott-williams-robbie-hummel-chicago-bulls-tv-analyst-stacey-king",
+          "outlet": "Chicago Sun-Times",
+          "published": "2026-09-03",
+          "theme": "arts culture & sports"
+        }
+      ]
+    },
+    {
       "name": "Logan Square",
       "kind": "entity",
       "total_mentions": 6,
       "first_seen": "2026-09-04",
-      "last_seen": "2026-09-11",
+      "last_seen": "2026-09-14",
       "virality": {
         "breadth_total_outlets": 2,
         "breadth_peak_week_outlets": 2,
         "peak_week": "2026-09-07",
-        "peak_week_mentions": 5,
-        "latest_week_mentions": 5,
-        "prior_weeks_avg_mentions": 1.0,
-        "trend": "rising"
+        "peak_week_mentions": 4,
+        "latest_week_mentions": 1,
+        "prior_weeks_avg_mentions": 2.5,
+        "trend": "fading"
       },
       "series": [
         {
@@ -4560,8 +4620,14 @@
         },
         {
           "week": "2026-09-07",
-          "mentions": 5,
+          "mentions": 4,
           "outlets": 2,
+          "regions": 1
+        },
+        {
+          "week": "2026-09-14",
+          "mentions": 1,
+          "outlets": 1,
           "regions": 1
         }
       ],
@@ -4575,35 +4641,43 @@
           1
         ],
         [
+          "Wrightwood Avenue",
+          1
+        ],
+        [
+          "Chicago",
+          1
+        ],
+        [
           "Logan Inn",
           1
         ],
         [
-          "Patrick McDonald",
+          "Diversey Funeral Home",
           1
         ]
       ],
       "co_themes": [
         [
+          "public safety & crime",
+          3
+        ],
+        [
           "arts culture & sports",
           2
         ],
         [
-          "public safety & crime",
-          2
-        ],
-        [
-          "other",
-          2
+          "housing & development",
+          1
         ]
       ],
       "recent_articles": [
         {
-          "title": "Man Charged With Attempted Murder, Assault After Hourslong Logan Square SWAT Standoff",
-          "link": "https://blockclubchicago.org/2026/09/11/man-charged-with-attempted-murder-assault-after-hourslong-logan-square-swat-standoff/",
+          "title": "Afterlife Bar Coming To A Former Logan Square Funeral Home",
+          "link": "https://blockclubchicago.org/2026/09/14/afterlife-bar-coming-to-a-former-logan-square-funeral-home/",
           "outlet": "Block Club Chicago",
-          "published": "2026-09-11",
-          "theme": "other"
+          "published": "2026-09-14",
+          "theme": "housing & development"
         },
         {
           "title": "Logan Inn, Cafe And Bar At Logan Square SRO Hotel, Opens Friday",
@@ -4613,17 +4687,17 @@
           "theme": "arts culture & sports"
         },
         {
-          "title": "Conversion Of Former Logan Square Recovery Center Into Apartments Finally Moving Forward",
-          "link": "https://blockclubchicago.org/2026/09/08/logan-square-conversion-of-former-recovery-center-into-apartment-complex-finally-moving-forward/",
-          "outlet": "Block Club Chicago",
-          "published": "2026-09-08",
-          "theme": "other"
-        },
-        {
           "title": "Hourslong SWAT response concludes in Logan Square",
           "link": "https://chicago.suntimes.com/logan-square/2026/09/07/police-response-blocks-logan-square-streets-for-several-hours",
           "outlet": "Chicago Sun-Times",
           "published": "2026-09-08",
+          "theme": "public safety & crime"
+        },
+        {
+          "title": "SWAT Standoff On Lightfoot\u2019s Logan Square Block Lasts Hours",
+          "link": "https://blockclubchicago.org/2026/09/07/swat-standoff-breaks-out-on-former-mayor-lori-lightfoots-logan-square-block-police-say/",
+          "outlet": "Block Club Chicago",
+          "published": "2026-09-07",
           "theme": "public safety & crime"
         },
         {
@@ -4639,376 +4713,6 @@
           "outlet": "Block Club Chicago",
           "published": "2026-09-04",
           "theme": "arts culture & sports"
-        }
-      ]
-    },
-    {
-      "name": "Bridgeport",
-      "kind": "entity",
-      "total_mentions": 6,
-      "first_seen": "2026-08-27",
-      "last_seen": "2026-09-15",
-      "virality": {
-        "breadth_total_outlets": 4,
-        "breadth_peak_week_outlets": 2,
-        "peak_week": "2026-09-07",
-        "peak_week_mentions": 2,
-        "latest_week_mentions": 2,
-        "prior_weeks_avg_mentions": 1.33,
-        "trend": "rising"
-      },
-      "series": [
-        {
-          "week": "2026-08-24",
-          "mentions": 1,
-          "outlets": 1,
-          "regions": 1
-        },
-        {
-          "week": "2026-08-31",
-          "mentions": 1,
-          "outlets": 1,
-          "regions": 1
-        },
-        {
-          "week": "2026-09-07",
-          "mentions": 2,
-          "outlets": 2,
-          "regions": 1
-        },
-        {
-          "week": "2026-09-14",
-          "mentions": 2,
-          "outlets": 1,
-          "regions": 1
-        }
-      ],
-      "co_entities": [
-        [
-          "Amtrak",
-          3
-        ],
-        [
-          "Chicago White Sox",
-          2
-        ],
-        [
-          "Co-Prosperity",
-          1
-        ],
-        [
-          "Community Kitchen Dinners",
-          1
-        ],
-        [
-          "Recipes for Survivance",
-          1
-        ],
-        [
-          "Chinatown",
-          1
-        ],
-        [
-          "South Loop",
-          1
-        ],
-        [
-          "Steven Dixon Jr.",
-          1
-        ],
-        [
-          "Chicago Police Department",
-          1
-        ]
-      ],
-      "co_themes": [
-        [
-          "arts culture & sports",
-          2
-        ],
-        [
-          "education & schools",
-          2
-        ],
-        [
-          "environment & energy",
-          1
-        ],
-        [
-          "other",
-          1
-        ]
-      ],
-      "recent_articles": [
-        {
-          "title": "No injuries after 12-year-old fires gun left unattended on school bus in Bridgeport",
-          "link": "https://chicago.suntimes.com/crime/2026/09/14/boy-gun-school-bus-bridgeport",
-          "outlet": "Chicago Sun-Times",
-          "published": "2026-09-15",
-          "theme": "education & schools"
-        },
-        {
-          "title": "Chicago man charged after boy fires gun on school bus in Bridgeport",
-          "link": "https://chicago.suntimes.com/crime/2026/09/15/chicago-man-charged-after-boy-fires-gun-on-school-bus-in-bridgeport",
-          "outlet": "Chicago Sun-Times",
-          "published": "2026-09-15",
-          "theme": "education & schools"
-        },
-        {
-          "title": "Amtrak\u2019s Bridgeport Plan A \u2018Knife Through The Heart\u2019 Of Neighborhood, Residents Say",
-          "link": "https://blockclubchicago.org/2026/09/08/amtrak-plan-for-bridgeport-a-knife-through-the-heart-of-neighborhood-residents-say-at-protest/",
-          "outlet": "Block Club Chicago",
-          "published": "2026-09-08",
-          "theme": "other"
-        },
-        {
-          "title": "Plan to move Sox out of Bridgeport and Amtrak in panned by elected officials, neighborhood residents",
-          "link": "https://www.wbez.org/city-hall/2026/09/08/justin-ishbia-new-white-sox-stadium-proposal-south-loop-amtrak-railyard-bridgeport-nicole-lee",
-          "outlet": "WBEZ",
-          "published": "2026-09-08",
-          "theme": "arts culture & sports"
-        },
-        {
-          "title": "Chinatown, Bridgeport Residents Sound Alarm Over Proposed Amtrak Facility",
-          "link": "https://blockclubchicago.org/2026/09/03/chinatown-bridgeport-residents-sound-alarm-over-proposed-amtrak-facility/",
-          "outlet": "Block Club Chicago",
-          "published": "2026-09-03",
-          "theme": "environment & energy"
-        },
-        {
-          "title": "Culinary Transmissions",
-          "link": "https://chicagoreader.com/food-drink-comic/kurdish-dinner-beizar-aradini-culinary-transmissions-community-kitchen-beimal-yazdanparast-yaprax/",
-          "outlet": "Chicago Reader",
-          "published": "2026-08-27",
-          "theme": "arts culture & sports"
-        }
-      ]
-    },
-    {
-      "name": "Illinois Policy",
-      "kind": "entity",
-      "total_mentions": 6,
-      "first_seen": "2026-08-28",
-      "last_seen": "2026-09-04",
-      "virality": {
-        "breadth_total_outlets": 1,
-        "breadth_peak_week_outlets": 1,
-        "peak_week": "2026-08-31",
-        "peak_week_mentions": 5,
-        "latest_week_mentions": 5,
-        "prior_weeks_avg_mentions": 1.0,
-        "trend": "rising"
-      },
-      "series": [
-        {
-          "week": "2026-08-24",
-          "mentions": 1,
-          "outlets": 1,
-          "regions": 1
-        },
-        {
-          "week": "2026-08-31",
-          "mentions": 5,
-          "outlets": 1,
-          "regions": 1
-        }
-      ],
-      "co_entities": [
-        [
-          "JB Pritzker",
-          3
-        ],
-        [
-          "SEIU Healthcare",
-          1
-        ]
-      ],
-      "co_themes": [
-        [
-          "other",
-          3
-        ],
-        [
-          "city & state budget",
-          2
-        ],
-        [
-          "elections & politics",
-          1
-        ]
-      ],
-      "recent_articles": [
-        {
-          "title": "Pritzker record: Governor signs nearly 400 bills, vetoes just one",
-          "link": "https://www.illinoispolicy.org/pritzker-record-governor-signs-nearly-400-bills-vetoes-just-one/",
-          "outlet": "Illinois Policy Institute",
-          "published": "2026-09-04",
-          "theme": "elections & politics"
-        },
-        {
-          "title": "Pritzker\u2019s record: Over $35 billion in personal income left Illinois during his first term",
-          "link": "https://www.illinoispolicy.org/illinois-outmigration-irs-income-loss/",
-          "outlet": "Illinois Policy Institute",
-          "published": "2026-09-03",
-          "theme": "other"
-        },
-        {
-          "title": "Pritzker record: Illinois 5th-worst for private-sector job growth",
-          "link": "https://www.illinoispolicy.org/illinois-private-sector-job-growth-bottom-five/",
-          "outlet": "Illinois Policy Institute",
-          "published": "2026-09-02",
-          "theme": "other"
-        },
-        {
-          "title": "SEIU Healthcare misleads about member numbers, spends little on the ones it has",
-          "link": "https://www.illinoispolicy.org/seiu-healthcare-illinois-spending-dues/",
-          "outlet": "Illinois Policy Institute",
-          "published": "2026-09-01",
-          "theme": "city & state budget"
-        },
-        {
-          "title": "Illinois SNAP use falls to lowest in 13 years",
-          "link": "https://www.illinoispolicy.org/illinois-snap-use-falls-to-lowest-in-13-years/",
-          "outlet": "Illinois Policy Institute",
-          "published": "2026-08-31",
-          "theme": "other"
-        },
-        {
-          "title": "What do NIL college football players pay in taxes?",
-          "link": "https://www.illinoispolicy.org/nil-state-income-taxes-college-football/",
-          "outlet": "Illinois Policy Institute",
-          "published": "2026-08-28",
-          "theme": "city & state budget"
-        }
-      ]
-    },
-    {
-      "name": "Midway Blitz",
-      "kind": "entity",
-      "total_mentions": 6,
-      "first_seen": "2026-09-04",
-      "last_seen": "2026-09-09",
-      "virality": {
-        "breadth_total_outlets": 3,
-        "breadth_peak_week_outlets": 3,
-        "peak_week": "2026-09-07",
-        "peak_week_mentions": 5,
-        "latest_week_mentions": 5,
-        "prior_weeks_avg_mentions": 1.0,
-        "trend": "rising"
-      },
-      "series": [
-        {
-          "week": "2026-08-31",
-          "mentions": 1,
-          "outlets": 1,
-          "regions": 1
-        },
-        {
-          "week": "2026-09-07",
-          "mentions": 5,
-          "outlets": 3,
-          "regions": 1
-        }
-      ],
-      "co_entities": [
-        [
-          "Operation Midway Blitz",
-          2
-        ],
-        [
-          "From",
-          2
-        ],
-        [
-          "Illinois",
-          1
-        ],
-        [
-          "Department of Homeland Security",
-          1
-        ],
-        [
-          "Construction",
-          1
-        ],
-        [
-          "Keeping",
-          1
-        ],
-        [
-          "LeClaire Courts",
-          1
-        ],
-        [
-          "President Donald Trump's",
-          1
-        ],
-        [
-          "Changed Since",
-          1
-        ],
-        [
-          "Hearings",
-          1
-        ]
-      ],
-      "co_themes": [
-        [
-          "immigration & migrants",
-          4
-        ],
-        [
-          "courts & justice",
-          1
-        ],
-        [
-          "transit & infrastructure",
-          1
-        ]
-      ],
-      "recent_articles": [
-        {
-          "title": "Midway Blitz, One Year Later: A Look At The Photos That Shook Chicago",
-          "link": "https://blockclubchicago.org/2026/09/09/one-year-after-midway-blitz-a-look-at-the-photos-that-shook-chicago/",
-          "outlet": "Block Club Chicago",
-          "published": "2026-09-09",
-          "theme": "immigration & migrants"
-        },
-        {
-          "title": "A Year After Operation Midway Blitz, Chicagoans Are Still Picking Up The Pieces",
-          "link": "https://blockclubchicago.org/2026/09/09/a-year-after-operation-midway-blitz-chicagoans-are-still-picking-up-the-pieces/",
-          "outlet": "Block Club Chicago",
-          "published": "2026-09-09",
-          "theme": "immigration & migrants"
-        },
-        {
-          "title": "From \u2018Mega Master\u2019 Hearings to Investigations, What\u2019s Changed Since \u2018Midway Blitz\u2019",
-          "link": "https://news.wttw.com/2026/09/08/mega-master-hearings-investigations-what-s-changed-midway-blitz",
-          "outlet": "WTTW News",
-          "published": "2026-09-09",
-          "theme": "transit & infrastructure"
-        },
-        {
-          "title": "Midway Blitz 1 year later",
-          "link": "https://chicago.suntimes.com/morning-edition/2026/09/08/trump-administration-midway-blitz-labor-day-weekend",
-          "outlet": "Chicago Sun-Times",
-          "published": "2026-09-08",
-          "theme": "immigration & migrants"
-        },
-        {
-          "title": "Illinois Dems seek DHS probe of federal agents for excessive force during Midway Blitz",
-          "link": "https://chicago.suntimes.com/immigration/2026/09/08/illinois-democrats-congress-homeland-security-inspector-general-call-investigation-federal-agents-excessive-force",
-          "outlet": "Chicago Sun-Times",
-          "published": "2026-09-08",
-          "theme": "immigration & migrants"
-        },
-        {
-          "title": "Once-secret records show grand jurors sought Bovino testimony, more evidence in doomed Midway Blitz cases",
-          "link": "https://chicago.suntimes.com/bearing-the-blitz/2026/09/04/midway-blitz-bovino-grand-jury-chicago",
-          "outlet": "Chicago Sun-Times",
-          "published": "2026-09-04",
-          "theme": "courts & justice"
         }
       ]
     },
@@ -5145,6 +4849,94 @@
       ]
     },
     {
+      "name": "Carolina Panthers",
+      "kind": "entity",
+      "total_mentions": 6,
+      "first_seen": "2026-09-07",
+      "last_seen": "2026-09-13",
+      "virality": {
+        "breadth_total_outlets": 1,
+        "breadth_peak_week_outlets": 1,
+        "peak_week": "2026-09-07",
+        "peak_week_mentions": 6,
+        "latest_week_mentions": 6,
+        "prior_weeks_avg_mentions": 0.0,
+        "trend": "new"
+      },
+      "series": [
+        {
+          "week": "2026-09-07",
+          "mentions": 6,
+          "outlets": 1,
+          "regions": 1
+        }
+      ],
+      "co_entities": [
+        [
+          "Chicago Bears",
+          6
+        ],
+        [
+          "Ben Johnson",
+          2
+        ],
+        [
+          "Rome Odunze",
+          1
+        ]
+      ],
+      "co_themes": [
+        [
+          "arts culture & sports",
+          6
+        ]
+      ],
+      "recent_articles": [
+        {
+          "title": "Bears' grades are in. How did they do against the Panthers?",
+          "link": "https://chicago.suntimes.com/bears/2026/09/13/chicago-bears-caleb-williams-ben-johnson-carolina-panthers-nfl-bryce-young",
+          "outlet": "Chicago Sun-Times",
+          "published": "2026-09-13",
+          "theme": "arts culture & sports"
+        },
+        {
+          "title": "Bears blast Panthers with historic offensive outburst in 59-37, then say there's so much more they can do",
+          "link": "https://chicago.suntimes.com/bears/2026/09/13/bears-inactives-vs-panthers-for-week-1-backup-qb-tyson-bagent-inactive-but-designated-as-emergency-3rd-qb",
+          "outlet": "Chicago Sun-Times",
+          "published": "2026-09-13",
+          "theme": "arts culture & sports"
+        },
+        {
+          "title": "Bears predictions: Week 1 at Panthers",
+          "link": "https://chicago.suntimes.com/bears/2026/09/10/bears-panthers-week-1-predictions-picks-season-opener-charlotte-nc-odds-point-spread-caleb-williams-ben-johnson",
+          "outlet": "Chicago Sun-Times",
+          "published": "2026-09-10",
+          "theme": "arts culture & sports"
+        },
+        {
+          "title": "Halas Intrigue podcast: Picking the Bears-Panthers season opener",
+          "link": "https://chicago.suntimes.com/halas-intrigue/2026/09/10/bears-panthers-predictions-podcast",
+          "outlet": "Chicago Sun-Times",
+          "published": "2026-09-10",
+          "theme": "arts culture & sports"
+        },
+        {
+          "title": "Bears WR Rome Odunze 'day-to-day' with injury; Ben Johnson 'hopeful' he'll play in season opener vs. Panthers",
+          "link": "https://chicago.suntimes.com/bears/2026/09/08/bears-wr-rome-odunze-day-to-day-with-injury-ben-johnson-hopeful-hell-play-in-season-opener-vs-panthers",
+          "outlet": "Chicago Sun-Times",
+          "published": "2026-09-08",
+          "theme": "arts culture & sports"
+        },
+        {
+          "title": "The Bears won the Panthers trade \u2014 and now need to win because of it",
+          "link": "https://chicago.suntimes.com/bears/2026/09/07/bears-panthers-trade-2023-ryan-poles-caleb-williams-bryce-young-luther-burden-dj-moore-general-manager-nfl",
+          "outlet": "Chicago Sun-Times",
+          "published": "2026-09-07",
+          "theme": "arts culture & sports"
+        }
+      ]
+    },
+    {
       "name": "Injustice Watch",
       "kind": "entity",
       "total_mentions": 5,
@@ -5266,6 +5058,206 @@
       ]
     },
     {
+      "name": "Illinois State Police",
+      "kind": "entity",
+      "total_mentions": 5,
+      "first_seen": "2026-03-05",
+      "last_seen": "2026-09-12",
+      "virality": {
+        "breadth_total_outlets": 2,
+        "breadth_peak_week_outlets": 1,
+        "peak_week": "2026-09-07",
+        "peak_week_mentions": 3,
+        "latest_week_mentions": 3,
+        "prior_weeks_avg_mentions": 1.0,
+        "trend": "rising"
+      },
+      "series": [
+        {
+          "week": "2026-03-02",
+          "mentions": 1,
+          "outlets": 1,
+          "regions": 1
+        },
+        {
+          "week": "2026-05-18",
+          "mentions": 1,
+          "outlets": 1,
+          "regions": 1
+        },
+        {
+          "week": "2026-09-07",
+          "mentions": 3,
+          "outlets": 1,
+          "regions": 1
+        }
+      ],
+      "co_entities": [
+        [
+          "Cook County State's Attorney",
+          1
+        ],
+        [
+          "Department of Homeland Security",
+          1
+        ],
+        [
+          "Ben Palmer",
+          1
+        ]
+      ],
+      "co_themes": [
+        [
+          "public safety & crime",
+          2
+        ],
+        [
+          "health & public health",
+          2
+        ],
+        [
+          "immigration & migrants",
+          1
+        ]
+      ],
+      "recent_articles": [
+        {
+          "title": "2 injured in I-90 multi-vehicle crash in Elk Grove",
+          "link": "https://chicago.suntimes.com/public-safety/2026/09/12/2-injured-in-i-90-multi-vehicle-crash-in-elk-grove",
+          "outlet": "Chicago Sun-Times",
+          "published": "2026-09-12",
+          "theme": "health & public health"
+        },
+        {
+          "title": "Body found in car on Dan Ryan near Rate Field",
+          "link": "https://chicago.suntimes.com/public-safety/2026/09/07/body-inside-car-on-dan-ryan-near-rate-field-exit",
+          "outlet": "Chicago Sun-Times",
+          "published": "2026-09-07",
+          "theme": "public safety & crime"
+        },
+        {
+          "title": "6-month-old dead, 7 others hurt in rollover crash on I-57 in south suburbs",
+          "link": "https://chicago.suntimes.com/transportation/2026/09/07/interstate-57-crash",
+          "outlet": "Chicago Sun-Times",
+          "published": "2026-09-07",
+          "theme": "health & public health"
+        },
+        {
+          "title": "DHS placed a comedian on law enforcement\u2019s radar. Illinois spread the word.",
+          "link": "https://www.injusticewatch.org/civil-courts/immigration/2026/dhs-alert-comedian-ben-palmer/",
+          "outlet": "Injustice Watch",
+          "published": "2026-05-21",
+          "theme": "immigration & migrants"
+        },
+        {
+          "title": "Why is the Cook County State\u2019s Attorney prosecuting nonviolent ICE protesters?",
+          "link": "https://www.injusticewatch.org/criminal-courts/prosecutors/2026/cook-county-states-attorney-prosecuting-nonviolent-ice-protesters/",
+          "outlet": "Injustice Watch",
+          "published": "2026-03-05",
+          "theme": "public safety & crime"
+        }
+      ]
+    },
+    {
+      "name": "Department of Homeland Security",
+      "kind": "entity",
+      "total_mentions": 5,
+      "first_seen": "2026-05-21",
+      "last_seen": "2026-09-09",
+      "virality": {
+        "breadth_total_outlets": 3,
+        "breadth_peak_week_outlets": 2,
+        "peak_week": "2026-09-07",
+        "peak_week_mentions": 4,
+        "latest_week_mentions": 4,
+        "prior_weeks_avg_mentions": 1.0,
+        "trend": "rising"
+      },
+      "series": [
+        {
+          "week": "2026-05-18",
+          "mentions": 1,
+          "outlets": 1,
+          "regions": 1
+        },
+        {
+          "week": "2026-09-07",
+          "mentions": 4,
+          "outlets": 2,
+          "regions": 1
+        }
+      ],
+      "co_entities": [
+        [
+          "Illinois",
+          2
+        ],
+        [
+          "Illinois State Police",
+          1
+        ],
+        [
+          "Ben Palmer",
+          1
+        ],
+        [
+          "Illinois congressional delegation",
+          1
+        ],
+        [
+          "Midway International Airport",
+          1
+        ]
+      ],
+      "co_themes": [
+        [
+          "immigration & migrants",
+          4
+        ],
+        [
+          "other",
+          1
+        ]
+      ],
+      "recent_articles": [
+        {
+          "title": "Illinois Dems seek DHS probe of federal agents for excessive force during Midway Blitz",
+          "link": "https://chicago.suntimes.com/immigration/2026/09/08/illinois-democrats-congress-homeland-security-inspector-general-call-investigation-federal-agents-excessive-force",
+          "outlet": "Chicago Sun-Times",
+          "published": "2026-09-09",
+          "theme": "immigration & migrants"
+        },
+        {
+          "title": "Dem\u00f3cratas de Illinois piden a DHS investigar a agentes federales por uso excesivo de la fuerza",
+          "link": "https://chicago.suntimes.com/la-voz/2026/09/09/democratas-de-illinois-piden-a-dhs-investigar-a-agentes-federales-por-uso-excesivo-de-la-fuerza",
+          "outlet": "Chicago Sun-Times",
+          "published": "2026-09-09",
+          "theme": "other"
+        },
+        {
+          "title": "Illinois Dems seek DHS probe of federal agents for excessive force during Midway Blitz",
+          "link": "https://chicago.suntimes.com/immigration/2026/09/08/illinois-democrats-congress-homeland-security-inspector-general-call-investigation-federal-agents-excessive-force",
+          "outlet": "Chicago Sun-Times",
+          "published": "2026-09-08",
+          "theme": "immigration & migrants"
+        },
+        {
+          "title": "\u2018You want to show the world and bear witness\u2019: Sun-Times, WBEZ reporters on last fall\u2019s deportation campaign",
+          "link": "https://www.wbez.org/bearing-the-blitz/2026/09/08/wbez-chicago-sun-times-reporters-operation-midway-blitz-reflection",
+          "outlet": "WBEZ",
+          "published": "2026-09-08",
+          "theme": "immigration & migrants"
+        },
+        {
+          "title": "DHS placed a comedian on law enforcement\u2019s radar. Illinois spread the word.",
+          "link": "https://www.injusticewatch.org/civil-courts/immigration/2026/dhs-alert-comedian-ben-palmer/",
+          "outlet": "Injustice Watch",
+          "published": "2026-05-21",
+          "theme": "immigration & migrants"
+        }
+      ]
+    },
+    {
       "name": "Illinois General Assembly",
       "kind": "entity",
       "total_mentions": 5,
@@ -5371,46 +5363,46 @@
     {
       "name": "arts culture & sports",
       "kind": "theme",
-      "total_mentions": 280,
+      "total_mentions": 277,
       "first_seen": "2026-08-10",
       "last_seen": "2026-09-15",
       "virality": {
         "breadth_total_outlets": 10,
         "breadth_peak_week_outlets": 7,
         "peak_week": "2026-09-07",
-        "peak_week_mentions": 133,
+        "peak_week_mentions": 129,
         "latest_week_mentions": 28,
-        "prior_weeks_avg_mentions": 50.4,
+        "prior_weeks_avg_mentions": 49.8,
         "trend": "steady"
       },
       "series": [
         {
           "week": "2026-08-10",
-          "mentions": 9,
-          "outlets": 4,
+          "mentions": 7,
+          "outlets": 3,
           "regions": 2
         },
         {
           "week": "2026-08-17",
-          "mentions": 15,
+          "mentions": 14,
           "outlets": 2,
           "regions": 1
         },
         {
           "week": "2026-08-24",
-          "mentions": 23,
+          "mentions": 24,
           "outlets": 3,
           "regions": 1
         },
         {
           "week": "2026-08-31",
-          "mentions": 72,
-          "outlets": 6,
+          "mentions": 75,
+          "outlets": 7,
           "regions": 2
         },
         {
           "week": "2026-09-07",
-          "mentions": 133,
+          "mentions": 129,
           "outlets": 7,
           "regions": 3
         },
@@ -5424,42 +5416,42 @@
       "co_entities": [
         [
           "Chicago Bears",
-          53
+          52
         ],
         [
           "Chicago White Sox",
-          32
-        ],
-        [
-          "Chicago",
-          26
+          30
         ],
         [
           "Chicago Cubs",
-          26
+          25
         ],
         [
-          "Chicago Reader",
+          "Chicago",
           21
         ],
         [
           "Caleb Williams",
-          12
-        ],
-        [
-          "Ben Johnson",
           11
         ],
         [
-          "Carolina Panthers",
-          7
+          "Chicago Reader",
+          10
         ],
         [
-          "Milwaukee Brewers",
+          "Ben Johnson",
+          10
+        ],
+        [
+          "Carolina Panthers",
           6
         ],
         [
-          "AnchorLink",
+          "Review",
+          5
+        ],
+        [
+          "Rome Odunze",
           5
         ]
       ],
@@ -5512,14 +5504,14 @@
     {
       "name": "city & state budget",
       "kind": "theme",
-      "total_mentions": 23,
+      "total_mentions": 20,
       "first_seen": "2026-03-12",
       "last_seen": "2026-09-14",
       "virality": {
         "breadth_total_outlets": 6,
-        "breadth_peak_week_outlets": 5,
+        "breadth_peak_week_outlets": 4,
         "peak_week": "2026-08-31",
-        "peak_week_mentions": 8,
+        "peak_week_mentions": 7,
         "latest_week_mentions": 2,
         "prior_weeks_avg_mentions": 3.0,
         "trend": "steady"
@@ -5550,21 +5542,15 @@
           "regions": 1
         },
         {
-          "week": "2026-08-24",
-          "mentions": 1,
-          "outlets": 1,
-          "regions": 1
-        },
-        {
           "week": "2026-08-31",
-          "mentions": 8,
-          "outlets": 5,
+          "mentions": 7,
+          "outlets": 4,
           "regions": 2
         },
         {
           "week": "2026-09-07",
-          "mentions": 6,
-          "outlets": 4,
+          "mentions": 5,
+          "outlets": 3,
           "regions": 2
         },
         {
@@ -5584,15 +5570,11 @@
           4
         ],
         [
-          "JB Pritzker",
-          3
-        ],
-        [
           "Illinois General Assembly",
           2
         ],
         [
-          "Illinois Policy",
+          "JB Pritzker",
           2
         ],
         [
@@ -5608,11 +5590,15 @@
           1
         ],
         [
-          "SEIU Healthcare",
+          "New York City",
           1
         ],
         [
-          "New York City",
+          "Trump administration",
+          1
+        ],
+        [
+          "Chicago Teachers Union",
           1
         ]
       ],
@@ -5672,9 +5658,9 @@
         "breadth_total_outlets": 8,
         "breadth_peak_week_outlets": 7,
         "peak_week": "2026-09-07",
-        "peak_week_mentions": 26,
+        "peak_week_mentions": 25,
         "latest_week_mentions": 3,
-        "prior_weeks_avg_mentions": 7.29,
+        "prior_weeks_avg_mentions": 7.57,
         "trend": "fading"
       },
       "series": [
@@ -5685,19 +5671,7 @@
           "regions": 1
         },
         {
-          "week": "2026-03-16",
-          "mentions": 1,
-          "outlets": 1,
-          "regions": 1
-        },
-        {
           "week": "2026-04-27",
-          "mentions": 1,
-          "outlets": 1,
-          "regions": 1
-        },
-        {
-          "week": "2026-05-25",
           "mentions": 1,
           "outlets": 1,
           "regions": 1
@@ -5716,19 +5690,19 @@
         },
         {
           "week": "2026-08-24",
-          "mentions": 3,
-          "outlets": 2,
+          "mentions": 5,
+          "outlets": 3,
           "regions": 1
         },
         {
           "week": "2026-08-31",
-          "mentions": 15,
+          "mentions": 16,
           "outlets": 5,
           "regions": 2
         },
         {
           "week": "2026-09-07",
-          "mentions": 26,
+          "mentions": 25,
           "outlets": 7,
           "regions": 3
         },
@@ -5742,14 +5716,10 @@
       "co_entities": [
         [
           "Illinois",
-          13
+          14
         ],
         [
           "Chicago",
-          4
-        ],
-        [
-          "Cook County",
           3
         ],
         [
@@ -5769,16 +5739,20 @@
           2
         ],
         [
-          "Enes Kanter Freedom",
-          2
-        ],
-        [
           "Chicago Fire",
           2
         ],
         [
           "Inter Miami",
           2
+        ],
+        [
+          "Illinois Supreme Court",
+          1
+        ],
+        [
+          "Cook County Circuit",
+          1
         ]
       ],
       "co_themes": [],
@@ -5830,17 +5804,17 @@
     {
       "name": "education & schools",
       "kind": "theme",
-      "total_mentions": 90,
+      "total_mentions": 91,
       "first_seen": "2026-08-06",
       "last_seen": "2026-09-15",
       "virality": {
         "breadth_total_outlets": 9,
         "breadth_peak_week_outlets": 5,
         "peak_week": "2026-09-07",
-        "peak_week_mentions": 39,
+        "peak_week_mentions": 41,
         "latest_week_mentions": 7,
-        "prior_weeks_avg_mentions": 13.83,
-        "trend": "steady"
+        "prior_weeks_avg_mentions": 14.0,
+        "trend": "fading"
       },
       "series": [
         {
@@ -5869,13 +5843,13 @@
         },
         {
           "week": "2026-08-31",
-          "mentions": 31,
+          "mentions": 30,
           "outlets": 4,
           "regions": 2
         },
         {
           "week": "2026-09-07",
-          "mentions": 39,
+          "mentions": 41,
           "outlets": 5,
           "regions": 2
         },
@@ -5892,15 +5866,11 @@
           13
         ],
         [
-          "Illinois",
-          5
-        ],
-        [
           "High",
           5
         ],
         [
-          "Michigan",
+          "Illinois",
           4
         ],
         [
@@ -5925,6 +5895,10 @@
         ],
         [
           "Chicago",
+          3
+        ],
+        [
+          "Notre Dame",
           3
         ]
       ],
@@ -5985,8 +5959,8 @@
         "breadth_peak_week_outlets": 7,
         "peak_week": "2026-09-07",
         "peak_week_mentions": 33,
-        "latest_week_mentions": 11,
-        "prior_weeks_avg_mentions": 7.71,
+        "latest_week_mentions": 10,
+        "prior_weeks_avg_mentions": 7.86,
         "trend": "steady"
       },
       "series": [
@@ -6004,7 +5978,7 @@
         },
         {
           "week": "2026-03-16",
-          "mentions": 3,
+          "mentions": 2,
           "outlets": 1,
           "regions": 1
         },
@@ -6034,7 +6008,7 @@
         },
         {
           "week": "2026-08-31",
-          "mentions": 11,
+          "mentions": 13,
           "outlets": 7,
           "regions": 3
         },
@@ -6046,19 +6020,15 @@
         },
         {
           "week": "2026-09-14",
-          "mentions": 11,
-          "outlets": 5,
+          "mentions": 10,
+          "outlets": 4,
           "regions": 2
         }
       ],
       "co_entities": [
         [
           "Brandon Johnson",
-          19
-        ],
-        [
-          "Chicago",
-          11
+          20
         ],
         [
           "JB Pritzker",
@@ -6070,6 +6040,10 @@
         ],
         [
           "Cook County",
+          6
+        ],
+        [
+          "Chicago",
           6
         ],
         [
@@ -6103,13 +6077,6 @@
           "theme": "elections & politics"
         },
         {
-          "title": "Ald. Burnett Pushes Parking Ban, Tougher Rules For Problem Bars After Latest West Loop Shooting",
-          "link": "https://blockclubchicago.org/2026/09/15/ald-burnett-pushes-parking-ban-tougher-rules-for-problem-bars-after-latest-west-loop-shooting/",
-          "outlet": "Block Club Chicago",
-          "published": "2026-09-15",
-          "theme": "elections & politics"
-        },
-        {
           "title": "Supreme Court rejects Trump mail ballot restrictions for now ahead of midterms",
           "link": "https://chicago.suntimes.com/elections/2026/09/14/supreme-court-rejects-trump-mail-ballot-restrictions-midterm-elections",
           "outlet": "Chicago Sun-Times",
@@ -6136,23 +6103,30 @@
           "outlet": "WTTW News",
           "published": "2026-09-14",
           "theme": "elections & politics"
+        },
+        {
+          "title": "WTTW News Explains: How This Year\u2019s Chicago Board of Education Elections Will Work",
+          "link": "https://news.wttw.com/2026/08/24/wttw-news-explains-how-year-s-chicago-board-education-elections-will-work",
+          "outlet": "WTTW News",
+          "published": "2026-09-14",
+          "theme": "elections & politics"
         }
       ]
     },
     {
       "name": "environment & energy",
       "kind": "theme",
-      "total_mentions": 17,
+      "total_mentions": 18,
       "first_seen": "2026-08-27",
       "last_seen": "2026-09-15",
       "virality": {
         "breadth_total_outlets": 7,
-        "breadth_peak_week_outlets": 5,
+        "breadth_peak_week_outlets": 6,
         "peak_week": "2026-09-07",
-        "peak_week_mentions": 8,
-        "latest_week_mentions": 2,
+        "peak_week_mentions": 7,
+        "latest_week_mentions": 3,
         "prior_weeks_avg_mentions": 5.0,
-        "trend": "fading"
+        "trend": "steady"
       },
       "series": [
         {
@@ -6163,31 +6137,31 @@
         },
         {
           "week": "2026-08-31",
-          "mentions": 5,
-          "outlets": 5,
+          "mentions": 6,
+          "outlets": 6,
           "regions": 2
         },
         {
           "week": "2026-09-07",
-          "mentions": 8,
+          "mentions": 7,
           "outlets": 5,
           "regions": 3
         },
         {
           "week": "2026-09-14",
-          "mentions": 2,
-          "outlets": 2,
-          "regions": 2
+          "mentions": 3,
+          "outlets": 3,
+          "regions": 3
         }
       ],
       "co_entities": [
         [
           "Chicago",
-          4
+          5
         ],
         [
           "Illinois",
-          2
+          4
         ],
         [
           "Little Calumet River",
@@ -6202,23 +6176,23 @@
           2
         ],
         [
-          "Illinois Attorney General",
-          2
-        ],
-        [
           "Gary",
           1
         ],
         [
-          "Indian Ridge Marsh Park",
-          1
-        ],
-        [
-          "South Deering",
+          "TBR",
           1
         ],
         [
           "Amtrak",
+          1
+        ],
+        [
+          "Chinatown",
+          1
+        ],
+        [
+          "Bridgeport",
           1
         ]
       ],
@@ -6239,10 +6213,10 @@
           "theme": "environment & energy"
         },
         {
-          "title": "Des Plaines woman found dead in Monroe Harbor",
-          "link": "https://chicago.suntimes.com/downtown/2026/09/12/police-investigate-death-of-woman-pulled-from-lake-michigan",
-          "outlet": "Chicago Sun-Times",
-          "published": "2026-09-13",
+          "title": "\u2018Huge step forward\u2019: Illinois inches closer on battery storage, solar goals",
+          "link": "https://capitolnewsillinois.com/news/huge-step-forward-illinois-inches-closer-on-battery-storage-solar-goals/",
+          "outlet": "Capitol News Illinois",
+          "published": "2026-09-14",
           "theme": "environment & energy"
         },
         {
@@ -6271,16 +6245,16 @@
     {
       "name": "health & public health",
       "kind": "theme",
-      "total_mentions": 30,
+      "total_mentions": 31,
       "first_seen": "2026-08-17",
       "last_seen": "2026-09-15",
       "virality": {
         "breadth_total_outlets": 6,
         "breadth_peak_week_outlets": 3,
         "peak_week": "2026-09-07",
-        "peak_week_mentions": 17,
-        "latest_week_mentions": 4,
-        "prior_weeks_avg_mentions": 8.67,
+        "peak_week_mentions": 19,
+        "latest_week_mentions": 3,
+        "prior_weeks_avg_mentions": 9.33,
         "trend": "fading"
       },
       "series": [
@@ -6298,13 +6272,13 @@
         },
         {
           "week": "2026-09-07",
-          "mentions": 17,
+          "mentions": 19,
           "outlets": 3,
           "regions": 2
         },
         {
           "week": "2026-09-14",
-          "mentions": 4,
+          "mentions": 3,
           "outlets": 2,
           "regions": 1
         }
@@ -6315,15 +6289,11 @@
           4
         ],
         [
-          "DEAR ABBY",
-          2
-        ],
-        [
-          "Trump administration",
-          2
-        ],
-        [
           "Rogers Park",
+          3
+        ],
+        [
+          "Dear Abby",
           2
         ],
         [
@@ -6331,7 +6301,15 @@
           2
         ],
         [
+          "St. Francis Hospital",
+          2
+        ],
+        [
           "Chicago Police Department",
+          2
+        ],
+        [
+          "Cook County Circuit Court",
           2
         ],
         [
@@ -6345,21 +6323,10 @@
         [
           "Building",
           1
-        ],
-        [
-          "ESSAY",
-          1
         ]
       ],
       "co_themes": [],
       "recent_articles": [
-        {
-          "title": "\u2018Black Girls Blossoming\u2019 Teen Therapy Gets Boost From Michelle Obama",
-          "link": "https://blockclubchicago.org/2026/09/15/black-girls-blossoming-teen-therapy-program-gets-boost-from-michelle-obama/",
-          "outlet": "Block Club Chicago",
-          "published": "2026-09-15",
-          "theme": "health & public health"
-        },
         {
           "title": "Lawndale Christian Health Center\u2019s New Facility Specializes In Family And Senior Care",
           "link": "https://blockclubchicago.org/2026/09/15/lawndale-christian-health-centers-new-facility-specializes-in-family-and-senior-care/",
@@ -6394,22 +6361,29 @@
           "outlet": "Chicago Sun-Times",
           "published": "2026-09-12",
           "theme": "health & public health"
+        },
+        {
+          "title": "2 injured in I-90 multi-vehicle crash in Elk Grove",
+          "link": "https://chicago.suntimes.com/public-safety/2026/09/12/2-injured-in-i-90-multi-vehicle-crash-in-elk-grove",
+          "outlet": "Chicago Sun-Times",
+          "published": "2026-09-12",
+          "theme": "health & public health"
         }
       ]
     },
     {
       "name": "housing & development",
       "kind": "theme",
-      "total_mentions": 24,
+      "total_mentions": 28,
       "first_seen": "2026-05-14",
       "last_seen": "2026-09-15",
       "virality": {
-        "breadth_total_outlets": 8,
+        "breadth_total_outlets": 7,
         "breadth_peak_week_outlets": 6,
         "peak_week": "2026-09-07",
-        "peak_week_mentions": 10,
+        "peak_week_mentions": 13,
         "latest_week_mentions": 2,
-        "prior_weeks_avg_mentions": 4.4,
+        "prior_weeks_avg_mentions": 5.2,
         "trend": "fading"
       },
       "series": [
@@ -6433,15 +6407,15 @@
         },
         {
           "week": "2026-08-31",
-          "mentions": 8,
+          "mentions": 9,
           "outlets": 5,
           "regions": 1
         },
         {
           "week": "2026-09-07",
-          "mentions": 10,
+          "mentions": 13,
           "outlets": 6,
-          "regions": 3
+          "regions": 2
         },
         {
           "week": "2026-09-14",
@@ -6453,22 +6427,26 @@
       "co_entities": [
         [
           "Chicago",
-          4
+          3
+        ],
+        [
+          "Chicago White Sox",
+          3
         ],
         [
           "South Shore",
           2
         ],
         [
-          "Chicago White Sox",
+          "City Methodist Church",
           2
         ],
         [
-          "Injustice Watch",
+          "Katharine Keller",
           1
         ],
         [
-          "Katharine Keller",
+          "Injustice Watch",
           1
         ],
         [
@@ -6485,10 +6463,6 @@
         ],
         [
           "Rockford",
-          1
-        ],
-        [
-          "Chicago Public Schools",
           1
         ]
       ],
@@ -6509,6 +6483,13 @@
           "theme": "housing & development"
         },
         {
+          "title": "Blackhawks prospect AJ Spellacy is tough, physical and finally close to the NHL",
+          "link": "https://chicago.suntimes.com/blackhawks/2026/09/11/blackhawks-aj-spellacy-prospect-camp-sacha-boisvert-marek-vanacker",
+          "outlet": "Chicago Sun-Times",
+          "published": "2026-09-11",
+          "theme": "housing & development"
+        },
+        {
           "title": "Can Rezoning 71st Street Boost Development In South Shore? Alderman Hopes So",
           "link": "https://blockclubchicago.org/2026/09/11/can-rezoning-71st-street-boost-development-in-south-shore-alderman-hopes-so/",
           "outlet": "Block Club Chicago",
@@ -6523,17 +6504,10 @@
           "theme": "housing & development"
         },
         {
-          "title": "West Loop tower that will bring neighborhood's first Aldi breaks ground",
-          "link": "https://chicago.suntimes.com/real-estate/2026/09/10/west-loop-tower-julep-mavrek-aldi-breaks-ground",
+          "title": "Indiana willing to close church while opening doors to Bears",
+          "link": "https://chicago.suntimes.com/letters-to-the-editor/2026/09/11/indiana-city-methodist-church-bears-catholic-church-abuse-claims-south-shore-raid-trump-coins",
           "outlet": "Chicago Sun-Times",
-          "published": "2026-09-10",
-          "theme": "housing & development"
-        },
-        {
-          "title": "White Sox hitting director Ryan Fuller talks offensive improvement, and the development that remains",
-          "link": "https://chicago.suntimes.com/white-sox/2026/09/09/white-sox-hitting-director-ryan-fuller-talks-offensive-improvement-and-the-development-that-remains-colson-montgomery-munetaka-murakami-miguel-vargas-chase-meidroth",
-          "outlet": "Chicago Sun-Times",
-          "published": "2026-09-10",
+          "published": "2026-09-11",
           "theme": "housing & development"
         }
       ]
@@ -6542,20 +6516,38 @@
       "name": "immigration & migrants",
       "kind": "theme",
       "total_mentions": 40,
-      "first_seen": "2026-06-24",
+      "first_seen": "2026-05-21",
       "last_seen": "2026-09-14",
       "virality": {
         "breadth_total_outlets": 8,
         "breadth_peak_week_outlets": 5,
         "peak_week": "2026-09-07",
         "peak_week_mentions": 20,
-        "latest_week_mentions": 3,
-        "prior_weeks_avg_mentions": 7.4,
+        "latest_week_mentions": 2,
+        "prior_weeks_avg_mentions": 5.29,
         "trend": "fading"
       },
       "series": [
         {
+          "week": "2026-05-18",
+          "mentions": 1,
+          "outlets": 1,
+          "regions": 1
+        },
+        {
+          "week": "2026-05-25",
+          "mentions": 1,
+          "outlets": 1,
+          "regions": 1
+        },
+        {
           "week": "2026-06-22",
+          "mentions": 1,
+          "outlets": 1,
+          "regions": 1
+        },
+        {
+          "week": "2026-08-10",
           "mentions": 1,
           "outlets": 1,
           "regions": 1
@@ -6568,7 +6560,7 @@
         },
         {
           "week": "2026-08-24",
-          "mentions": 7,
+          "mentions": 5,
           "outlets": 4,
           "regions": 2
         },
@@ -6586,7 +6578,7 @@
         },
         {
           "week": "2026-09-14",
-          "mentions": 3,
+          "mentions": 2,
           "outlets": 1,
           "regions": 1
         }
@@ -6594,54 +6586,47 @@
       "co_entities": [
         [
           "Chicago",
-          14
-        ],
-        [
-          "Illinois",
-          9
+          13
         ],
         [
           "Operation Midway Blitz",
-          9
+          8
         ],
         [
-          "Midway Blitz",
-          4
+          "Illinois",
+          7
         ],
         [
           "Donald Trump",
-          3
+          5
         ],
         [
           "Department of Homeland Security",
-          3
+          4
+        ],
+        [
+          "ICE",
+          2
         ],
         [
           "University of Illinois Chicago",
           2
         ],
         [
-          "Silverio Villegas Gonz\u00e1lez",
-          2
+          "Illinois State Police",
+          1
         ],
         [
-          "Franklin Park",
-          2
+          "Ben Palmer",
+          1
         ],
         [
-          "Trump Administration",
+          "Cook County",
           1
         ]
       ],
       "co_themes": [],
       "recent_articles": [
-        {
-          "title": "Misa en honor a Silverio Villegas Gonz\u00e1lez en el primer aniversario de su asesinato por ICE",
-          "link": "https://chicago.suntimes.com/la-voz/2026/09/14/misa-en-honor-a-silverio-villegas-gonzalez-en-el-primer-aniversario-de-su-asesinato-por-ice",
-          "outlet": "Chicago Sun-Times",
-          "published": "2026-09-14",
-          "theme": "immigration & migrants"
-        },
         {
           "title": "A year after Operation Midway Blitz, Chicago celebrates 'strength' at the Mexican Independence Day Parade",
           "link": "https://chicago.suntimes.com/arts-and-culture/2026/09/13/mexican-independence-day-parade-operation-midway-blitz-year-later",
@@ -6676,22 +6661,29 @@
           "outlet": "Chicago Sun-Times",
           "published": "2026-09-11",
           "theme": "immigration & migrants"
+        },
+        {
+          "title": "The County Prosecutors Who Became ICE Informants",
+          "link": "https://borderlessmag.org/2026/09/10/the-county-prosecutors-who-became-ice-informants/",
+          "outlet": "Borderless Magazine",
+          "published": "2026-09-10",
+          "theme": "immigration & migrants"
         }
       ]
     },
     {
       "name": "labor & economy",
       "kind": "theme",
-      "total_mentions": 30,
+      "total_mentions": 23,
       "first_seen": "2026-08-10",
       "last_seen": "2026-09-15",
       "virality": {
-        "breadth_total_outlets": 8,
+        "breadth_total_outlets": 7,
         "breadth_peak_week_outlets": 5,
-        "peak_week": "2026-08-31",
-        "peak_week_mentions": 12,
+        "peak_week": "2026-09-07",
+        "peak_week_mentions": 9,
         "latest_week_mentions": 4,
-        "prior_weeks_avg_mentions": 6.5,
+        "prior_weeks_avg_mentions": 4.75,
         "trend": "steady"
       },
       "series": [
@@ -6709,15 +6701,15 @@
         },
         {
           "week": "2026-08-31",
-          "mentions": 12,
-          "outlets": 5,
-          "regions": 2
+          "mentions": 8,
+          "outlets": 4,
+          "regions": 3
         },
         {
           "week": "2026-09-07",
-          "mentions": 12,
-          "outlets": 4,
-          "regions": 2
+          "mentions": 9,
+          "outlets": 5,
+          "regions": 3
         },
         {
           "week": "2026-09-14",
@@ -6728,16 +6720,16 @@
       ],
       "co_entities": [
         [
-          "Chicago",
-          7
-        ],
-        [
           "Labor Day",
-          4
+          5
         ],
         [
           "JB Pritzker",
-          1
+          2
+        ],
+        [
+          "Chicago",
+          2
         ],
         [
           "Illinois General Assembly",
@@ -6748,23 +6740,23 @@
           1
         ],
         [
-          "Bridgeport Records",
+          "Temperatures",
           1
         ],
         [
-          "Onion City Records",
+          "SEIU Healthcare",
           1
         ],
         [
-          "Vick Lavender",
+          "Aviation. That's",
           1
         ],
         [
-          "Jerry Morrison",
+          "Department",
           1
         ],
         [
-          "West Town",
+          "Here's",
           1
         ]
       ],
@@ -6806,9 +6798,9 @@
           "theme": "labor & economy"
         },
         {
-          "title": "America Ambulance acquires Dispatch Medical Transport",
-          "link": "https://www.illinoistimes.com/news/america-ambulance-acquires-dispatch-medial-transport/",
-          "outlet": "Illinois Times",
+          "title": "Southern Illinois man who printed unregistered 3D guns sentenced to 8 years",
+          "link": "https://capitolnewsillinois.com/news/southern-illinois-man-who-printed-unregistered-3d-guns-sentenced-to-eight-years/",
+          "outlet": "Capitol News Illinois",
           "published": "2026-09-11",
           "theme": "labor & economy"
         }
@@ -6817,7 +6809,7 @@
     {
       "name": "other",
       "kind": "theme",
-      "total_mentions": 163,
+      "total_mentions": 166,
       "first_seen": "2026-01-28",
       "last_seen": "2026-09-15",
       "virality": {
@@ -6825,8 +6817,8 @@
         "breadth_peak_week_outlets": 7,
         "peak_week": "2026-09-07",
         "peak_week_mentions": 74,
-        "latest_week_mentions": 20,
-        "prior_weeks_avg_mentions": 23.83,
+        "latest_week_mentions": 21,
+        "prior_weeks_avg_mentions": 20.71,
         "trend": "steady"
       },
       "series": [
@@ -6837,14 +6829,20 @@
           "regions": 1
         },
         {
-          "week": "2026-08-10",
+          "week": "2026-03-16",
           "mentions": 1,
           "outlets": 1,
           "regions": 1
         },
         {
+          "week": "2026-08-10",
+          "mentions": 2,
+          "outlets": 2,
+          "regions": 1
+        },
+        {
           "week": "2026-08-17",
-          "mentions": 11,
+          "mentions": 12,
           "outlets": 4,
           "regions": 2
         },
@@ -6856,7 +6854,7 @@
         },
         {
           "week": "2026-08-31",
-          "mentions": 52,
+          "mentions": 51,
           "outlets": 7,
           "regions": 2
         },
@@ -6868,7 +6866,7 @@
         },
         {
           "week": "2026-09-14",
-          "mentions": 20,
+          "mentions": 21,
           "outlets": 6,
           "regions": 2
         }
@@ -6876,11 +6874,7 @@
       "co_entities": [
         [
           "Chicago",
-          19
-        ],
-        [
-          "Illinois",
-          11
+          14
         ],
         [
           "AnchorLink",
@@ -6891,16 +6885,20 @@
           9
         ],
         [
+          "JB Pritzker",
+          8
+        ],
+        [
+          "Illinois",
+          8
+        ],
+        [
           "Enhancement",
           8
         ],
         [
           "HtmlModule",
           8
-        ],
-        [
-          "JB Pritzker",
-          7
         ],
         [
           "Aries",
@@ -6946,15 +6944,15 @@
           "theme": "other"
         },
         {
-          "title": "\u2018Widow\u2019s Bay\u2019 breaks Emmys comedy record with 14 wins including best comedy series",
-          "link": "https://chicago.suntimes.com/arts-and-culture/2026/09/14/widows-bay-rhys-pitt-wyle-smart-hacks-emmys",
-          "outlet": "Chicago Sun-Times",
+          "title": "\u2018Black Girls Blossoming\u2019 Teen Therapy Gets Boost From Michelle Obama",
+          "link": "https://blockclubchicago.org/2026/09/15/black-girls-blossoming-teen-therapy-program-gets-boost-from-michelle-obama/",
+          "outlet": "Block Club Chicago",
           "published": "2026-09-15",
           "theme": "other"
         },
         {
-          "title": "Horoscope for Tuesday, September 15, 2026",
-          "link": "https://chicago.suntimes.com/horoscopes/2026/09/15/horoscopes-today-tuesday-september-15-2026",
+          "title": "\u2018Widow\u2019s Bay\u2019 breaks Emmys comedy record with 14 wins including best comedy series",
+          "link": "https://chicago.suntimes.com/arts-and-culture/2026/09/14/widows-bay-rhys-pitt-wyle-smart-hacks-emmys",
           "outlet": "Chicago Sun-Times",
           "published": "2026-09-15",
           "theme": "other"
@@ -6964,15 +6962,15 @@
     {
       "name": "public safety & crime",
       "kind": "theme",
-      "total_mentions": 88,
+      "total_mentions": 89,
       "first_seen": "2026-03-05",
       "last_seen": "2026-09-15",
       "virality": {
         "breadth_total_outlets": 8,
         "breadth_peak_week_outlets": 7,
         "peak_week": "2026-09-07",
-        "peak_week_mentions": 55,
-        "latest_week_mentions": 7,
+        "peak_week_mentions": 56,
+        "latest_week_mentions": 8,
         "prior_weeks_avg_mentions": 16.2,
         "trend": "fading"
       },
@@ -6984,7 +6982,7 @@
           "regions": 1
         },
         {
-          "week": "2026-05-18",
+          "week": "2026-03-16",
           "mentions": 1,
           "outlets": 1,
           "regions": 1
@@ -6997,20 +6995,20 @@
         },
         {
           "week": "2026-08-31",
-          "mentions": 23,
-          "outlets": 5,
-          "regions": 2
+          "mentions": 22,
+          "outlets": 4,
+          "regions": 1
         },
         {
           "week": "2026-09-07",
-          "mentions": 55,
+          "mentions": 56,
           "outlets": 7,
           "regions": 2
         },
         {
           "week": "2026-09-14",
-          "mentions": 7,
-          "outlets": 1,
+          "mentions": 8,
+          "outlets": 2,
           "regions": 1
         }
       ],
@@ -7021,7 +7019,7 @@
         ],
         [
           "Chicago",
-          13
+          17
         ],
         [
           "Englewood",
@@ -7029,35 +7027,42 @@
         ],
         [
           "South Shore",
-          4
+          5
         ],
         [
           "Humboldt Park",
           4
         ],
         [
+          "Washington Park",
+          3
+        ],
+        [
           "Fuller Park",
+          3
+        ],
+        [
+          "Chicago Lawn",
+          3
+        ],
+        [
+          "Logan Square",
           3
         ],
         [
           "Illinois State Police",
           2
-        ],
-        [
-          "Washington Park",
-          2
-        ],
-        [
-          "Chicago Police",
-          2
-        ],
-        [
-          "Cook County",
-          2
         ]
       ],
       "co_themes": [],
       "recent_articles": [
+        {
+          "title": "Ald. Burnett Pushes Parking Ban, Tougher Rules For Problem Bars After Latest West Loop Shooting",
+          "link": "https://blockclubchicago.org/2026/09/15/ald-burnett-pushes-parking-ban-tougher-rules-for-problem-bars-after-latest-west-loop-shooting/",
+          "outlet": "Block Club Chicago",
+          "published": "2026-09-15",
+          "theme": "public safety & crime"
+        },
         {
           "title": "Victim killed in Humboldt Park mass shooting identified as Austin neighborhood teen",
           "link": "https://chicago.suntimes.com/crime/2026/09/13/1-killed-6-injured-in-humboldt-park-mass-shooting",
@@ -7092,29 +7097,22 @@
           "outlet": "Chicago Sun-Times",
           "published": "2026-09-14",
           "theme": "public safety & crime"
-        },
-        {
-          "title": "Man seriously wounded in South Shore shooting",
-          "link": "https://chicago.suntimes.com/crime/2026/09/13/man-seriously-wounded-in-south-shore-shooting",
-          "outlet": "Chicago Sun-Times",
-          "published": "2026-09-14",
-          "theme": "public safety & crime"
         }
       ]
     },
     {
       "name": "transit & infrastructure",
       "kind": "theme",
-      "total_mentions": 39,
+      "total_mentions": 41,
       "first_seen": "2026-07-16",
       "last_seen": "2026-09-14",
       "virality": {
         "breadth_total_outlets": 7,
         "breadth_peak_week_outlets": 5,
         "peak_week": "2026-09-07",
-        "peak_week_mentions": 22,
+        "peak_week_mentions": 24,
         "latest_week_mentions": 4,
-        "prior_weeks_avg_mentions": 8.75,
+        "prior_weeks_avg_mentions": 9.25,
         "trend": "fading"
       },
       "series": [
@@ -7133,12 +7131,12 @@
         {
           "week": "2026-08-31",
           "mentions": 11,
-          "outlets": 4,
+          "outlets": 5,
           "regions": 1
         },
         {
           "week": "2026-09-07",
-          "mentions": 22,
+          "mentions": 24,
           "outlets": 5,
           "regions": 2
         },
@@ -7152,30 +7150,30 @@
       "co_entities": [
         [
           "Chicago",
-          7
+          9
         ],
         [
           "Chicago Transit Authority",
-          7
+          9
         ],
         [
           "Chicago Police Department",
-          4
+          5
+        ],
+        [
+          "DuSable Lake Shore Drive",
+          3
         ],
         [
           "Illinois",
           3
         ],
         [
-          "DuSable Lake Shore Drive",
+          "Chicago Sky",
           2
         ],
         [
           "Northern Illinois Transit Authority",
-          2
-        ],
-        [
-          "Wicker Park",
           2
         ],
         [
@@ -7187,7 +7185,7 @@
           1
         ],
         [
-          "TBR",
+          "Torrence Avenue Bridge",
           1
         ]
       ],

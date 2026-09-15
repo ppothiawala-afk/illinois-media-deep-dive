@@ -1,6 +1,6 @@
 {
   "_comment": "PROPOSALS ONLY \u2014 human review, then apply_feeds_patch.py. Discovery/health-check never edits feeds_config.json directly.",
-  "generated": "2026-09-15T17:13:30.099666+00:00",
+  "generated": "2026-09-15T17:32:43.209864+00:00",
   "adds": [],
   "flags": [
     {

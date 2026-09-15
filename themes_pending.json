@@ -3,19 +3,19 @@
   "proposals": [
     {
       "raw_theme": "advice column",
-      "count": 22,
+      "count": 28,
       "example": "Dear Abby: Son feels shunned by father over physical appearance",
       "proposed_on": "2026-09-07"
     },
     {
       "raw_theme": "horoscope",
-      "count": 20,
+      "count": 26,
       "example": "Horoscope for Friday, September 04, 2026",
       "proposed_on": "2026-09-04"
     },
     {
       "raw_theme": "art exhibition",
-      "count": 17,
+      "count": 21,
       "example": "The joke\u2019s on us",
       "proposed_on": "2026-09-04"
     },
@@ -27,33 +27,57 @@
     },
     {
       "raw_theme": "tourism economic impact",
-      "count": 12,
+      "count": 13,
       "example": "Travelers flocked to the \u2018Middle of Everything\u2019 last year, generating over $88 billion in economic impact",
       "proposed_on": "2026-09-04"
     },
     {
+      "raw_theme": "news broadcast",
+      "count": 10,
+      "example": "Sept. 3, 2026 - Full Show",
+      "proposed_on": "2026-09-04"
+    },
+    {
       "raw_theme": "credit rating upgrade",
-      "count": 8,
+      "count": 9,
       "example": "S&P Global upgrades Illinois\u2019 credit rating",
       "proposed_on": "2026-09-04"
     },
     {
       "raw_theme": "publication distribution",
-      "count": 8,
+      "count": 9,
       "example": "Find a print copy of the Chicago Reader",
       "proposed_on": "2026-09-04"
     },
     {
       "raw_theme": "telephone history",
-      "count": 8,
+      "count": 9,
       "example": "The original pay-as-you-go phones",
       "proposed_on": "2026-09-04"
     },
     {
       "raw_theme": "aquarium animal deaths",
-      "count": 7,
+      "count": 8,
       "example": "After 3 Beluga Deaths In 8 Days, Scrutiny Of Shedd\u2019s Marineland Rescue Grows",
       "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "state population decline",
+      "count": 8,
+      "example": "Pritzker record: Illinois loses tens of thousands of residents during his tenure",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "nonprofit leadership appointment",
+      "count": 8,
+      "example": "Ruby Bailey joins Injustice Watch as executive director",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "gambling self-exclusion program",
+      "count": 8,
+      "example": "Illinois regulators propose expansion to self-exclusion program for compulsive gamblers",
+      "proposed_on": "2026-09-14"
     },
     {
       "raw_theme": "capitol building renovation",
@@ -62,21 +86,15 @@
       "proposed_on": "2026-09-04"
     },
     {
-      "raw_theme": "state population decline",
+      "raw_theme": "asl interpreter profile",
       "count": 7,
-      "example": "Pritzker record: Illinois loses tens of thousands of residents during his tenure",
+      "example": "ASL interpreter Diego Diaz lives a life of joyful chaos",
       "proposed_on": "2026-09-04"
     },
     {
-      "raw_theme": "nonprofit leadership appointment",
+      "raw_theme": "art criticism",
       "count": 7,
-      "example": "Ruby Bailey joins Injustice Watch as executive director",
-      "proposed_on": "2026-09-04"
-    },
-    {
-      "raw_theme": "news broadcast",
-      "count": 6,
-      "example": "Sept. 3, 2026 - Full Show",
+      "example": "Missing persons",
       "proposed_on": "2026-09-04"
     },
     {
@@ -86,64 +104,82 @@
       "proposed_on": "2026-09-04"
     },
     {
-      "raw_theme": "asl interpreter profile",
-      "count": 6,
-      "example": "ASL interpreter Diego Diaz lives a life of joyful chaos",
-      "proposed_on": "2026-09-04"
-    },
-    {
-      "raw_theme": "gambling self-exclusion program",
-      "count": 6,
-      "example": "Illinois regulators propose expansion to self-exclusion program for compulsive gamblers",
-      "proposed_on": "2026-09-14"
-    },
-    {
-      "raw_theme": "art criticism",
-      "count": 5,
-      "example": "Missing persons",
-      "proposed_on": "2026-09-04"
-    },
-    {
       "raw_theme": "inspector general resignation",
-      "count": 5,
+      "count": 6,
       "example": "Legislative Inspector General Michael McCuskey resigns amid criticism",
       "proposed_on": "2026-09-09"
     },
     {
       "raw_theme": "art gallery exhibition",
-      "count": 5,
+      "count": 6,
       "example": "Time stops at Pueblo Unido Gallery",
       "proposed_on": "2026-09-04"
     },
     {
       "raw_theme": "cremation remains dispute",
-      "count": 5,
+      "count": 6,
       "example": "Sisters have doubts about cremated remains: \u2018Where is my mama?\u2019",
       "proposed_on": "2026-09-04"
     },
     {
       "raw_theme": "beluga deaths aquarium",
-      "count": 5,
+      "count": 6,
       "example": "After 3 Beluga Deaths In 8 Days, Scrutiny Of Shedd\u2019s Marineland Rescue Grows",
       "proposed_on": "2026-09-04"
     },
     {
       "raw_theme": "art criticism essay",
-      "count": 5,
+      "count": 6,
       "example": "All the world\u2019s a game",
       "proposed_on": "2026-09-07"
+    },
+    {
+      "raw_theme": "o'hare boulder excavation",
+      "count": 6,
+      "example": "Rock Star: Meet the Guy Who Excavated O\u2019Hare\u2019s 50-Ton Boulder, and Yes, He Has Thoughts About the Name",
+      "proposed_on": "2026-09-14"
+    },
+    {
+      "raw_theme": "teen thc product use",
+      "count": 6,
+      "example": "Not your parents\u2019 pot: Experts, advocates push against teen use of highly concentrated THC products",
+      "proposed_on": "2026-09-14"
+    },
+    {
+      "raw_theme": "child protection audit",
+      "count": 5,
+      "example": "State audit finds child protection agency made progress, but was still noncompliant with 2020 law",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "prison conditions",
+      "count": 5,
+      "example": "Every month, every day, every hour",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "yoga studio profile",
+      "count": 5,
+      "example": "M\u00e1s all\u00e1 del estudio",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "record store opening",
+      "count": 5,
+      "example": "Bridgeport Records Team Brings House Tracks And More To Onion City Records In West Town",
+      "proposed_on": "2026-09-09"
+    },
+    {
+      "raw_theme": "ambulance service acquisition",
+      "count": 5,
+      "example": "America Ambulance acquires Dispatch Medical Transport",
+      "proposed_on": "2026-09-14"
     },
     {
       "raw_theme": "gambling self-exclusion expansion",
       "count": 4,
       "example": "Illinois regulators propose expansion to self-exclusion program for compulsive gamblers",
       "proposed_on": "2026-09-07"
-    },
-    {
-      "raw_theme": "child protection audit",
-      "count": 4,
-      "example": "State audit finds child protection agency made progress, but was still noncompliant with 2020 law",
-      "proposed_on": "2026-09-04"
     },
     {
       "raw_theme": "cicada noise levels",
@@ -188,12 +224,6 @@
       "proposed_on": "2026-09-04"
     },
     {
-      "raw_theme": "prison conditions",
-      "count": 4,
-      "example": "Every month, every day, every hour",
-      "proposed_on": "2026-09-04"
-    },
-    {
       "raw_theme": "extreme heat warning",
       "count": 4,
       "example": "Extreme heat warning canceled early on third day of brutal temperatures in Chicago area",
@@ -212,46 +242,106 @@
       "proposed_on": "2026-09-04"
     },
     {
-      "raw_theme": "yoga studio profile",
-      "count": 4,
-      "example": "M\u00e1s all\u00e1 del estudio",
-      "proposed_on": "2026-09-04"
-    },
-    {
       "raw_theme": "apartment fire displacement",
       "count": 4,
       "example": "2-alarm fire leaves West Town apartment residents displaced",
       "proposed_on": "2026-09-09"
     },
     {
-      "raw_theme": "record store opening",
-      "count": 4,
-      "example": "Bridgeport Records Team Brings House Tracks And More To Onion City Records In West Town",
-      "proposed_on": "2026-09-09"
-    },
-    {
-      "raw_theme": "o'hare boulder excavation",
-      "count": 4,
-      "example": "Rock Star: Meet the Guy Who Excavated O\u2019Hare\u2019s 50-Ton Boulder, and Yes, He Has Thoughts About the Name",
-      "proposed_on": "2026-09-14"
-    },
-    {
-      "raw_theme": "ambulance service acquisition",
-      "count": 4,
-      "example": "America Ambulance acquires Dispatch Medical Transport",
-      "proposed_on": "2026-09-14"
-    },
-    {
-      "raw_theme": "teen thc product use",
-      "count": 4,
-      "example": "Not your parents\u2019 pot: Experts, advocates push against teen use of highly concentrated THC products",
-      "proposed_on": "2026-09-14"
-    },
-    {
       "raw_theme": "horoscope forecast",
       "count": 4,
       "example": "Horoscope for Friday, September 04, 2026",
       "proposed_on": "2026-09-07"
+    },
+    {
+      "raw_theme": "financial disclosure transparency",
+      "count": 4,
+      "example": "Pritzker\u2019s financial disclosure less transparent than Trump\u2019s",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "historical commemoration essay",
+      "count": 4,
+      "example": "Emmett Till, Dr. King, Obama and Aug. 28",
+      "proposed_on": "2026-09-07"
+    },
+    {
+      "raw_theme": "advice column letter",
+      "count": 4,
+      "example": "Dear Abby: Boyfriend wants to live with her, but not with her son",
+      "proposed_on": "2026-09-07"
+    },
+    {
+      "raw_theme": "toll hike public opposition",
+      "count": 4,
+      "example": "76% of online comments oppose proposed toll hikes",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "landmark bridge status",
+      "count": 4,
+      "example": "Could 124-Year-Old Cortland Bridge Lose Its Landmark Status? Alderpeople Push To Tear It Down",
+      "proposed_on": "2026-09-09"
+    },
+    {
+      "raw_theme": "capitol renovation project",
+      "count": 4,
+      "example": "The Illinois Capitol renovation is almost done. What\u2019s next?",
+      "proposed_on": "2026-09-09"
+    },
+    {
+      "raw_theme": "scuba diving location",
+      "count": 4,
+      "example": "For scuba diving enthusiasts, Mermet Springs is \u2018the best place in the Midwest\u2019",
+      "proposed_on": "2026-09-07"
+    },
+    {
+      "raw_theme": "chicago fire soccer match",
+      "count": 4,
+      "example": "El Chicago Fire y Robert Lewandowski recibir\u00e1n al Inter Miami de Lionel Messi",
+      "proposed_on": "2026-09-09"
+    },
+    {
+      "raw_theme": "brewers manager profile",
+      "count": 4,
+      "example": "Craig Counsell or Pat Murphy? We went to Whitefish Bay for the answer",
+      "proposed_on": "2026-09-14"
+    },
+    {
+      "raw_theme": "cookbook publication",
+      "count": 4,
+      "example": "In new cookbook \u2018Kari,\u2019 curry gets its due, with a Midwestern accent",
+      "proposed_on": "2026-09-14"
+    },
+    {
+      "raw_theme": "amtrak bridgeport facility",
+      "count": 4,
+      "example": "Amtrak\u2019s Bridgeport Plan A \u2018Knife Through The Heart\u2019 Of Neighborhood, Residents Say",
+      "proposed_on": "2026-09-14"
+    },
+    {
+      "raw_theme": "historic preservation awards",
+      "count": 4,
+      "example": "Little Village Arch, MOJO Museum, Aspire Center Honored For Preservation Efforts",
+      "proposed_on": "2026-09-14"
+    },
+    {
+      "raw_theme": "diversity equity inclusion",
+      "count": 4,
+      "example": "Attacks against DEI stop America from reaching its full promise",
+      "proposed_on": "2026-09-14"
+    },
+    {
+      "raw_theme": "art exhibition review",
+      "count": 4,
+      "example": "The joke\u2019s on us",
+      "proposed_on": "2026-09-07"
+    },
+    {
+      "raw_theme": "9/11 anniversary reflections",
+      "count": 4,
+      "example": "25 Years Later, Sept. 11 Impacts Felt at Home and Abroad",
+      "proposed_on": "2026-09-15"
     },
     {
       "raw_theme": "album release",
@@ -275,12 +365,6 @@
       "raw_theme": "prison mail policy",
       "count": 3,
       "example": "Illinois\u2019s physical mail ban has made it even more difficult to access books in prison.",
-      "proposed_on": "2026-09-04"
-    },
-    {
-      "raw_theme": "financial disclosure transparency",
-      "count": 3,
-      "example": "Pritzker\u2019s financial disclosure less transparent than Trump\u2019s",
       "proposed_on": "2026-09-04"
     },
     {
@@ -332,18 +416,6 @@
       "proposed_on": "2026-09-07"
     },
     {
-      "raw_theme": "historical commemoration essay",
-      "count": 3,
-      "example": "Emmett Till, Dr. King, Obama and Aug. 28",
-      "proposed_on": "2026-09-07"
-    },
-    {
-      "raw_theme": "advice column letter",
-      "count": 3,
-      "example": "Dear Abby: Boyfriend wants to live with her, but not with her son",
-      "proposed_on": "2026-09-07"
-    },
-    {
       "raw_theme": "heat warning cancellation",
       "count": 3,
       "example": "Extreme heat warning canceled early on third day of brutal temperatures in Chicago area",
@@ -354,24 +426,6 @@
       "count": 3,
       "example": "For the love of the game",
       "proposed_on": "2026-09-04"
-    },
-    {
-      "raw_theme": "toll hike public opposition",
-      "count": 3,
-      "example": "76% of online comments oppose proposed toll hikes",
-      "proposed_on": "2026-09-04"
-    },
-    {
-      "raw_theme": "landmark bridge status",
-      "count": 3,
-      "example": "Could 124-Year-Old Cortland Bridge Lose Its Landmark Status? Alderpeople Push To Tear It Down",
-      "proposed_on": "2026-09-09"
-    },
-    {
-      "raw_theme": "capitol renovation project",
-      "count": 3,
-      "example": "The Illinois Capitol renovation is almost done. What\u2019s next?",
-      "proposed_on": "2026-09-09"
     },
     {
       "raw_theme": "news broadcast full show",
@@ -398,45 +452,15 @@
       "proposed_on": "2026-09-07"
     },
     {
-      "raw_theme": "scuba diving location",
-      "count": 3,
-      "example": "For scuba diving enthusiasts, Mermet Springs is \u2018the best place in the Midwest\u2019",
-      "proposed_on": "2026-09-07"
-    },
-    {
       "raw_theme": "bridge maintenance closure",
       "count": 3,
       "example": "DuSable Lake Shore Drive Bridge closing overnight for maintenance a week after getting stuck",
       "proposed_on": "2026-09-14"
     },
     {
-      "raw_theme": "chicago fire soccer match",
-      "count": 3,
-      "example": "El Chicago Fire y Robert Lewandowski recibir\u00e1n al Inter Miami de Lionel Messi",
-      "proposed_on": "2026-09-09"
-    },
-    {
       "raw_theme": "prison mail policy impact",
       "count": 3,
       "example": "Illinois\u2019s physical mail ban has made it even more difficult to access books in prison.",
-      "proposed_on": "2026-09-14"
-    },
-    {
-      "raw_theme": "brewers manager profile",
-      "count": 3,
-      "example": "Craig Counsell or Pat Murphy? We went to Whitefish Bay for the answer",
-      "proposed_on": "2026-09-14"
-    },
-    {
-      "raw_theme": "cookbook publication",
-      "count": 3,
-      "example": "In new cookbook \u2018Kari,\u2019 curry gets its due, with a Midwestern accent",
-      "proposed_on": "2026-09-14"
-    },
-    {
-      "raw_theme": "amtrak bridgeport facility",
-      "count": 3,
-      "example": "Amtrak\u2019s Bridgeport Plan A \u2018Knife Through The Heart\u2019 Of Neighborhood, Residents Say",
       "proposed_on": "2026-09-14"
     },
     {
@@ -446,21 +470,9 @@
       "proposed_on": "2026-09-14"
     },
     {
-      "raw_theme": "historic preservation awards",
-      "count": 3,
-      "example": "Little Village Arch, MOJO Museum, Aspire Center Honored For Preservation Efforts",
-      "proposed_on": "2026-09-14"
-    },
-    {
       "raw_theme": "advice column friendship",
       "count": 3,
       "example": "Dear Abby: Had falling-out with friend, would like to know details of his death",
-      "proposed_on": "2026-09-14"
-    },
-    {
-      "raw_theme": "diversity equity inclusion",
-      "count": 3,
-      "example": "Attacks against DEI stop America from reaching its full promise",
       "proposed_on": "2026-09-14"
     },
     {
@@ -470,10 +482,136 @@
       "proposed_on": "2026-09-14"
     },
     {
-      "raw_theme": "art exhibition review",
+      "raw_theme": "feminist leader obituary",
       "count": 3,
-      "example": "The joke\u2019s on us",
+      "example": "Gloria Steinem, a Potent Voice of US Feminism, Dies at 92",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "philanthropic organization rebranding",
+      "count": 3,
+      "example": "Q&A: Sharon Bush unpacks why AMARA is putting Black communities at the center of its philanthropy",
       "proposed_on": "2026-09-07"
+    },
+    {
+      "raw_theme": "public pool hours",
+      "count": 3,
+      "example": "Bucktown\u2019s Holstein Pool To Remain Open Later Into September, \u2018Keep This Fun Going\u2019",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "political action committee",
+      "count": 3,
+      "example": "\u2018Ready for the Fight\u2019: Why JB Pritzker is taking his slogan national with PAC targeting MAGA",
+      "proposed_on": "2026-09-09"
+    },
+    {
+      "raw_theme": "wnba commissioner retirement",
+      "count": 3,
+      "example": "WNBA Commissioner Cathy Engelbert will retire in December",
+      "proposed_on": "2026-09-14"
+    },
+    {
+      "raw_theme": "bridge opening regulations",
+      "count": 3,
+      "example": "City Was \u2018Required\u2019 To Open Downtown Bridge Despite Heat To Allow Cruise Ship To Pass, Officials Say",
+      "proposed_on": "2026-09-14"
+    },
+    {
+      "raw_theme": "bulls player roster status",
+      "count": 3,
+      "example": "Is the Bulls' Matas Buzelis almost a forgotten man? It feels that way",
+      "proposed_on": "2026-09-14"
+    },
+    {
+      "raw_theme": "lakers phil jackson statue",
+      "count": 3,
+      "example": "Lakers will unveil Phil Jackson statue next year",
+      "proposed_on": "2026-09-14"
+    },
+    {
+      "raw_theme": "chief keef concert tour",
+      "count": 3,
+      "example": "Chief Keef to kick off his headlining tour in Chicago",
+      "proposed_on": "2026-09-14"
+    },
+    {
+      "raw_theme": "heat wave conditions",
+      "count": 3,
+      "example": "No relief from the heat as September kicks off. Is this normal?",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "community darkroom",
+      "count": 3,
+      "example": "Inside Tuley Park\u2019s community darkroom",
+      "proposed_on": "2026-09-14"
+    },
+    {
+      "raw_theme": "art museum exhibition",
+      "count": 3,
+      "example": "Art Institute unveils ode to \u2018relentless experimenter\u2019 Mary Cassatt, including tale of long lost Chicago mural",
+      "proposed_on": "2026-09-14"
+    },
+    {
+      "raw_theme": "september 11 anniversary",
+      "count": 3,
+      "example": "25 Years Later, Sept. 11 Impacts Felt at Home and Abroad",
+      "proposed_on": "2026-09-14"
+    },
+    {
+      "raw_theme": "ice death investigation spanish",
+      "count": 3,
+      "example": "Un a\u00f1o de silencio tras la muerte de Silverio Villegas Gonz\u00e1lez a manos de ICE a pesar de los llamados de justicia",
+      "proposed_on": "2026-09-14"
+    },
+    {
+      "raw_theme": "mls game result",
+      "count": 3,
+      "example": "Fire fall to Revolution 2-1 at Soldier Field",
+      "proposed_on": "2026-09-14"
+    },
+    {
+      "raw_theme": "federal investigation request",
+      "count": 3,
+      "example": "Dem\u00f3cratas de Illinois piden a DHS investigar a agentes federales por uso excesivo de la fuerza",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "apartment building fire",
+      "count": 3,
+      "example": "Fire displaces West Town apartment residents",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "office-to-residential conversion",
+      "count": 3,
+      "example": "First City-Backed Apartments On LaSalle Street Now Renting, Signal Transformed Financial District",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "news photo roundup",
+      "count": 3,
+      "example": "This Week In Photos:\u00a0One Year Since Midway Blitz, Latest Amtrak Plans Frustrate Neighbors, More",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "retail store opening",
+      "count": 3,
+      "example": "Mood Fabrics, Made Famous On \u2018Project Runway,\u2019 Opens On State St. With 10K Samples To Choose From",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "circus performance",
+      "count": 3,
+      "example": "Flotsam River Circus Brings Floating Show To Chinatown With Acrobats, Puppets",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "legislative inspector general resignation",
+      "count": 3,
+      "example": "Legislative Inspector General Michael McCuskey resigns amid criticism",
+      "proposed_on": "2026-09-15"
     },
     {
       "raw_theme": "cremated remains dispute",
@@ -509,12 +647,6 @@
       "raw_theme": "historical commemoration",
       "count": 2,
       "example": "Emmett Till, Dr. King, Obama and Aug. 28",
-      "proposed_on": "2026-09-04"
-    },
-    {
-      "raw_theme": "feminist leader obituary",
-      "count": 2,
-      "example": "Gloria Steinem, a Potent Voice of US Feminism, Dies at 92",
       "proposed_on": "2026-09-04"
     },
     {
@@ -596,12 +728,6 @@
       "proposed_on": "2026-09-04"
     },
     {
-      "raw_theme": "philanthropic organization rebranding",
-      "count": 2,
-      "example": "Q&A: Sharon Bush unpacks why AMARA is putting Black communities at the center of its philanthropy",
-      "proposed_on": "2026-09-07"
-    },
-    {
       "raw_theme": "bakery profile",
       "count": 2,
       "example": "Pan de jam\u00f3n y queso at Aromadipan",
@@ -618,12 +744,6 @@
       "count": 2,
       "example": "How we photographed a vigil at South Chicago Chapel",
       "proposed_on": "2026-09-09"
-    },
-    {
-      "raw_theme": "public pool hours",
-      "count": 2,
-      "example": "Bucktown\u2019s Holstein Pool To Remain Open Later Into September, \u2018Keep This Fun Going\u2019",
-      "proposed_on": "2026-09-04"
     },
     {
       "raw_theme": "unusual bird sighting",
@@ -650,12 +770,6 @@
       "proposed_on": "2026-09-04"
     },
     {
-      "raw_theme": "political action committee",
-      "count": 2,
-      "example": "\u2018Ready for the Fight\u2019: Why JB Pritzker is taking his slogan national with PAC targeting MAGA",
-      "proposed_on": "2026-09-09"
-    },
-    {
       "raw_theme": "invasive species barrier project",
       "count": 2,
       "example": "Trump Lifts Stop-Work Order on Great Lakes Invasive Carp Barrier, Construction to Resume",
@@ -665,36 +779,6 @@
       "raw_theme": "reporter workplace investigation",
       "count": 2,
       "example": "Review of ex-NFL reporter Dianna Russini's work at the Athletic concludes she didn't comply with standards",
-      "proposed_on": "2026-09-14"
-    },
-    {
-      "raw_theme": "wnba commissioner retirement",
-      "count": 2,
-      "example": "WNBA Commissioner Cathy Engelbert will retire in December",
-      "proposed_on": "2026-09-14"
-    },
-    {
-      "raw_theme": "bridge opening regulations",
-      "count": 2,
-      "example": "City Was \u2018Required\u2019 To Open Downtown Bridge Despite Heat To Allow Cruise Ship To Pass, Officials Say",
-      "proposed_on": "2026-09-14"
-    },
-    {
-      "raw_theme": "bulls player roster status",
-      "count": 2,
-      "example": "Is the Bulls' Matas Buzelis almost a forgotten man? It feels that way",
-      "proposed_on": "2026-09-14"
-    },
-    {
-      "raw_theme": "lakers phil jackson statue",
-      "count": 2,
-      "example": "Lakers will unveil Phil Jackson statue next year",
-      "proposed_on": "2026-09-14"
-    },
-    {
-      "raw_theme": "chief keef concert tour",
-      "count": 2,
-      "example": "Chief Keef to kick off his headlining tour in Chicago",
       "proposed_on": "2026-09-14"
     },
     {
@@ -731,12 +815,6 @@
       "raw_theme": "special prosecution unit accountability",
       "count": 2,
       "example": "\u2018The wrong side of justice\u2019",
-      "proposed_on": "2026-09-04"
-    },
-    {
-      "raw_theme": "heat wave conditions",
-      "count": 2,
-      "example": "No relief from the heat as September kicks off. Is this normal?",
       "proposed_on": "2026-09-04"
     },
     {
@@ -782,27 +860,9 @@
       "proposed_on": "2026-09-09"
     },
     {
-      "raw_theme": "community darkroom",
-      "count": 2,
-      "example": "Inside Tuley Park\u2019s community darkroom",
-      "proposed_on": "2026-09-14"
-    },
-    {
-      "raw_theme": "art museum exhibition",
-      "count": 2,
-      "example": "Art Institute unveils ode to \u2018relentless experimenter\u2019 Mary Cassatt, including tale of long lost Chicago mural",
-      "proposed_on": "2026-09-14"
-    },
-    {
       "raw_theme": "license plate reader policy",
       "count": 2,
       "example": "License plate reader abuses worry conservatives too",
-      "proposed_on": "2026-09-14"
-    },
-    {
-      "raw_theme": "september 11 anniversary",
-      "count": 2,
-      "example": "25 Years Later, Sept. 11 Impacts Felt at Home and Abroad",
       "proposed_on": "2026-09-14"
     },
     {
@@ -815,18 +875,6 @@
       "raw_theme": "holiday road closures",
       "count": 2,
       "example": "Here Are The Possible Road Closures Downtown For Mexican Independence Day",
-      "proposed_on": "2026-09-14"
-    },
-    {
-      "raw_theme": "ice death investigation spanish",
-      "count": 2,
-      "example": "Un a\u00f1o de silencio tras la muerte de Silverio Villegas Gonz\u00e1lez a manos de ICE a pesar de los llamados de justicia",
-      "proposed_on": "2026-09-14"
-    },
-    {
-      "raw_theme": "mls game result",
-      "count": 2,
-      "example": "Fire fall to Revolution 2-1 at Soldier Field",
       "proposed_on": "2026-09-14"
     },
     {
@@ -872,51 +920,15 @@
       "proposed_on": "2026-09-15"
     },
     {
-      "raw_theme": "federal investigation request",
-      "count": 2,
-      "example": "Dem\u00f3cratas de Illinois piden a DHS investigar a agentes federales por uso excesivo de la fuerza",
-      "proposed_on": "2026-09-15"
-    },
-    {
-      "raw_theme": "apartment building fire",
-      "count": 2,
-      "example": "Fire displaces West Town apartment residents",
-      "proposed_on": "2026-09-15"
-    },
-    {
-      "raw_theme": "office-to-residential conversion",
-      "count": 2,
-      "example": "First City-Backed Apartments On LaSalle Street Now Renting, Signal Transformed Financial District",
-      "proposed_on": "2026-09-15"
-    },
-    {
-      "raw_theme": "9/11 anniversary reflections",
-      "count": 2,
-      "example": "25 Years Later, Sept. 11 Impacts Felt at Home and Abroad",
-      "proposed_on": "2026-09-15"
-    },
-    {
       "raw_theme": "small town revitalization",
       "count": 2,
       "example": "Restoring small-town charm in Roanoke, Indiana",
       "proposed_on": "2026-09-15"
     },
     {
-      "raw_theme": "news photo roundup",
-      "count": 2,
-      "example": "This Week In Photos:\u00a0One Year Since Midway Blitz, Latest Amtrak Plans Frustrate Neighbors, More",
-      "proposed_on": "2026-09-15"
-    },
-    {
       "raw_theme": "9/11 anniversary ceremonies",
       "count": 2,
       "example": "Across the US, Ceremonies Mark 25 Years Since the Sept. 11 Attacks",
-      "proposed_on": "2026-09-15"
-    },
-    {
-      "raw_theme": "retail store opening",
-      "count": 2,
-      "example": "Mood Fabrics, Made Famous On \u2018Project Runway,\u2019 Opens On State St. With 10K Samples To Choose From",
       "proposed_on": "2026-09-15"
     },
     {
@@ -938,19 +950,223 @@
       "proposed_on": "2026-09-15"
     },
     {
-      "raw_theme": "circus performance",
-      "count": 2,
-      "example": "Flotsam River Circus Brings Floating Show To Chinatown With Acrobats, Puppets",
-      "proposed_on": "2026-09-15"
-    },
-    {
-      "raw_theme": "legislative inspector general resignation",
-      "count": 2,
-      "example": "Legislative Inspector General Michael McCuskey resigns amid criticism",
-      "proposed_on": "2026-09-15"
-    },
-    {
       "raw_theme": "logging rule shawnee",
+      "count": 2,
+      "example": "\u2018Looking at the forest as a crop\u2019: Trump admin\u2019s logging rule would expose Shawnee Forest",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "art fair announcement",
+      "count": 2,
+      "example": "Butter returns to Indianapolis",
+      "proposed_on": "2026-09-04"
+    },
+    {
+      "raw_theme": "heat weather safety",
+      "count": 2,
+      "example": "No relief from the heat as September kicks off. Is this normal?",
+      "proposed_on": "2026-09-07"
+    },
+    {
+      "raw_theme": "art exhibition creation",
+      "count": 2,
+      "example": "For the love of the game",
+      "proposed_on": "2026-09-07"
+    },
+    {
+      "raw_theme": "chemical restrictions law",
+      "count": 2,
+      "example": "Pritzker signs law to remove chemicals from makeup, nail polish, hair dye, perfumes",
+      "proposed_on": "2026-09-07"
+    },
+    {
+      "raw_theme": "capitol renovations status",
+      "count": 2,
+      "example": "Illinois Capitol Renovations \u2018A Few Months Behind,\u2019 Set to Wrap Up This Winter",
+      "proposed_on": "2026-09-07"
+    },
+    {
+      "raw_theme": "prison book access policy",
+      "count": 2,
+      "example": "Illinois\u2019s physical mail ban has made it even more difficult to access books in prison.",
+      "proposed_on": "2026-09-09"
+    },
+    {
+      "raw_theme": "comedian nutrition habits",
+      "count": 2,
+      "example": "How comedians eat it before and after grabbing the mike",
+      "proposed_on": "2026-09-14"
+    },
+    {
+      "raw_theme": "toll increase approval",
+      "count": 2,
+      "example": "Illinois Tollway board approves largest passenger toll hike in Illinois history",
+      "proposed_on": "2026-09-14"
+    },
+    {
+      "raw_theme": "child welfare agency audit",
+      "count": 2,
+      "example": "State audit finds child protection agency made progress, but was still noncompliant with 2020 law",
+      "proposed_on": "2026-09-14"
+    },
+    {
+      "raw_theme": "clothing authentication",
+      "count": 2,
+      "example": "The anatomy of Barack Obama\u2019s tan suit",
+      "proposed_on": "2026-09-14"
+    },
+    {
+      "raw_theme": "legislative inspector general",
+      "count": 2,
+      "example": "Legislative inspector general has some explaining to do",
+      "proposed_on": "2026-09-14"
+    },
+    {
+      "raw_theme": "lincoln historical artifact",
+      "count": 2,
+      "example": "Lincoln's blood-stained gloves from his assassination resurface in California museum",
+      "proposed_on": "2026-09-14"
+    },
+    {
+      "raw_theme": "apartment fire",
+      "count": 2,
+      "example": "Fire displaces West Town apartment residents",
+      "proposed_on": "2026-09-14"
+    },
+    {
+      "raw_theme": "public defender hiring",
+      "count": 2,
+      "example": "Public defense reform advances as Illinois moves to hire statewide public defender",
+      "proposed_on": "2026-09-14"
+    },
+    {
+      "raw_theme": "9/11 photography essay",
+      "count": 2,
+      "example": "How we photographed Chicago firefighters commemorating 9/11 on the 25th anniversary",
+      "proposed_on": "2026-09-14"
+    },
+    {
+      "raw_theme": "concert review",
+      "count": 2,
+      "example": "Review: Swedish pop icon Robyn is a dancing queen as she brings her Sexistential tour to Chicago",
+      "proposed_on": "2026-09-14"
+    },
+    {
+      "raw_theme": "funeral home violations",
+      "count": 2,
+      "example": "Families call for criminal charges for South Chicago Chapel owners",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "state population migration",
+      "count": 2,
+      "example": "Pritzker\u2019s record: Over $35 billion in personal income left Illinois during his first term",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "job growth ranking",
+      "count": 2,
+      "example": "Pritzker record: Illinois 5th-worst for private-sector job growth",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "jefferson park art gallery",
+      "count": 2,
+      "example": "Mavra Art Gallery Opens In Jefferson Park",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "private sector job growth",
+      "count": 2,
+      "example": "Pritzker\u2019s record: Illinois 5th-worst for private-sector job growth",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "bulls honor broadcaster",
+      "count": 2,
+      "example": "Bulls announce plans on how they will honor Stacey King this season",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "art galleries guide",
+      "count": 2,
+      "example": "10 don't-miss Chicago art galleries",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "mexican independence day parade",
+      "count": 2,
+      "example": "PHOTOS: Little Village\u2019s Mexican Independence Day Parade Highlights Hispanic Heritage",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "political endorsement",
+      "count": 2,
+      "example": "Trump: \u2018I\u2019m all for Bailey\u2019",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "artificial intelligence risks",
+      "count": 2,
+      "example": "New Warnings About the Risks of AI to Humanity Revive a Long-Running Debate",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "teen therapy program funding",
+      "count": 2,
+      "example": "\u2018Black Girls Blossoming\u2019 Teen Therapy Gets Boost From Michelle Obama",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "lakefront car-free advocacy",
+      "count": 2,
+      "example": "As Chicagoans Prepare To Bike The Drive, Some Dream Of A Car-Free Lakefront All Year",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "illinois tourism impact",
+      "count": 2,
+      "example": "Travelers Flocked to Illinois Last Year, Generating More Than $88B in Economic Impact",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "capitol building renovations",
+      "count": 2,
+      "example": "Illinois Capitol Renovations \u2018A Few Months Behind,\u2019 Set to Wrap Up This Winter",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "advice column family",
+      "count": 2,
+      "example": "Dear Abby: Son feels shunned by father over physical appearance",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "o'hare boulder discovery",
+      "count": 2,
+      "example": "This 50-Ton Prehistoric Boulder Was Unearthed at O\u2019Hare, Contest Is On To Name It",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "bridge closure notice",
+      "count": 2,
+      "example": "State Street Bridge Closed For Midday Work Next Week To Prep For Fall Boat Run",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "rail crossing closure notice",
+      "count": 2,
+      "example": "111th Street Rail Crossing Closure In Mount Greenwood Catches Drivers By Surprise",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "broadcast content",
+      "count": 2,
+      "example": "Sept. 9, 2026 - Full Show",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "federal logging rule",
       "count": 2,
       "example": "\u2018Looking at the forest as a crop\u2019: Trump admin\u2019s logging rule would expose Shawnee Forest",
       "proposed_on": "2026-09-15"
@@ -1178,12 +1394,6 @@
       "proposed_on": "2026-09-04"
     },
     {
-      "raw_theme": "art fair announcement",
-      "count": 1,
-      "example": "Butter returns to Indianapolis",
-      "proposed_on": "2026-09-04"
-    },
-    {
       "raw_theme": "performance announcement",
       "count": 1,
       "example": "L\u2019Rain imagines new futures through experimental pop and rock",
@@ -1376,12 +1586,6 @@
       "proposed_on": "2026-09-07"
     },
     {
-      "raw_theme": "heat weather safety",
-      "count": 1,
-      "example": "No relief from the heat as September kicks off. Is this normal?",
-      "proposed_on": "2026-09-07"
-    },
-    {
       "raw_theme": "law enforcement detention",
       "count": 1,
       "example": "Did Trump detain the \u2018worst of the worst\u2019 in Chicago last fall?",
@@ -1424,12 +1628,6 @@
       "proposed_on": "2026-09-07"
     },
     {
-      "raw_theme": "art exhibition creation",
-      "count": 1,
-      "example": "For the love of the game",
-      "proposed_on": "2026-09-07"
-    },
-    {
       "raw_theme": "comedian nutrition",
       "count": 1,
       "example": "How comedians eat it before and after grabbing the mike",
@@ -1445,18 +1643,6 @@
       "raw_theme": "toll hike passage",
       "count": 1,
       "example": "Illinois Tollway board approves largest passenger toll hike in Illinois history",
-      "proposed_on": "2026-09-07"
-    },
-    {
-      "raw_theme": "chemical restrictions law",
-      "count": 1,
-      "example": "Pritzker signs law to remove chemicals from makeup, nail polish, hair dye, perfumes",
-      "proposed_on": "2026-09-07"
-    },
-    {
-      "raw_theme": "capitol renovations status",
-      "count": 1,
-      "example": "Illinois Capitol Renovations \u2018A Few Months Behind,\u2019 Set to Wrap Up This Winter",
       "proposed_on": "2026-09-07"
     },
     {
@@ -1577,12 +1763,6 @@
       "raw_theme": "comedy criticism",
       "count": 1,
       "example": "The day the laughter died",
-      "proposed_on": "2026-09-09"
-    },
-    {
-      "raw_theme": "prison book access policy",
-      "count": 1,
-      "example": "Illinois\u2019s physical mail ban has made it even more difficult to access books in prison.",
       "proposed_on": "2026-09-09"
     },
     {
@@ -1748,12 +1928,6 @@
       "proposed_on": "2026-09-14"
     },
     {
-      "raw_theme": "comedian nutrition habits",
-      "count": 1,
-      "example": "How comedians eat it before and after grabbing the mike",
-      "proposed_on": "2026-09-14"
-    },
-    {
       "raw_theme": "prison conditions report",
       "count": 1,
       "example": "Every month, every day, every hour",
@@ -1784,45 +1958,15 @@
       "proposed_on": "2026-09-14"
     },
     {
-      "raw_theme": "toll increase approval",
-      "count": 1,
-      "example": "Illinois Tollway board approves largest passenger toll hike in Illinois history",
-      "proposed_on": "2026-09-14"
-    },
-    {
       "raw_theme": "chemical ban in products",
       "count": 1,
       "example": "Pritzker signs law to remove chemicals from makeup, nail polish, hair dye, perfumes",
       "proposed_on": "2026-09-14"
     },
     {
-      "raw_theme": "child welfare agency audit",
-      "count": 1,
-      "example": "State audit finds child protection agency made progress, but was still noncompliant with 2020 law",
-      "proposed_on": "2026-09-14"
-    },
-    {
-      "raw_theme": "clothing authentication",
-      "count": 1,
-      "example": "The anatomy of Barack Obama\u2019s tan suit",
-      "proposed_on": "2026-09-14"
-    },
-    {
-      "raw_theme": "legislative inspector general",
-      "count": 1,
-      "example": "Legislative inspector general has some explaining to do",
-      "proposed_on": "2026-09-14"
-    },
-    {
       "raw_theme": "9/11 personal impact",
       "count": 1,
       "example": "How did 9/11 change your life?",
-      "proposed_on": "2026-09-14"
-    },
-    {
-      "raw_theme": "lincoln historical artifact",
-      "count": 1,
-      "example": "Lincoln's blood-stained gloves from his assassination resurface in California museum",
       "proposed_on": "2026-09-14"
     },
     {
@@ -1874,12 +2018,6 @@
       "proposed_on": "2026-09-14"
     },
     {
-      "raw_theme": "apartment fire",
-      "count": 1,
-      "example": "Fire displaces West Town apartment residents",
-      "proposed_on": "2026-09-14"
-    },
-    {
       "raw_theme": "socialist political movement",
       "count": 1,
       "example": "Democratic Socialists Are Winning Big Across America. Are They Losing Ground In Chicago?",
@@ -1916,12 +2054,6 @@
       "proposed_on": "2026-09-14"
     },
     {
-      "raw_theme": "public defender hiring",
-      "count": 1,
-      "example": "Public defense reform advances as Illinois moves to hire statewide public defender",
-      "proposed_on": "2026-09-14"
-    },
-    {
       "raw_theme": "national diesel prices",
       "count": 1,
       "example": "US Diesel Prices Soar Past $6 a gallon, Deepening Strain for Hauling Everyday Goods",
@@ -1931,12 +2063,6 @@
       "raw_theme": "9/11 anniversary observances",
       "count": 1,
       "example": "Across the US, Ceremonies Mark 25 Years Since the Sept. 11 Attacks",
-      "proposed_on": "2026-09-14"
-    },
-    {
-      "raw_theme": "9/11 photography essay",
-      "count": 1,
-      "example": "How we photographed Chicago firefighters commemorating 9/11 on the 25th anniversary",
       "proposed_on": "2026-09-14"
     },
     {
@@ -1979,12 +2105,6 @@
       "raw_theme": "chicago art galleries",
       "count": 1,
       "example": "10 don't-miss Chicago art galleries",
-      "proposed_on": "2026-09-14"
-    },
-    {
-      "raw_theme": "concert review",
-      "count": 1,
-      "example": "Review: Swedish pop icon Robyn is a dancing queen as she brings her Sexistential tour to Chicago",
       "proposed_on": "2026-09-14"
     },
     {
@@ -2033,12 +2153,6 @@
       "raw_theme": "native ecosystem park",
       "count": 1,
       "example": "How did a native Chicago plant disappear forever?",
-      "proposed_on": "2026-09-15"
-    },
-    {
-      "raw_theme": "funeral home violations",
-      "count": 1,
-      "example": "Families call for criminal charges for South Chicago Chapel owners",
       "proposed_on": "2026-09-15"
     },
     {
@@ -2099,18 +2213,6 @@
       "raw_theme": "storytelling event",
       "count": 1,
       "example": "Chicago Story Fest 2026: Villains",
-      "proposed_on": "2026-09-15"
-    },
-    {
-      "raw_theme": "state population migration",
-      "count": 1,
-      "example": "Pritzker\u2019s record: Over $35 billion in personal income left Illinois during his first term",
-      "proposed_on": "2026-09-15"
-    },
-    {
-      "raw_theme": "job growth ranking",
-      "count": 1,
-      "example": "Pritzker record: Illinois 5th-worst for private-sector job growth",
       "proposed_on": "2026-09-15"
     },
     {
@@ -2180,12 +2282,6 @@
       "proposed_on": "2026-09-15"
     },
     {
-      "raw_theme": "jefferson park art gallery",
-      "count": 1,
-      "example": "Mavra Art Gallery Opens In Jefferson Park",
-      "proposed_on": "2026-09-15"
-    },
-    {
       "raw_theme": "architecture event lineup",
       "count": 1,
       "example": "Open House Chicago Full 2026 Lineup Announced, Including 20 New Sites",
@@ -2207,12 +2303,6 @@
       "raw_theme": "recreational diving location",
       "count": 1,
       "example": "For Scuba Diving Enthusiasts, Mermet Springs Is the \u2018Best Place in the Midwest\u2019",
-      "proposed_on": "2026-09-15"
-    },
-    {
-      "raw_theme": "private sector job growth",
-      "count": 1,
-      "example": "Pritzker\u2019s record: Illinois 5th-worst for private-sector job growth",
       "proposed_on": "2026-09-15"
     },
     {
@@ -2249,12 +2339,6 @@
       "raw_theme": "bridge maintenance",
       "count": 1,
       "example": "DuSable Lake Shore Drive Bridge closing overnight for maintenance a week after getting stuck",
-      "proposed_on": "2026-09-15"
-    },
-    {
-      "raw_theme": "bulls honor broadcaster",
-      "count": 1,
-      "example": "Bulls announce plans on how they will honor Stacey King this season",
       "proposed_on": "2026-09-15"
     },
     {
@@ -2318,12 +2402,6 @@
       "proposed_on": "2026-09-15"
     },
     {
-      "raw_theme": "art galleries guide",
-      "count": 1,
-      "example": "10 don't-miss Chicago art galleries",
-      "proposed_on": "2026-09-15"
-    },
-    {
       "raw_theme": "mls game score",
       "count": 1,
       "example": "Fire fall to Revolution 2-1 at Soldier Field",
@@ -2342,12 +2420,6 @@
       "proposed_on": "2026-09-15"
     },
     {
-      "raw_theme": "mexican independence day parade",
-      "count": 1,
-      "example": "PHOTOS: Little Village\u2019s Mexican Independence Day Parade Highlights Hispanic Heritage",
-      "proposed_on": "2026-09-15"
-    },
-    {
       "raw_theme": "red line death investigation",
       "count": 1,
       "example": "Kyle Bickham Died After He Was Pushed Off A Moving Red Line Train. His Family Wants Justice",
@@ -2357,18 +2429,6 @@
       "raw_theme": "chief keef concert postponement",
       "count": 1,
       "example": "Chief Keef\u2019s 1st Headlining Show In Chicago In 14 Years Postponed Due To \u2018Racist Pilot,\u2019 Rapper Says",
-      "proposed_on": "2026-09-15"
-    },
-    {
-      "raw_theme": "political endorsement",
-      "count": 1,
-      "example": "Trump: \u2018I\u2019m all for Bailey\u2019",
-      "proposed_on": "2026-09-15"
-    },
-    {
-      "raw_theme": "artificial intelligence risks",
-      "count": 1,
-      "example": "New Warnings About the Risks of AI to Humanity Revive a Long-Running Debate",
       "proposed_on": "2026-09-15"
     },
     {
@@ -2387,12 +2447,6 @@
       "raw_theme": "ice detention death memorial",
       "count": 1,
       "example": "Misa en honor a Silverio Villegas Gonz\u00e1lez en el primer aniversario de su asesinato por ICE",
-      "proposed_on": "2026-09-15"
-    },
-    {
-      "raw_theme": "teen therapy program funding",
-      "count": 1,
-      "example": "\u2018Black Girls Blossoming\u2019 Teen Therapy Gets Boost From Michelle Obama",
       "proposed_on": "2026-09-15"
     },
     {
@@ -2450,12 +2504,6 @@
       "proposed_on": "2026-09-15"
     },
     {
-      "raw_theme": "lakefront car-free advocacy",
-      "count": 1,
-      "example": "As Chicagoans Prepare To Bike The Drive, Some Dream Of A Car-Free Lakefront All Year",
-      "proposed_on": "2026-09-15"
-    },
-    {
       "raw_theme": "dusable bridge maintenance issues",
       "count": 1,
       "example": "Downtown Bridge That Was Stuck For Hours Has History Of Problems, Records Show",
@@ -2507,24 +2555,6 @@
       "raw_theme": "tollway rate opposition",
       "count": 1,
       "example": "76% of online comments oppose proposed toll hikes",
-      "proposed_on": "2026-09-15"
-    },
-    {
-      "raw_theme": "illinois tourism impact",
-      "count": 1,
-      "example": "Travelers Flocked to Illinois Last Year, Generating More Than $88B in Economic Impact",
-      "proposed_on": "2026-09-15"
-    },
-    {
-      "raw_theme": "capitol building renovations",
-      "count": 1,
-      "example": "Illinois Capitol Renovations \u2018A Few Months Behind,\u2019 Set to Wrap Up This Winter",
-      "proposed_on": "2026-09-15"
-    },
-    {
-      "raw_theme": "advice column family",
-      "count": 1,
-      "example": "Dear Abby: Son feels shunned by father over physical appearance",
       "proposed_on": "2026-09-15"
     },
     {
@@ -2618,12 +2648,6 @@
       "proposed_on": "2026-09-15"
     },
     {
-      "raw_theme": "o'hare boulder discovery",
-      "count": 1,
-      "example": "This 50-Ton Prehistoric Boulder Was Unearthed at O\u2019Hare, Contest Is On To Name It",
-      "proposed_on": "2026-09-15"
-    },
-    {
       "raw_theme": "bulls honor stacey king",
       "count": 1,
       "example": "Bulls announce plans on how they will honor Stacey King this season",
@@ -2669,12 +2693,6 @@
       "raw_theme": "law enforcement operation statistics",
       "count": 1,
       "example": "Las cifras del Operativo Midway Blitz: 68 d\u00edas, 4,000 detenidos, 2,700 deportados",
-      "proposed_on": "2026-09-15"
-    },
-    {
-      "raw_theme": "bridge closure notice",
-      "count": 1,
-      "example": "State Street Bridge Closed For Midday Work Next Week To Prep For Fall Boat Run",
       "proposed_on": "2026-09-15"
     },
     {
@@ -2738,13 +2756,271 @@
       "proposed_on": "2026-09-15"
     },
     {
-      "raw_theme": "rail crossing closure notice",
+      "raw_theme": "little league baseball",
       "count": 1,
-      "example": "111th Street Rail Crossing Closure In Mount Greenwood Catches Drivers By Surprise",
+      "example": "Meet The Welles Park Grubs, A Little League Team Embracing Its Buggy Ball Field",
       "proposed_on": "2026-09-15"
     },
     {
-      "raw_theme": "little league baseball",
+      "raw_theme": "special prosecution unit review",
+      "count": 1,
+      "example": "\u2018The wrong side of justice\u2019",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "judicial races chicago",
+      "count": 1,
+      "example": "What makes these judicial races on Chicago\u2019s South Side unique?",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "juvenile jail superintendent",
+      "count": 1,
+      "example": "Former juvenile jail superintendent lived in Chicago, report says",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "carp barrier construction",
+      "count": 1,
+      "example": "Trump Lifts Stop-Work Order on Great Lakes Invasive Carp Barrier, Construction to Resume",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "cicada noise",
+      "count": 1,
+      "example": "Are cicadas louder this year?",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "ecological preservation",
+      "count": 1,
+      "example": "How did a native Chicago plant disappear forever?",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "federal politics",
+      "count": 1,
+      "example": "Hegseth needs to go if the GOP expects midterm success",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "animal welfare",
+      "count": 1,
+      "example": "2 more belugas die at Shedd Aquarium",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "reporter ethics investigation",
+      "count": 1,
+      "example": "Review of ex-NFL reporter Dianna Russini's work at the Athletic concludes she didn't comply with standards",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "extreme heat warning update",
+      "count": 1,
+      "example": "Extreme heat warning canceled early on third day of brutal temperatures in Chicago area",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "wildlife bird sighting",
+      "count": 1,
+      "example": "What\u2019s An African Guinea Fowl Doing In Rogers Park?",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "friendship community areas",
+      "count": 1,
+      "example": "Joanna and Iliana: From \u2018Insta girlies\u2019 to IRL friends",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "memorial event",
+      "count": 1,
+      "example": "The hardcore community celebrates the memory of Harm\u2019s Way guitarist Bo Lueders",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "benefits program participation",
+      "count": 1,
+      "example": "Illinois SNAP use falls to lowest in 13 years",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "photography vigil chapel",
+      "count": 1,
+      "example": "How we photographed a vigil at South Chicago Chapel",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "scuba diving site",
+      "count": 1,
+      "example": "For scuba diving enthusiasts, Mermet Springs is \u2018the best place in the Midwest\u2019",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "horoscope column",
+      "count": 1,
+      "example": "Horoscope for Tuesday, September 08, 2026",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "architecture tour event",
+      "count": 1,
+      "example": "Open House Chicago Full 2026 Lineup Announced, Including 20 New Sites",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "cfd promotion disparities",
+      "count": 1,
+      "example": "Despite More Diverse Applicants, Those Promoted in CFD Remain Overwhelmingly White, Male: Watchdog Report",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "rage rooms history",
+      "count": 1,
+      "example": "Rage rooms\u2019 1960s Chicago roots: The Rundown",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "license plate readers",
+      "count": 1,
+      "example": "License plate reader abuses worry conservatives too",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "9/11 memorial politics",
+      "count": 1,
+      "example": "Trump makes 9/11 about himself with lies",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "democratic socialists chicago",
+      "count": 1,
+      "example": "Democratic Socialists Are Winning Big Across America. Are They Losing Ground In Chicago?",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "dusable bridge maintenance closure",
+      "count": 1,
+      "example": "DuSable Lake Shore Drive Bridge closing overnight for maintenance a week after getting stuck",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "rodeo and black cowboys",
+      "count": 1,
+      "example": "The Pembroke Rodeo celebrates the ongoing legacy of Black cowboys",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "diesel fuel price increase",
+      "count": 1,
+      "example": "US Diesel Prices Soar Past $6 a gallon, Deepening Strain for Hauling Everyday Goods",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "9/11 anniversary observance",
+      "count": 1,
+      "example": "Across the US, Ceremonies Mark 25 Years Since the Sept. 11 Attacks",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "gift obligation advice column",
+      "count": 1,
+      "example": "Dear Abby: Gift of signed baseball bat came with strings attached",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "operativo midway blitz statistics",
+      "count": 1,
+      "example": "Las cifras del Operativo Midway Blitz: 68 d\u00edas, 4,000 detenidos, 2,700 deportados",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "community event announcement",
+      "count": 1,
+      "example": "Block Club\u2019s Block Party Kids Zone Will Have Art Projects, Magical Characters And More Family Fun",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "holiday street closures",
+      "count": 1,
+      "example": "Here Are The Possible Road Closures Downtown For Mexican Independence Day",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "attempted murder charges",
+      "count": 1,
+      "example": "Man Charged With Attempted Murder, Assault After Hourslong Logan Square SWAT Standoff",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "blackhawks season preview",
+      "count": 1,
+      "example": "Blackhawks coach Jeff Blashill wants to see more puck possession and 'swagger' this season",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "womens basketball championship",
+      "count": 1,
+      "example": "U.S. wins women's FIBA World Cup title, beating France 97-79",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "ambulance company acquisition",
+      "count": 1,
+      "example": "America Ambulance acquires Dispatch Medical Transport",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "neon sign preservation",
+      "count": 1,
+      "example": "With Fate Of Rainbow Motel\u2019s Iconic Neon Sign Up In The Air, Preservationists Move To Save It",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "museum entrance renovation",
+      "count": 1,
+      "example": "Griffin Museum Of Science And Industry\u2019s Main Entrance To Be Moved Above Ground In Redesign",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "red line train death investigation",
+      "count": 1,
+      "example": "Kyle Bickham Died After He Was Pushed Off A Moving Red Line Train. His Family Wants Justice",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "chief keef concert postponed",
+      "count": 1,
+      "example": "Chief Keef\u2019s 1st Headlining Show In Chicago In 14 Years Postponed Due To \u2018Racist Pilot,\u2019 Rapper Says",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "blackhawks captain",
+      "count": 1,
+      "example": "Connor Bedard is now Blackhawks' captain, best player and face of franchise, all in one",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "emmy awards wins",
+      "count": 1,
+      "example": "\u2018Widow\u2019s Bay\u2019 breaks Emmys comedy record with 14 wins including best comedy series",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "ice death anniversary memorial",
+      "count": 1,
+      "example": "Misa en honor a Silverio Villegas Gonz\u00e1lez en el primer aniversario de su asesinato por ICE",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "trademark legal dispute",
+      "count": 1,
+      "example": "Who Owns The Word \u2018Dope\u2019? Dilla Fighting $20K Legal Battle Over Slogan",
+      "proposed_on": "2026-09-15"
+    },
+    {
+      "raw_theme": "little league field conditions",
       "count": 1,
       "example": "Meet The Welles Park Grubs, A Little League Team Embracing Its Buggy Ball Field",
       "proposed_on": "2026-09-15"
