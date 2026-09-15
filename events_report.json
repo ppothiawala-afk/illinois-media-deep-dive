@@ -1,6 +1,6 @@
 {
   "_comment": "Media-attention tracking for watchlist events. VIRALITY is shown as transparent components (breadth = distinct outlets, velocity = latest vs trailing weeks), not a black-box score. Counts, not sentiment; measures COVERAGE attention, not public opinion or real scale. Retroactive: history reconstructed from the full archive.",
-  "generated": "2026-09-15T16:04:19+00:00",
+  "generated": "2026-09-15T17:13:22+00:00",
   "watchlist_version": "1.0.0",
   "events": [
     {
@@ -60,7 +60,7 @@
         ],
         [
           "other",
-          5
+          4
         ],
         [
           "courts & justice",
@@ -72,6 +72,10 @@
         ],
         [
           "public safety & crime",
+          1
+        ],
+        [
+          "transit & infrastructure",
           1
         ]
       ],
@@ -90,7 +94,15 @@
         ],
         [
           "Donald Trump",
-          3
+          2
+        ],
+        [
+          "From",
+          2
+        ],
+        [
+          "Block Club Chicago",
+          2
         ],
         [
           "Brandon Johnson",
@@ -105,15 +117,7 @@
           1
         ],
         [
-          "University of Illinois Chicago",
-          1
-        ],
-        [
-          "Boys Noize&lt",
-          1
-        ],
-        [
-          "DJ Hiroko Yamamura",
+          "Cook County",
           1
         ]
       ],
